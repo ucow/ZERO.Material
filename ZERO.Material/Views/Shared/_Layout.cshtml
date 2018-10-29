@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("实验耗材管理平台", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li></li>
+                    <li>@Html.ActionLink("登录", "Index", "Home")</li>
+                    <li>@Html.ActionLink("注册", "About", "Home")</li>
+                    <li>@Html.ActionLink("我的器材", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="margin: 10px;margin-bottom: 0">
+            <div class="col-md-7">
+                <img src="~/Image/logo.gif"  style="height: 60px;width: 371px"/>
+            </div>
+            <div class="col-md-5">
+                <div class="input-group">
+                    <input type="text" class="form-control" style="width: 100%;max-width: none">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">搜索</button>
+                    </span>
+                </div>
+                <div>
+                    <span>常用搜索：</span>
+                    <a class="btn btn-link">干冰</a>|
+                    <a class="btn btn-link">氯化钠</a> |
+                    <a class="btn btn-link">氧气</a> |
+                    <a class="btn btn-link">碳酸氢钠</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: black;width: 100%">
+        <div class="container">
+            <ul class="nav nav-pills">
+                <li><a href='#'>物理实验器材</a></li>
+                <li><a href='#'>生物实验器材</a></li>
+                <li><a href='#'>化学实验器材</a></li>
+                <li><a href='#'>其他实验器材</a></li>
+            </ul>
+        </div>
+    </div>
+    @RenderBody()
+    <div class="container body-content">
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

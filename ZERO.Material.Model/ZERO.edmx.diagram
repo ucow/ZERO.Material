@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3a5a0c874f6d4fc8a4bb69f802a78385" Name="Diagram1">
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Product" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Type" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Company" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Product" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Product_Company" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Type" Width="1.5" PointX="0.75" PointY="15.75" IsExpanded="true" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Product_Material_Base" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Type_Material_Base" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Product_Material_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Type_Material_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Product_Company_Material_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Product_Company_Material_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
