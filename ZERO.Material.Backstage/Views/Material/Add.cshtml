@@ -1,0 +1,70 @@
+﻿@model ZERO.Material.Model.Material_Base
+
+@{
+    /**/
+
+    /**/
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Add", "Material", FormMethod.Post, new { @class = "layui-form" }))
+        {
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Id, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_Id, new { @class = "layui-input", @placeholder = "请输入编号" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Name, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_Name, new { @class = "layui-input", @placeholder = "请输入名称" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Count, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_Count, new { @class = "layui-input", @placeholder = "请输入总数量" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Remain_Count, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_Remain_Count, new { @class = "layui-input", @placeholder = "请输入剩余数量" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Count_Unit, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_Count_Unit, new { @class = "layui-input", @placeholder = "请输入单位" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Remark, new { @class = "layui-form-label" })
+                @Html.LabelFor(m => m.Material_Remark, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_Remark, new { @class = "layui-input", @placeholder = "请输入备注" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>

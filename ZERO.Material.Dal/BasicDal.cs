@@ -11,7 +11,7 @@ namespace ZERO.Material.Dal
 {
     public class BasicDal<T> : IBasicDal<T> where T : class, new()
     {
-        private readonly ZERO_MaterialEntities _zeroMaterialEntities = new ZERO_MaterialEntities();
+        protected readonly ZERO_MaterialEntities ZeroMaterialEntities = new ZERO_MaterialEntities();
 
         /// <summary>
         /// 添加实体
@@ -22,10 +22,10 @@ namespace ZERO.Material.Dal
         {
             foreach (T t in ts)
             {
-                _zeroMaterialEntities.Set<T>().Add(t);
+                ZeroMaterialEntities.Set<T>().Add(t);
             }
 
-            return _zeroMaterialEntities.SaveChanges() == ts.Count;
+            return ZeroMaterialEntities.SaveChanges() == ts.Count;
         }
 
         /// <summary>
@@ -37,10 +37,10 @@ namespace ZERO.Material.Dal
         {
             foreach (T t in ts)
             {
-                _zeroMaterialEntities.Set<T>().Remove(t);
+                ZeroMaterialEntities.Set<T>().Remove(t);
             }
 
-            return _zeroMaterialEntities.SaveChanges() == ts.Count;
+            return ZeroMaterialEntities.SaveChanges() == ts.Count;
         }
 
         /// <summary>
@@ -50,7 +50,7 @@ namespace ZERO.Material.Dal
         /// <returns></returns>
         public List<T> GetEntities(Expression<Func<T, bool>> whereLambda)
         {
-            return _zeroMaterialEntities.Set<T>().Where(whereLambda).ToList();
+            return ZeroMaterialEntities.Set<T>().Where(whereLambda).ToList();
         }
 
         /// <summary>
@@ -60,7 +60,7 @@ namespace ZERO.Material.Dal
         /// <returns></returns>
         public T GetEntity(Expression<Func<T, bool>> whereLambda)
         {
-            return _zeroMaterialEntities.Set<T>().FirstOrDefault(whereLambda);
+            return ZeroMaterialEntities.Set<T>().FirstOrDefault(whereLambda);
         }
 
         /// <summary>
@@ -72,10 +72,10 @@ namespace ZERO.Material.Dal
         {
             foreach (T t in ts)
             {
-                _zeroMaterialEntities.Set<T>().AddOrUpdate(t);
+                ZeroMaterialEntities.Set<T>().AddOrUpdate(t);
             }
 
-            return _zeroMaterialEntities.SaveChanges() == ts.Count;
+            return ZeroMaterialEntities.SaveChanges() == ts.Count;
         }
     }
 }

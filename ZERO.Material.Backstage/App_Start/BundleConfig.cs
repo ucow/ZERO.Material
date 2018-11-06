@@ -25,6 +25,8 @@ namespace ZERO.Material.Backstage
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/bundles/layui").Include("~/Content/layui/layui.js"));
+            bundles.Add(new StyleBundle("~/Content/layui").Include("~/Content/layui/css/layui.css"));
         }
     }
 }

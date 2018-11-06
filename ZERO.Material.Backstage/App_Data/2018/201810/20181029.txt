@@ -1,0 +1,8 @@
+
+ 
+记录时间：2018-10-29 18:04:17,272 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：Home/Index启动
+ 

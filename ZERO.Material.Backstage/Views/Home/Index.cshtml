@@ -1,4 +1,6 @@
 ﻿@{
+    /**/
+
     Layout = null;
 }
 
@@ -9,11 +11,67 @@
     <meta name="viewport" content="width=device-width" />
     <title>实验耗材后台管理系统</title>
     @Scripts.Render("~/bundles/jquery")
+
     <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
     <script src="~/Content/layui/layui.js"></script>
     <script>
         layui.use('element', function () {
-            var element = layui.element(); //导航的hover效果、二级菜单等功能，需要依赖element模块
+            var $ = jQuery = layui.jquery;
+            var layer = layui.layer;
+            var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+            var active = {
+                tabAdd: function (title, url, id) {
+                    //新增一个Tab项
+                    element.tabAdd('demo',
+                        {
+                            title: title //用于演示
+                            ,
+                            content: '<iframe data-frameid="' +
+                                id +
+                                '" frameborder="0" name="content" scrolling="no" width="100%" height="100%" src="' +
+                                url +
+                                '"></iframe>',
+                            id: id //实际使用一般是规定好的id，这里以时间戳模拟下
+                        });
+                    //CustomRightClick(id);//绑定右键菜单
+                    //FrameWH();//计算框架高度
+                }
+                , tabChange: function (id) {
+                    //切换到指定Tab项
+                    element.tabChange('demo', id); //切换到：用户管理
+                    $("iframe[data-frameid='" + id + "']")
+                        .attr("src", $("iframe[data-frameid='" + id + "']").attr("src")); //切换后刷新框架
+                }
+                , tabDelete: function (id) {
+                    element.tabDelete("demo", id);//删除
+                }
+                , tabDeleteAll: function (ids) {//删除所有
+                    $.each(ids,
+                        function (i, item) {
+                            element.tabDelete("demo", item);
+                        });
+                }
+            };
+
+            $(".layui-side-scroll .site-demo-active").click(function () {
+                var dataid = $(this);
+                if ($(".layui-tab-title li[lay-id]").length <= 0) {
+                    active.tabAdd(dataid.attr("data-title"), dataid.attr("data-url"), dataid.attr("data-id"));
+                } else {
+                    var isData = false;
+                    $.each($(".layui-tab-title li[lay-id]"),
+                        function () {
+                            if ($(this).attr("lay-id") == dataid.attr("data-id")) {
+                                isData = true;
+                            }
+                        });
+                    if (isData == false) {
+                        active.tabAdd(dataid.attr("data-title"), dataid.attr("data-url"), dataid.attr("data-id"));
+                    }
+                }
+                active.tabChange(dataid.attr("data-id"));
+            });
         });
     </script>
 </head>
@@ -21,20 +79,6 @@
     <div class="layui-layout layui-layout-admin">
         <div class="layui-header">
             <div class="layui-logo">实验耗材后台管理系统</div>
-            <!-- 头部区域（可配合layui已有的水平导航） -->
-            @*<ul class="layui-nav layui-layout-left">
-                    <li class="layui-nav-item"><a href="">控制台</a></li>
-                    <li class="layui-nav-item"><a href="">商品管理</a></li>
-                    <li class="layui-nav-item"><a href="">用户</a></li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">其它系统</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="">邮件管理</a></dd>
-                            <dd><a href="">消息管理</a></dd>
-                            <dd><a href="">授权管理</a></dd>
-                        </dl>
-                    </li>
-                </ul>*@
             <ul class="layui-nav layui-layout-right">
                 <li class="layui-nav-item">
                     <a href="javascript:;">
@@ -51,47 +95,47 @@
         </div>
 
         <div class="layui-side layui-bg-black">
-            <div class="layui-side-scroll">
+            <div class="layui-side-scroll" lay-filter="bodyTree">
                 <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
-                <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                <ul class="layui-nav layui-nav-tree">
                     <li class="layui-nav-item layui-nav-itemed">
                         <a class="" href="javascript:;">审批信息</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">借用审批</a></dd>
-                            <dd><a href="javascript:;">采购审批</a></dd>
-                            <dd><a href="javascript:;">入库审批</a></dd>
+                            <dd><a data-url="About" data-id="01" data-title="借用审批" href="#" class="site-demo-active" data-type="tabAdd">借用审批</a></dd>
+                            <dd><a data-url="#" data-id="02" data-title="采购审批" href="#" class="site-demo-active" data-type="tabAdd">采购审批</a></dd>
+                            <dd><a data-url="#" data-id="03" data-title="入库审批" href="#" class="site-demo-active" data-type="tabAdd">入库审批</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item">
                         <a href="javascript:;">用户信息</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">管理员信息</a></dd>
-                            <dd><a href="javascript:;">教师信息</a></dd>
-                            <dd><a href="">采购员信息</a></dd>
+                            <dd><a data-url="#" data-id="04" data-title="管理员信息" href="#" class="site-demo-active" data-type="tabAdd">管理员信息</a></dd>
+                            <dd><a data-url="#" data-id="05" data-title="教师信息" href="#" class="site-demo-active" data-type="tabAdd">教师信息</a></dd>
+                            <dd><a data-url="#" data-id="06" data-title="采购员信息" href="#" class="site-demo-active" data-type="tabAdd">采购员信息</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item">
                         <a href="javascript:;">实验器材信息</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">器材列表</a></dd>
-                            <dd><a href="javascript:;">种类管理</a></dd>
-                            <dd><a href="">供应商信息</a></dd>
+                            <dd><a data-url="#" data-id="07" data-title="器材列表" href="#" class="site-demo-active" data-type="tabAdd">器材列表</a></dd>
+                            <dd><a data-url="#" data-id="08" data-title="种类管理" href="#" class="site-demo-active" data-type="tabAdd">种类管理</a></dd>
+                            <dd><a data-url="#" data-id="09" data-title="供应商信息" href="#" class="site-demo-active" data-type="tabAdd">供应商信息</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item layui-nav-itemed">
                         <a class="" href="javascript:;">系统设置</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">权限设置</a></dd>
-                            <dd><a href="javascript:;">页面设置</a></dd>
-                            <dd><a href="javascript:;">角色设置</a></dd>
+                            <dd><a data-url="#" data-id="10" data-title="权限设置" href="#" class="site-demo-active" data-type="tabAdd">权限设置</a></dd>
+                            <dd><a data-url="#" data-id="11" data-title="页面设置" href="#" class="site-demo-active" data-type="tabAdd">页面设置</a></dd>
+                            <dd><a data-url="#" data-id="12" data-title="角色设置" href="#" class="site-demo-active" data-type="tabAdd">角色设置</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item">
                         <a href="javascript:;">统计信息</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">借用记录</a></dd>
-                            <dd><a href="javascript:;">采购记录</a></dd>
-                            <dd><a href="">违规记录</a></dd>
+                            <dd><a data-url="#" data-id="13" data-title="借用记录" href="#" class="site-demo-active" data-type="tabAdd">借用记录</a></dd>
+                            <dd><a data-url="#" data-id="14" data-title="采购记录" href="#" class="site-demo-active" data-type="tabAdd">采购记录</a></dd>
+                            <dd><a data-url="#" data-id="15" data-title="违规记录" href="#" class="site-demo-active" data-type="tabAdd">违规记录</a></dd>
                         </dl>
                     </li>
                 </ul>
@@ -100,13 +144,16 @@
 
         <div class="layui-body">
             <!-- 内容主体区域 -->
-            <iframe width="100%" height="100%"></iframe>
+            <div class="layui-tab layui-tab-card" lay-filter="demo" lay-allowclose="true" style="margin: 0">
+                <ul class="layui-tab-title"></ul>
+                <div class="layui-tab-content"></div>
+            </div>
         </div>
+    </div>
 
-        <div class="layui-footer">
-            <!-- 底部固定区域 -->
-            © layui.com - 底部固定区域
-        </div>
+    <div class="layui-footer">
+        <!-- 底部固定区域 -->
+        © layui.com - 底部固定区域
     </div>
 </body>
 </html>

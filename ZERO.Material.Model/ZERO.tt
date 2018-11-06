@@ -422,7 +422,7 @@ public class CodeStringGenerator
                 "{2}",
                 inHeader ? Environment.NewLine : "",
                 includeCollections ? (Environment.NewLine + "using System.Collections.Generic;") : "",
-                inHeader ? "" : Environment.NewLine)
+                inHeader ? "": Environment.NewLine+"using System.ComponentModel.DataAnnotations;"+Environment.NewLine)
             : "";
     }
 }

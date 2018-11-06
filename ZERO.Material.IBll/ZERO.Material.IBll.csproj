@@ -41,7 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBaseBll.cs" />
+    <Compile Include="IBaseProductBll.cs" />
+    <Compile Include="IBaseTypeBll.cs" />
+    <Compile Include="IBasicBll.cs" />
+    <Compile Include="ICompanyBll.cs" />
+    <Compile Include="IProductBll.cs" />
+    <Compile Include="IProductCompanyBll.cs" />
+    <Compile Include="ITypeBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZERO.Material.IDal\ZERO.Material.IDal.csproj">
+      <Project>{1314DF3A-8A82-42B4-BEBE-8D77957B11BF}</Project>
+      <Name>ZERO.Material.IDal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZERO.Material.Model\ZERO.Material.Model.csproj">
+      <Project>{46DF739A-A74C-4E9D-90A0-A8AB9BC90FC8}</Project>
+      <Name>ZERO.Material.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

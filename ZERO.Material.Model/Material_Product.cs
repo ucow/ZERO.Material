@@ -11,6 +11,7 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class Material_Product
     {
