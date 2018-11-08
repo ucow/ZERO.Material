@@ -11,7 +11,7 @@ namespace ZERO.Material.Dal
 {
     public class BasicDal<T> : IBasicDal<T> where T : class, new()
     {
-        protected readonly ZERO_MaterialEntities ZeroMaterialEntities = new ZERO_MaterialEntities();
+        protected readonly ZeroMaterialContext ZeroMaterialEntities = new ZeroMaterialContext();
 
         /// <summary>
         /// 添加实体
@@ -61,6 +61,12 @@ namespace ZERO.Material.Dal
         public T GetEntity(Expression<Func<T, bool>> whereLambda)
         {
             return ZeroMaterialEntities.Set<T>().FirstOrDefault(whereLambda);
+        }
+
+        public List<T> GetPageEntities(int pageIndex, int pageCount, out int total)
+        {
+            total = pageCount;
+            return ZeroMaterialEntities.Set<T>().Where(b => true).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList();
         }
 
         /// <summary>

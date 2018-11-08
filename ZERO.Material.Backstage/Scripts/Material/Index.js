@@ -4,7 +4,7 @@
     table.render({
         elem: "#baseTable",
         height: 500,
-        url: "Material/Index",
+        url: "List",
         toolbar: "#baseTableToolBar",
         defaultToolbar: false,
         cellMinWidth: 50,

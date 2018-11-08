@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Web.Mvc;
+using Newtonsoft.Json;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
@@ -28,8 +29,15 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 return "OK";
             }
-
             return "Error";
+        }
+
+        public string List(int page, int limit)
+        {
+            int total = 0;
+            List<Material_Base> materialBases = _baseBll.GetPageEntities(page, limit, out total);
+            string json = JsonConvert.SerializeObject(materialBases);
+            return json;
         }
     }
 }

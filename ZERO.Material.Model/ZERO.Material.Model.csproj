@@ -48,68 +48,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Material_Base.cs">
-      <DependentUpon>ZERO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Material_Base_Product.cs">
-      <DependentUpon>ZERO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Material_Base_Type.cs">
-      <DependentUpon>ZERO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Material_Company.cs">
-      <DependentUpon>ZERO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Material_Product.cs">
-      <DependentUpon>ZERO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Material_Product_Company.cs">
-      <DependentUpon>ZERO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Material_Type.cs">
-      <DependentUpon>ZERO.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Material_Base.cs" />
+    <Compile Include="Material_Base_Product.cs" />
+    <Compile Include="Material_Base_Type.cs" />
+    <Compile Include="Material_Company.cs" />
+    <Compile Include="Material_Product.cs" />
+    <Compile Include="Material_Product_Company.cs" />
+    <Compile Include="Material_Type.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ZERO.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ZERO.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ZERO.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ZERO.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ZERO.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ZERO.edmx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="ZERO.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ZERO.Designer.cs</LastGenOutput>
-    </EntityDeploy>
+    <Compile Include="ZeroMaterialContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
     <None Include="packages.config" />
-    <None Include="ZERO.edmx.diagram">
-      <DependentUpon>ZERO.edmx</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ZERO.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ZERO.Context.cs</LastGenOutput>
-      <DependentUpon>ZERO.edmx</DependentUpon>
-    </Content>
-    <Content Include="ZERO.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ZERO.edmx</DependentUpon>
-      <LastGenOutput>ZERO.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

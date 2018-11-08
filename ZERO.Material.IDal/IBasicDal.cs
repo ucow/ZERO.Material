@@ -15,5 +15,7 @@ namespace ZERO.Material.IDal
         T GetEntity(Expression<Func<T, bool>> whereLambda);
 
         List<T> GetEntities(Expression<Func<T, bool>> whereLambda);
+
+        List<T> GetPageEntities(int pageIndex, int pageCount, out int total);
     }
 }
