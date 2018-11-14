@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace ZERO.Material.Model
 {
@@ -12,7 +13,10 @@ namespace ZERO.Material.Model
             this.Material_Base_Type = new HashSet<Material_Base_Type>();
         }
 
+        [JsonIgnore]
         public int Id { get; set; }
+
+        [JsonIgnore]
         public Nullable<System.DateTime> Update_Time { get; set; }
 
         [Key]
@@ -34,7 +38,10 @@ namespace ZERO.Material.Model
         [Display(Name = "器材备注")]
         public string Material_Remark { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Material_Base_Product> Material_Base_Product { get; set; }
+
+        [JsonIgnore]
         public virtual ICollection<Material_Base_Type> Material_Base_Type { get; set; }
     }
 }

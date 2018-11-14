@@ -4,7 +4,7 @@ namespace ZERO.Material.Model
 {
     public class ZeroMaterialContext : DbContext
     {
-        public ZeroMaterialContext() : base("ZERO_Material")
+        public ZeroMaterialContext() : base("name=ZERO_Material")
         {
         }
 

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.CodeDom;
 using System.Collections.Generic;
 using System.Data.Entity.Migrations;
 using System.Linq;
@@ -63,10 +62,10 @@ namespace ZERO.Material.Dal
             return ZeroMaterialEntities.Set<T>().FirstOrDefault(whereLambda);
         }
 
-        public List<T> GetPageEntities(int pageIndex, int pageCount, out int total)
+        public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, out int total)
         {
             total = pageCount;
-            return ZeroMaterialEntities.Set<T>().Where(b => true).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList();
+            return ZeroMaterialEntities.Set<T>().OrderBy(orderLambda).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList();
         }
 
         /// <summary>

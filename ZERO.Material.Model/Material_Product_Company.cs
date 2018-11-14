@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Newtonsoft.Json;
 
 namespace ZERO.Material.Model
 {
@@ -12,10 +13,13 @@ namespace ZERO.Material.Model
         [Key, Column(Order = 0)]
         public string Product_Id { get; set; }
 
-        [Key, Column(Order = 0)]
+        [Key, Column(Order = 1)]
         public string Company_Id { get; set; }
 
+        [JsonIgnore]
         public virtual Material_Company Material_Company { get; set; }
+
+        [JsonIgnore]
         public virtual Material_Product Material_Product { get; set; }
     }
 }

@@ -34,9 +34,15 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string List(int page, int limit)
         {
-            int total = 0;
-            List<Material_Base> materialBases = _baseBll.GetPageEntities(page, limit, out total);
-            string json = JsonConvert.SerializeObject(materialBases);
+            List<Material_Base> materialBases = _baseBll.GetPageEntities(page, limit, (m => m.Material_Id), out var total);
+            var dataJson = new
+            {
+                code = 0,
+                msg = "OK",
+                count = total,
+                data = materialBases
+            };
+            string json = JsonConvert.SerializeObject(dataJson);
             return json;
         }
     }

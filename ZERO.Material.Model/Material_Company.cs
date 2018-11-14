@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace ZERO.Material.Model
 {
@@ -22,6 +23,7 @@ namespace ZERO.Material.Model
         public string Company_Person_Phone { get; set; }
         public string Company_Remark { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Material_Product_Company> Material_Product_Company { get; set; }
     }
 }

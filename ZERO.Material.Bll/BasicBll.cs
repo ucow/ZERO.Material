@@ -22,9 +22,9 @@ namespace ZERO.Material.Bll
             return BasicDal.AddEntity(ts);
         }
 
-        public List<T> GetPageEntities(int pageIndex, int pageCount, out int total)
+        public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, out int total)
         {
-            return BasicDal.GetPageEntities(pageIndex, pageCount, out total);
+            return BasicDal.GetPageEntities(pageIndex, pageCount, orderLambda, out total);
         }
 
         public bool UpdateEntity(List<T> ts)
