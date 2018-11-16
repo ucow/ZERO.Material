@@ -23,13 +23,13 @@ namespace ZERO.Material.Backstage.Controllers
         }
 
         [HttpPost]
-        public string Add(Material_Base materialBase)
+        public ActionResult Add(Material_Base materialBase)
         {
             if (_baseBll.AddEntity(new List<Material_Base>() { materialBase }))
             {
-                return "OK";
+                return Content("OK");
             }
-            return "Error";
+            return Content("Error");
         }
 
         public string List(int page, int limit)

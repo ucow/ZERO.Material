@@ -7,7 +7,11 @@ namespace ZERO.Material.Model
 {
     public class Material_Base_Product
     {
+        [JsonIgnore]
+        [DatabaseGenerated(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
+
+        [JsonIgnore]
         public Nullable<System.DateTime> Update_Time { get; set; }
 
         [Key, Column(Order = 0)]

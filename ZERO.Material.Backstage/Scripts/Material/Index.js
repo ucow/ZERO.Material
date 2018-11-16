@@ -27,7 +27,9 @@
             case 'Add':
                 layer.open({
                     title: "添加器材",
-                    content: "Material/Add"
+                    type: 2,
+                    area: ['400px', '550px'],
+                    content: "Add"
                 });
                 break;
         };

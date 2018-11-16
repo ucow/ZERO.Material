@@ -9,17 +9,17 @@
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Add</title>
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/Material/Add.js"></script>
 </head>
 <body>
-    <div>
-        @using (Html.BeginForm("Add", "Material", FormMethod.Post, new { @class = "layui-form" }))
+    <div style="padding: 50px;padding-left: 0">
+        @using (Html.BeginForm("Add", "Material", null, FormMethod.Post, new Dictionary<string, object>() { { "class", "layui-form" }, { "lay-filter", "addForm" } }))
         {
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Id, new { @class = "layui-form-label" })
@@ -54,7 +54,7 @@
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Remark, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
-                    @Html.TextBoxFor(m => m.Material_Remark, new { @class = "layui-input", @placeholder = "请输入备注" })
+                    @Html.TextAreaFor(m => m.Material_Remark, new { @class = "layui-textarea", @placeholder = "请输入备注" })
                 </div>
             </div>
             <div class="layui-form-item">
