@@ -1,0 +1,232 @@
+
+ 
+记录时间：2018-11-23 10:15:44,180 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 12:58:47,022 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:05:45,379 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:07:00,488 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:09:54,710 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:50:41,921 
+线程ID:[80] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:50:46,361 
+线程ID:[82] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:50:46,379 
+线程ID:[68] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:51:59,870 
+线程ID:[88] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:52:14,432 
+线程ID:[80] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:55:28,986 
+线程ID:[76] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:56:10,273 
+线程ID:[72] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:57:15,750 
+线程ID:[70] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 13:58:42,870 
+线程ID:[70] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:01:24,447 
+线程ID:[56] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:01:38,705 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:01:58,365 
+线程ID:[48] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:02:30,850 
+线程ID:[48] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:06:53,564 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:10:25,371 
+线程ID:[32] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:12:29,319 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:12:33,875 
+线程ID:[33] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:12:34,270 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:12:34,485 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:12:34,708 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:13:23,305 
+线程ID:[82] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:13:41,415 
+线程ID:[33] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:14:07,161 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 
+
+ 
+记录时间：2018-11-23 14:17:09,188 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：ZERO.Material.Backstage.Controllers.HomeController property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：访问index
+ 

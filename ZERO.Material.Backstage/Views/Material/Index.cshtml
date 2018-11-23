@@ -10,6 +10,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    @Scripts.Render("~/bundles/jquery");
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
     <script src="~/Scripts/Material/Index.js"></script>
@@ -19,6 +20,11 @@
         <table id="baseTable" lay-filter="baseTable"></table>
         <div id="baseTableToolBar" hidden="hidden">
             <button class="layui-btn layui-btn-normal" lay-event="Add">添加器材</button>
+        </div>
+        <div id="colToolBar" hidden="hidden">
+            <button class="layui-btn layui-btn-xs" lay-event="Detail">详情</button>
+            <button class="layui-btn layui-btn-xs" lay-event="Update">修改</button>
+            <button class="layui-btn layui-btn-xs layui-btn-danger" lay-event="Delete">删除</button>
         </div>
     </div>
 </body>

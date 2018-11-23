@@ -1,24 +1,10 @@
-﻿//layui.use(['form', 'layedit', 'laydate'], function () {
-//    var form = layui.form
-//        , layer = layui.layer
-//        , layedit = layui.layedit
-//        , laydate = layui.laydate;
-
-//    form.on('submit(addForm)',
-//        function () {
-//            var $ = layui.$;
-//            $.ajax({
-//                type: 'POST',
-//                url: '/Material/Add', // ajax请求路径
-//                data: data.field,
-//                success: function (result) {
-//                    if (result == 'OK') {
-//                        layer.msg('添加成功');
-//                    } else if (result == 'Error') {
-//                        layer.msg('添加失败');
-//                    }
-//                    return false;//禁止跳转，否则会提交两次，且页面会刷新
-//                }
-//            });
-//        });
-//});
+﻿function AfterSuccess(data) {
+    var index = parent.layer.getFrameIndex(window.name);
+    if (data === 'OK') {
+        parent.layer.msg("添加/修改成功");
+        parent.layer.close(index);
+    } else {
+        parent.layer.msg("添加/修改失败", { icon: 5 });
+        parent.layer.close(index);
+    }
+}

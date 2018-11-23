@@ -1,9 +1,6 @@
 ﻿@model ZERO.Material.Model.Material_Base
 
 @{
-    /**/
-
-    /**/
 
     Layout = null;
 }
@@ -15,12 +12,15 @@
     <title>Add</title>
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
     <script src="~/Scripts/Material/Add.js"></script>
 </head>
 <body>
-    <div style="padding: 50px;padding-left: 0">
-        @using (Html.BeginForm("Add", "Material", null, FormMethod.Post, new Dictionary<string, object>() { { "class", "layui-form" }, { "lay-filter", "addForm" } }))
+    <div style="padding: 50px; padding-left: 0;padding-bottom: 0">
+        @using (Ajax.BeginForm("Add", "Material", new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new Dictionary<string, object>() { { "class", "layui-form" }, { "lay-filter", "addForm" } }))
         {
+            @Html.HiddenFor(m => m.Id)
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Id, new { @class = "layui-form-label" })
                 <div class="layui-input-block">

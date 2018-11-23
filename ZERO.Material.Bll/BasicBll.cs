@@ -17,19 +17,14 @@ namespace ZERO.Material.Bll
 
         public abstract void SetBasicDal();
 
-        public bool AddEntity(List<T> ts)
-        {
-            return BasicDal.AddEntity(ts);
-        }
-
         public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, out int total)
         {
             return BasicDal.GetPageEntities(pageIndex, pageCount, orderLambda, out total);
         }
 
-        public bool UpdateEntity(List<T> ts)
+        public bool AddOrUpdateEntity(List<T> ts)
         {
-            return BasicDal.UpdateEntity(ts);
+            return BasicDal.AddOrUpdateEntity(ts);
         }
 
         public bool DeleteEntity(List<T> ts)

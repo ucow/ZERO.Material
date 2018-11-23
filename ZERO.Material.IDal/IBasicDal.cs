@@ -6,9 +6,7 @@ namespace ZERO.Material.IDal
 {
     public interface IBasicDal<T> where T : class, new()
     {
-        bool AddEntity(List<T> ts);
-
-        bool UpdateEntity(List<T> ts);
+        bool AddOrUpdateEntity(List<T> ts);
 
         bool DeleteEntity(List<T> ts);
 

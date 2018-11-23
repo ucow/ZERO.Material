@@ -1,6 +1,8 @@
 ﻿@{
     /**/
 
+    /**/
+
     Layout = null;
 }
 
@@ -14,7 +16,13 @@
 
     <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
     <script src="~/Content/layui/layui.js"></script>
+
     <script>
+
+        function FrameWH() {
+            var h = $(window).height() - 41 - 10 - 60 - 10 - 44 - 10;
+            $("iframe").css("height", h + "px");
+        }
         layui.use('element', function () {
             var $ = jQuery = layui.jquery;
             var layer = layui.layer;
@@ -27,15 +35,15 @@
                         {
                             title: title //用于演示
                             ,
-                            content: '<iframe data-frameid="' +
+                            content: '<iframe class="layui-layout-body" data-frameid="' +
                                 id +
-                                '" frameborder="0" name="content" scrolling="no" width="100%" height="100%" src="' +
+                                '" frameborder="0" name="content" scrolling="yes" frameborder="yes" width="100%" height="100%" src="' +
                                 url +
                                 '"></iframe>',
                             id: id //实际使用一般是规定好的id，这里以时间戳模拟下
                         });
                     //CustomRightClick(id);//绑定右键菜单
-                    //FrameWH();//计算框架高度
+                    FrameWH();//计算框架高度
                 }
                 , tabChange: function (id) {
                     //切换到指定Tab项
@@ -117,7 +125,7 @@
                     <li class="layui-nav-item">
                         <a href="javascript:;">实验器材信息</a>
                         <dl class="layui-nav-child">
-                            <dd><a data-url="#" data-id="07" data-title="器材列表" href="#" class="site-demo-active" data-type="tabAdd">器材列表</a></dd>
+                            <dd><a data-url="..\Material\Index" data-id="07" data-title="器材列表" href="#" class="site-demo-active" data-type="tabAdd">器材列表</a></dd>
                             <dd><a data-url="#" data-id="08" data-title="种类管理" href="#" class="site-demo-active" data-type="tabAdd">种类管理</a></dd>
                             <dd><a data-url="#" data-id="09" data-title="供应商信息" href="#" class="site-demo-active" data-type="tabAdd">供应商信息</a></dd>
                         </dl>

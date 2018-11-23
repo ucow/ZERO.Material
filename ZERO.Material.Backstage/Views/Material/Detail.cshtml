@@ -1,0 +1,53 @@
+﻿@model ZERO.Material.Model.Material_Base
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail</title>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+</head>
+<body>
+    <div class="layui-card">
+        <div class="layui-card-header">@Html.LabelFor(m => m.Material_Name)</div>
+        <div class="layui-card-body">
+            <table class="layui-table" lay-skin="nob">
+                <tbody>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Material_Id)</td>
+                        <td>@Model.Material_Id</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Material_Name)</td>
+                        <td>@Model.Material_Name</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Material_Count)</td>
+                        <td>@Model.Material_Count</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Material_Remain_Count)</td>
+                        <td>@Model.Material_Remain_Count</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Material_Count_Unit)</td>
+                        <td>@Model.Material_Count_Unit</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Material_Remark)</td>
+                        <td>@Model.Material_Remark</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

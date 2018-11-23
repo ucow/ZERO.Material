@@ -10,18 +10,23 @@ namespace ZERO.Material.Dal
 {
     public class BasicDal<T> : IBasicDal<T> where T : class, new()
     {
-        protected readonly ZeroMaterialContext ZeroMaterialEntities = new ZeroMaterialContext();
+        protected static readonly ZeroMaterialContext ZeroMaterialEntities = new ZeroMaterialContext();
+
+        static BasicDal()
+        {
+            ZeroMaterialEntities.Database.CreateIfNotExists();
+        }
 
         /// <summary>
-        /// 添加实体
+        /// 添加或更新实体
         /// </summary>
         /// <param name="ts"></param>
         /// <returns></returns>
-        public bool AddEntity(List<T> ts)
+        public bool AddOrUpdateEntity(List<T> ts)
         {
             foreach (T t in ts)
             {
-                ZeroMaterialEntities.Set<T>().Add(t);
+                ZeroMaterialEntities.Set<T>().AddOrUpdate(t);
             }
 
             return ZeroMaterialEntities.SaveChanges() == ts.Count;
@@ -62,25 +67,19 @@ namespace ZERO.Material.Dal
             return ZeroMaterialEntities.Set<T>().FirstOrDefault(whereLambda);
         }
 
+        /// <summary>
+        /// 分页功能
+        /// </summary>
+        /// <typeparam name="TKey"></typeparam>
+        /// <param name="pageIndex"></param>
+        /// <param name="pageCount"></param>
+        /// <param name="orderLambda"></param>
+        /// <param name="total"></param>
+        /// <returns></returns>
         public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, out int total)
         {
-            total = pageCount;
+            total = ZeroMaterialEntities.Set<T>().Count();
             return ZeroMaterialEntities.Set<T>().OrderBy(orderLambda).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList();
-        }
-
-        /// <summary>
-        /// 更新实体
-        /// </summary>
-        /// <param name="ts"></param>
-        /// <returns></returns>
-        public bool UpdateEntity(List<T> ts)
-        {
-            foreach (T t in ts)
-            {
-                ZeroMaterialEntities.Set<T>().AddOrUpdate(t);
-            }
-
-            return ZeroMaterialEntities.SaveChanges() == ts.Count;
         }
     }
 }
