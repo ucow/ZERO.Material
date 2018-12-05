@@ -42,18 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBaseDal.cs" />
-    <Compile Include="IBaseProductDal.cs" />
+    <Compile Include="IBaseCompanyDal.cs" />
     <Compile Include="IBaseTypeDal.cs" />
     <Compile Include="IBasicDal.cs" />
     <Compile Include="ICompanyDal.cs" />
-    <Compile Include="IProductDal.cs" />
-    <Compile Include="IProductCompanyDal.cs" />
+    <Compile Include="IMessageDal.cs" />
     <Compile Include="ITypeDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZERO.Material.Model\ZERO.Material.Model.csproj">
-      <Project>{46DF739A-A74C-4E9D-90A0-A8AB9BC90FC8}</Project>
+      <Project>{569d4674-9715-4ce6-941f-0c6eadb6a550}</Project>
       <Name>ZERO.Material.Model</Name>
     </ProjectReference>
   </ItemGroup>

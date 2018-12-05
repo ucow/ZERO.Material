@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46DF739A-A74C-4E9D-90A0-A8AB9BC90FC8}</ProjectGuid>
+    <ProjectGuid>{569D4674-9715-4CE6-941F-0C6EADB6A550}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ZERO.Material.Model</RootNamespace>
     <AssemblyName>ZERO.Material.Model</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -32,13 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -49,26 +46,73 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Material_Base.cs" />
-    <Compile Include="Material_Base_Product.cs" />
-    <Compile Include="Material_Base_Type.cs" />
-    <Compile Include="Material_Company.cs" />
-    <Compile Include="Material_Product.cs" />
-    <Compile Include="Material_Product_Company.cs" />
-    <Compile Include="Material_Type.cs" />
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaterialModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaterialModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Material_Base.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_BaseExt.cs" />
+    <Compile Include="Material_Base_Company.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_Base_Type.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_Company.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_Message.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_Type.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ZeroMaterialContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
+    <EntityDeploy Include="MaterialModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MaterialModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="MaterialModel.edmx.diagram">
+      <DependentUpon>MaterialModel.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MaterialModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MaterialModel.edmx</DependentUpon>
+      <LastGenOutput>MaterialModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="MaterialModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MaterialModel.edmx</DependentUpon>
+      <LastGenOutput>MaterialModel.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

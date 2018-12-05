@@ -1,9 +1,7 @@
-﻿@model ZERO.Material.Model.Material_Base
+﻿@model ZERO.Material.Model.Material_Company
 
 @{
-                /**/
-
-                Layout = null;
+    Layout = null;
 }
 
 <!DOCTYPE html>
@@ -15,13 +13,13 @@
     @Scripts.Render("~/bundles/jquery");
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
-    <script src="~/Scripts/Material/Index.js"></script>
+    <script src="~/Scripts/Company/Index.js"></script>
 </head>
 <body>
     <div>
         <table id="baseTable" lay-filter="baseTable"></table>
         <div id="baseTableToolBar" hidden="hidden">
-            <button class="layui-btn layui-btn-normal" lay-event="Add">添加器材</button>
+            <button class="layui-btn layui-btn-normal" lay-event="Add">添加公司</button>
         </div>
         <div id="colToolBar" hidden="hidden">
             <button class="layui-btn layui-btn-xs" lay-event="Detail">详情</button>

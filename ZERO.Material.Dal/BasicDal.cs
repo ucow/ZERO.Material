@@ -10,12 +10,7 @@ namespace ZERO.Material.Dal
 {
     public class BasicDal<T> : IBasicDal<T> where T : class, new()
     {
-        protected static readonly ZeroMaterialContext ZeroMaterialEntities = new ZeroMaterialContext();
-
-        static BasicDal()
-        {
-            ZeroMaterialEntities.Database.CreateIfNotExists();
-        }
+        protected static readonly ZERO_Material ZeroMaterialEntities = new ZERO_Material();
 
         /// <summary>
         /// 添加或更新实体

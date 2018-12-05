@@ -13,15 +13,11 @@
         text: "未加载到数据",
         cols: [
             [//表头
-                { field: "Material_Id", title: "器材编号" },
-                { field: "Material_Name", title: "器材名称" },
-                { field: "Material_Type_Name", title: "器材类型" },
-                { field: "Material_Count", title: "器材数量", sort: true },
-                { field: "Material_Remain_Count", title: "剩余数量", sort: true },
-                { field: "Material_Count_Unit", title: "单位" },
-                { field: "Company_Name", title: "供货商" },
-                { field: "Material_Price", title: "器材价格" },
-                { field: "Material_Remark", title: "备注" },
+                { field: "Company_Id", title: "公司编号" },
+                { field: "Company_Name", title: "公司名称" },
+                { field: "Company_Person", title: "公司负责人" },
+                { field: "Company_Person_Phone", title: "负责人联系方式" },
+                { field: "Company_Remark", title: "备注" },
                 { toolbar: "#colToolBar", align: "center", title: "操作" }
             ]
         ]
@@ -33,13 +29,13 @@
         switch (obj.event) {
             case "Add":
                 layer.open({
-                    title: "添加器材",
+                    title: "添加公司",
                     type: 2,
                     shadeClose: true,
                     shade: false,
                     maxmin: true, //开启最大化最小化按钮
                     area: ["400px", "550px"],
-                    content: "Add?materialId=''",
+                    content: "Add?CompanyId=''",
                     end: function () {
                         table.reload("baseTable", tableOption);
                         //layer.msg("校徽");
@@ -55,13 +51,13 @@
             switch (obj.event) {
                 case "Detail":
                     layer.open({
-                        title: "器材详情",
+                        title: "公司详情",
                         type: 2,
                         shadeClose: true,
                         shade: false,
                         maxmin: true, //开启最大化最小化按钮
                         area: ["400px", "550px"],
-                        content: "Detail?materialId=" + data.Material_Id,
+                        content: "Detail?CompanyId=" + data.Company_Id,
                         end: function () {
                             //table.reload("baseTable", tableOption);
                             //layer.msg("校徽");
@@ -72,7 +68,7 @@
                     layer.confirm('确认删除？', function (index) {
                         layer.close(index);
                         $.ajax({
-                            data: { materialId: data.Material_Id },
+                            data: { CompanyId: data.Company_Id },
                             type: "post",
                             url: "Delete",
                             success: function (data) {
@@ -88,13 +84,13 @@
                     break;
                 case "Update":
                     layer.open({
-                        title: "更新器材",
+                        title: "更新公司",
                         type: 2,
                         shadeClose: true,
                         shade: false,
                         maxmin: true, //开启最大化最小化按钮
                         area: ["400px", "550px"],
-                        content: "Add?materialId=" + data.Material_Id,
+                        content: "Add?CompanyId=" + data.Company_Id,
                         end: function () {
                             table.reload("baseTable", tableOption);
                             //layer.msg("校徽");

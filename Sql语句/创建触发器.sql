@@ -47,10 +47,10 @@ BEGIN
 	update Material_Base_Product set Update_Time=(select GETDATE()) where Id = (select Id from inserted)
 END
 
-CREATE TRIGGER Product_Company_U_UT 
-   ON  Material_Product_Company 
+CREATE TRIGGER Base_Company_U_UT 
+   ON  Material_Base_Company
    AFTER INSERT,UPDATE
 AS 
 BEGIN
-	update Material_Product_Company set Update_Time=(select GETDATE()) where Id = (select Id from inserted)
+	update Material_Base_Company set Update_Time=(select GETDATE()) where Id = (select Id from inserted)
 END

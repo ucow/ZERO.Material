@@ -3,7 +3,7 @@ using ZERO.Material.Model;
 
 namespace ZERO.Material.IBll
 {
-    public interface IBaseProductBll : IBasicBll<Material_Base_Product>
+    public interface IBaseCompanyBll : IBasicBll<Material_Base_Company>
     {
     }
 }

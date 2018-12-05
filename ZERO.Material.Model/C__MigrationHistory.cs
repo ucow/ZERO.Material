@@ -12,15 +12,11 @@ namespace ZERO.Material.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Material_Base_Type
+    public partial class C__MigrationHistory
     {
-        public string Material_Id { get; set; }
-        public string Type_Id { get; set; }
-        public int Id { get; set; }
-        public Nullable<System.DateTime> Update_Time { get; set; }
-        public string Material_Type_Material_Type_Id { get; set; }
-    
-        public virtual Material_Base Material_Base { get; set; }
-        public virtual Material_Type Material_Type { get; set; }
+        public string MigrationId { get; set; }
+        public string ContextKey { get; set; }
+        public byte[] Model { get; set; }
+        public string ProductVersion { get; set; }
     }
 }

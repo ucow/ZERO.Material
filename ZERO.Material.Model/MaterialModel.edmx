@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ZERO_MaterialModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+            <PropertyRef Name="ContextKey" />
+          </Key>
+          <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+          <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+          <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Material_Base">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+          </Key>
+          <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Update_Time" Type="datetime" />
+          <Property Name="Material_Name" Type="nvarchar(max)" />
+          <Property Name="Material_Remark" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Material_Base_Company">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Company_Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Update_Time" Type="datetime" />
+          <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Company_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Material_Price" Type="float" Nullable="false" />
+          <Property Name="Material_Count" Type="float" Nullable="false" />
+          <Property Name="Material_Remain_Count" Type="float" Nullable="false" />
+          <Property Name="Material_Count_Unit" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Material_Base_Type">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Type_Id" />
+          </Key>
+          <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Type_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Update_Time" Type="datetime" />
+          <Property Name="Material_Type_Material_Type_Id" Type="nvarchar" MaxLength="128" />
+        </EntityType>
+        <EntityType Name="Material_Company">
+          <Key>
+            <PropertyRef Name="Company_Id" />
+          </Key>
+          <Property Name="Company_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Update_Time" Type="datetime" />
+          <Property Name="Company_Name" Type="nvarchar(max)" />
+          <Property Name="Company_Person" Type="nvarchar(max)" />
+          <Property Name="Company_Person_Phone" Type="nvarchar(max)" />
+          <Property Name="Company_Remark" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Material_Type">
+          <Key>
+            <PropertyRef Name="Material_Type_Id" />
+          </Key>
+          <Property Name="Material_Type_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Update_Time" Type="datetime" />
+          <Property Name="Material_Type_Name" Type="nvarchar(max)" />
+          <Property Name="Material_Type_Remark" Type="nvarchar(max)" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“ZERO_Material.dbo.Material_Message”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="Material_Message">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Material_Price" />
+            <PropertyRef Name="Material_Count" />
+            <PropertyRef Name="Material_Remain_Count" />
+          </Key>
+          <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Material_Name" Type="nvarchar(max)" />
+          <Property Name="Material_Price" Type="float" Nullable="false" />
+          <Property Name="Material_Type_Name" Type="nvarchar(max)" />
+          <Property Name="Material_Count" Type="float" Nullable="false" />
+          <Property Name="Material_Remain_Count" Type="float" Nullable="false" />
+          <Property Name="Material_Count_Unit" Type="nvarchar(max)" />
+          <Property Name="Company_Name" Type="nvarchar(max)" />
+          <Property Name="Material_Remark" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id">
+          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Material_Base_Company" Type="Self.Material_Base_Company" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Base">
+              <PropertyRef Name="Material_Id" />
+            </Principal>
+            <Dependent Role="Material_Base_Company">
+              <PropertyRef Name="Material_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id">
+          <End Role="Material_Company" Type="Self.Material_Company" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Material_Base_Company" Type="Self.Material_Base_Company" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Company">
+              <PropertyRef Name="Company_Id" />
+            </Principal>
+            <Dependent Role="Material_Base_Company">
+              <PropertyRef Name="Company_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id">
+          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Material_Base_Type" Type="Self.Material_Base_Type" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Base">
+              <PropertyRef Name="Material_Id" />
+            </Principal>
+            <Dependent Role="Material_Base_Type">
+              <PropertyRef Name="Material_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id">
+          <End Role="Material_Type" Type="Self.Material_Type" Multiplicity="0..1" />
+          <End Role="Material_Base_Type" Type="Self.Material_Base_Type" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Type">
+              <PropertyRef Name="Material_Type_Id" />
+            </Principal>
+            <Dependent Role="Material_Base_Type">
+              <PropertyRef Name="Material_Type_Material_Type_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ZERO_MaterialModelStoreContainer">
+          <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Base" EntityType="Self.Material_Base" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Base_Company" EntityType="Self.Material_Base_Company" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Base_Type" EntityType="Self.Material_Base_Type" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Company" EntityType="Self.Material_Company" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Type" EntityType="Self.Material_Type" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Message" EntityType="Self.Material_Message" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Material_Message].[Material_Id] AS [Material_Id], 
+    [Material_Message].[Material_Name] AS [Material_Name], 
+    [Material_Message].[Material_Price] AS [Material_Price], 
+    [Material_Message].[Material_Type_Name] AS [Material_Type_Name], 
+    [Material_Message].[Material_Count] AS [Material_Count], 
+    [Material_Message].[Material_Remain_Count] AS [Material_Remain_Count], 
+    [Material_Message].[Material_Count_Unit] AS [Material_Count_Unit], 
+    [Material_Message].[Company_Name] AS [Company_Name], 
+    [Material_Message].[Material_Remark] AS [Material_Remark]
+    FROM [dbo].[Material_Message] AS [Material_Message]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id" Association="Self.FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id">
+            <End Role="Material_Base" EntitySet="Material_Base" />
+            <End Role="Material_Base_Company" EntitySet="Material_Base_Company" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id" Association="Self.FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id">
+            <End Role="Material_Company" EntitySet="Material_Company" />
+            <End Role="Material_Base_Company" EntitySet="Material_Base_Company" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id" Association="Self.FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id">
+            <End Role="Material_Base" EntitySet="Material_Base" />
+            <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id" Association="Self.FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id">
+            <End Role="Material_Type" EntitySet="Material_Type" />
+            <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ZERO_MaterialModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="C__MigrationHistory">
+          <Key>
+            <PropertyRef Name="MigrationId" />
+            <PropertyRef Name="ContextKey" />
+          </Key>
+          <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Material_Base">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+          </Key>
+          <Property Name="Material_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Update_Time" Type="DateTime" Precision="3" />
+          <Property Name="Material_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Material_Base_Company" Relationship="Self.FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id" FromRole="Material_Base" ToRole="Material_Base_Company" />
+          <NavigationProperty Name="Material_Base_Type" Relationship="Self.FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id" FromRole="Material_Base" ToRole="Material_Base_Type" />
+        </EntityType>
+        <EntityType Name="Material_Base_Company">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Company_Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Update_Time" Type="DateTime" Precision="3" />
+          <Property Name="Material_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Company_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Material_Price" Type="Double" Nullable="false" />
+          <Property Name="Material_Count" Type="Double" Nullable="false" />
+          <Property Name="Material_Remain_Count" Type="Double" Nullable="false" />
+          <Property Name="Material_Count_Unit" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Material_Base" Relationship="Self.FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id" FromRole="Material_Base_Company" ToRole="Material_Base" />
+          <NavigationProperty Name="Material_Company" Relationship="Self.FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id" FromRole="Material_Base_Company" ToRole="Material_Company" />
+        </EntityType>
+        <EntityType Name="Material_Base_Type">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Type_Id" />
+          </Key>
+          <Property Name="Material_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Type_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Update_Time" Type="DateTime" Precision="3" />
+          <Property Name="Material_Type_Material_Type_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Material_Base" Relationship="Self.FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id" FromRole="Material_Base_Type" ToRole="Material_Base" />
+          <NavigationProperty Name="Material_Type" Relationship="Self.FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id" FromRole="Material_Base_Type" ToRole="Material_Type" />
+        </EntityType>
+        <EntityType Name="Material_Company">
+          <Key>
+            <PropertyRef Name="Company_Id" />
+          </Key>
+          <Property Name="Company_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Update_Time" Type="DateTime" Precision="3" />
+          <Property Name="Company_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Company_Person" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Company_Person_Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Company_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Material_Base_Company" Relationship="Self.FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id" FromRole="Material_Company" ToRole="Material_Base_Company" />
+        </EntityType>
+        <EntityType Name="Material_Type">
+          <Key>
+            <PropertyRef Name="Material_Type_Id" />
+          </Key>
+          <Property Name="Material_Type_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Update_Time" Type="DateTime" Precision="3" />
+          <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Type_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Material_Base_Type" Relationship="Self.FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id" FromRole="Material_Type" ToRole="Material_Base_Type" />
+        </EntityType>
+        <EntityType Name="Material_Message">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Material_Price" />
+            <PropertyRef Name="Material_Count" />
+            <PropertyRef Name="Material_Remain_Count" />
+          </Key>
+          <Property Name="Material_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Material_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Price" Type="Double" Nullable="false" />
+          <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Count" Type="Double" Nullable="false" />
+          <Property Name="Material_Remain_Count" Type="Double" Nullable="false" />
+          <Property Name="Material_Count_Unit" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Company_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id">
+          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Material_Base_Company" Type="Self.Material_Base_Company" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Base">
+              <PropertyRef Name="Material_Id" />
+            </Principal>
+            <Dependent Role="Material_Base_Company">
+              <PropertyRef Name="Material_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id">
+          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Material_Base_Type" Type="Self.Material_Base_Type" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Base">
+              <PropertyRef Name="Material_Id" />
+            </Principal>
+            <Dependent Role="Material_Base_Type">
+              <PropertyRef Name="Material_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id">
+          <End Role="Material_Company" Type="Self.Material_Company" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Material_Base_Company" Type="Self.Material_Base_Company" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Company">
+              <PropertyRef Name="Company_Id" />
+            </Principal>
+            <Dependent Role="Material_Base_Company">
+              <PropertyRef Name="Company_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id">
+          <End Role="Material_Type" Type="Self.Material_Type" Multiplicity="0..1" />
+          <End Role="Material_Base_Type" Type="Self.Material_Base_Type" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Type">
+              <PropertyRef Name="Material_Type_Id" />
+            </Principal>
+            <Dependent Role="Material_Base_Type">
+              <PropertyRef Name="Material_Type_Material_Type_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ZERO_Material" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+          <EntitySet Name="Material_Base" EntityType="Self.Material_Base" />
+          <EntitySet Name="Material_Base_Company" EntityType="Self.Material_Base_Company" />
+          <EntitySet Name="Material_Base_Type" EntityType="Self.Material_Base_Type" />
+          <EntitySet Name="Material_Company" EntityType="Self.Material_Company" />
+          <EntitySet Name="Material_Type" EntityType="Self.Material_Type" />
+          <EntitySet Name="Material_Message" EntityType="Self.Material_Message" />
+          <AssociationSet Name="FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id" Association="Self.FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id">
+            <End Role="Material_Base" EntitySet="Material_Base" />
+            <End Role="Material_Base_Company" EntitySet="Material_Base_Company" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id" Association="Self.FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id">
+            <End Role="Material_Base" EntitySet="Material_Base" />
+            <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id" Association="Self.FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id">
+            <End Role="Material_Company" EntitySet="Material_Company" />
+            <End Role="Material_Base_Company" EntitySet="Material_Base_Company" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id" Association="Self.FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id">
+            <End Role="Material_Type" EntitySet="Material_Type" />
+            <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ZERO_MaterialModelStoreContainer" CdmEntityContainer="ZERO_Material">
+          <EntitySetMapping Name="C__MigrationHistory">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.C__MigrationHistory">
+              <MappingFragment StoreEntitySet="__MigrationHistory">
+                <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+                <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Base">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Base">
+              <MappingFragment StoreEntitySet="Material_Base">
+                <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Update_Time" ColumnName="Update_Time" />
+                <ScalarProperty Name="Material_Name" ColumnName="Material_Name" />
+                <ScalarProperty Name="Material_Remark" ColumnName="Material_Remark" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Base_Company">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Base_Company">
+              <MappingFragment StoreEntitySet="Material_Base_Company">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Update_Time" ColumnName="Update_Time" />
+                <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+                <ScalarProperty Name="Company_Id" ColumnName="Company_Id" />
+                <ScalarProperty Name="Material_Price" ColumnName="Material_Price" />
+                <ScalarProperty Name="Material_Count" ColumnName="Material_Count" />
+                <ScalarProperty Name="Material_Remain_Count" ColumnName="Material_Remain_Count" />
+                <ScalarProperty Name="Material_Count_Unit" ColumnName="Material_Count_Unit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Base_Type">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Base_Type">
+              <MappingFragment StoreEntitySet="Material_Base_Type">
+                <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+                <ScalarProperty Name="Type_Id" ColumnName="Type_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Update_Time" ColumnName="Update_Time" />
+                <ScalarProperty Name="Material_Type_Material_Type_Id" ColumnName="Material_Type_Material_Type_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Company">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Company">
+              <MappingFragment StoreEntitySet="Material_Company">
+                <ScalarProperty Name="Company_Id" ColumnName="Company_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Update_Time" ColumnName="Update_Time" />
+                <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+                <ScalarProperty Name="Company_Person" ColumnName="Company_Person" />
+                <ScalarProperty Name="Company_Person_Phone" ColumnName="Company_Person_Phone" />
+                <ScalarProperty Name="Company_Remark" ColumnName="Company_Remark" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Type">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Type">
+              <MappingFragment StoreEntitySet="Material_Type">
+                <ScalarProperty Name="Material_Type_Id" ColumnName="Material_Type_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Update_Time" ColumnName="Update_Time" />
+                <ScalarProperty Name="Material_Type_Name" ColumnName="Material_Type_Name" />
+                <ScalarProperty Name="Material_Type_Remark" ColumnName="Material_Type_Remark" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Message">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Message">
+              <MappingFragment StoreEntitySet="Material_Message">
+                <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+                <ScalarProperty Name="Material_Name" ColumnName="Material_Name" />
+                <ScalarProperty Name="Material_Price" ColumnName="Material_Price" />
+                <ScalarProperty Name="Material_Type_Name" ColumnName="Material_Type_Name" />
+                <ScalarProperty Name="Material_Count" ColumnName="Material_Count" />
+                <ScalarProperty Name="Material_Remain_Count" ColumnName="Material_Remain_Count" />
+                <ScalarProperty Name="Material_Count_Unit" ColumnName="Material_Count_Unit" />
+                <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+                <ScalarProperty Name="Material_Remark" ColumnName="Material_Remark" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

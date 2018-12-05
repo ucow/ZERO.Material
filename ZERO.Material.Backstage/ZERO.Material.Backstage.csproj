@@ -139,8 +139,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CompanyController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MaterialController.cs" />
+    <Compile Include="Controllers\TypeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -271,6 +273,7 @@
     <Content Include="Content\layui\font\iconfont.ttf" />
     <Content Include="Content\layui\font\iconfont.woff" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\Company\Index.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -305,6 +308,8 @@
     <Content Include="Views\Material\Add.cshtml" />
     <Content Include="Views\Material\Detail.cshtml" />
     <Content Include="Views\Material\Update.cshtml" />
+    <Content Include="Views\Company\Index.cshtml" />
+    <Content Include="Views\Type\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -333,7 +338,7 @@
       <Name>ZERO.Material.IBll</Name>
     </ProjectReference>
     <ProjectReference Include="..\ZERO.Material.Model\ZERO.Material.Model.csproj">
-      <Project>{46df739a-a74c-4e9d-90a0-a8ab9bc90fc8}</Project>
+      <Project>{569d4674-9715-4ce6-941f-0c6eadb6a550}</Project>
       <Name>ZERO.Material.Model</Name>
     </ProjectReference>
   </ItemGroup>

@@ -4,11 +4,11 @@ using ZERO.Material.Model;
 
 namespace ZERO.Material.Bll
 {
-    public class ProductBll : BasicBll<Material_Product>, IProductBll
+    public class MessageBll : BasicBll<Material_Message>, IMessageBll
     {
         public override void SetBasicDal()
         {
-            BasicDal = UnityContainerHelper.Server<IProductDal>();
+            BasicDal = UnityContainerHelper.Server<IMessageDal>();
         }
     }
 }

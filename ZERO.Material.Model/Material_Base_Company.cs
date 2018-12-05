@@ -12,15 +12,18 @@ namespace ZERO.Material.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Material_Base_Type
+    public partial class Material_Base_Company
     {
-        public string Material_Id { get; set; }
-        public string Type_Id { get; set; }
         public int Id { get; set; }
         public Nullable<System.DateTime> Update_Time { get; set; }
-        public string Material_Type_Material_Type_Id { get; set; }
+        public string Material_Id { get; set; }
+        public string Company_Id { get; set; }
+        public double Material_Price { get; set; }
+        public double Material_Count { get; set; }
+        public double Material_Remain_Count { get; set; }
+        public string Material_Count_Unit { get; set; }
     
         public virtual Material_Base Material_Base { get; set; }
-        public virtual Material_Type Material_Type { get; set; }
+        public virtual Material_Company Material_Company { get; set; }
     }
 }

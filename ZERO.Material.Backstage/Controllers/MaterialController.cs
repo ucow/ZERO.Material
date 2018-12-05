@@ -10,6 +10,7 @@ namespace ZERO.Material.Backstage.Controllers
     public class MaterialController : Controller
     {
         private readonly IBaseBll _baseBll = new UnityContainerHelper().Server<IBaseBll>();
+        private readonly IMessageBll _messageBll = new UnityContainerHelper().Server<IMessageBll>();
 
         // GET: Material
         public ActionResult Index()
@@ -17,6 +18,7 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
+        //更新或添加数据
         public ActionResult Add(string materialId)
         {
             if (string.IsNullOrEmpty(materialId))
@@ -24,8 +26,10 @@ namespace ZERO.Material.Backstage.Controllers
                 return View();
             }
 
-            Material_Base materialBase = _baseBll.GetEntity(m => m.Material_Id == materialId);
-            return View(materialBase);
+            Material_Message materialMessage = _messageBll.GetEntity(m => m.Material_Id == materialId);
+            if (materialMessage == null)
+                return View();
+            return View(materialMessage);
         }
 
         [HttpPost]
@@ -41,13 +45,13 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string List(int page, int limit)
         {
-            List<Material_Base> materialBases = _baseBll.GetPageEntities(page, limit, (m => m.Material_Id), out var total);
+            List<Material_Message> materialMessages = _messageBll.GetPageEntities(page, limit, (m => m.Material_Id), out var total);
             var dataJson = new
             {
                 code = 0,
                 msg = "OK",
                 count = total,
-                data = materialBases
+                data = materialMessages
             };
             string json = JsonConvert.SerializeObject(dataJson);
             return json;
