@@ -1,4 +1,4 @@
-﻿@model ZERO.Material.Model.Material_Base
+﻿@model ZERO.Material.Model.Material_Message
 
 @{
     Layout = null;
@@ -30,6 +30,14 @@
                         <td>@Model.Material_Name</td>
                     </tr>
                     <tr>
+                        <td>@Html.LabelFor(m => m.Material_Price)</td>
+                        <td>@Model.Material_Price</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Material_Type_Name)</td>
+                        <td>@Model.Material_Type_Name</td>
+                    </tr>
+                    <tr>
                         <td>@Html.LabelFor(m => m.Material_Count)</td>
                         <td>@Model.Material_Count</td>
                     </tr>
@@ -40,6 +48,10 @@
                     <tr>
                         <td>@Html.LabelFor(m => m.Material_Count_Unit)</td>
                         <td>@Model.Material_Count_Unit</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Company_Name)</td>
+                        <td>@Model.Company_Name</td>
                     </tr>
                     <tr>
                         <td>@Html.LabelFor(m => m.Material_Remark)</td>

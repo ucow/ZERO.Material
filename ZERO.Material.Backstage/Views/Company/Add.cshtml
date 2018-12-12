@@ -1,0 +1,64 @@
+﻿@model ZERO.Material.Model.Material_Company
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/Material/Add.js"></script>
+</head>
+<body>
+    <div style="padding: 50px; padding-left: 0;padding-bottom: 0">
+        @using (Ajax.BeginForm("Add", "Company", new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new Dictionary<string, object>() { { "class", "layui-form" }, { "lay-filter", "addForm" } }))
+        {
+            @Html.HiddenFor(m => m.Id)
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Company_Id, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Company_Id, new { @class = "layui-input", @placeholder = "请输入公司编号" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Company_Name, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Company_Name, new { @class = "layui-input", @placeholder = "请输入公司名称" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Company_Person, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Company_Person, new { @class = "layui-input", @placeholder = "请输入负责人" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Company_Person_Phone, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Company_Person_Phone, new { @class = "layui-input", @placeholder = "请输入负责人联系方式" })
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Company_Remark, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextAreaFor(m => m.Company_Remark, new { @class = "layui-textarea", @placeholder = "请输入备注" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>

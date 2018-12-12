@@ -18,15 +18,20 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
-        //更新或添加数据
-        public ActionResult Add(string materialId)
+        public string GetModelInfo()
         {
-            if (string.IsNullOrEmpty(materialId))
+            return AssmblyHelper.GetDisplayAttributeInfo<Material_Message>();
+        }
+
+        //更新或添加数据
+        public ActionResult Add(string material_Id)
+        {
+            if (string.IsNullOrEmpty(material_Id))
             {
                 return View();
             }
 
-            Material_Message materialMessage = _messageBll.GetEntity(m => m.Material_Id == materialId);
+            Material_Message materialMessage = _messageBll.GetEntity(m => m.Material_Id == material_Id);
             if (materialMessage == null)
                 return View();
             return View(materialMessage);
@@ -59,8 +64,8 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Detail(string materialId)
         {
-            Material_Base materialBase = _baseBll.GetEntity(m => m.Material_Id == materialId);
-            return View(materialBase);
+            Material_Message materialMessage = _messageBll.GetEntity(m => m.Material_Id == materialId);
+            return View(materialMessage);
         }
 
         public string Delete(string materialId)
@@ -74,12 +79,6 @@ namespace ZERO.Material.Backstage.Controllers
             }
 
             return "Error";
-        }
-
-        public ActionResult Update(string materialId)
-        {
-            Material_Base materialBase = _baseBll.GetEntity(m => m.Material_Id == materialId);
-            return View(materialBase);
         }
     }
 }

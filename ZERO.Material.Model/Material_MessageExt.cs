@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using ZERO.Material.Model.AttributeCustom;
 
 namespace ZERO.Material.Model
 {
@@ -18,9 +19,11 @@ namespace ZERO.Material.Model
         [Display(Name = "器材类型")]
         public string Material_Type_Name { get; set; }
 
+        [IsSort]
         [Display(Name = "器材总量")]
         public double Material_Count { get; set; }
 
+        [IsSort]
         [Display(Name = "器材余量")]
         public double Material_Remain_Count { get; set; }
 
@@ -30,6 +33,7 @@ namespace ZERO.Material.Model
         [Display(Name = "供货商")]
         public string Company_Name { get; set; }
 
+        [IsSort]
         [Display(Name = "器材价格")]
         public double Material_Price { get; set; }
 

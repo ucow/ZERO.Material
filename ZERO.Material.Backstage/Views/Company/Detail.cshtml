@@ -1,0 +1,47 @@
+﻿@model ZERO.Material.Model.Material_Company
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail</title>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+</head>
+<body>
+    <div class="layui-card">
+        <div class="layui-card-header">@Model.Company_Name</div>
+        <div class="layui-card-body">
+            <table class="layui-table" lay-skin="nob">
+                <tbody>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Company_Id)</td>
+                        <td>@Model.Company_Id</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Company_Name)</td>
+                        <td>@Model.Company_Name</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Company_Person)</td>
+                        <td>@Model.Company_Person</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Company_Person_Phone)</td>
+                        <td>@Model.Company_Person_Phone</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Company_Remark)</td>
+                        <td>@Model.Company_Remark</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
