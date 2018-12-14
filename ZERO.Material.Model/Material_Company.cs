@@ -17,7 +17,7 @@ namespace ZERO.Material.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Material_Company()
         {
-            this.Material_Base_Company = new HashSet<Material_Base_Company>();
+            this.Material_Base = new HashSet<Material_Base>();
         }
     
         public string Company_Id { get; set; }
@@ -29,6 +29,6 @@ namespace ZERO.Material.Model
         public string Company_Remark { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Material_Base_Company> Material_Base_Company { get; set; }
+        public virtual ICollection<Material_Base> Material_Base { get; set; }
     }
 }

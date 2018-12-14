@@ -50,9 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AttributeCustom\IsSortAttribute.cs" />
-    <Compile Include="C__MigrationHistory.cs">
-      <DependentUpon>MaterialModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="MaterialModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -71,20 +68,11 @@
     <Compile Include="Material_Base.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Material_CompanyExt.cs" />
-    <Compile Include="Material_MessageExt.cs" />
-    <Compile Include="Material_Base_Company.cs">
-      <DependentUpon>MaterialModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Material_Base_Type.cs">
-      <DependentUpon>MaterialModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Material_Company.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Material_Message.cs">
-      <DependentUpon>MaterialModel.tt</DependentUpon>
-    </Compile>
+    <Compile Include="Material_CompanyExt.cs" />
+    <Compile Include="Material_MessageExt.cs" />
     <Compile Include="Material_Type.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>

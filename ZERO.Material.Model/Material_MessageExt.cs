@@ -4,7 +4,7 @@ using ZERO.Material.Model.AttributeCustom;
 namespace ZERO.Material.Model
 {
     [MetadataType(typeof(MaterialMessageValidate))]
-    public partial class Material_Message
+    public partial class Material_Base
     {
     }
 

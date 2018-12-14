@@ -261,6 +261,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="Image\实验耗材后台管理系统.png" />
     <Content Include="Image\校徽.jpg" />
     <Content Include="LayuiTest.html" />

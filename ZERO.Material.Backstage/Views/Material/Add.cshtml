@@ -1,4 +1,4 @@
-﻿@model ZERO.Material.Model.Material_Message
+﻿@model ZERO.Material.Model.Material_Base
 
 @{
     Layout = null;
@@ -17,19 +17,46 @@
 </head>
 <body>
     <div style="padding: 50px; padding-left: 0;padding-bottom: 0">
-        @using (Ajax.BeginForm("Add", "Material", new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new Dictionary<string, object>() { { "class", "layui-form" }, { "lay-filter", "addForm" } }))
+        @using (Ajax.BeginForm("Add", "Material",
+            new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" },
+            new { @class = "layui-form" }))
         {
-            @Html.HiddenFor(m => m.Material_Id)
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Id, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
-                    @Html.TextBoxFor(m => m.Material_Id, new { @class = "layui-input", @placeholder = "请输入编号" })
+                    @if (ViewBag.IsUpdate)
+                    {
+                        @Html.TextBoxFor(m => m.Material_Id, new { @class = "layui-input", @placeholder = "请输入编号", @readonly = "true" })
+                    }
+                    else
+                    {
+                        @Html.TextBoxFor(m => m.Material_Id, new { @class = "layui-input", @placeholder = "请输入编号" })
+                    }
                 </div>
             </div>
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Name, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
                     @Html.TextBoxFor(m => m.Material_Name, new { @class = "layui-input", @placeholder = "请输入名称" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">器材类别</label>
+                <div class="layui-input-block">
+                    <select name="Material_Type_Name" lay-verify="required">
+                        <option value=""></option>
+                        @foreach (var type in ViewBag.types)
+                        {
+                            if (Model != null && Model.Type_Id == type)
+                            {
+                                <option value="@type" selected>@type</option>
+                            }
+                            else
+                            {
+                                <option value="@type">@type</option>
+                            }
+                        }
+                    </select>
                 </div>
             </div>
             <div class="layui-form-item">
@@ -45,21 +72,34 @@
                 </div>
             </div>
             <div class="layui-form-item">
-                @Html.LabelFor(m => m.Material_Remain_Count, new { @class = "layui-form-label" })
+                @Html.LabelFor(m => m.Material_RemainCont, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
-                    @Html.TextBoxFor(m => m.Material_Remain_Count, new { @class = "layui-input", @placeholder = "请输入剩余数量" })
+                    @Html.TextBoxFor(m => m.Material_RemainCont, new { @class = "layui-input", @placeholder = "请输入剩余数量" })
                 </div>
             </div>
             <div class="layui-form-item">
-                @Html.LabelFor(m => m.Material_Count_Unit, new { @class = "layui-form-label" })
+                @Html.LabelFor(m => m.Material_CountUnit, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
-                    @Html.TextBoxFor(m => m.Material_Count_Unit, new { @class = "layui-input", @placeholder = "请输入单位" })
+                    @Html.TextBoxFor(m => m.Material_CountUnit, new { @class = "layui-input", @placeholder = "请输入单位" })
                 </div>
             </div>
             <div class="layui-form-item">
-                @Html.LabelFor(m => m.Company_Name, new { @class = "layui-form-label" })
+                <label class="layui-form-label">供货商</label>
                 <div class="layui-input-block">
-                    @Html.TextBoxFor(m => m.Company_Name, new { @class = "layui-input", @placeholder = "请输入供应商" })
+                    <select name="Company_Name" lay-verify="required">
+                        <option value=""></option>
+                        @foreach (var company in ViewBag.companys)
+                        {
+                            if (Model != null && Model.Company_Id == company)
+                            {
+                                <option value="@company" selected>@company</option>
+                            }
+                            else
+                            {
+                                <option value="@company">@company</option>
+                            }
+                        }
+                    </select>
                 </div>
             </div>
             <div class="layui-form-item">
@@ -74,6 +114,7 @@
                     <button type="reset" class="layui-btn layui-btn-primary">重置</button>
                 </div>
             </div>
+
         }
     </div>
 </body>

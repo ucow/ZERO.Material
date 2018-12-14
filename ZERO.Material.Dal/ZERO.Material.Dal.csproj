@@ -49,11 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDal.cs" />
-    <Compile Include="BaseCompanyDal.cs" />
-    <Compile Include="BaseTypeDal.cs" />
     <Compile Include="BasicDal.cs" />
     <Compile Include="CompanyDal.cs" />
-    <Compile Include="MessageDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeDal.cs" />
   </ItemGroup>

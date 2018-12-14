@@ -45,11 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseBll.cs" />
-    <Compile Include="BaseCompanyBll.cs" />
-    <Compile Include="BaseTypeBll.cs" />
     <Compile Include="BasicBll.cs" />
     <Compile Include="CompanyBll.cs" />
-    <Compile Include="MessageBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeBll.cs" />
   </ItemGroup>

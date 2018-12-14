@@ -5,17 +5,11 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="d4c3107727024cddbc5f41445d95014e" Name="Diagram1">
-        <EntityTypeShape EntityType="ZERO_MaterialModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Company" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Type" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Company" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Type" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Message" Width="1.5" PointX="2.75" PointY="8.625" IsExpanded="true" />
-        <AssociationConnector Association="ZERO_MaterialModel.FK_dbo_Material_Base_Company_dbo_Material_Base_Material_Id" ManuallyRouted="false" />
-        <AssociationConnector Association="ZERO_MaterialModel.FK_dbo_Material_Base_Type_dbo_Material_Base_Material_Id" ManuallyRouted="false" />
-        <AssociationConnector Association="ZERO_MaterialModel.FK_dbo_Material_Base_Company_dbo_Material_Company_Company_Id" ManuallyRouted="false" />
-        <AssociationConnector Association="ZERO_MaterialModel.FK_dbo_Material_Base_Type_dbo_Material_Type_Material_Type_Material_Type_Id" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Company" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Type" Width="1.5" PointX="0.75" PointY="5.625" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Material_Company" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Material_Type" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

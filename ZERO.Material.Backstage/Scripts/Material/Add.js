@@ -1,4 +1,9 @@
-﻿function AfterSuccess(data) {
+﻿layui.use('form',
+    function () {
+        var form = layui.form;
+    });
+
+function AfterSuccess(data) {
     var index = parent.layer.getFrameIndex(window.name);
     if (data === 'OK') {
         parent.layer.msg("添加/修改成功");

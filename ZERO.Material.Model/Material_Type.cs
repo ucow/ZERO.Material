@@ -17,7 +17,7 @@ namespace ZERO.Material.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Material_Type()
         {
-            this.Material_Base_Type = new HashSet<Material_Base_Type>();
+            this.Material_Base = new HashSet<Material_Base>();
         }
     
         public string Material_Type_Id { get; set; }
@@ -27,6 +27,6 @@ namespace ZERO.Material.Model
         public string Material_Type_Remark { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Material_Base_Type> Material_Base_Type { get; set; }
+        public virtual ICollection<Material_Base> Material_Base { get; set; }
     }
 }

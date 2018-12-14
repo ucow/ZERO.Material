@@ -22,7 +22,7 @@ namespace ZERO.Material.Bll
             return BasicDal.GetPageEntities(pageIndex, pageCount, orderLambda, out total);
         }
 
-        public bool AddOrUpdateEntity(List<T> ts)
+        public virtual bool AddOrUpdateEntity(List<T> ts)
         {
             return BasicDal.AddOrUpdateEntity(ts);
         }

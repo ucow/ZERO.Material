@@ -42,11 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBaseDal.cs" />
-    <Compile Include="IBaseCompanyDal.cs" />
-    <Compile Include="IBaseTypeDal.cs" />
     <Compile Include="IBasicDal.cs" />
     <Compile Include="ICompanyDal.cs" />
-    <Compile Include="IMessageDal.cs" />
     <Compile Include="ITypeDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
