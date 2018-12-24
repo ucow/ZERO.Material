@@ -1,7 +1,7 @@
-﻿using Newtonsoft.Json;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using Newtonsoft.Json;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
@@ -14,6 +14,9 @@ namespace ZERO.Material.Backstage.Controllers
         private readonly IBaseBll _baseBll = Container.Server<IBaseBll>();
         private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
         private readonly ICompanyBll _companyBll = Container.Server<ICompanyBll>();
+        private readonly IBaseInfoBll _baseInfoBll = Container.Server<IBaseInfoBll>();
+        private readonly IBaseTypeBll _baseTypeBll = Container.Server<IBaseTypeBll>();
+        private readonly IBaseCompanyBll _baseCompanyBll = Container.Server<IBaseCompanyBll>();
 
         // GET: Material
         public ActionResult Index()
@@ -23,7 +26,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string GetModelInfo()
         {
-            return AssmblyHelper.GetDisplayAttributeInfo<Material_Base>();
+            return AssmblyHelper.GetDisplayAttributeInfo<Material_Info>();
         }
 
         public List<Material_Type> GetTypeList()
@@ -43,41 +46,36 @@ namespace ZERO.Material.Backstage.Controllers
             }
 
             ViewBag.IsUpdate = true;
-            Material_Base materialMessage = _baseBll.GetEntity(m => m.Material_Id == material_Id);
-            if (materialMessage != null)
+            Material_Info materialInfo = _baseInfoBll.GetEntity(m => m.Material_Id == material_Id);
+            if (materialInfo != null)
             {
-                materialMessage.Type_Id = _typeBll.GetEntity(m => m.Material_Type_Id == materialMessage.Type_Id)
-                    .Material_Type_Name;
-                materialMessage.Company_Id =
-                    _companyBll.GetEntity(m => m.Company_Id == materialMessage.Company_Id).Company_Name;
-                return View(materialMessage);
+                return View(materialInfo);
             }
             return View();
         }
 
         [HttpPost]
-        public ActionResult Add(Material_Base materialBase)
+        public ActionResult Add(Material_Info materialInfo, bool isUpdate, string oldCompanyName, string oldTypeName)
         {
-            materialBase.Company_Id = _companyBll.GetEntity(m => m.Company_Name == materialBase.Company_Id).Company_Id;
-            materialBase.Type_Id =
-                _typeBll.GetEntity(m => m.Material_Type_Name == materialBase.Type_Id).Material_Type_Id;
-            if (_baseBll.AddOrUpdateEntity(new List<Material_Base>() { materialBase }))
+            if (isUpdate)
             {
-                return Content("OK");
+                return Content(_baseInfoBll.UpdateBaseInfo(materialInfo, oldTypeName, oldCompanyName));
             }
-
-            return Content("Error");
+            else
+            {
+                return Content(_baseInfoBll.AddBaseInfo(materialInfo));
+            }
         }
 
         public string List(int page, int limit)
         {
-            List<Material_Base> materialMessages = _baseBll.GetPageEntities(page, limit, (m => m.Material_Id), out var total);
+            List<Material_Info> materialInfos = _baseInfoBll.GetPageEntities(page, limit, m => m.Material_Id, out int total);
             var dataJson = new
             {
                 code = 0,
                 msg = "OK",
                 count = total,
-                data = materialMessages
+                data = materialInfos
             };
             string json = JsonConvert.SerializeObject(dataJson);
             return json;
@@ -85,8 +83,8 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Detail(string material_Id)
         {
-            Material_Base materialMessage = _baseBll.GetEntity(m => m.Material_Id == material_Id);
-            return View(materialMessage);
+            Material_Info materialInfo = _baseInfoBll.GetEntity(m => m.Material_Id == material_Id);
+            return View(materialInfo);
         }
 
         public string Delete(string material_Id)

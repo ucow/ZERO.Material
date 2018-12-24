@@ -48,13 +48,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseCompanyDal.cs" />
     <Compile Include="BaseDal.cs" />
+    <Compile Include="BaseInfoDal.cs" />
+    <Compile Include="BaseTypeDal.cs" />
     <Compile Include="BasicDal.cs" />
     <Compile Include="CompanyDal.cs" />
+    <Compile Include="DbContextFactory.cs" />
+    <Compile Include="DbSession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeDal.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ZERO.Material.Dal.Factory\ZERO.Material.Dal.Factory.csproj">
+      <Project>{7C72238F-68E7-4D34-B7EA-A9ADBC8D02BD}</Project>
+      <Name>ZERO.Material.Dal.Factory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZERO.Material.IDal\ZERO.Material.IDal.csproj">
       <Project>{1314df3a-8a82-42b4-bebe-8d77957b11bf}</Project>
       <Name>ZERO.Material.IDal</Name>

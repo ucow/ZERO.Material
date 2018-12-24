@@ -4,7 +4,7 @@ using ZERO.Material.Model.AttributeCustom;
 namespace ZERO.Material.Model
 {
     [MetadataType(typeof(MaterialMessageValidate))]
-    public partial class Material_Base
+    public partial class Material_Info
     {
     }
 
@@ -16,6 +16,9 @@ namespace ZERO.Material.Model
         [Display(Name = "器材名称")]
         public string Material_Name { get; set; }
 
+        [Display(Name = "供货商")]
+        public string Company_Name { get; set; }
+
         [Display(Name = "器材类型")]
         public string Material_Type_Name { get; set; }
 
@@ -25,13 +28,10 @@ namespace ZERO.Material.Model
 
         [IsSort]
         [Display(Name = "器材余量")]
-        public double Material_Remain_Count { get; set; }
+        public double Material_RemainCont { get; set; }
 
         [Display(Name = "计量单位")]
-        public string Material_Count_Unit { get; set; }
-
-        [Display(Name = "供货商")]
-        public string Company_Name { get; set; }
+        public string Material_CountUnit { get; set; }
 
         [IsSort]
         [Display(Name = "器材价格")]

@@ -11,24 +11,24 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
-    
+    using Newtonsoft.Json;
     public partial class Material_Company
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Material_Company()
         {
-            this.Material_Base = new HashSet<Material_Base>();
+            this.Material_Base_Company = new HashSet<Material_Base_Company>();
         }
     
         public string Company_Id { get; set; }
         public int Id { get; set; }
         public Nullable<System.DateTime> Update_Time { get; set; }
         public string Company_Name { get; set; }
-        public string Company_Person { get; set; }
-        public string Company_Person_Phone { get; set; }
         public string Company_Remark { get; set; }
+        public byte[] Company_Image { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Material_Base> Material_Base { get; set; }
+        [JsonIgnore]
+    public virtual ICollection<Material_Base_Company> Material_Base_Company { get; set; }
     }
 }

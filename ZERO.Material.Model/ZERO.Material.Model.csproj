@@ -37,6 +37,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -50,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AttributeCustom\IsSortAttribute.cs" />
+    <Compile Include="IEntity.cs" />
     <Compile Include="MaterialModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -68,10 +72,19 @@
     <Compile Include="Material_Base.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Material_Base_Company.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_Base_Type.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Material_Company.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Material_CompanyExt.cs" />
+    <Compile Include="Material_Info.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Material_MessageExt.cs" />
     <Compile Include="Material_Type.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>

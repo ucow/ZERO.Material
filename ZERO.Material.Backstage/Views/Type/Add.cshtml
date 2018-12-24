@@ -22,11 +22,25 @@
     <div style="padding: 50px; padding-left: 0;padding-bottom: 0">
         @using (Ajax.BeginForm("Add", "Type", new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new Dictionary<string, object>() { { "class", "layui-form" }, { "lay-filter", "addForm" } }))
         {
-            @Html.HiddenFor(m => m.Id)
+            if (ViewBag.IsUpdate)
+            {
+                <input type="hidden" name="isUpdate" value="true" />
+            }
+            else
+            {
+                <input type="hidden" name="isUpdate" value="false" />
+            }
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Type_Id, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
-                    @Html.TextBoxFor(m => m.Material_Type_Id, new { @class = "layui-input", @placeholder = "请输入种类编号" })
+                    @if (ViewBag.IsUpdate)
+                    {
+                        @Html.TextBoxFor(m => m.Material_Type_Id, new { @class = "layui-input", @placeholder = "请输入种类编号", @readonly = "true" })
+                    }
+                    else
+                    {
+                        @Html.TextBoxFor(m => m.Material_Type_Id, new { @class = "layui-input", @placeholder = "请输入种类编号" })
+                    }
                 </div>
             </div>
             <div class="layui-form-item">

@@ -45,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseBll.cs" />
+    <Compile Include="BaseCompanyBll.cs" />
+    <Compile Include="BaseInfoBll.cs" />
+    <Compile Include="BaseTypeBll.cs" />
     <Compile Include="BasicBll.cs" />
     <Compile Include="CompanyBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,12 +58,16 @@
       <Project>{DA457C1A-0EF0-476A-A15C-E1B2602B81EB}</Project>
       <Name>ZERO.Material.Command</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ZERO.Material.Dal.Factory\ZERO.Material.Dal.Factory.csproj">
+      <Project>{7c72238f-68e7-4d34-b7ea-a9adbc8d02bd}</Project>
+      <Name>ZERO.Material.Dal.Factory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ZERO.Material.IBll\ZERO.Material.IBll.csproj">
       <Project>{27567BC0-B0E6-408D-8576-2DFB1473718A}</Project>
       <Name>ZERO.Material.IBll</Name>
     </ProjectReference>
     <ProjectReference Include="..\ZERO.Material.IDal\ZERO.Material.IDal.csproj">
-      <Project>{1314DF3A-8A82-42B4-BEBE-8D77957B11BF}</Project>
+      <Project>{1314df3a-8a82-42b4-bebe-8d77957b11bf}</Project>
       <Name>ZERO.Material.IDal</Name>
     </ProjectReference>
     <ProjectReference Include="..\ZERO.Material.Model\ZERO.Material.Model.csproj">

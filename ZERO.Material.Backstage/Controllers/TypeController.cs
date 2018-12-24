@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using Newtonsoft.Json;
 using ZERO.Material.Command;
@@ -12,7 +9,7 @@ namespace ZERO.Material.Backstage.Controllers
 {
     public class TypeController : Controller
     {
-        private ITypeBll _companyBll = new UnityContainerHelper().Server<ITypeBll>();
+        private ITypeBll _typeBll = new UnityContainerHelper().Server<ITypeBll>();
 
         // GET: Company
         public ActionResult Index()
@@ -22,13 +19,13 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string List(int page, int limit)
         {
-            List<Material_Type> materialMessages = _companyBll.GetPageEntities(page, limit, (m => m.Material_Type_Id), out var total);
+            List<Material_Type> materialTypes = _typeBll.GetPageEntities(page, limit, (m => m.Material_Type_Id), out var total);
             var dataJson = new
             {
                 code = 0,
                 msg = "OK",
                 count = total,
-                data = materialMessages
+                data = materialTypes
             };
             string json = JsonConvert.SerializeObject(dataJson);
             return json;
@@ -43,37 +40,44 @@ namespace ZERO.Material.Backstage.Controllers
         {
             if (string.IsNullOrEmpty(Material_Type_Id))
             {
+                ViewBag.IsUpdate = false;
                 return View();
             }
-
-            Material_Type materialCompany = _companyBll.GetEntity(m => m.Material_Type_Id == Material_Type_Id);
-            if (materialCompany == null)
+            ViewBag.IsUpdate = true;
+            Material_Type materialType = _typeBll.GetEntity(m => m.Material_Type_Id == Material_Type_Id);
+            if (materialType == null)
                 return View();
-            return View(materialCompany);
+            return View(materialType);
         }
 
         [HttpPost]
-        public ActionResult Add(Material_Type materialCompany)
+        public ActionResult Add(Material_Type materialType, bool isUpdate)
         {
-            if (_companyBll.AddOrUpdateEntity(new List<Material_Type>() { materialCompany }))
+            if (isUpdate)
             {
-                return Content("OK");
-            }
+                Material_Type type = _typeBll.Find(materialType.Material_Type_Id);
+                type.Material_Type_Name = materialType.Material_Type_Name;
+                type.Material_Type_Remark = materialType.Material_Type_Remark;
 
-            return Content("Error");
+                return _typeBll.UpdateEntities(new List<Material_Type>() { type }) ? Content("OK") : Content("Error");
+            }
+            else
+            {
+                return _typeBll.AddEntities(new List<Material_Type>() { materialType }) ? Content("OK") : Content("Error");
+            }
         }
 
         public ActionResult Detail(string Material_Type_Id)
         {
-            Material_Type materialCompany = _companyBll.GetEntity(m => m.Material_Type_Id == Material_Type_Id);
-            return View(materialCompany);
+            Material_Type materialType = _typeBll.GetEntity(m => m.Material_Type_Id == Material_Type_Id);
+            return View(materialType);
         }
 
         public string Delete(string Material_Type_Id)
         {
-            if (_companyBll.DeleteEntity(new List<Material_Type>()
+            if (_typeBll.DeleteEntity(new List<Material_Type>()
             {
-                _companyBll.GetEntity(m=>m.Material_Type_Id == Material_Type_Id)
+                _typeBll.GetEntity(m=>m.Material_Type_Id == Material_Type_Id)
             }))
             {
                 return "OK";

@@ -1,5 +1,4 @@
 ﻿using ZERO.Material.IBll;
-using ZERO.Material.IDal;
 using ZERO.Material.Model;
 
 namespace ZERO.Material.Bll
@@ -8,7 +7,7 @@ namespace ZERO.Material.Bll
     {
         public override void SetBasicDal()
         {
-            BasicDal = UnityContainerHelper.Server<ICompanyDal>();
+            BasicDal = DbSession.CompanyDal();
         }
     }
 }

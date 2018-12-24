@@ -1,5 +1,22 @@
-﻿@{
-    ViewBag.Title = "Index";
+﻿@model List<ZERO.Material.Models.Physical>
+
+@{
+    /**/
+
+    ViewBag.Title = "title";
 }
+
 <div class="container">
+
+    @Ajax.BeginForm("Index", new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new )
+    @foreach (var m in Model)
+    {
+        <div class="well">
+            <div class="col-md-2">
+                <img src="~/Image/干冰.jpg" width="100" height="100" />
+            </div>
+            <div class="col-md-">
+            </div>
+        </div>
+    }
 </div>

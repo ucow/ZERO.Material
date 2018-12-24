@@ -11,22 +11,28 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
-    
+    using Newtonsoft.Json;
     public partial class Material_Base
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Material_Base()
+        {
+            this.Material_Base_Company = new HashSet<Material_Base_Company>();
+            this.Material_Base_Type = new HashSet<Material_Base_Type>();
+        }
+    
         public string Material_Id { get; set; }
         public int Id { get; set; }
         public Nullable<System.DateTime> Update_Time { get; set; }
         public string Material_Name { get; set; }
-        public double Material_Price { get; set; }
-        public double Material_Count { get; set; }
-        public double Material_RemainCont { get; set; }
-        public string Material_CountUnit { get; set; }
-        public string Company_Id { get; set; }
-        public string Type_Id { get; set; }
         public string Material_Remark { get; set; }
+        public byte[] Material_Image { get; set; }
     
-        public virtual Material_Company Material_Company { get; set; }
-        public virtual Material_Type Material_Type { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        [JsonIgnore]
+    public virtual ICollection<Material_Base_Company> Material_Base_Company { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        [JsonIgnore]
+    public virtual ICollection<Material_Base_Type> Material_Base_Type { get; set; }
     }
 }

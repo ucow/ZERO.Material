@@ -1,4 +1,4 @@
-﻿@model ZERO.Material.Model.Material_Base
+﻿@model ZERO.Material.Model.Material_Info
 
 @{
     Layout = null;
@@ -21,6 +21,24 @@
             new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" },
             new { @class = "layui-form" }))
         {
+            if (ViewBag.IsUpdate)
+            {
+                <input type="hidden" name="isUpdate" value="true" />
+            }
+            else
+            {
+                <input type="hidden" name="isUpdate" value="false" />
+            }
+            if (Model == null)
+            {
+                <input type="hidden" name="OldCompanyName" value="" />
+            }
+            else
+            {
+                <input type="hidden" name="OldCompanyName" value="@Model.Company_Name" />
+                <input type="hidden" name="OldTypeName" value="@Model.Material_Type_Name" />
+            }
+
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Id, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
@@ -47,7 +65,7 @@
                         <option value=""></option>
                         @foreach (var type in ViewBag.types)
                         {
-                            if (Model != null && Model.Type_Id == type)
+                            if (Model != null && Model.Material_Type_Name == type)
                             {
                                 <option value="@type" selected>@type</option>
                             }
@@ -90,7 +108,7 @@
                         <option value=""></option>
                         @foreach (var company in ViewBag.companys)
                         {
-                            if (Model != null && Model.Company_Id == company)
+                            if (Model != null && Model.Company_Name == company)
                             {
                                 <option value="@company" selected>@company</option>
                             }
@@ -114,7 +132,6 @@
                     <button type="reset" class="layui-btn layui-btn-primary">重置</button>
                 </div>
             </div>
-
         }
     </div>
 </body>

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using Newtonsoft.Json;
 using ZERO.Material.Command;
@@ -27,13 +24,13 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string List(int page, int limit)
         {
-            List<Material_Company> materialMessages = _companyBll.GetPageEntities(page, limit, (m => m.Company_Id), out var total);
+            List<Material_Company> materialCompanies = _companyBll.GetPageEntities(page, limit, (m => m.Company_Id), out var total);
             var dataJson = new
             {
                 code = 0,
                 msg = "OK",
                 count = total,
-                data = materialMessages
+                data = materialCompanies
             };
             string json = JsonConvert.SerializeObject(dataJson);
             return json;
@@ -43,9 +40,10 @@ namespace ZERO.Material.Backstage.Controllers
         {
             if (string.IsNullOrEmpty(company_Id))
             {
+                ViewBag.IsUpdate = false;
                 return View();
             }
-
+            ViewBag.IsUpdate = true;
             Material_Company materialCompany = _companyBll.GetEntity(m => m.Company_Id == company_Id);
             if (materialCompany == null)
                 return View();
@@ -53,14 +51,19 @@ namespace ZERO.Material.Backstage.Controllers
         }
 
         [HttpPost]
-        public ActionResult Add(Material_Company materialCompany)
+        public ActionResult Add(Material_Company materialCompany, bool isUpdate)
         {
-            if (_companyBll.AddOrUpdateEntity(new List<Material_Company>() { materialCompany }))
+            if (isUpdate)
             {
-                return Content("OK");
+                Material_Company company = _companyBll.Find(materialCompany.Company_Id);
+                company.Company_Name = materialCompany.Company_Name;
+                company.Company_Remark = materialCompany.Company_Remark;
+                return _companyBll.UpdateEntities(new List<Material_Company>() { company }) ? Content("OK") : Content("Error");
             }
-
-            return Content("Error");
+            else
+            {
+                return _companyBll.AddEntities(new List<Material_Company>() { materialCompany }) ? Content("OK") : Content("Error");
+            }
         }
 
         public ActionResult Detail(string company_Id)

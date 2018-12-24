@@ -16,7 +16,7 @@ namespace ZERO.Material.Backstage
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Zero", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

@@ -6,9 +6,13 @@ namespace ZERO.Material.IDal
 {
     public interface IBasicDal<T> where T : class, new()
     {
-        bool AddOrUpdateEntity(List<T> ts);
+        bool AddEntities(List<T> ts);
+
+        bool UpdateEntities(List<T> ts);
 
         bool DeleteEntity(List<T> ts);
+
+        T Find(params object[] keyValues);
 
         T GetEntity(Expression<Func<T, bool>> whereLambda);
 

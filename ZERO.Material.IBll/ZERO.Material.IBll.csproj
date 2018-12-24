@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBaseBll.cs" />
+    <Compile Include="IBaseCompanyBll.cs" />
+    <Compile Include="IBaseInfoBll.cs" />
+    <Compile Include="IBaseTypeBll.cs" />
     <Compile Include="IBasicBll.cs" />
     <Compile Include="ICompanyBll.cs" />
     <Compile Include="ITypeBll.cs" />
