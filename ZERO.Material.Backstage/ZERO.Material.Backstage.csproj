@@ -61,6 +61,7 @@
       <HintPath>..\packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
@@ -321,6 +322,7 @@
     <Content Include="Views\Type\Detail.cshtml" />
     <Content Include="Views\Shared\BeforeLayout.cshtml" />
     <Content Include="Views\Zero\Index.cshtml" />
+    <Content Include="Views\Zero\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

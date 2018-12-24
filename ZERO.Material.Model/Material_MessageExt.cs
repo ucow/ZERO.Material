@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Drawing;
 using ZERO.Material.Model.AttributeCustom;
 
 namespace ZERO.Material.Model
@@ -39,5 +40,7 @@ namespace ZERO.Material.Model
 
         [Display(Name = "备注")]
         public string Material_Remark { get; set; }
+
+        public Image Image { get; set; }
     }
 }

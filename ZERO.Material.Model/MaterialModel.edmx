@@ -83,6 +83,7 @@
           <Property Name="Material_CountUnit" Type="nvarchar" MaxLength="10" Nullable="false" />
           <Property Name="Material_Type_Name" Type="nvarchar(max)" />
           <Property Name="Material_Remark" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Material_Image" Type="image" />
         </EntityType>
         <Association Name="FK_Material_Base_Company_Material_Base">
           <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
@@ -156,7 +157,8 @@
     [Material_Info].[Material_RemainCont] AS [Material_RemainCont], 
     [Material_Info].[Material_CountUnit] AS [Material_CountUnit], 
     [Material_Info].[Material_Type_Name] AS [Material_Type_Name], 
-    [Material_Info].[Material_Remark] AS [Material_Remark]
+    [Material_Info].[Material_Remark] AS [Material_Remark], 
+    [Material_Info].[Material_Image] AS [Material_Image]
     FROM [dbo].[Material_Info] AS [Material_Info]</DefiningQuery>
           </EntitySet>
           <AssociationSet Name="FK_Material_Base_Company_Material_Base" Association="Self.FK_Material_Base_Company_Material_Base">
@@ -344,6 +346,7 @@
           <Property Name="Material_CountUnit" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
           <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
         </Schema>
     </edmx:ConceptualModels>
@@ -413,6 +416,7 @@
           <EntitySetMapping Name="Material_Info">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Info">
               <MappingFragment StoreEntitySet="Material_Info">
+                <ScalarProperty Name="Material_Image" ColumnName="Material_Image" />
                 <ScalarProperty Name="Material_Remark" ColumnName="Material_Remark" />
                 <ScalarProperty Name="Material_Type_Name" ColumnName="Material_Type_Name" />
                 <ScalarProperty Name="Material_CountUnit" ColumnName="Material_CountUnit" />

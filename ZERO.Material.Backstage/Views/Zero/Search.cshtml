@@ -1,0 +1,52 @@
+﻿@using System.Drawing
+@using ZERO.Material.Command
+@model List<ZERO.Material.Model.Material_Info>
+
+@functions {
+    private Image GetImageByBytes(byte[] buffer)
+    {
+        return ParseHelper.ParseBytesToImage(buffer);
+    }
+
+}
+
+@{
+    /**/
+
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/BeforeLayout.cshtml";
+}
+
+<div class="container">
+    <div class="col-md-12">
+        @foreach (var item in Model)
+        {
+            <div class="well col-md-2">
+                <div><img src="@GetImageByBytes(item.Material_Image)" /> </div>
+                <div style="font-size:15px "> <strong>@item.Material_Name.Replace("授权代理商", "")</strong></div>
+                <div style="font-size:8px ">编号：@item.Material_Id</div>
+                <div style="font-size:8px ">公司：@item.Company_Name</div>
+                <div><div style="font-size:15px "> <strong>￥@item.Material_Price</strong></div></div>
+                <div><button class="btn btn-primary" type="button">申请</button></div>
+            </div>
+
+        }
+    </div>
+    <div>
+        <ul class="pagination">
+            <li><a href="Search?material=@ViewBag.material&index=@(ViewBag.index-1)">&laquo;</a></li>
+            @for (int i = 0; i < ViewBag.total; i++)
+            {
+                if (i == ViewBag.index)
+                {
+                    <li class="active"><a href="Search?material=@ViewBag.material&index=@i">@(i + 1)</a></li>
+                }
+                else
+                {
+                    <li><a href="Search?material=@ViewBag.material&index=@i">@(i + 1)</a></li>
+                }
+            }
+            <li><a href="Search?material=@ViewBag.material&index=@(ViewBag.index+1)">&raquo;</a></li>
+        </ul>
+    </div>
+</div>
