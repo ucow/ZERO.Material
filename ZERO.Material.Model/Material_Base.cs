@@ -26,7 +26,7 @@ namespace ZERO.Material.Model
         public Nullable<System.DateTime> Update_Time { get; set; }
         public string Material_Name { get; set; }
         public string Material_Remark { get; set; }
-        public byte[] Material_Image { get; set; }
+        public string Material_Image { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         [JsonIgnore]

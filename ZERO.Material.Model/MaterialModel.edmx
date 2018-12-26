@@ -14,7 +14,7 @@
           <Property Name="Update_Time" Type="datetime" />
           <Property Name="Material_Name" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Material_Remark" Type="nvarchar(max)" Nullable="false" />
-          <Property Name="Material_Image" Type="image" />
+          <Property Name="Material_Image" Type="varchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="Material_Base_Company">
           <Key>
@@ -83,22 +83,8 @@
           <Property Name="Material_CountUnit" Type="nvarchar" MaxLength="10" Nullable="false" />
           <Property Name="Material_Type_Name" Type="nvarchar(max)" />
           <Property Name="Material_Remark" Type="nvarchar(max)" Nullable="false" />
-          <Property Name="Material_Image" Type="image" />
+          <Property Name="Material_Image" Type="varchar" MaxLength="100" />
         </EntityType>
-        <Association Name="FK_Material_Base_Company_Material_Base">
-          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
-            <OnDelete Action="Cascade" />
-          </End>
-          <End Role="Material_Base_Company" Type="Self.Material_Base_Company" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Material_Base">
-              <PropertyRef Name="Material_Id" />
-            </Principal>
-            <Dependent Role="Material_Base_Company">
-              <PropertyRef Name="Material_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="FK_Material_Base_Company_Material_Company">
           <End Role="Material_Company" Type="Self.Material_Company" Multiplicity="1">
             <OnDelete Action="Cascade" />
@@ -110,20 +96,6 @@
             </Principal>
             <Dependent Role="Material_Base_Company">
               <PropertyRef Name="Company_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_Material_Base_Type_Material_Base">
-          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
-            <OnDelete Action="Cascade" />
-          </End>
-          <End Role="Material_Base_Type" Type="Self.Material_Base_Type" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Material_Base">
-              <PropertyRef Name="Material_Id" />
-            </Principal>
-            <Dependent Role="Material_Base_Type">
-              <PropertyRef Name="Material_Id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -161,17 +133,9 @@
     [Material_Info].[Material_Image] AS [Material_Image]
     FROM [dbo].[Material_Info] AS [Material_Info]</DefiningQuery>
           </EntitySet>
-          <AssociationSet Name="FK_Material_Base_Company_Material_Base" Association="Self.FK_Material_Base_Company_Material_Base">
-            <End Role="Material_Base" EntitySet="Material_Base" />
-            <End Role="Material_Base_Company" EntitySet="Material_Base_Company" />
-          </AssociationSet>
           <AssociationSet Name="FK_Material_Base_Company_Material_Company" Association="Self.FK_Material_Base_Company_Material_Company">
             <End Role="Material_Company" EntitySet="Material_Company" />
             <End Role="Material_Base_Company" EntitySet="Material_Base_Company" />
-          </AssociationSet>
-          <AssociationSet Name="FK_Material_Base_Type_Material_Base" Association="Self.FK_Material_Base_Type_Material_Base">
-            <End Role="Material_Base" EntitySet="Material_Base" />
-            <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
           </AssociationSet>
           <AssociationSet Name="FK_Material_Base_Type_Material_Type" Association="Self.FK_Material_Base_Type_Material_Type">
             <End Role="Material_Type" EntitySet="Material_Type" />
@@ -215,7 +179,7 @@
           <Property Name="Update_Time" Type="DateTime" Precision="3" />
           <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Material_Image" Type="String" />
           <NavigationProperty Name="Material_Base_Company" Relationship="ZERO_MaterialModel.FK_Material_Base_Company_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Company" />
           <NavigationProperty Name="Material_Base_Type" Relationship="ZERO_MaterialModel.FK_Material_Base_Type_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Type" />
         </EntityType>
@@ -346,7 +310,7 @@
           <Property Name="Material_CountUnit" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
           <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Material_Image" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         </Schema>
     </edmx:ConceptualModels>

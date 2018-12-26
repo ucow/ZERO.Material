@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZERO.Material.Model", "ZERO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZERO.Material.Dal.Factory", "ZERO.Material.Dal.Factory\ZERO.Material.Dal.Factory.csproj", "{7C72238F-68E7-4D34-B7EA-A9ADBC8D02BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZERO.Material", "ZERO.Material\ZERO.Material.csproj", "{C17A1F0A-E30C-4A84-96C5-503CF943777D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,10 +57,6 @@ Global
 		{7C72238F-68E7-4D34-B7EA-A9ADBC8D02BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C72238F-68E7-4D34-B7EA-A9ADBC8D02BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C72238F-68E7-4D34-B7EA-A9ADBC8D02BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C17A1F0A-E30C-4A84-96C5-503CF943777D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C17A1F0A-E30C-4A84-96C5-503CF943777D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C17A1F0A-E30C-4A84-96C5-503CF943777D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C17A1F0A-E30C-4A84-96C5-503CF943777D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

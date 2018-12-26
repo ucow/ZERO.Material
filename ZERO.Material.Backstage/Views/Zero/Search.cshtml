@@ -19,20 +19,95 @@
 
 <div class="container">
     <div class="col-md-12">
+        <div class="panel panel-default col-md-12">
+            <div class="panel-body">
+                <span>
+                    公司：
+                </span>
+                <span>
+                    @foreach (var item in ViewBag.companies)
+                    {
+                        <button type="button" class="btn btn-link">@item</button>
+                    }
+                </span>
+            </div>
+            <div class="panel-body">
+                <span>
+                    种类：
+                </span>
+                <span>
+                    @foreach (var item in ViewBag.types)
+                    {
+                        <button type="button" class="btn btn-link">@item</button>
+                    }
+                </span>
+            </div>
+            <div class="panel-body">
+                <span>
+                    规格：
+                </span>
+                <span>
+                    @foreach (var item in ViewBag.sizes)
+                    {
+                        <button type="button" class="btn btn-link">@item</button>
+                    }
+                </span>
+            </div>
+        </div>
+
         @foreach (var item in Model)
         {
-            <div class="well col-md-2">
-                <div><img src="@GetImageByBytes(item.Material_Image)" /> </div>
-                <div style="font-size:15px "> <strong>@item.Material_Name.Replace("授权代理商", "")</strong></div>
-                <div style="font-size:8px ">编号：@item.Material_Id</div>
-                <div style="font-size:8px ">公司：@item.Company_Name</div>
-                <div><div style="font-size:15px "> <strong>￥@item.Material_Price</strong></div></div>
-                <div><button class="btn btn-primary" type="button">申请</button></div>
+            <div class="panel panel-default col-md-12">
+                <div class="panel-body">
+
+                    <table width="100%">
+                        <tbody>
+                            <tr>
+                                <td style="width: 20%; text-align: center">
+                                    <img style="text-align: center" width="150" height="150" src="@item.Material_Image" />
+                                </td>
+                                <td style="width: 20%; text-align: center">
+                                    <span style="font-size: 15px"> <strong>@item.Material_Name.Replace("授权代理商", "").Split('_')[0]</strong></span>
+                                </td>
+                                <td style="width: 15%; text-align: center">
+                                    <span style="font-size: 8px">@item.Material_Id</span>
+                                </td>
+                                <td style="width: 15%; text-align: center">
+                                    <span style="font-size: 8px">@item.Company_Name</span>
+                                </td>
+                                <td style="width: 10%; text-align: center">
+                                    <span style="font-size: 15px"> <strong>￥@item.Material_Price</strong></span>
+                                </td>
+                                <td style="width: 10%; text-align: center">
+                                    <div class="input-group ">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default btn-Add" type="button">+</button>
+                                        </span>
+                                        <input type="text" class="form-control count" value="0">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default btn-Subs" type="button">-</button>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td style="width: 10%; text-align: center">
+                                    <span>
+                                        <button class="btn btn-primary" type="button">申请</button><br /><br />
+                                        <button style="margin-right: 0px" type="button" class="btn btn-default btn-danger btn-xs">加入我的器材</button>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <span> </span>
+
+                    <span>
+                    </span>
+                </div>
             </div>
 
         }
     </div>
-    <div>
+    <div style="text-align: center;margin-bottom: 50px;">
         <ul class="pagination">
             <li><a href="Search?material=@ViewBag.material&index=@(ViewBag.index-1)">&laquo;</a></li>
             @for (int i = 0; i < ViewBag.total; i++)
@@ -50,3 +125,31 @@
         </ul>
     </div>
 </div>
+
+<script type="text/javascript">
+
+    $('.count').on('input',
+        function () {
+
+            if (isNaN(this.value)) {
+                alert("请输入数字");
+                this.value = 0;
+            }
+        });
+
+    $('.btn-Add').on('click', function () {
+        var value = this.parentNode.nextElementSibling.value;
+        value++;
+        alert(value);
+        this.parentNode.nextElementSibling.value = value;
+    });
+
+    $('.btn-Subs').on('click', function () {
+        var value = this.parentNode.previousElementSibling.value;
+        value--;
+        if (value < 0) {
+            value = 0;
+        }
+        this.parentNode.previousElementSibling.value = value;
+    });
+</script>

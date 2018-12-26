@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
     @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -43,10 +44,10 @@
                 </div>
                 <div>
                     <span>常用搜索：</span>
-                    @Html.ActionLink("培养皿", "Search", new { @material = "培养皿", @index = 1 }, new { @class = "btn btn-link" }) |
-                    @Html.ActionLink("温度计", "Search", new { @material = "温度计", @index = 1 }, new { @class = "btn btn-link" }) |
-                    @Html.ActionLink("广口瓶", "Search", new { @material = "广口瓶", @index = 1 }, new { @class = "btn btn-link" }) |
-                    @Html.ActionLink("清洁刷", "Search", new { @material = "清洁刷", @index = 1 }, new { @class = "btn btn-link" }) |
+                    @Html.ActionLink("培养皿", "Search", new { @material = "培养皿", @index = 0 }, new { @class = "btn btn-link" }) |
+                    @Html.ActionLink("温度计", "Search", new { @material = "温度计", @index = 0 }, new { @class = "btn btn-link" }) |
+                    @Html.ActionLink("广口瓶", "Search", new { @material = "广口瓶", @index = 0 }, new { @class = "btn btn-link" }) |
+                    @Html.ActionLink("清洁刷", "Search", new { @material = "清洁刷", @index = 0 }, new { @class = "btn btn-link" }) |
                 </div>
             </div>
         </div>
@@ -54,10 +55,9 @@
     <div style="background-color:azure;width: 100%">
         <div class="container">
             <ul class="nav nav-pills">
-                <li><a href='#'>物理实验器材</a></li>
-                <li><a href='#'>生物实验器材</a></li>
-                <li><a href='#'>化学实验器材</a></li>
-                <li><a href='#'>其他实验器材</a></li>
+                <li><a href='#'>首页</a></li>
+                <li><a href='#'>实验器材</a></li>
+                <li><a href='#'>供应商</a></li>
             </ul>
         </div>
     </div>
@@ -76,7 +76,7 @@
     <script type="text/javascript">
         $('#btnSearch').on('click',
             function () {
-                location.href = "Search?material=" + $('#txtMaterial').val();
+                location.href = "Search?material=" + $('#txtMaterial').val() + "&index=0";
             });
     </script>
 </body>
