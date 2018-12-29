@@ -67,7 +67,7 @@
                                     <img style="text-align: center" width="150" height="150" src="@item.Material_Image" />
                                 </td>
                                 <td style="width: 20%; text-align: center">
-                                    <span style="font-size: 15px"> <strong>@item.Material_Name.Replace("授权代理商", "").Split('_')[0]</strong></span>
+                                    <span style="font-size: 15px"> <strong>@item.Material_Name.Replace("授权代理商", "").Replace("?", "™")</strong></span>
                                 </td>
                                 <td style="width: 15%; text-align: center">
                                     <span style="font-size: 8px">@item.Material_Id</span>
@@ -140,7 +140,6 @@
     $('.btn-Add').on('click', function () {
         var value = this.parentNode.nextElementSibling.value;
         value++;
-        alert(value);
         this.parentNode.nextElementSibling.value = value;
     });
 

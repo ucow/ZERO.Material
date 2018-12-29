@@ -20,8 +20,10 @@ namespace ZERO.Material.Model
         public string Material_Id { get; set; }
         public double Material_Price { get; set; }
         public double Material_Count { get; set; }
+        public string Material_Size { get; set; }
         public double Material_RemainCont { get; set; }
         public string Material_CountUnit { get; set; }
+        public string Material_UnitWeight { get; set; }
     
         [JsonIgnore]
     public virtual Material_Base Material_Base { get; set; }

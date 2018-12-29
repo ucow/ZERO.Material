@@ -15,6 +15,7 @@ namespace ZERO.Material.Backstage.Controllers
     {
         private static readonly UnityContainerHelper Container = new UnityContainerHelper();
         private IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
+        private ITypeBll _typeBll = Container.Server<ITypeBll>();
 
         public ActionResult Index()
         {
@@ -39,6 +40,24 @@ namespace ZERO.Material.Backstage.Controllers
             ViewBag.material = material;
             ViewBag.index = index;
             return View(infos);
+        }
+
+        public ActionResult MaterialInfos()
+        {
+            List<string> types = _typeBll.GetEntities(m => true).Select(m => m.Material_Type_Name).Distinct().ToList();
+            Dictionary<string, List<Material_Info>> infoDictionary = new Dictionary<string, List<Material_Info>>();
+            foreach (string type in types)
+            {
+                infoDictionary.Add(type, _infoBll.GetEntities(m => m.Material_Type_Name == type).Distinct().Take(10).ToList());
+            }
+
+            return View(infoDictionary);
+        }
+
+        public ActionResult MaterialInfo(string id)
+        {
+            Material_Info materialInfo = _infoBll.GetEntity(m => m.Material_Id == id);
+            return View(materialInfo);
         }
     }
 }

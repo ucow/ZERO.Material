@@ -21,6 +21,8 @@ namespace ZERO.Material.Model
         public double Material_Count { get; set; }
         public double Material_RemainCont { get; set; }
         public string Material_CountUnit { get; set; }
+        public string Material_UnitWeight { get; set; }
+        public string Material_Size { get; set; }
         public string Material_Type_Name { get; set; }
         public string Material_Remark { get; set; }
         public string Material_Image { get; set; }

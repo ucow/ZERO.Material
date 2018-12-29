@@ -44,10 +44,10 @@
                 </div>
                 <div>
                     <span>常用搜索：</span>
-                    @Html.ActionLink("培养皿", "Search", new { @material = "培养皿", @index = 0 }, new { @class = "btn btn-link" }) |
-                    @Html.ActionLink("温度计", "Search", new { @material = "温度计", @index = 0 }, new { @class = "btn btn-link" }) |
-                    @Html.ActionLink("广口瓶", "Search", new { @material = "广口瓶", @index = 0 }, new { @class = "btn btn-link" }) |
-                    @Html.ActionLink("清洁刷", "Search", new { @material = "清洁刷", @index = 0 }, new { @class = "btn btn-link" }) |
+                    @Html.ActionLink("培养皿", "Search", "Zero", new { @material = "培养皿", @index = 0 }, new { @class = "btn btn-link" }) |
+                    @Html.ActionLink("温度计", "Search", "Zero", new { @material = "温度计", @index = 0 }, new { @class = "btn btn-link" }) |
+                    @Html.ActionLink("广口瓶", "Search", "Zero", new { @material = "广口瓶", @index = 0 }, new { @class = "btn btn-link" }) |
+                    @Html.ActionLink("清洁刷", "Search", "Zero", new { @material = "清洁刷", @index = 0 }, new { @class = "btn btn-link" }) |
                 </div>
             </div>
         </div>
@@ -56,7 +56,9 @@
         <div class="container">
             <ul class="nav nav-pills">
                 <li><a href='#'>首页</a></li>
-                <li><a href='#'>实验器材</a></li>
+                <li>
+                    @Html.ActionLink("实验器材", "MaterialInfos", "Zero")
+                </li>
                 <li><a href='#'>供应商</a></li>
             </ul>
         </div>

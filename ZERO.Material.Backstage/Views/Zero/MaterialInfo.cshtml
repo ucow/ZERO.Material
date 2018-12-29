@@ -1,0 +1,125 @@
+﻿@model ZERO.Material.Model.Material_Info
+
+@{
+    ViewBag.Title = "MaterialInfo";
+    Layout = "~/Views/Shared/BeforeLayout.cshtml";
+}
+<style>
+    td {
+        text-align: center;
+        border: 0;
+        border-right: 1px dashed #ddd;
+        padding: 5px
+    }
+</style>
+
+<div class="container">
+    <div class="col-md-4">
+        <img src="@Model.Material_Image" width="100%" height="100%" style="margin: 50px 100px 100px 0" />
+    </div>
+    <div class="col-md-8">
+        <div style="margin-top: 20px">
+            <span style="font-size:20px ;font-weight:bold;"> @Model.Material_Name.Replace("授权代理商", "").Replace("?", "™")</span><br />
+            <span>@Model.Material_Size</span>
+        </div>
+        <hr>
+        <span style="font-weight: bold">市场价：</span><span>￥@Model.Material_Price</span>
+        <hr>
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>编号</td>
+                    <td>品牌</td>
+                    <td>单位重量</td>
+                    <td style="border: 0px">器材总量</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.Material_Id</td>
+                    <td>@Model.Company_Name</td>
+                    <td>@Model.Material_UnitWeight</td>
+                    <td style="border-right: 0">@Model.Material_Count</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <span>单位：@Html.Raw(Model.Material_CountUnit)</span>&nbsp;&nbsp;&nbsp;
+        <span>包装：@Html.Raw(Model.Material_CountUnit)</span>&nbsp;&nbsp;&nbsp;
+        <span>库存：@Model.Material_RemainCont</span>
+        <hr />
+        <table>
+            <tr>
+                <td style="width: 10%; border: 0;text-align: left"><span>数量：</span></td>
+                <td style="width: 20%; border: 0;text-align: left">
+                    <div class="input-group ">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default btn-Add" type="button">+</button>
+                        </span>
+                        <input type="text" class="form-control count" value="0" style="text-align: center">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default btn-Subs" type="button">-</button>
+                        </span>
+                    </div>
+                </td>
+                <td style="width: 25%; border: 0;text-align: left"></td>
+                <td style="width: 25%; border: 0;text-align: left"></td>
+                <td style="width: 25%; border: 0;text-align: left"></td>
+            </tr>
+        </table>
+
+        <hr />
+        <div>
+            <button type="button" class="btn btn-primary btn-lg">申请</button>
+            <button type="button" class="btn btn-default btn-lg">加入我的器材</button>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active">
+                <a href="#home" data-toggle="tab">
+                    器材详情
+                </a>
+            </li>
+            <li><a href="#ios" data-toggle="tab">器材参数</a></li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="home">
+                @Html.Raw(Model.Material_Remark)
+            </div>
+            <div class="tab-pane fade" id="ios">
+                <p>暂无参数</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.count').on('input',
+        function () {
+
+            if (isNaN(this.value)) {
+                alert("请输入数字");
+                this.value = 0;
+            }
+        });
+
+    $('.btn-Add').on('click', function () {
+        var value = this.parentNode.nextElementSibling.value;
+        value++;
+        this.parentNode.nextElementSibling.value = value;
+    });
+
+    $('.btn-Subs').on('click', function () {
+        var value = this.parentNode.previousElementSibling.value;
+        value--;
+        if (value < 0) {
+            value = 0;
+        }
+        this.parentNode.previousElementSibling.value = value;
+    });
+    $(function () {
+        $('#myTab li:eq(1) a').tab('show');
+    });
+</script>
