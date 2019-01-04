@@ -1,7 +1,6 @@
 ﻿@model ZERO.Material.Model.Material_Info
 
 @{
-    ViewBag.Title = "MaterialInfo";
     Layout = "~/Views/Shared/BeforeLayout.cshtml";
 }
 <style>
@@ -14,12 +13,21 @@
 </style>
 
 <div class="container">
+    <ul class="breadcrumb" style="margin-bottom: 0;background-color: white">
+        <li>@Html.ActionLink("首页", "Index")</li>
+        <li>@Html.ActionLink("实验器材", "MaterialInfos")</li>
+        @while (ViewBag.AllTypes.Count > 0)
+        {
+            <li><a href="#">@ViewBag.AllTypes.Pop()</a></li>
+        }
+        <li class="active">@ViewBag.Title</li>
+    </ul>
     <div class="col-md-4">
         <img src="@Model.Material_Image" width="100%" height="100%" style="margin: 50px 100px 100px 0" />
     </div>
     <div class="col-md-8">
         <div style="margin-top: 20px">
-            <span style="font-size:20px ;font-weight:bold;"> @Model.Material_Name.Replace("授权代理商", "").Replace("?", "™")</span><br />
+            <span style="font-size: 20px; font-weight: bold;"> @Model.Material_Name.Replace("授权代理商", "").Replace("?", "™")</span><br />
             <span>@Model.Material_Size</span>
         </div>
         <hr>
@@ -50,8 +58,8 @@
         <hr />
         <table>
             <tr>
-                <td style="width: 10%; border: 0;text-align: left"><span>数量：</span></td>
-                <td style="width: 20%; border: 0;text-align: left">
+                <td style="width: 10%; border: 0; text-align: left"><span>数量：</span></td>
+                <td style="width: 20%; border: 0; text-align: left">
                     <div class="input-group ">
                         <span class="input-group-btn">
                             <button class="btn btn-default btn-Add" type="button">+</button>
@@ -62,15 +70,16 @@
                         </span>
                     </div>
                 </td>
-                <td style="width: 25%; border: 0;text-align: left"></td>
-                <td style="width: 25%; border: 0;text-align: left"></td>
-                <td style="width: 25%; border: 0;text-align: left"></td>
+
+                <td style="width: 25%; border: 0; text-align: left"></td>
+                <td style="width: 25%; border: 0; text-align: left"></td>
+                <td style="width: 25%; border: 0; text-align: left"></td>
             </tr>
         </table>
 
         <hr />
         <div>
-            <button type="button" class="btn btn-primary btn-lg">申请</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick="location.href='index'">申请</button>
             <button type="button" class="btn btn-default btn-lg">加入我的器材</button>
         </div>
     </div>
@@ -82,13 +91,17 @@
                     器材详情
                 </a>
             </li>
-            <li><a href="#ios" data-toggle="tab">器材参数</a></li>
+            <li>
+                <a href="#ios" data-toggle="tab">
+                    器材参数
+                </a>
+            </li>
         </ul>
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade in active" id="home">
                 @Html.Raw(Model.Material_Remark)
             </div>
-            <div class="tab-pane fade" id="ios">
+            <div class="tab-pane fade " id="ios">
                 <p>暂无参数</p>
             </div>
         </div>
@@ -120,6 +133,6 @@
         this.parentNode.previousElementSibling.value = value;
     });
     $(function () {
-        $('#myTab li:eq(1) a').tab('show');
+        $('#myTab li:eq(0) a').tab('show');
     });
 </script>

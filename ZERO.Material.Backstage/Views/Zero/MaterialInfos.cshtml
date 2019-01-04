@@ -1,20 +1,27 @@
 ﻿@model Dictionary<string, List<ZERO.Material.Model.Material_Info>>
 
 @{
-    ViewBag.Title = "MaterialInfos";
+    ViewBag.Title = "实验器材";
     Layout = "~/Views/Shared/BeforeLayout.cshtml";
 }
-<div class="container">
+<div class="container" style="padding-top: 10px">
+
     @foreach (var key in Model.Keys)
     {
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">
-                    @key
+                <h3 class="panel-title" style="font-weight: bold">
+                    <a href="#" style="color: black">
+                        @key
+                    </a>
+                    @foreach (var item in ViewBag.childtypes[key])
+                    {
+                        <span style="font-size: 10px; font-weight: normal">&nbsp;<a href="#" style="color: black">@item</a>&nbsp;</span>
+                    }
                 </h3>
             </div>
             <div class="panel-body">
-                <table style="width:100%">
+                <table style="width: 100%">
                     <tbody>
                         @for (int i = 0; i < 2; i++)
                         {

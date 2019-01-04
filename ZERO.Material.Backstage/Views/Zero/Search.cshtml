@@ -1,23 +1,16 @@
-﻿@using System.Drawing
-@using ZERO.Material.Command
-@model List<ZERO.Material.Model.Material_Info>
-
-@functions {
-    private Image GetImageByBytes(byte[] buffer)
-    {
-        return ParseHelper.ParseBytesToImage(buffer);
-    }
-
-}
+﻿@model List<ZERO.Material.Model.Material_Info>
 
 @{
     /**/
-
-    ViewBag.Title = "Search";
     Layout = "~/Views/Shared/BeforeLayout.cshtml";
 }
 
 <div class="container">
+    @if (Model == null)
+    {
+        @Html.Label($"未找到{@ViewBag.Title}");
+        return;
+    }
     <div class="col-md-12">
         <div class="panel panel-default col-md-12">
             <div class="panel-body">
@@ -27,7 +20,8 @@
                 <span>
                     @foreach (var item in ViewBag.companies)
                     {
-                        <button type="button" class="btn btn-link">@item</button>
+                        string url = $"Search?material={ViewBag.Title}_{item}&index=0";
+                        <button type="button" class="btn btn-link" onclick="location.href ='@url'">@item</button>
                     }
                 </span>
             </div>
@@ -38,21 +32,31 @@
                 <span>
                     @foreach (var item in ViewBag.types)
                     {
-                        <button type="button" class="btn btn-link">@item</button>
+                        string url = "";
+                        if (ViewBag.Title.Split('_').Length >= 2)
+                        {
+                            url = $"Search?material={ViewBag.Title}_{item}&index=0";
+                        }
+                        else
+                        {
+                            url = $"Search?material={ViewBag.Title}__{item}&index=0";
+                        }
+
+                        <button type="button" class="btn btn-link" onclick="location.href='@url'">@item</button>
                     }
                 </span>
             </div>
-            <div class="panel-body">
-                <span>
-                    规格：
-                </span>
-                <span>
-                    @foreach (var item in ViewBag.sizes)
-                    {
-                        <button type="button" class="btn btn-link">@item</button>
-                    }
-                </span>
-            </div>
+            @*<div class="panel-body">
+                    <span>
+                        规格：
+                    </span>
+                    <span>
+                        @foreach (var item in ViewBag.sizes)
+                        {
+                            <button type="button" class="btn btn-link">@item</button>
+                        }
+                    </span>
+                </div>*@
         </div>
 
         @foreach (var item in Model)
@@ -67,7 +71,7 @@
                                     <img style="text-align: center" width="150" height="150" src="@item.Material_Image" />
                                 </td>
                                 <td style="width: 20%; text-align: center">
-                                    <span style="font-size: 15px"> <strong>@item.Material_Name.Replace("授权代理商", "").Replace("?", "™")</strong></span>
+                                    <span style="font-size: 15px"> <strong>@Html.ActionLink(item.Material_Name.Replace("授权代理商", "").Replace("?", "™"), "MaterialInfo", new { @id = item.Material_Id })</strong></span>
                                 </td>
                                 <td style="width: 15%; text-align: center">
                                     <span style="font-size: 8px">@item.Material_Id</span>
@@ -107,21 +111,21 @@
 
         }
     </div>
-    <div style="text-align: center;margin-bottom: 50px;">
+    <div style="text-align: center; margin-bottom: 50px;">
         <ul class="pagination">
-            <li><a href="Search?material=@ViewBag.material&index=@(ViewBag.index-1)">&laquo;</a></li>
+            <li><a href="Search?material=@ViewBag.Title&index=@(ViewBag.index - 1)">&laquo;</a></li>
             @for (int i = 0; i < ViewBag.total; i++)
             {
                 if (i == ViewBag.index)
                 {
-                    <li class="active"><a href="Search?material=@ViewBag.material&index=@i">@(i + 1)</a></li>
+                    <li class="active"><a href="Search?material=@ViewBag.Title&index=@i">@(i + 1)</a></li>
                 }
                 else
                 {
-                    <li><a href="Search?material=@ViewBag.material&index=@i">@(i + 1)</a></li>
+                    <li><a href="Search?material=@ViewBag.Title&index=@i">@(i + 1)</a></li>
                 }
             }
-            <li><a href="Search?material=@ViewBag.material&index=@(ViewBag.index+1)">&raquo;</a></li>
+            <li><a href="Search?material=@ViewBag.Title&index=@(ViewBag.index + 1)">&raquo;</a></li>
         </ul>
     </div>
 </div>
@@ -151,4 +155,10 @@
         }
         this.parentNode.previousElementSibling.value = value;
     });
+
+    $('btn-company').on('click',
+        function () {
+            var url = "search?material=" + @ViewBag.Title + "_" + this.innerText + "&index=0";
+            location.href(url);
+        });
 </script>
