@@ -18,35 +18,70 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
-        public ActionResult Search(string material, int index)
+        public ActionResult Search(string material, string type,string company, int index)
         {
             ViewBag.Title = material;
-            string[] filter = material.Split('_');
+            ViewBag.material = material;
+            ViewBag.type = type;
+            ViewBag.company = company;
             List<Material_Info> materialInfos = new List<Material_Info>();
-            string name = filter[0];
-            if (filter.Length >= 2)
+            if (string.IsNullOrWhiteSpace(material))
             {
-                if (filter[1].Length != 0)
+                if (string.IsNullOrWhiteSpace(type))
                 {
-                    string company = filter[1];
-                    if (filter.Length >= 3)
+                    if (string.IsNullOrWhiteSpace(company))
                     {
-                        if (filter[2].Length != 0)
-                        {
-                            string type = filter[2];
-                            materialInfos.AddRange(_infoBll.GetEntities(m => m.Material_Name.Contains(name) && m.Company_Name == company && m.Material_Type_Name == type).Distinct().ToList());
-                        }
+                        return View();
                     }
                     else
                     {
-                        materialInfos.AddRange(_infoBll.GetEntities(m => m.Material_Name.Contains(name) && m.Company_Name == company).Distinct().ToList());
+                        materialInfos.AddRange(_infoBll.GetEntities(m=>m.Company_Name == company));
+                    }
+                }
+                else
+                {
+                    List<string> typeNames = new List<string>();
+                    GetChildTypes(typeNames,type);
+                    if (string.IsNullOrWhiteSpace(company))
+                    {
+                       materialInfos.AddRange(_infoBll.GetEntities(m=>typeNames.Contains(type)));
+                    }
+                    else
+                    {
+                        materialInfos.AddRange(_infoBll.GetEntities(m => typeNames.Contains(m.Material_Type_Name)&&m.Company_Name == company));
                     }
                 }
             }
             else
             {
-                materialInfos.AddRange(_infoBll.GetEntities(m => m.Material_Name.Contains(name)).Distinct().ToList());
+                if (string.IsNullOrWhiteSpace(type))
+                {
+                    if (string.IsNullOrWhiteSpace(company))
+                    {
+                        materialInfos.AddRange(_infoBll.GetEntities(m=>m.Material_Name.Contains(material)));
+                    }
+                    else
+                    {
+                        materialInfos.AddRange(_infoBll.GetEntities(m=> m.Material_Name.Contains(material) && m.Company_Name == company));
+                    }
+                }
+                else
+                {
+                    List<string> typeNames = new List<string>();
+                    GetChildTypes(typeNames, type);
+                    if (string.IsNullOrWhiteSpace(company))
+                    {
+                        materialInfos.AddRange(_infoBll.GetEntities(m => typeNames.Contains(type) && m.Material_Name.Contains(material)));
+                    }
+                    else
+                    {
+                        materialInfos.AddRange(_infoBll.GetEntities(m => typeNames.Contains(m.Material_Type_Name) && m.Company_Name == company && m.Material_Name.Contains(material)));
+                    }
+                }
+
             }
+
+
 
             //            List<Material_Info> materialInfos = _infoBll.GetEntities(m => m.Material_Name.Contains(material)).Distinct().ToList();
 
@@ -140,6 +175,24 @@ namespace ZERO.Material.Backstage.Controllers
                 string name = _typeBll.GetEntity(m => m.Material_Type_Id == materialType.Material_Type_Parent_Id).Material_Type_Name;
                 materType.Push(name);
                 GetAllTypes(materType, name);
+            }
+        }
+
+        private void GetChildTypes(List<string> childName, string typeName)
+        {
+            string typeId = _typeBll.GetEntity(m => m.Material_Type_Name == typeName).Material_Type_Id;
+            List<string> typeNames = _typeBll.GetEntities(m => m.Material_Type_Parent_Id == typeId)
+                .Select(m => m.Material_Type_Name).ToList();
+            if (typeNames.Count == 0)
+            {
+                childName.Add(typeName);
+            }
+            else
+            {
+                foreach (string name in typeNames)
+                {
+                    GetChildTypes(childName, name);
+                }
             }
         }
     }
