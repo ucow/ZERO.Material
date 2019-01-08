@@ -18,7 +18,7 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
-        public ActionResult Search(string material, string type,string company, int index)
+        public ActionResult Search(string material, string type, string company, int index)
         {
             ViewBag.Title = material;
             ViewBag.material = material;
@@ -35,53 +35,38 @@ namespace ZERO.Material.Backstage.Controllers
                     }
                     else
                     {
-                        materialInfos.AddRange(_infoBll.GetEntities(m=>m.Company_Name == company));
-                    }
-                }
-                else
-                {
-                    List<string> typeNames = new List<string>();
-                    GetChildTypes(typeNames,type);
-                    if (string.IsNullOrWhiteSpace(company))
-                    {
-                       materialInfos.AddRange(_infoBll.GetEntities(m=>typeNames.Contains(type)));
-                    }
-                    else
-                    {
-                        materialInfos.AddRange(_infoBll.GetEntities(m => typeNames.Contains(m.Material_Type_Name)&&m.Company_Name == company));
-                    }
-                }
-            }
-            else
-            {
-                if (string.IsNullOrWhiteSpace(type))
-                {
-                    if (string.IsNullOrWhiteSpace(company))
-                    {
-                        materialInfos.AddRange(_infoBll.GetEntities(m=>m.Material_Name.Contains(material)));
-                    }
-                    else
-                    {
-                        materialInfos.AddRange(_infoBll.GetEntities(m=> m.Material_Name.Contains(material) && m.Company_Name == company));
+                        materialInfos.AddRange(_infoBll.GetEntities(m => m.Company_Name == company));
                     }
                 }
                 else
                 {
                     List<string> typeNames = new List<string>();
                     GetChildTypes(typeNames, type);
-                    if (string.IsNullOrWhiteSpace(company))
-                    {
-                        materialInfos.AddRange(_infoBll.GetEntities(m => typeNames.Contains(type) && m.Material_Name.Contains(material)));
-                    }
-                    else
-                    {
-                        materialInfos.AddRange(_infoBll.GetEntities(m => typeNames.Contains(m.Material_Type_Name) && m.Company_Name == company && m.Material_Name.Contains(material)));
-                    }
+                    materialInfos.AddRange(string.IsNullOrWhiteSpace(company)
+                        ? _infoBll.GetEntities(m => typeNames.Contains(m.Material_Type_Name))
+                        : _infoBll.GetEntities(m =>
+                            typeNames.Contains(m.Material_Type_Name) && m.Company_Name == company));
                 }
-
             }
-
-
+            else
+            {
+                if (string.IsNullOrWhiteSpace(type))
+                {
+                    materialInfos.AddRange(string.IsNullOrWhiteSpace(company)
+                        ? _infoBll.GetEntities(m => m.Material_Name.Contains(material))
+                        : _infoBll.GetEntities(m => m.Material_Name.Contains(material) && m.Company_Name == company));
+                }
+                else
+                {
+                    List<string> typeNames = new List<string>();
+                    GetChildTypes(typeNames, type);
+                    materialInfos.AddRange(string.IsNullOrWhiteSpace(company)
+                        ? _infoBll.GetEntities(m => typeNames.Contains(type) && m.Material_Name.Contains(material))
+                        : _infoBll.GetEntities(m =>
+                            typeNames.Contains(m.Material_Type_Name) && m.Company_Name == company &&
+                            m.Material_Name.Contains(material)));
+                }
+            }
 
             //            List<Material_Info> materialInfos = _infoBll.GetEntities(m => m.Material_Name.Contains(material)).Distinct().ToList();
 
