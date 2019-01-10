@@ -44,6 +44,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseApplyBll.cs" />
     <Compile Include="BaseBll.cs" />
     <Compile Include="BaseCompanyBll.cs" />
     <Compile Include="BaseInfoBll.cs" />

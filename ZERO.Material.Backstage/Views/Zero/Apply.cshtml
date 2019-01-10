@@ -1,0 +1,141 @@
+﻿@model ZERO.Material.Model.Material_Apply
+
+@{
+    /**/
+
+    ViewBag.Title = "申请";
+    Layout = "~/Views/Shared/BeforeLayout.cshtml";
+}
+<link href="~/Content/bootstrap-datetimepicker.css" rel="stylesheet" />
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/bootstrap-datetimepicker.js"></script>
+<script src="~/Scripts/bootstrap-datetimepicker.fr.js"></script>
+<style>
+    .table tbody tr td {
+        text-align: center;
+        vertical-align: middle
+    }
+</style>
+
+<div class="container" style="padding: 30px">
+    @using (Ajax.BeginForm("Apply", new AjaxOptions() { HttpMethod = "Post", OnSuccess = "AfterApply" }))
+    {
+        <h3><strong>请填写申请信息表：</strong></h3>
+        <table style="width: 80%; margin: 0 auto">
+            <tr>
+                <td style="width: 10%; text-align: right; padding: 10px">
+                    @Html.LabelFor(m => m.Teacher_Id)
+                </td>
+                <td style="width: 30%">
+                    @Html.TextBoxFor(m => m.Teacher_Id, new { @class = "form-control", @placeholder = "请输入教师编号" })
+                </td>
+                <td style="width: 10%; text-align: right; padding: 10px">
+                    @Html.LabelFor(m => m.Teacher_Name)
+                </td>
+                <td style="width: 30%">
+                    @Html.TextBoxFor(m => m.Teacher_Name, new { @class = "form-control", @placeholder = "请输入教师编号" })
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10%; text-align: right; padding: 10px">
+                    @Html.LabelFor(m => m.Teacher_Depart)
+                </td>
+                <td style="width: 30%">
+                    @Html.TextBoxFor(m => m.Teacher_Depart, new { @class = "form-control", @placeholder = "请输入教师系别" })
+                </td>
+                <td style="width: 10%; text-align: right; padding: 10px">
+                    @Html.LabelFor(m => m.Apply_Time)
+                </td>
+                <td style="width: 30%">
+                    <input class="form-control date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" size="6" type="text" value="@DateTime.Now.ToString("yyyy-MM-dd")" readonly placeholder="请选择申请时间" name="Apply_Time">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10%; text-align: right; padding: 10px">
+                    @Html.LabelFor(m => m.Start_Time)
+                </td>
+                <td style="width: 30%">
+                    <input class="form-control date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" size="6" type="text" value="@DateTime.Now.AddDays(1).ToString("yyyy-MM-dd")" readonly placeholder="请选择开始时间" name="Start_Time">
+                </td>
+                <td style="width: 10%; text-align: right; padding: 10px">
+                    @Html.LabelFor(m => m.End_Time)
+                </td>
+                <td style="width: 30%">
+                    <input class="form-control date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" size="6" type="text" value="@DateTime.Now.AddDays(2).ToString("yyyy-MM-dd")" readonly placeholder="请选择归还时间" name="End_Time">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10%; text-align: right; padding: 10px">
+                    @Html.LabelFor(m => m.Teach_Depart)
+                </td>
+                <td style="width: 30%">
+                    @Html.TextBoxFor(m => m.Teach_Depart, new { @class = "form-control", @placeholder = "请输入班级系别" })
+                </td>
+                <td style="width: 10%; text-align: right; padding: 10px">
+                    @Html.LabelFor(m => m.Teach_Field)
+                </td>
+                <td style="width: 30%">
+                    @Html.TextBoxFor(m => m.Teach_Field, new { @class = "form-control", @placeholder = "请输入班级专业" })
+                </td>
+            </tr>
+        </table>
+        <input type="hidden" name="Material_Id" value="@ViewBag.materialInfo.Material_Id" />
+        <input type="hidden" name="Apply_Count" value="@ViewBag.count" />
+        <input type="hidden" name="Needbuy_Count" value="@ViewBag.buyCount" />
+        <h3><strong>请确认申请器材：</strong></h3>
+        <table class="table">
+            <thead style="text-align: center">
+                <tr>
+                    <td></td>
+                    <td>名称</td>
+                    <td>供应商</td>
+                    <td>规格</td>
+                    <td>数量</td>
+                    <td>采购数量</td>
+                </tr>
+            </thead>
+            <tbody style="text-align: center; vertical-align: middle">
+                <tr>
+                    <td>
+                        <img src="@ViewBag.materialInfo.Material_Image" width="100" height="100" />
+                    </td>
+                    <td>
+                        <strong>@ViewBag.materialInfo.Material_Name</strong>
+                    </td>
+                    <td>
+                        <strong>@ViewBag.materialInfo.Company_Name</strong>
+                    </td>
+                    <td>
+                        <strong>@ViewBag.materialInfo.Material_Size</strong>
+                    </td>
+                    <td>
+                        <strong>@ViewBag.count</strong>
+                    </td>
+                    <td>
+                        <strong>@ViewBag.buyCount</strong>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="text-align: right"><button type="submit" class="btn btn-warning">提价申请</button></div>
+    }
+</div>
+<script>
+    $('.form_date').datetimepicker({
+        language: 'fr',
+        weekStart: 1,
+        todayBtn: 1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+
+    function AfterApply(data) {
+        if (data === "OK") {
+            location.href = 'Success';
+        }
+    }
+</script>

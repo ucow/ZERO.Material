@@ -70,6 +70,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MaterialModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Material_Apply.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_ApplyExt.cs" />
     <Compile Include="Material_Base.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>

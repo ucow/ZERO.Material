@@ -174,28 +174,28 @@
                                             <fieldset>
                                                 <label class="block clearfix">
                                                     <span class="block input-icon input-icon-right">
-                                                        <input type="email" class="form-control" placeholder="邮箱" />
+                                                        <input type="text" class="form-control" placeholder="教师编号" id="teacherId" />
                                                         <i class="ace-icon fa fa-envelope"></i>
                                                     </span>
                                                 </label>
 
                                                 <label class="block clearfix">
                                                     <span class="block input-icon input-icon-right">
-                                                        <input type="text" class="form-control" placeholder="用户名" />
+                                                        <input type="text" class="form-control" placeholder="用户名" id="registerName" />
                                                         <i class="ace-icon fa fa-user"></i>
                                                     </span>
                                                 </label>
 
                                                 <label class="block clearfix">
                                                     <span class="block input-icon input-icon-right">
-                                                        <input type="password" class="form-control" placeholder="密码" />
+                                                        <input type="password" class="form-control" placeholder="密码" id="registerPassWord" />
                                                         <i class="ace-icon fa fa-lock"></i>
                                                     </span>
                                                 </label>
 
                                                 <label class="block clearfix">
                                                     <span class="block input-icon input-icon-right">
-                                                        <input type="password" class="form-control" placeholder="确认密码" />
+                                                        <input type="password" class="form-control" placeholder="确认密码" id="registerConfirmPassword" />
                                                         <i class="ace-icon fa fa-retweet"></i>
                                                     </span>
                                                 </label>
@@ -216,7 +216,7 @@
                                                         <span class="bigger-110">重置</span>
                                                     </button>
 
-                                                    <button type="button" class="width-65 pull-right btn btn-sm btn-success">
+                                                    <button type="button" class="width-65 pull-right btn btn-sm btn-success" id="btnRegister">
                                                         <span class="bigger-110">注册</span>
 
                                                         <i class="ace-icon fa fa-arrow-right icon-on-right"></i>
@@ -336,6 +336,20 @@
                                 alert('登录失败,请检查用户名和密码');
                         }
                     });
+                });
+
+            $('#btnRegister').on('click',
+                function (e) {
+                    var id = $('#teacherId').val();
+                    var username = $('#registerName').val();
+                    var pass = $('#registerPassWord').val();
+                    var confirmPass = $("#registerConfirmPassword").val();
+                    if (pass !== confirmPass) {
+                        alert("两次输入密码不同，请重新核对");
+                    } else {
+
+                    }
+
                 });
         });
 

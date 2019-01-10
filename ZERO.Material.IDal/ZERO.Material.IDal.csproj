@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBaseApplyDal.cs" />
     <Compile Include="IBaseCompanyDal.cs" />
     <Compile Include="IBaseDal.cs" />
     <Compile Include="IBaseInfoDal.cs" />

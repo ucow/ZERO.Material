@@ -26,8 +26,6 @@ namespace ZERO.Material.Model
         public string Material_UnitWeight { get; set; }
     
         [JsonIgnore]
-    public virtual Material_Base Material_Base { get; set; }
-        [JsonIgnore]
     public virtual Material_Company Material_Company { get; set; }
     }
 }

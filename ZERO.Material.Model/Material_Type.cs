@@ -14,21 +14,11 @@ namespace ZERO.Material.Model
     using Newtonsoft.Json;
     public partial class Material_Type
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Material_Type()
-        {
-            this.Material_Base_Type = new HashSet<Material_Base_Type>();
-        }
-    
         public string Material_Type_Id { get; set; }
         public int Id { get; set; }
         public Nullable<System.DateTime> Update_Time { get; set; }
         public string Material_Type_Name { get; set; }
         public string Material_Type_Remark { get; set; }
         public string Material_Type_Parent_Id { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        [JsonIgnore]
-    public virtual ICollection<Material_Base_Type> Material_Base_Type { get; set; }
     }
 }

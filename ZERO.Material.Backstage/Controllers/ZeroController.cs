@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Security.Permissions;
 using System.Web.Mvc;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
@@ -150,6 +152,40 @@ namespace ZERO.Material.Backstage.Controllers
             ViewBag.Title = materialInfo.Material_Name;
             ViewBag.AllTypes = materType;
             return View(materialInfo);
+        }
+
+        public ActionResult Apply(string id, string count)
+        {
+            Material_Info materialInfo = _infoBll.GetEntity(m => m.Material_Id == id);
+            ViewBag.materialInfo = materialInfo;
+            ViewBag.count = count;
+            ViewBag.buyCount = Int32.Parse(count) > Int32.Parse(materialInfo.Material_RemainCont.ToString())
+                ? Int32.Parse(count) - Int32.Parse(materialInfo.Material_RemainCont.ToString())
+                : 0;
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Apply(Material_Apply materialApply)
+        {
+            IBaseApplyBll applyBll = Container.Server<IBaseApplyBll>();
+            materialApply.Head_Aduit = 0;
+            if (applyBll.AddEntities(new List<Material_Apply>() { materialApply }))
+            {
+                return Content("OK");
+            }
+
+            return Content("Error");
+        }
+
+        public ActionResult Success()
+        {
+            return View();
+        }
+
+        public ActionResult MaterialCar()
+        {
+            return View();
         }
 
         private void GetAllTypes(Stack<string> materType, string typeName)

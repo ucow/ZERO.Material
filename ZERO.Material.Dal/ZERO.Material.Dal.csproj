@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseApplyDal.cs" />
     <Compile Include="BaseCompanyDal.cs" />
     <Compile Include="BaseDal.cs" />
     <Compile Include="BaseInfoDal.cs" />

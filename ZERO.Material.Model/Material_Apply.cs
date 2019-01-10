@@ -12,11 +12,22 @@ namespace ZERO.Material.Model
     using System;
     using System.Collections.Generic;
     using Newtonsoft.Json;
-    public partial class Material_Base_Type
+    public partial class Material_Apply
     {
         public int Id { get; set; }
         public Nullable<System.DateTime> Update_Time { get; set; }
-        public string Material_Type_Id { get; set; }
+        public string Teacher_Id { get; set; }
+        public string Teacher_Name { get; set; }
+        public string Teacher_Depart { get; set; }
+        public System.DateTime Apply_Time { get; set; }
+        public System.DateTime Start_Time { get; set; }
+        public System.DateTime End_Time { get; set; }
+        public string Teach_Depart { get; set; }
+        public string Teach_Field { get; set; }
         public string Material_Id { get; set; }
+        public int Apply_Count { get; set; }
+        public int Needbuy_Count { get; set; }
+        public int Head_Aduit { get; set; }
+        public string Head_Advice { get; set; }
     }
 }

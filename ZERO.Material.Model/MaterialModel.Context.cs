@@ -25,6 +25,7 @@ namespace ZERO.Material.Model
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Material_Apply> Material_Apply { get; set; }
         public virtual DbSet<Material_Base> Material_Base { get; set; }
         public virtual DbSet<Material_Base_Company> Material_Base_Company { get; set; }
         public virtual DbSet<Material_Base_Type> Material_Base_Type { get; set; }

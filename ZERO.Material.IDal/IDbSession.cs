@@ -14,6 +14,8 @@
 
         ITypeDal TypeDal();
 
+        IBaseApplyDal BaseApplyDal();
+
         int SaveChanges();
     }
 }

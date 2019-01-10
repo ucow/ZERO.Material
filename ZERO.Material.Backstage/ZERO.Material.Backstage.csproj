@@ -293,6 +293,8 @@
     <Content Include="assets\js\spin.min.js" />
     <Content Include="assets\js\typeahead.jquery.min.js" />
     <Content Include="assets\swf\copy_csv_xls_pdf.swf" />
+    <Content Include="Content\bootstrap-datetimepicker.css" />
+    <Content Include="Content\bootstrap-datetimepicker.min.css" />
     <Content Include="Content\bootstrap-spinner.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -416,6 +418,9 @@
     <Content Include="Image\实验耗材后台管理系统.png" />
     <Content Include="Image\校徽.jpg" />
     <Content Include="LayuiTest.html" />
+    <Content Include="Scripts\bootstrap-datetimepicker.fr.js" />
+    <Content Include="Scripts\bootstrap-datetimepicker.js" />
+    <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -487,6 +492,8 @@
     <Content Include="Views\Zero\MaterialInfos.cshtml" />
     <Content Include="Views\Zero\MaterialInfo.cshtml" />
     <Content Include="Views\Login\Before.cshtml" />
+    <Content Include="Views\Zero\Apply.cshtml" />
+    <Content Include="Views\Zero\Success.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

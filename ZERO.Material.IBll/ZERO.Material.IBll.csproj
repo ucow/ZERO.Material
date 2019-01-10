@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBaseApplyBll.cs" />
     <Compile Include="IBaseBll.cs" />
     <Compile Include="IBaseCompanyBll.cs" />
     <Compile Include="IBaseInfoBll.cs" />

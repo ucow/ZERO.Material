@@ -35,6 +35,11 @@ namespace ZERO.Material.Dal
             return StaticDalFactory.GeTypeDal();
         }
 
+        public IBaseApplyDal BaseApplyDal()
+        {
+            return StaticDalFactory.GetBaseApplyDal();
+        }
+
         public int SaveChanges()
         {
             return DbContextFactory.GetDbContext().SaveChanges();
