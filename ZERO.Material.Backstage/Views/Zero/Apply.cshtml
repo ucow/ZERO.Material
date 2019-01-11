@@ -80,9 +80,7 @@
                 </td>
             </tr>
         </table>
-        <input type="hidden" name="Material_Id" value="@ViewBag.materialInfo.Material_Id" />
-        <input type="hidden" name="Apply_Count" value="@ViewBag.count" />
-        <input type="hidden" name="Needbuy_Count" value="@ViewBag.buyCount" />
+
         <h3><strong>请确认申请器材：</strong></h3>
         <table class="table">
             <thead style="text-align: center">
@@ -96,26 +94,31 @@
                 </tr>
             </thead>
             <tbody style="text-align: center; vertical-align: middle">
-                <tr>
-                    <td>
-                        <img src="@ViewBag.materialInfo.Material_Image" width="100" height="100" />
-                    </td>
-                    <td>
-                        <strong>@ViewBag.materialInfo.Material_Name</strong>
-                    </td>
-                    <td>
-                        <strong>@ViewBag.materialInfo.Company_Name</strong>
-                    </td>
-                    <td>
-                        <strong>@ViewBag.materialInfo.Material_Size</strong>
-                    </td>
-                    <td>
-                        <strong>@ViewBag.count</strong>
-                    </td>
-                    <td>
-                        <strong>@ViewBag.buyCount</strong>
-                    </td>
-                </tr>
+
+                @foreach (var key in ViewBag.materialInfos.Keys)
+                {
+
+                    <tr>
+                        <td>
+                            <img src="@key.Material_Image" width="100" height="100" />
+                        </td>
+                        <td>
+                            <strong>@key.Material_Name</strong>
+                        </td>
+                        <td>
+                            <strong>@key.Company_Name</strong>
+                        </td>
+                        <td>
+                            <strong>@key.Material_Size</strong>
+                        </td>
+                        <td>
+                            <strong>@ViewBag.materialInfos[key].Split(':')[0]</strong>
+                        </td>
+                        <td>
+                            <strong>@ViewBag.materialInfos[key].Split(':')[1]</strong>
+                        </td>
+                    </tr>
+                }
             </tbody>
         </table>
         <div style="text-align: right"><button type="submit" class="btn btn-warning">提价申请</button></div>

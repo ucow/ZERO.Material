@@ -20,6 +20,14 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 搜索
+        /// </summary>
+        /// <param name="material"></param>
+        /// <param name="type"></param>
+        /// <param name="company"></param>
+        /// <param name="index"></param>
+        /// <returns></returns>
         public ActionResult Search(string material, string type, string company, int index)
         {
             ViewBag.Title = material;
@@ -99,6 +107,10 @@ namespace ZERO.Material.Backstage.Controllers
             return View(infos);
         }
 
+        /// <summary>
+        /// 器材列表
+        /// </summary>
+        /// <returns></returns>
         public ActionResult MaterialInfos()
         {
             Dictionary<string, List<Material_Info>> infoDictionary = new Dictionary<string, List<Material_Info>>();
@@ -143,6 +155,11 @@ namespace ZERO.Material.Backstage.Controllers
             return View(infoDictionary);
         }
 
+        /// <summary>
+        /// 器材详情
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public ActionResult MaterialInfo(string id)
         {
             Material_Info materialInfo = _infoBll.GetEntity(m => m.Material_Id == id);
@@ -154,15 +171,63 @@ namespace ZERO.Material.Backstage.Controllers
             return View(materialInfo);
         }
 
+        #region 我的器材
+
         public ActionResult Apply(string id, string count)
         {
-            Material_Info materialInfo = _infoBll.GetEntity(m => m.Material_Id == id);
-            ViewBag.materialInfo = materialInfo;
-            ViewBag.count = count;
-            ViewBag.buyCount = Int32.Parse(count) > Int32.Parse(materialInfo.Material_RemainCont.ToString())
-                ? Int32.Parse(count) - Int32.Parse(materialInfo.Material_RemainCont.ToString())
-                : 0;
-            return View();
+            Dictionary<Material_Info, string> infos = new Dictionary<Material_Info, string>();
+            if (id == null && count == null)
+            {
+                if (Session["materialCar"] == null)
+                {
+                    return Content("购物车为空");
+                }
+
+                if (Session["materialCar"] is Dictionary<string, int> carInfos)
+                {
+                    foreach (string carInfosKey in carInfos.Keys)
+                    {
+                        Material_Info info = _infoBll.GetEntity(m => m.Material_Id == carInfosKey);
+                        int buyCount = carInfos[carInfosKey] > Int32.Parse(info.Material_RemainCont.ToString())
+                            ? carInfos[carInfosKey] - Int32.Parse(info.Material_RemainCont.ToString())
+                            : 0;
+                        string counts = carInfos[carInfosKey] + ":" + buyCount;
+                        infos.Add(info, counts);
+                    }
+                }
+            }
+            else
+            {
+                Material_Info materialInfo = _infoBll.GetEntity(m => m.Material_Id == id);
+                ViewBag.materialInfo = materialInfo;
+                var buyCount = Int32.Parse(count) > Int32.Parse(materialInfo.Material_RemainCont.ToString())
+                    ? Int32.Parse(count) - Int32.Parse(materialInfo.Material_RemainCont.ToString())
+                    : 0;
+                infos.Add(materialInfo, count + ":" + buyCount);
+                if (Session["materialCar"] == null)
+                {
+                    var carInfos = new Dictionary<string, int> { { id, int.Parse(count) } };
+                    Session["materialCar"] = carInfos;
+                }
+                else
+                {
+                    if (Session["materialCar"] is Dictionary<string, int> carInfos)
+                    {
+                        if (carInfos.ContainsKey(id))
+                        {
+                            carInfos[id] += int.Parse(count);
+                        }
+                        else
+                        {
+                            carInfos.Add(id, int.Parse(count));
+                        }
+                        Session["materialCar"] = carInfos;
+                    }
+                }
+            }
+            ViewBag.materialInfos = infos;
+            var model = new Material_Apply();
+            return View(model);
         }
 
         [HttpPost]
@@ -170,7 +235,26 @@ namespace ZERO.Material.Backstage.Controllers
         {
             IBaseApplyBll applyBll = Container.Server<IBaseApplyBll>();
             materialApply.Head_Aduit = 0;
-            if (applyBll.AddEntities(new List<Material_Apply>() { materialApply }))
+            List<Material_Apply> materialApplies = new List<Material_Apply>();
+            if (Session["materialCar"] != null)
+            {
+                if (Session["materialCar"] is Dictionary<string, int> carInfos)
+                {
+                    foreach (string carInfosKey in carInfos.Keys)
+                    {
+                        Material_Apply newApply = (Material_Apply)materialApply.Clone();
+                        var remainCount = _infoBll.GetEntity(m => m.Material_Id == carInfosKey).Material_RemainCont;
+                        newApply.Material_Id = carInfosKey;
+                        newApply.Apply_Count = carInfos[carInfosKey];
+                        newApply.Needbuy_Count = carInfos[carInfosKey] > Int32.Parse(remainCount.ToString())
+                            ? carInfos[carInfosKey] - Int32.Parse(remainCount.ToString())
+                            : 0;
+                        materialApplies.Add(newApply);
+                    }
+                }
+            }
+
+            if (applyBll.AddEntities(materialApplies))
             {
                 return Content("OK");
             }
@@ -183,10 +267,33 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
-        public ActionResult MaterialCar()
+        [HttpPost]
+        public ActionResult MaterialCar(string material, string count)
         {
-            return View();
+            if (Session["materialCar"] == null)
+            {
+                var carInfos = new Dictionary<string, int> { { material, int.Parse(count) } };
+                Session["materialCar"] = carInfos;
+            }
+            else
+            {
+                if (Session["materialCar"] is Dictionary<string, int> carInfos)
+                {
+                    if (carInfos.ContainsKey(material))
+                    {
+                        carInfos[material] += int.Parse(count);
+                    }
+                    else
+                    {
+                        carInfos.Add(material, int.Parse(count));
+                    }
+                    Session["materialCar"] = carInfos;
+                }
+            }
+            return Content("添加成功");
         }
+
+        #endregion 我的器材
 
         private void GetAllTypes(Stack<string> materType, string typeName)
         {

@@ -4,8 +4,12 @@ using System.ComponentModel.DataAnnotations;
 namespace ZERO.Material.Model
 {
     [MetadataType(typeof(Material_ApplyExt))]
-    public partial class Material_Apply
+    public partial class Material_Apply : ICloneable
     {
+        public object Clone()
+        {
+            return this.MemberwiseClone();
+        }
     }
 
     public class Material_ApplyExt
