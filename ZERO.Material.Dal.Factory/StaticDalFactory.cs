@@ -20,5 +20,7 @@ namespace ZERO.Material.Dal.Factory
         public static ITypeDal GeTypeDal() => Container.Server<ITypeDal>();
 
         public static IBaseApplyDal GetBaseApplyDal() => Container.Server<IBaseApplyDal>();
+
+        public static ITeacherDal GetTeacherDal() => Container.Server<ITeacherDal>();
     }
 }

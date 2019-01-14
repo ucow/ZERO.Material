@@ -40,6 +40,8 @@ namespace ZERO.Material.Dal
             return StaticDalFactory.GetBaseApplyDal();
         }
 
+        public ITeacherDal TeacherDal() => StaticDalFactory.GetTeacherDal();
+
         public int SaveChanges()
         {
             return DbContextFactory.GetDbContext().SaveChanges();

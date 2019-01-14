@@ -11,8 +11,9 @@
         <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Type" Width="1.5" PointX="2.75" PointY="5.75" />
         <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Company" Width="1.5" PointX="0.75" PointY="1.375" />
         <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Type" Width="1.5" PointX="4.75" PointY="5.75" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Info" Width="1.5" PointX="6.75" PointY="5.75" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Info" Width="1.5" PointX="7.75" PointY="0.75" />
         <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Company_Material_Company" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Teacher" Width="1.5" PointX="7.375" PointY="5.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

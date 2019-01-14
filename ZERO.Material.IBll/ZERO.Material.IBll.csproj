@@ -48,6 +48,7 @@
     <Compile Include="IBaseTypeBll.cs" />
     <Compile Include="IBasicBll.cs" />
     <Compile Include="ICompanyBll.cs" />
+    <Compile Include="ITeacherBll.cs" />
     <Compile Include="ITypeBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

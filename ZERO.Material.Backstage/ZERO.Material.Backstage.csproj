@@ -498,7 +498,7 @@
     <Content Include="Views\Zero\Search.cshtml" />
     <Content Include="Views\Zero\MaterialInfos.cshtml" />
     <Content Include="Views\Zero\MaterialInfo.cshtml" />
-    <Content Include="Views\Login\Before.cshtml" />
+    <Content Include="Views\Login\BeforeLogin.cshtml" />
     <Content Include="Views\Zero\Apply.cshtml" />
     <Content Include="Views\Zero\Success.cshtml" />
   </ItemGroup>

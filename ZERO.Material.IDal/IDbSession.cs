@@ -1,4 +1,6 @@
-﻿namespace ZERO.Material.IDal
+﻿using ZERO.Material.Model;
+
+namespace ZERO.Material.IDal
 {
     public interface IDbSession
     {
@@ -15,6 +17,8 @@
         ITypeDal TypeDal();
 
         IBaseApplyDal BaseApplyDal();
+
+        ITeacherDal TeacherDal();
 
         int SaveChanges();
     }

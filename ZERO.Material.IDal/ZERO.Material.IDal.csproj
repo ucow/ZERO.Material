@@ -49,6 +49,7 @@
     <Compile Include="IBasicDal.cs" />
     <Compile Include="ICompanyDal.cs" />
     <Compile Include="IDbSession.cs" />
+    <Compile Include="ITeacherDal.cs" />
     <Compile Include="ITypeDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

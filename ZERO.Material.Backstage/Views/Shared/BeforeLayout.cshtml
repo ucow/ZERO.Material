@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
+    <title>@ViewBag.Title - 实验耗材管理平台</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/modernizr")
@@ -22,10 +22,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li></li>
-                    <li>@Html.ActionLink("登录", "Index", "Home")</li>
-                    <li>@Html.ActionLink("注册", "About", "Home")</li>
-                    <li>@Html.ActionLink("我的器材", "Apply", "Zero")</li>
+                    <li>@Html.ActionLink("登录/注册", "BeforeLogin", "Login")</li>
                 </ul>
             </div>
         </div>
@@ -76,10 +73,12 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
     <script type="text/javascript">
-        $('#btnSearch').on('click',
-            function () {
-                location.href = "Search?material=" + $('#txtMaterial').val() + "&index=0";
-            });
+        $(function () {
+            $('#btnSearch').on('click',
+                function () {
+                    location.href = "Search?material=" + $('#txtMaterial').val() + "&index=0";
+                });
+        });
     </script>
 </body>
 </html>

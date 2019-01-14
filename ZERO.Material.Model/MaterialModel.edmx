@@ -12,8 +12,6 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Update_Time" Type="datetime" />
           <Property Name="Teacher_Id" Type="char" MaxLength="4" Nullable="false" />
-          <Property Name="Teacher_Name" Type="nvarchar" MaxLength="10" Nullable="false" />
-          <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="Apply_Time" Type="datetime" Nullable="false" />
           <Property Name="Start_Time" Type="datetime" Nullable="false" />
           <Property Name="End_Time" Type="datetime" Nullable="false" />
@@ -72,6 +70,17 @@
           <Property Name="Company_Name" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Company_Remark" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Company_Image" Type="image" />
+        </EntityType>
+        <EntityType Name="Material_Teacher">
+          <Key>
+            <PropertyRef Name="Teacher_Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Update_Time" Type="datetime" />
+          <Property Name="Teacher_Id" Type="char" MaxLength="4" Nullable="false" />
+          <Property Name="Teacher_Name" Type="nvarchar" MaxLength="5" Nullable="false" />
+          <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Teacher_Password" Type="varchar" MaxLength="10" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Type">
           <Key>
@@ -132,6 +141,7 @@
           <EntitySet Name="Material_Base_Company" EntityType="Self.Material_Base_Company" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Base_Type" EntityType="Self.Material_Base_Type" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Company" EntityType="Self.Material_Company" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Teacher" EntityType="Self.Material_Teacher" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Type" EntityType="Self.Material_Type" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Info" EntityType="Self.Material_Info" store:Type="Views" store:Schema="dbo">
             <DefiningQuery>SELECT 
@@ -170,6 +180,7 @@
             <End Role="Material_Company" EntitySet="Material_Company" />
             <End Role="Material_Base_Company" EntitySet="Material_Base_Company" />
           </AssociationSet>
+          <EntitySet Name="Material_Teacher" EntityType="ZERO_MaterialModel.Material_Teacher" />
         </EntityContainer>
         <EntityType Name="Material_Apply">
           <Key>
@@ -178,8 +189,6 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Update_Time" Type="DateTime" Precision="3" />
           <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
-          <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
-          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="Apply_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Start_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="End_Time" Type="DateTime" Nullable="false" Precision="3" />
@@ -292,6 +301,17 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="Material_Teacher">
+          <Key>
+            <PropertyRef Name="Teacher_Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Update_Time" Type="DateTime" Precision="3" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Teacher_Password" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -311,8 +331,6 @@
                 <ScalarProperty Name="End_Time" ColumnName="End_Time" />
                 <ScalarProperty Name="Start_Time" ColumnName="Start_Time" />
                 <ScalarProperty Name="Apply_Time" ColumnName="Apply_Time" />
-                <ScalarProperty Name="Teacher_Depart" ColumnName="Teacher_Depart" />
-                <ScalarProperty Name="Teacher_Name" ColumnName="Teacher_Name" />
                 <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />
                 <ScalarProperty Name="Update_Time" ColumnName="Update_Time" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -396,6 +414,18 @@
                 <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
                 <ScalarProperty Name="Material_Name" ColumnName="Material_Name" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Teacher">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Teacher">
+              <MappingFragment StoreEntitySet="Material_Teacher">
+                <ScalarProperty Name="Teacher_Password" ColumnName="Teacher_Password" />
+                <ScalarProperty Name="Teacher_Depart" ColumnName="Teacher_Depart" />
+                <ScalarProperty Name="Teacher_Name" ColumnName="Teacher_Name" />
+                <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />
+                <ScalarProperty Name="Update_Time" ColumnName="Update_Time" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

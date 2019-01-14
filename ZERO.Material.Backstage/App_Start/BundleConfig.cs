@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Optimization;
+using System.Web.UI.WebControls;
 
 namespace ZERO.Material.Backstage
 {
@@ -8,9 +9,13 @@ namespace ZERO.Material.Backstage
         // 有关捆绑的详细信息，请访问 https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+            #region Jquery
+
+            //jquery
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
+            //jquery验证
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
@@ -19,14 +24,51 @@ namespace ZERO.Material.Backstage
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+            bundles.Add(new ScriptBundle("~/bundles/cookie", "~/Scripts/jquery.cookie-1.4.1.min.js"));
 
+            #endregion Jquery
+
+            #region Bootstrap
+
+            //bootstrap脚本
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                      "~/Scripts/bootstrap.js",
+                      "~/Scripts/toastr.min.js"));
+
+            //bootstrap脚本样式
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/toastr.min.css"));
+
+            #endregion Bootstrap
+
+            #region Layui
+
+            //layui脚本
             bundles.Add(new ScriptBundle("~/bundles/layui").Include("~/Content/layui/layui.js"));
+            //layui样式
             bundles.Add(new StyleBundle("~/Content/layui").Include("~/Content/layui/css/layui.css"));
+
+            #endregion Layui
+
+            #region Login/Regist
+
+            bundles.Add(new Bundle("~/assets/css").Include(
+                "~/assets/css/bootstrap.min.css",
+                "~/assets/font-awesome/4.2.0/css/font-awesome.min.css",
+                "~/assets/fonts/fonts.googleapis.com.css",
+                "~/assets/css/ace.min.css",
+                "~/assets/css/ace-rtl.min.css",
+                "~/Content/toastr.min.css"));
+
+            bundles.Add(new ScriptBundle("~/assets/js").Include(
+                "~/assets/js/jquery.2.1.1.min.js",
+                "~/assets/js/jquery.min.js",
+                "~/assets/js/jquery.mobile.custom.min.js",
+                "~/Scripts/toastr.min.js"));
+
+            #endregion Login/Regist
         }
     }
 }

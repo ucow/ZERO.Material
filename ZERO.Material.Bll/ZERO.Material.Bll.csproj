@@ -52,6 +52,7 @@
     <Compile Include="BasicBll.cs" />
     <Compile Include="CompanyBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeacherBll.cs" />
     <Compile Include="TypeBll.cs" />
   </ItemGroup>
   <ItemGroup>
