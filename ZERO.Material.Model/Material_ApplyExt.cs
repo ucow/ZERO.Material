@@ -17,12 +17,6 @@ namespace ZERO.Material.Model
         [Display(Name = "讲师编号")]
         public string Teacher_Id { get; set; }
 
-        [Display(Name = "讲师姓名")]
-        public string Teacher_Name { get; set; }
-
-        [Display(Name = "讲师系别")]
-        public string Teacher_Depart { get; set; }
-
         [Display(Name = "申请时间")]
         public Nullable<System.DateTime> Apply_Time { get; set; }
 

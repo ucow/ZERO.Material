@@ -287,21 +287,7 @@
                     var username = $('#username').val();
                     var password = $('#password').val();
                     var remember = $('#remember')[0].checked;
-                    var ajaxData = { "username": username, "password": password };
-                    $.ajax({
-                        url: "BeforeLogin",
-                        type: "post",
-                        data: ajaxData,
-                        success: function (data) {
-                            if (data === "OK") {
-                                if (remember) {
-                                    $.cookie('userInfo', JSON.stringify(ajaxData), { expires: 7 });
-                                }
-                                location.href = "../Zero/Index";
-                            } else
-                                toastr.error(data);
-                        }
-                    });
+                    Login(username, password, remember);
                 });
 
             //注册
@@ -342,10 +328,27 @@
             var cookie = $.cookie('userInfo');
             if (cookie !== undefined) {
                 var userInfo = JSON.parse(cookie);
-                $('#username').val(userInfo.username);
-                $('#password').val(userInfo.password);
-                $('#remember')[0].checked = true;
+                Login(userInfo.username, userInfo.password, false);
             }
+        }
+
+        function Login(username, password, remember) {
+            var ajaxData = { "username": username, "password": password };
+            $.ajax({
+                url: "BeforeLogin",
+                type: "post",
+                data: ajaxData,
+                success: function (data) {
+                    if (data === "OK") {
+                        if (remember) {
+                            $.cookie('userInfo', JSON.stringify(ajaxData), { expires: 7, path: '/' });
+                        } else
+                            $.cookie('userInfo', JSON.stringify(ajaxData), { path: '/' });
+                        location.href = "../Zero/Index";
+                    } else
+                        toastr.error(data);
+                }
+            });
         }
     </script>
 </body>

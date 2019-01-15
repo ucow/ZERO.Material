@@ -28,21 +28,21 @@
                     @Html.LabelFor(m => m.Teacher_Id)
                 </td>
                 <td style="width: 30%">
-                    @Html.TextBoxFor(m => m.Teacher_Id, new { @class = "form-control", @placeholder = "请输入教师编号" })
+                    <input type="text" name="Teacher_Id" class="form-control" placeholder="请输入教师编号" value=@ViewBag.teacher.Teacher_Id readonly="readonly" />
                 </td>
                 <td style="width: 10%; text-align: right; padding: 10px">
-                    @Html.LabelFor(m => m.Teacher_Name)
+                    <label>教师姓名</label>
                 </td>
                 <td style="width: 30%">
-                    @Html.TextBoxFor(m => m.Teacher_Name, new { @class = "form-control", @placeholder = "请输入教师编号" })
+                    <input type="text" class="form-control" placeholder="请输入教师姓名" value=@ViewBag.teacher.Teacher_Name readonly="readonly" />
                 </td>
             </tr>
             <tr>
                 <td style="width: 10%; text-align: right; padding: 10px">
-                    @Html.LabelFor(m => m.Teacher_Depart)
+                    <label>教师系别</label>
                 </td>
                 <td style="width: 30%">
-                    @Html.TextBoxFor(m => m.Teacher_Depart, new { @class = "form-control", @placeholder = "请输入教师系别" })
+                    <input type="text" class="form-control" placeholder="请输入教师系别" value=@ViewBag.teacher.Teacher_Depart readonly="readonly" />
                 </td>
                 <td style="width: 10%; text-align: right; padding: 10px">
                     @Html.LabelFor(m => m.Apply_Time)

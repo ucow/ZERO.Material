@@ -81,7 +81,7 @@
 
         <hr />
         <div>
-            <button type="button" class="btn btn-primary btn-lg" onclick="location.href='../../Zero/Apply?id=@Model.Material_Id&count='+$('.count').val()">申请</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick="ApplyMaterial(@Model.Material_Id,$('.count').val())">申请</button>
             <button type="button" class="btn btn-default btn-lg" onclick="AddMaterialCar()">加入我的器材</button>
         </div>
     </div>
@@ -114,20 +114,21 @@
 
     toastr.options.positionClass = 'toast-bottom-center';
     function AddMaterialCar() {
-        var material = '@Model.Material_Id';
-        var count = $('.count').val();
-        var info = { material,count}
-        $.ajax({
-            url: "../../Zero/MaterialCar",
-            type: "POST",
-            data: info,
-            success: function(data) {
-                toastr.success(data);
-            }
-        });
-
+            var material = '@Model.Material_Id';
+            var count = $('.count').val();
+            var info = { material,count}
+            $.ajax({
+                url: "../../Zero/MaterialCar",
+                type: "POST",
+                data: info,
+                success: function(data) {
+                    toastr.info(data);
+                }
+            });
     }
-
+    function ApplyMaterial(id, count) {
+        location.href = '../../Zero/Apply?id=' + id + '&count=' + count;
+    }
     $('.count').on('input',
         function () {
 

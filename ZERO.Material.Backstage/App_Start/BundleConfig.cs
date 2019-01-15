@@ -24,8 +24,6 @@ namespace ZERO.Material.Backstage
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/cookie", "~/Scripts/jquery.cookie-1.4.1.min.js"));
-
             #endregion Jquery
 
             #region Bootstrap

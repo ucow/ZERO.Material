@@ -1,0 +1,38 @@
+﻿@model List<ZERO.Material.Model.Material_Company>
+@{
+    ViewBag.Title = "Company";
+    Layout = "~/Views/Shared/BeforeLayout.cshtml";
+}
+
+<div class="container">
+    @foreach (var company in Model)
+    {
+        <div class="panel panel-primary" style="margin-bottom: 10px;margin-top: 10px">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    @Html.ActionLink(company.Company_Name, "Search", new { @material = "", @company = company.Company_Name, @type = "", @index = 0 })
+                </h3>
+            </div>
+            <div class="panel-body">
+                @company.Company_Remark
+            </div>
+        </div>
+    }
+    <div style="text-align: center; margin-bottom: 50px;">
+        <ul class="pagination">
+            <li><a href="Company?index=@(ViewBag.index-1)">&laquo;</a></li>
+            @for (int i = 0; i < ViewBag.total; i++)
+            {
+                if (i + 1 == ViewBag.index)
+                {
+                    <li class="active"><a href="Company?index=@(i+1)">@(i + 1)</a></li>
+                }
+                else
+                {
+                    <li><a href="Company?index=@(i+1)">@(i + 1)</a></li>
+                }
+            }
+            <li><a href="Company?index=@(ViewBag.index + 1)">&raquo;</a></li>
+        </ul>
+    </div>
+</div>

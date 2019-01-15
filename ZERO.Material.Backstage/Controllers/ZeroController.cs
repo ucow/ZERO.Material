@@ -1,11 +1,14 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Permissions;
 using System.Web.Mvc;
+using ZERO.Material.Backstage.Filter;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
+using ZERO.Material.Model.Other;
+using UrlHelper = ZERO.Material.Command.UrlHelper;
 
 namespace ZERO.Material.Backstage.Controllers
 {
@@ -14,6 +17,7 @@ namespace ZERO.Material.Backstage.Controllers
         private static readonly UnityContainerHelper Container = new UnityContainerHelper();
         private readonly IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
         private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
+        private ICompanyBll _companyBll = Container.Server<ICompanyBll>();
 
         public ActionResult Index()
         {
@@ -30,8 +34,8 @@ namespace ZERO.Material.Backstage.Controllers
         /// <returns></returns>
         public ActionResult Search(string material, string type, string company, int index)
         {
-            ViewBag.Title = material;
-            ViewBag.material = material;
+            ViewBag.Title = $"{material}_{company}_{type}";
+
             ViewBag.type = type;
             ViewBag.company = company;
             List<Material_Info> materialInfos = new List<Material_Info>();
@@ -173,9 +177,19 @@ namespace ZERO.Material.Backstage.Controllers
 
         #region 我的器材
 
+        [CheckLogin]
         public ActionResult Apply(string id, string count)
         {
             Dictionary<Material_Info, string> infos = new Dictionary<Material_Info, string>();
+            var cookie = Request.Cookies["userInfo"];
+            if (cookie != null)
+            {
+                string name = cookie.Value;
+                var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
+                var teacher = Container.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == user.username);
+                ViewBag.teacher = teacher;
+            }
+
             if (id == null && count == null)
             {
                 if (Session["materialCar"] == null)
@@ -267,6 +281,7 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
+        [CheckLogin]
         [HttpPost]
         public ActionResult MaterialCar(string material, string count)
         {
@@ -294,6 +309,19 @@ namespace ZERO.Material.Backstage.Controllers
         }
 
         #endregion 我的器材
+
+        public ActionResult GetUserName(string username)
+        {
+            return Content(Container.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == username).Teacher_Name);
+        }
+
+        public ActionResult Company(int index)
+        {
+            List<Material_Company> companies = _companyBll.GetEntities(m => true);
+            ViewBag.index = index;
+            ViewBag.total = companies.Count % 12 == 0 ? companies.Count / 12 - 1 : companies.Count / 12;
+            return View(companies.OrderBy(m => m.Id).Skip((index - 1) * 12).Take(12).ToList());
+        }
 
         private void GetAllTypes(Stack<string> materType, string typeName)
         {

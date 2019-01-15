@@ -8,6 +8,8 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -21,8 +23,20 @@
                 @Html.ActionLink("实验耗材管理平台", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>@Html.ActionLink("登录/注册", "BeforeLogin", "Login")</li>
+                <ul class="nav navbar-nav navbar-right ">
+                    <li id="loginLi">@Html.ActionLink("登录/注册", "BeforeLogin", "Login")</li>
+                    <li id="userLi" class="nav-item dropdown hidden">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="small ml-1 d-md-down-none" id="userMsg" style="font-size: 16px; font-weight: bolder;">John Smith</span>
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-left">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="../Zero/Apply">我的器材</a>
+                                <a role="menuitem" tabindex="-1" href="#" onclick="$.cookie('userInfo', null, {path:'/'});location.reload();">注销</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -56,7 +70,7 @@
                 <li>
                     @Html.ActionLink("实验器材", "MaterialInfos", "Zero")
                 </li>
-                <li><a href='#'>供应商</a></li>
+                <li>@Html.ActionLink("供应商", "Company",new { @index = 1 })</li>
             </ul>
         </div>
     </div>
@@ -65,20 +79,39 @@
 
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
+            <p>&copy; @DateTime.Now.Year - 实验耗材管理平台</p>
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <script src="~/Scripts/jquery.cookie-1.4.1.min.js"></script>
     <script type="text/javascript">
         $(function () {
+            SetTopMenu();
             $('#btnSearch').on('click',
                 function () {
                     location.href = "Search?material=" + $('#txtMaterial').val() + "&index=0";
                 });
         });
+
+        function SetTopMenu() {
+            var cookie = $.cookie("userInfo");
+            if (cookie !== "null" && cookie !== undefined) {
+                var userInfo = JSON.parse(cookie);
+                $('#loginLi').addClass('hidden');
+                $('#userLi').removeClass('hidden');
+                $.ajax({
+                    url: "GetUserName",
+                    type: "POST",
+                    data: { "username": userInfo.username },
+                    success: function (data) {
+                        $('#userMsg')[0].innerText = data;
+                    }
+                });
+
+            }
+        }
     </script>
 </body>
 </html>

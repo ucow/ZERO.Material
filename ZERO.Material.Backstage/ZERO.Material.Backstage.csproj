@@ -146,6 +146,7 @@
     <Compile Include="Controllers\MaterialController.cs" />
     <Compile Include="Controllers\TypeController.cs" />
     <Compile Include="Controllers\ZeroController.cs" />
+    <Compile Include="Filter\CheckLoginAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -411,7 +412,6 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="HtmlPage1.html" />
-    <Content Include="Image\backImage.jpg" />
     <Content Include="Image\logo.gif" />
     <Content Include="Image\实验室1.jpg" />
     <Content Include="Image\实验室2.jpg" />
@@ -501,6 +501,7 @@
     <Content Include="Views\Login\BeforeLogin.cshtml" />
     <Content Include="Views\Zero\Apply.cshtml" />
     <Content Include="Views\Zero\Success.cshtml" />
+    <Content Include="Views\Zero\Company.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

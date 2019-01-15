@@ -99,6 +99,7 @@
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Material_TypeExt.cs" />
+    <Compile Include="Other\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
