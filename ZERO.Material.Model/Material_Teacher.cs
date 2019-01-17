@@ -15,7 +15,6 @@ namespace ZERO.Material.Model
     public partial class Material_Teacher
     {
         public int Id { get; set; }
-        public Nullable<System.DateTime> Update_Time { get; set; }
         public string Teacher_Id { get; set; }
         public string Teacher_Name { get; set; }
         public string Teacher_Depart { get; set; }

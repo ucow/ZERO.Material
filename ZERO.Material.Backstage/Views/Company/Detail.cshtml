@@ -12,6 +12,11 @@
     <title>Detail</title>
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
+    <style>
+        table tbody tr td:first-child {
+            width: 20%
+        }
+    </style>
 </head>
 <body>
     <div class="layui-card">
@@ -20,6 +25,12 @@
             <table class="layui-table" lay-skin="nob">
                 <tbody>
                     <tr>
+
+                        <td colspan="2">
+                            <img src="@Url.Action("GetImage",new {@id=Model.Company_Id})" />
+                        </td>
+                    </tr>
+                    <tr>
                         <td>@Html.LabelFor(m => m.Company_Id)</td>
                         <td>@Model.Company_Id</td>
                     </tr>
@@ -27,14 +38,7 @@
                         <td>@Html.LabelFor(m => m.Company_Name)</td>
                         <td>@Model.Company_Name</td>
                     </tr>
-                    <tr>
-                        <td>@Html.LabelFor(m => m.Company_Person)</td>
-                        <td>@Model.Company_Person</td>
-                    </tr>
-                    <tr>
-                        <td>@Html.LabelFor(m => m.Company_Person_Phone)</td>
-                        <td>@Model.Company_Person_Phone</td>
-                    </tr>
+
                     <tr>
                         <td>@Html.LabelFor(m => m.Company_Remark)</td>
                         <td>@Model.Company_Remark</td>

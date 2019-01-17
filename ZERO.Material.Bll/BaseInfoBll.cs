@@ -23,9 +23,14 @@ namespace ZERO.Material.Bll
             if (materialBase != null)
             {
                 materialBase.Material_Name = materialInfo.Material_Name;
+                materialBase.Material_Image = materialInfo.Material_Image;
                 materialBase.Material_Remark = materialInfo.Material_Remark;
             }
 
+            baseBll.UpdateEntities(new List<Material_Base>()
+            {
+                materialBase
+            });
             //更新Material_Base_Type表
             IBaseTypeBll baseTypeBll = container.Server<IBaseTypeBll>();
             ITypeBll typeBll = container.Server<ITypeBll>();
@@ -61,6 +66,8 @@ namespace ZERO.Material.Bll
                     Company_Id = companyBll.GetEntity(m => m.Company_Name == materialInfo.Company_Name).Company_Id,
                     Material_Count = materialInfo.Material_Count,
                     Material_CountUnit = materialInfo.Material_CountUnit,
+                    Material_Size =  materialInfo.Material_Size,
+                    Material_UnitWeight = materialInfo.Material_UnitWeight,
                     Material_Price = materialInfo.Material_Price,
                     Material_RemainCont = materialInfo.Material_RemainCont,
                 }
@@ -92,6 +99,7 @@ namespace ZERO.Material.Bll
                     {
                         Material_Id = materialInfo.Material_Id,
                         Material_Name = materialInfo.Material_Name,
+                        Material_Image = materialInfo.Material_Image,
                         Material_Remark = materialInfo.Material_Remark
                     }
                 });
@@ -109,6 +117,8 @@ namespace ZERO.Material.Bll
                         Company_Id = companyBll.GetEntity(m => m.Company_Name == materialInfo.Company_Name).Company_Id,
                         Material_Count = materialInfo.Material_Count,
                         Material_CountUnit = materialInfo.Material_CountUnit,
+                        Material_Size =  materialInfo.Material_Size,
+                        Material_UnitWeight = materialInfo.Material_Size,
                         Material_Price = materialInfo.Material_Price,
                         Material_RemainCont = materialInfo.Material_RemainCont,
                     }

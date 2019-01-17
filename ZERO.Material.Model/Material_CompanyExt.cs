@@ -17,12 +17,6 @@ namespace ZERO.Material.Model
         [Display(Name = "公司名称")]
         public string Company_Name { get; set; }
 
-        [Display(Name = "公司负责人")]
-        public string Company_Person { get; set; }
-
-        [Display(Name = "负责人联系方式")]
-        public string Company_Person_Phone { get; set; }
-
         [Display(Name = "备注")]
         public string Company_Remark { get; set; }
     }

@@ -42,8 +42,8 @@ function GetModelInfo() {
                                 type: 2,
                                 shadeClose: true,
                                 shade: false,
-                                maxmin: true, //开启最大化最小化按钮
-                                area: ["400px", "550px"],
+                                //                                maxmin: true, //开启最大化最小化按钮
+                                area: ["100%", "100%"],
                                 content: "Add?" + column[0].field + "=",
                                 end: function () {
                                     table.reload("baseTable", tableOption);
@@ -64,8 +64,8 @@ function GetModelInfo() {
                                     type: 2,
                                     shadeClose: true,
                                     shade: false,
-                                    maxmin: true, //开启最大化最小化按钮
-                                    area: ["400px", "550px"],
+                                    //                                    maxmin: true, //开启最大化最小化按钮
+                                    area: ["100%", "100%"],
                                     content: "Detail?" + column[0].field + "=" + data[column[0].field],
                                     end: function () {
                                         //table.reload("baseTable", tableOption);
@@ -97,9 +97,21 @@ function GetModelInfo() {
                                     type: 2,
                                     shadeClose: true,
                                     shade: false,
-                                    maxmin: true, //开启最大化最小化按钮
-                                    area: ["400px", "550px"],
+                                    //                                    maxmin: true, //开启最大化最小化按钮
+                                    area: ["100%", "100%"],
+                                    resize: false,
                                     content: "Add?" + column[0].field + "=" + data[column[0].field],
+                                    //                                    full: function (layero) {
+                                    //                                        layer.iframeAuto(layer.getFrameIndex(window[layero.find('iframe')[0]['name']].name));
+                                    //                                    },
+                                    //                                    restore: function (layero) {
+                                    //                                        //                                        var index = layer.getFrameIndex(window[layero.find('iframe')[0]['name']].frameElement.name);
+                                    //                                        //                                        layer.style(index,
+                                    //                                        //                                            {
+                                    //                                        //                                                height: '500px'
+                                    //                                        //                                            });
+                                    //                                        window[layero.find('iframe')[0]['name']].frameElement.height = "500px";
+                                    //                                    },
                                     end: function () {
                                         table.reload("baseTable", tableOption);
                                         //layer.msg("校徽");

@@ -30,8 +30,8 @@ namespace ZERO.Material.Model
         public virtual DbSet<Material_Base_Company> Material_Base_Company { get; set; }
         public virtual DbSet<Material_Base_Type> Material_Base_Type { get; set; }
         public virtual DbSet<Material_Company> Material_Company { get; set; }
+        public virtual DbSet<Material_Teacher> Material_Teacher { get; set; }
         public virtual DbSet<Material_Type> Material_Type { get; set; }
         public virtual DbSet<Material_Info> Material_Info { get; set; }
-        public virtual DbSet<Material_Teacher> Material_Teacher { get; set; }
     }
 }

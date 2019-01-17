@@ -8,25 +8,18 @@ using ZERO.Material.Model;
 
 namespace ZERO.Material.Backstage.Controllers
 {
-    public class MaterialController : Controller
+    public class MaterialController : BaseController<Material_Info>
     {
         private static readonly UnityContainerHelper Container = new UnityContainerHelper();
         private readonly IBaseBll _baseBll = Container.Server<IBaseBll>();
         private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
         private readonly ICompanyBll _companyBll = Container.Server<ICompanyBll>();
         private readonly IBaseInfoBll _baseInfoBll = Container.Server<IBaseInfoBll>();
-        private readonly IBaseTypeBll _baseTypeBll = Container.Server<IBaseTypeBll>();
-        private readonly IBaseCompanyBll _baseCompanyBll = Container.Server<IBaseCompanyBll>();
 
         // GET: Material
         public ActionResult Index()
         {
             return View();
-        }
-
-        public string GetModelInfo()
-        {
-            return AssmblyHelper.GetDisplayAttributeInfo<Material_Info>();
         }
 
         public List<Material_Type> GetTypeList()
@@ -37,7 +30,11 @@ namespace ZERO.Material.Backstage.Controllers
         //更新或添加数据
         public ActionResult Add(string material_Id)
         {
-            ViewBag.types = _typeBll.GetEntities(p => true).Select(p => p.Material_Type_Name);
+            ViewBag.types = _typeBll.GetEntities(p => true);
+            //            Material_Type type = new Material_Type();
+            //            //            type.Material_Type_Parent_Id;
+            //            //            type.Material_Type_Name;
+            //            //            type.Material_Type_Id
             ViewBag.companys = _companyBll.GetEntities(p => true).Select(p => p.Company_Name);
             if (string.IsNullOrEmpty(material_Id))
             {
@@ -54,6 +51,7 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
+        [ValidateInput(false)]
         [HttpPost]
         public ActionResult Add(Material_Info materialInfo, bool isUpdate, string oldCompanyName, string oldTypeName)
         {
@@ -98,6 +96,19 @@ namespace ZERO.Material.Backstage.Controllers
             }
 
             return "Error";
+        }
+
+        public FileContentResult GetImage(string id)
+        {
+            Material_Info info = _baseInfoBll.GetEntity(m => m.Material_Id == id);
+            if (info != null)
+            {
+                return new FileContentResult(info.Material_Image, "Image/jpg");
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

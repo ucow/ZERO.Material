@@ -15,7 +15,6 @@ namespace ZERO.Material.Model
     public partial class Material_Apply
     {
         public int Id { get; set; }
-        public Nullable<System.DateTime> Update_Time { get; set; }
         public string Teacher_Id { get; set; }
         public System.DateTime Apply_Time { get; set; }
         public System.DateTime Start_Time { get; set; }
@@ -27,5 +26,8 @@ namespace ZERO.Material.Model
         public int Needbuy_Count { get; set; }
         public int Head_Aduit { get; set; }
         public string Head_Advice { get; set; }
+    
+        [JsonIgnore]
+    public virtual Material_Base Material_Base { get; set; }
     }
 }

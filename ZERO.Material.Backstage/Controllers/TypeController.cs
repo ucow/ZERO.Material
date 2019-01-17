@@ -7,7 +7,7 @@ using ZERO.Material.Model;
 
 namespace ZERO.Material.Backstage.Controllers
 {
-    public class TypeController : Controller
+    public class TypeController : BaseController<Material_Type>
     {
         private ITypeBll _typeBll = new UnityContainerHelper().Server<ITypeBll>();
 
@@ -29,11 +29,6 @@ namespace ZERO.Material.Backstage.Controllers
             };
             string json = JsonConvert.SerializeObject(dataJson);
             return json;
-        }
-
-        public string GetModelInfo()
-        {
-            return AssmblyHelper.GetDisplayAttributeInfo<Material_Type>();
         }
 
         public ActionResult Add(string Material_Type_Id)

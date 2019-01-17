@@ -7,7 +7,7 @@ using ZERO.Material.Model;
 
 namespace ZERO.Material.Backstage.Controllers
 {
-    public class CompanyController : Controller
+    public class CompanyController : BaseController<Material_Company>
     {
         private ICompanyBll _companyBll = new UnityContainerHelper().Server<ICompanyBll>();
 
@@ -15,11 +15,6 @@ namespace ZERO.Material.Backstage.Controllers
         public ActionResult Index()
         {
             return View();
-        }
-
-        public string GetModelInfo()
-        {
-            return AssmblyHelper.GetDisplayAttributeInfo<Material_Company>();
         }
 
         public string List(int page, int limit)
@@ -83,6 +78,19 @@ namespace ZERO.Material.Backstage.Controllers
             }
 
             return "Error";
+        }
+
+        public FileContentResult GetImage(string id)
+        {
+            Material_Company company = _companyBll.Find(id);
+            if (company != null)
+            {
+                return new FileContentResult(company.Company_Image, "Image/jpg");
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

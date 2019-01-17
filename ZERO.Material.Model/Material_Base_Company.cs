@@ -15,7 +15,6 @@ namespace ZERO.Material.Model
     public partial class Material_Base_Company
     {
         public int Id { get; set; }
-        public Nullable<System.DateTime> Update_Time { get; set; }
         public string Company_Id { get; set; }
         public string Material_Id { get; set; }
         public double Material_Price { get; set; }
@@ -25,6 +24,8 @@ namespace ZERO.Material.Model
         public string Material_CountUnit { get; set; }
         public string Material_UnitWeight { get; set; }
     
+        [JsonIgnore]
+    public virtual Material_Base Material_Base { get; set; }
         [JsonIgnore]
     public virtual Material_Company Material_Company { get; set; }
     }

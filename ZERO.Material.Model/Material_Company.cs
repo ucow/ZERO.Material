@@ -22,7 +22,6 @@ namespace ZERO.Material.Model
     
         public string Company_Id { get; set; }
         public int Id { get; set; }
-        public Nullable<System.DateTime> Update_Time { get; set; }
         public string Company_Name { get; set; }
         public string Company_Remark { get; set; }
         public byte[] Company_Image { get; set; }

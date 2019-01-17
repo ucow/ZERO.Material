@@ -38,9 +38,13 @@ namespace ZERO.Material.Model
         [Display(Name = "器材价格")]
         public double Material_Price { get; set; }
 
+        [Display(Name = "单位重量")]
+        public string Material_UnitWeight { get; set; }
+
+        [Display(Name = "规格")]
+        public string Material_Size { get; set; }
+
         [Display(Name = "备注")]
         public string Material_Remark { get; set; }
-
-        public Image Image { get; set; }
     }
 }

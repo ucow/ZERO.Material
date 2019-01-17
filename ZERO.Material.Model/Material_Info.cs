@@ -25,6 +25,6 @@ namespace ZERO.Material.Model
         public string Material_Size { get; set; }
         public string Material_Type_Name { get; set; }
         public string Material_Remark { get; set; }
-        public string Material_Image { get; set; }
+        public byte[] Material_Image { get; set; }
     }
 }

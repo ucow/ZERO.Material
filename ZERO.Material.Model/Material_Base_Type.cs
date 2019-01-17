@@ -15,8 +15,12 @@ namespace ZERO.Material.Model
     public partial class Material_Base_Type
     {
         public int Id { get; set; }
-        public Nullable<System.DateTime> Update_Time { get; set; }
         public string Material_Type_Id { get; set; }
         public string Material_Id { get; set; }
+    
+        [JsonIgnore]
+    public virtual Material_Base Material_Base { get; set; }
+        [JsonIgnore]
+    public virtual Material_Type Material_Type { get; set; }
     }
 }
