@@ -2,7 +2,27 @@
     var form = layui.form;
     var layedit = layui.layedit;
     var upload = layui.upload;
-    layedit.build('remark'); //建立编辑器
+
+    var ieditor = layedit.build('remark', {
+        //插入代码设置
+        codeConfig: {
+            hide: true,  //是否显示编码语言选择框
+            default: 'javascript' //hide为true时的默认语言格式
+        }
+        , tool: [
+            'strong' //加粗
+            , 'italic' //斜体
+            , 'underline' //下划线
+            , 'del' //删除线
+            , '|' //分割线
+            , 'left' //左对齐
+            , 'center' //居中对齐
+            , 'right' //右对齐
+            , 'link' //超链接
+            , 'unlink' //清除链接
+        ],
+        height: '90%'
+    });
     form.on('select(hc_select)', function (data) {   //选择移交单位 赋值给input框
         $("#HandoverCompany").val(data.value);
         $("#hc_select").next().find("dl").css({ "display": "none" });

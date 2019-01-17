@@ -407,6 +407,7 @@
     <Content Include="Content\layui\lay\modules\form.js" />
     <Content Include="Content\layui\lay\modules\jquery.js" />
     <Content Include="Content\layui\lay\modules\laydate.js" />
+    <Content Include="Content\layui\lay\modules\layedit-原版.js" />
     <Content Include="Content\layui\lay\modules\layedit.js" />
     <Content Include="Content\layui\lay\modules\layer.js" />
     <Content Include="Content\layui\lay\modules\laypage.js" />
@@ -441,9 +442,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\layui\font\iconfont.eot" />
-    <Content Include="Content\layui\font\iconfont.ttf" />
-    <Content Include="Content\layui\font\iconfont.woff" />
     <Content Include="assets\avatars\Thumbs.db" />
     <Content Include="assets\font-awesome\4.1.0\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\font-awesome\4.1.0\fonts\fontawesome-webfont.ttf" />
@@ -459,6 +457,9 @@
     <Content Include="assets\img\Thumbs.db" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
+    <Content Include="Content\layui\font\iconfont.eot" />
+    <Content Include="Content\layui\font\iconfont.ttf" />
+    <Content Include="Content\layui\font\iconfont.woff" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

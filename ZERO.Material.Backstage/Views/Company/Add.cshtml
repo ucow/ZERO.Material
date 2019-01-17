@@ -49,13 +49,34 @@
                     @Html.TextBoxFor(m => m.Company_Name, new { @class = "layui-input", @placeholder = "请输入公司名称" })
                 </div>
             </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">图片</label>
+                <div class="layui-input-block">
+                    <button type="button" class="layui-btn" id="test1">
+                        <i class="layui-icon">&#xe67c;</i>上传图片
+                    </button>
+                    <div class="layui-upload-list">
+                        @if (Model == null)
+                        {
+                            <img class="layui-upload-img" id="demo1" width="100" height="100">
+                        }
+                        else
+                        {
+                            <img src="@Url.Action("GetImage",new {@id=Model.Company_Id})" class="layui-upload-img" id="demo1" width="100" height="100" alt="图片">
+                        }
 
+                        <p id="demoText"></p>
+                    </div>
+                    @Html.Hidden("Company_Image", "", new { @id = "imageBytes" })
+                </div>
+            </div>
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Company_Remark, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
-                    @Html.TextAreaFor(m => m.Company_Remark, new { @class = "layui-textarea", @placeholder = "请输入备注" })
+                    @Html.TextAreaFor(m => m.Company_Remark, new { @id = "remark" })
                 </div>
             </div>
+
             <div class="layui-form-item">
                 <div class="layui-input-block">
                     <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>

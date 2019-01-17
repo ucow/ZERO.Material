@@ -45,6 +45,7 @@ namespace ZERO.Material.Backstage.Controllers
             return View(materialCompany);
         }
 
+        [ValidateInput(false)]
         [HttpPost]
         public ActionResult Add(Material_Company materialCompany, bool isUpdate)
         {
@@ -53,11 +54,12 @@ namespace ZERO.Material.Backstage.Controllers
                 Material_Company company = _companyBll.Find(materialCompany.Company_Id);
                 company.Company_Name = materialCompany.Company_Name;
                 company.Company_Remark = materialCompany.Company_Remark;
-                return _companyBll.UpdateEntities(new List<Material_Company>() { company }) ? Content("OK") : Content("Error");
+                company.Company_Image = materialCompany.Company_Image;
+                return _companyBll.UpdateEntities(new List<Material_Company>() { company }) ? Content("修改成功") : Content("修改失败");
             }
             else
             {
-                return _companyBll.AddEntities(new List<Material_Company>() { materialCompany }) ? Content("OK") : Content("Error");
+                return _companyBll.AddEntities(new List<Material_Company>() { materialCompany }) ? Content("添加成功") : Content("添加失败");
             }
         }
 
@@ -83,7 +85,7 @@ namespace ZERO.Material.Backstage.Controllers
         public FileContentResult GetImage(string id)
         {
             Material_Company company = _companyBll.Find(id);
-            if (company != null)
+            if (company != null && company.Company_Image != null)
             {
                 return new FileContentResult(company.Company_Image, "Image/jpg");
             }
