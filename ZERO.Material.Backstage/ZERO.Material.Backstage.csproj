@@ -434,6 +434,8 @@
     <Content Include="Image\实验耗材后台管理系统.png" />
     <Content Include="Image\校徽.jpg" />
     <Content Include="LayuiTest.html" />
+    <Content Include="Content\module\treetable-lay\treetable.css" />
+    <Content Include="Content\module\treetable-lay\treetable.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.fr.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.js" />
     <Content Include="Scripts\bootstrap-datetimepicker.min.js" />
@@ -499,6 +501,7 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
+    <Content Include="Scripts\Type\Index.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

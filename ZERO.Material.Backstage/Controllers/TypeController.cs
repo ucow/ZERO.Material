@@ -17,14 +17,33 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
-        public string List(int page, int limit)
+        public string List()
         {
-            List<Material_Type> materialTypes = _typeBll.GetPageEntities(page, limit, (m => m.Material_Type_Id), out var total);
+            List<Material_Type> materialTypes = new List<Material_Type>();
+            List<Material_Type> parenTypes = _typeBll.GetEntities(m => m.Material_Type_Parent_Id == "000000");
+            foreach (Material_Type parenType in parenTypes)
+            {
+                parenType.Material_Type_Parent_Id = "-1";
+                materialTypes.Add(parenType);
+                List<Material_Type> child =
+                    _typeBll.GetEntities(m => m.Material_Type_Parent_Id == parenType.Material_Type_Id);
+                foreach (Material_Type type in child)
+                {
+                    materialTypes.Add(type);
+                    List<Material_Type> childTypes =
+                        _typeBll.GetEntities(m => m.Material_Type_Parent_Id == type.Material_Type_Id);
+                    foreach (Material_Type childType in childTypes)
+                    {
+                        materialTypes.Add(childType);
+                    }
+                }
+            }
+
             var dataJson = new
             {
                 code = 0,
                 msg = "OK",
-                count = total,
+                count = materialTypes.Count,
                 data = materialTypes
             };
             string json = JsonConvert.SerializeObject(dataJson);
