@@ -39,8 +39,19 @@
         function (obj) {
             var checkStatus = table.checkStatus(obj.config.id);
             switch (obj.event) {
-                case 'add':
-                    layer.msg('添加');
+                case "Add":
+                    layer.open({
+                        title: "添加器材",
+                        type: 2,
+                        shadeClose: true,
+                        shade: false,
+                        //                                maxmin: true, //开启最大化最小化按钮
+                        area: ["100%", "100%"],
+                        content: "Add?Material_Type_Id=",
+                        end: function () {
+                            renderTable();
+                        }
+                    });
                     break;
                 case 'open':
                     treetable.expandAll('#baseTable');
@@ -50,12 +61,60 @@
                     break;
             };
         });
+
+    table.on("tool(baseTable)",
+        function (obj) {
+            var data = obj.data;
+            switch (obj.event) {
+                case "Detail":
+                    layer.open({
+                        title: "器材详情",
+                        type: 2,
+                        shadeClose: true,
+                        shade: false,
+                        //                                    maxmin: true, //开启最大化最小化按钮
+                        area: ["100%", "100%"],
+                        content: "Detail?Material_Type_Id=" + data["Material_Type_Id"],
+                        end: function () {
+                            //table.reload("baseTable", tableOption);
+                            //layer.msg("校徽");
+                        }
+                    });
+                    break;
+                case "Delete":
+                    layer.confirm('确认删除？', function (index) {
+                        layer.close(index);
+                        //"{\"" + column[0].field + "\":\"" + data[column[0].field] + "\"}";
+                        $.ajax({
+                            type: "post",
+                            url: "Delete?Material_Type_Id=" + data["Material_Type_Id"],
+                            success: function (data) {
+                                if (data === "OK") {
+                                    layer.msg("删除成功");
+                                    renderTable();
+                                } else {
+                                    layer.msg("删除失败");
+                                }
+                            }
+                        });
+                    });
+                    break;
+                case "Update":
+                    layer.open({
+                        title: "更新器材",
+                        type: 2,
+                        shadeClose: true,
+                        shade: false,
+                        //                                    maxmin: true, //开启最大化最小化按钮
+                        area: ["100%", "100%"],
+                        resize: false,
+                        content: "Add?Material_Type_Id=" + data["Material_Type_Id"],
+                        end: function () {
+                            renderTable();
+                        }
+                    });
+                    break;
+                default:
+            }
+        });
 });
-
-function AddClick() {
-    alert(this.attr('id'));
-}
-
-function Expand() {
-    treetable.expandAll('#baseTable');
-}

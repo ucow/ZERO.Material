@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 using Newtonsoft.Json;
 using ZERO.Material.Command;
@@ -52,6 +53,13 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Add(string Material_Type_Id)
         {
+            List<Material_Type> topTypes = _typeBll.GetEntities(m => m.Material_Type_Parent_Id == "000000");
+            List<string> topIds = topTypes.Select(n => n.Material_Type_Id).ToList();
+            List<Material_Type> centerTypes = _typeBll.GetEntities(m =>
+                topIds.Contains(m.Material_Type_Parent_Id));
+            ViewBag.topTypes = topTypes;
+            ViewBag.centerTypes = centerTypes;
+
             if (string.IsNullOrEmpty(Material_Type_Id))
             {
                 ViewBag.IsUpdate = false;
@@ -59,8 +67,11 @@ namespace ZERO.Material.Backstage.Controllers
             }
             ViewBag.IsUpdate = true;
             Material_Type materialType = _typeBll.GetEntity(m => m.Material_Type_Id == Material_Type_Id);
+
             if (materialType == null)
                 return View();
+            ViewBag.parent = materialType.Material_Type_Parent_Id == "000000" ? "无" : _typeBll.GetEntity(m => m.Material_Type_Id == materialType.Material_Type_Parent_Id)
+                .Material_Type_Name;
             return View(materialType);
         }
 
@@ -72,7 +83,7 @@ namespace ZERO.Material.Backstage.Controllers
                 Material_Type type = _typeBll.Find(materialType.Material_Type_Id);
                 type.Material_Type_Name = materialType.Material_Type_Name;
                 type.Material_Type_Remark = materialType.Material_Type_Remark;
-
+                type.Material_Type_Parent_Id = materialType.Material_Type_Parent_Id;
                 return _typeBll.UpdateEntities(new List<Material_Type>() { type }) ? Content("OK") : Content("Error");
             }
             else
@@ -84,6 +95,8 @@ namespace ZERO.Material.Backstage.Controllers
         public ActionResult Detail(string Material_Type_Id)
         {
             Material_Type materialType = _typeBll.GetEntity(m => m.Material_Type_Id == Material_Type_Id);
+            ViewBag.parent = materialType.Material_Type_Parent_Id == "000000" ? "无" : _typeBll.GetEntity(m => m.Material_Type_Id == materialType.Material_Type_Parent_Id)
+                  .Material_Type_Name;
             return View(materialType);
         }
 

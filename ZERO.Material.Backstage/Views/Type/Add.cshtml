@@ -12,15 +12,15 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Add</title>
-    @Styles.Render("~/Content/layui")
-    @Scripts.Render("~/bundles/layui")
     <script src="~/Scripts/jquery-3.3.1.js"></script>
     <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
     <script src="~/Scripts/Material/Add.js"></script>
 </head>
 <body>
     <div style="padding: 50px; padding-left: 0;padding-bottom: 0">
-        @using (Ajax.BeginForm("Add", "Type", new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new Dictionary<string, object>() { { "class", "layui-form" }, { "lay-filter", "addForm" } }))
+        @using (Ajax.BeginForm("Add", null, new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new { @class = "layui-form" }))
         {
             if (ViewBag.IsUpdate)
             {
@@ -50,9 +50,52 @@
                 </div>
             </div>
             <div class="layui-form-item">
+                <label class="layui-form-label">父类别</label>
+                <div class="layui-input-block">
+                    <select name="Material_Type_Parent_Id" lay-verify="required">
+                        <option value="">请选择</option>
+                        @if (ViewBag.parent == "无")
+                        {
+                            <option value="000000" selected>无</option>
+                        }
+                        else
+                        {
+                            <option value="000000" selected>无</option>
+                        }
+                        <optgroup label="一级">
+                            @foreach (var type in ViewBag.topTypes)
+                            {
+                                if (ViewBag.parent == type.Material_Type_Name)
+                                {
+                                    <option value="@type.Material_Type_Id" selected>@type.Material_Type_Name</option>
+                                }
+                                else
+                                {
+                                    <option value="@type.Material_Type_Id">@type.Material_Type_Name</option>
+                                }
+
+                            }
+                        </optgroup>
+                        <optgroup label="二级">
+                            @foreach (var type in ViewBag.centerTypes)
+                            {
+                                if (ViewBag.parent == type.Material_Type_Name)
+                                {
+                                    <option value="@type.Material_Type_Id" selected>@type.Material_Type_Name</option>
+                                }
+                                else
+                                {
+                                    <option value="@type.Material_Type_Id">@type.Material_Type_Name</option>
+                                }
+                            }
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Type_Remark, new { @class = "layui-form-label" })
                 <div class="layui-input-block">
-                    @Html.TextBoxFor(m => m.Material_Type_Remark, new { @class = "layui-input", @placeholder = "请输入备注" })
+                    @Html.TextAreaFor(m => m.Material_Type_Remark, new { @id = "remark", @placeholder = "请输入备注" })
                 </div>
             </div>
 

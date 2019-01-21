@@ -15,11 +15,12 @@
     <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
     <script src="~/Scripts/Material/Add.js"></script>
 </head>
+
 <body>
     <div style="padding: 50px; padding-left: 0;padding-bottom: 0">
-        @using (Ajax.BeginForm("Add", "Material",
-            new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" },
-            new { @class = "layui-form" }))
+        @using (Ajax.BeginForm("Add", null,
+    new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" },
+    new { @class = "layui-form" }))
         {
             if (ViewBag.IsUpdate)
             {
@@ -59,44 +60,93 @@
                 </div>
             </div>
             <div class="layui-form-item">
-                <label class="layui-form-label">器材类别</label>
-                <div class="layui-input-block">
-                    <select name="Material_Type_Name" lay-verify="required" lay-search>
-                        <option value=""></option>
-                        @foreach (var type in ViewBag.types)
-                        {
-                            if (type.Material_Type_Parent_Id == "000000")
-                            {
-                                <optgroup label="@type.Material_Type_Name">
-                                    @foreach (var child in ViewBag.types)
-                                    {
-                                        if (child.Material_Type_Parent_Id == type.Material_Type_Id)
+                <table>
+                    <tr>
+                        <td>
+                            <label class="layui-form-label">器材类别</label>
+                        </td>
+                        <td>
+                            <div class="layui-input-block" style="margin: 0">
+                                <table>
+                                    <tr>
+                                        @if (ViewBag.IsUpdate)
                                         {
-                                            <optgroup label="@child.Material_Type_Name">
-                                                @foreach (var childType in ViewBag.types)
-                                                {
-                                                    if (childType.Material_Type_Parent_Id == child.Material_Type_Id)
+                                            <td>
+                                                <select lay-verify="required" lay-search lay-filter="grand" id="grand">
+                                                    <option value="">请选择</option>
+                                                    @foreach (var type in ViewBag.types)
                                                     {
-                                                        if (Model != null && Model.Material_Type_Name == type)
+                                                        if (ViewBag.grandName == type.Material_Type_Name)
                                                         {
-                                                            <option value="@childType.Material_Type_Name" selected>@childType.Material_Type_Name</option>
+                                                            <option value="@type.Material_Type_Id" selected>@type.Material_Type_Name</option>
                                                         }
                                                         else
                                                         {
-                                                            <option value="@childType.Material_Type_Name">@childType.Material_Type_Name</option>
+                                                            <option value="@type.Material_Type_Id">@type.Material_Type_Name</option>
                                                         }
                                                     }
-
-                                                }
-                                            </optgroup>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <select lay-verify="required" lay-search lay-filter="father" id="father">
+                                                    <option value="">请选择</option>
+                                                    @foreach (var type in ViewBag.parentTypes)
+                                                    {
+                                                        if (ViewBag.parentName == type.Material_Type_Name)
+                                                        {
+                                                            <option value="@type.Material_Type_Id" selected>@type.Material_Type_Name</option>
+                                                        }
+                                                        else
+                                                        {
+                                                            <option value="@type.Material_Type_Id">@type.Material_Type_Name</option>
+                                                        }
+                                                    }
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <select name="Material_Type_Name" lay-verify="required" lay-search lay-filter="son" id="son">
+                                                    @foreach (var type in ViewBag.brotherTypes)
+                                                    {
+                                                        if (Model.Material_Type_Name == type.Material_Type_Name)
+                                                        {
+                                                            <option value="@type.Material_Type_Id" selected>@type.Material_Type_Name</option>
+                                                        }
+                                                        else
+                                                        {
+                                                            <option value="@type.Material_Type_Id">@type.Material_Type_Name</option>
+                                                        }
+                                                    }
+                                                </select>
+                                            </td>
                                         }
-                                    }
-                                </optgroup>
-                            }
-
-                        }
-                    </select>
-                </div>
+                                        else
+                                        {
+                                            <td>
+                                                <select lay-verify="required" lay-search lay-filter="grand" id="grand">
+                                                    <option value="">请选择</option>
+                                                    @foreach (var type in ViewBag.types)
+                                                    {
+                                                        <option value="@type.Material_Type_Id">@type.Material_Type_Name</option>
+                                                    }
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <select lay-verify="required" lay-search lay-filter="father" id="father">
+                                                    <option value="">请选择</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <select name="Material_Type_Name" lay-verify="required" lay-search lay-filter="son" id="son">
+                                                    <option value="">请选择</option>
+                                                </select>
+                                            </td>
+                                        }
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="layui-form-item">
                 @Html.LabelFor(m => m.Material_Price, new { @class = "layui-form-label" })

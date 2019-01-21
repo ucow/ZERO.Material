@@ -17,6 +17,9 @@ namespace ZERO.Material.Model
         [Display(Name = "类别名称")]
         public string Material_Type_Name { get; set; }
 
+        [Display(Name = "父类别")]
+        public string Material_Type_Parent_Id { get; set; }
+
         [Display(Name = "备注")]
         public string Material_Type_Remark { get; set; }
     }

@@ -76,6 +76,37 @@
                 });
         }
     });
+
+    form.on('select(grand)', function (obj) {
+        var typeId = obj.value;
+        getChildType('#father', typeId);
+        $("#son")[0].innerHTML = "<option value=\"\">请选择</option>";
+    });
+    form.on('select(father)', function (obj) {
+        var typeId = obj.value;
+        getChildType('#son', typeId);
+    });
+
+    function getChildType(son, value) {
+        $.ajax({
+            url: "GetChildType",
+            type: "POST",
+            data: { "typeId": value },
+            success: function (data) {
+                if (data !== "") {
+                    var value = JSON.parse(data);
+                    $(son)[0].innerHTML = "<option value=\"\">请选择</option>";
+                    var optionContent = "<option value='{0}'>{1}</option>";
+                    value.forEach(function (currentValue, index, arr) {
+                        $(son)[0].innerHTML += optionContent.format(currentValue.Material_Type_Id,
+                            currentValue.Material_Type_Name);
+                    }, this);
+                    form.render();
+                }
+            }
+        });
+    }
+    form.render('select');
 });
 
 function AfterSuccess(data) {
@@ -88,3 +119,27 @@ function AfterSuccess(data) {
 
     parent.layer.close(index);
 }
+
+String.prototype.format = function (args) {
+    var result = this;
+    if (arguments.length > 0) {
+        if (arguments.length == 1 && typeof args == "object") {
+            for (var key in args) {
+                if (args[key] != undefined) {
+                    var reg = new RegExp("({" + key + "})", "g");
+                    result = result.replace(reg, args[key]);
+                }
+            }
+        } else {
+            for (var i = 0; i < arguments.length; i++) {
+                if (arguments[i] != undefined) {
+                    //var reg = new RegExp("({[" + i + "]})", "g");//这个在索引大于9时会有问题，谢谢何以笙箫的指出
+
+                    var reg = new RegExp("({)" + i + "(})", "g");
+                    result = result.replace(reg, arguments[i]);
+                }
+            }
+        }
+    }
+    return result;
+};

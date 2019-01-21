@@ -412,6 +412,7 @@
     <Content Include="Content\layui\lay\modules\layer.js" />
     <Content Include="Content\layui\lay\modules\laypage.js" />
     <Content Include="Content\layui\lay\modules\laytpl.js" />
+    <Content Include="Content\layui\lay\modules\linkSelect.js" />
     <Content Include="Content\layui\lay\modules\mobile.js" />
     <Content Include="Content\layui\lay\modules\rate.js" />
     <Content Include="Content\layui\lay\modules\slider.js" />

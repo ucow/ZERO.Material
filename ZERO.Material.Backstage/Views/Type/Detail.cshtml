@@ -34,6 +34,10 @@
                         <td>@Html.LabelFor(m => m.Material_Type_Name)</td>
                         <td>@Model.Material_Type_Name</td>
                     </tr>
+                    <tr>
+                        <td>@Html.LabelFor(m => m.Material_Type_Parent_Id)</td>
+                        <td>@ViewBag.parent</td>
+                    </tr>
 
                     <tr>
                         <td>@Html.LabelFor(m => m.Material_Type_Remark)</td>

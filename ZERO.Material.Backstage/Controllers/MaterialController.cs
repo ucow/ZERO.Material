@@ -30,11 +30,7 @@ namespace ZERO.Material.Backstage.Controllers
         //更新或添加数据
         public ActionResult Add(string material_Id)
         {
-            ViewBag.types = _typeBll.GetEntities(p => true);
-            //            Material_Type type = new Material_Type();
-            //            //            type.Material_Type_Parent_Id;
-            //            //            type.Material_Type_Name;
-            //            //            type.Material_Type_Id
+            ViewBag.types = _typeBll.GetEntities(p => p.Material_Type_Parent_Id == "000000");
             ViewBag.companys = _companyBll.GetEntities(p => true).Select(p => p.Company_Name);
             if (string.IsNullOrEmpty(material_Id))
             {
@@ -44,6 +40,17 @@ namespace ZERO.Material.Backstage.Controllers
 
             ViewBag.IsUpdate = true;
             Material_Info materialInfo = _baseInfoBll.GetEntity(m => m.Material_Id == material_Id);
+            Material_Type currentType =
+                _typeBll.GetEntity(m => m.Material_Type_Name == materialInfo.Material_Type_Name);
+            ViewBag.brotherTypes =
+                _typeBll.GetEntities(m => m.Material_Type_Parent_Id == currentType.Material_Type_Parent_Id);
+            Material_Type parenType =
+                _typeBll.GetEntity(m => m.Material_Type_Id == currentType.Material_Type_Parent_Id);
+            ViewBag.parentTypes =
+                _typeBll.GetEntities(m => m.Material_Type_Parent_Id == parenType.Material_Type_Parent_Id);
+            ViewBag.parentName = parenType.Material_Type_Name;
+            ViewBag.grandName = _typeBll.GetEntity(m => m.Material_Type_Id == parenType.Material_Type_Parent_Id)
+                .Material_Type_Name;
             if (materialInfo != null)
             {
                 return View(materialInfo);
@@ -96,6 +103,17 @@ namespace ZERO.Material.Backstage.Controllers
             }
 
             return "Error";
+        }
+
+        [HttpPost]
+        public string GetChildType(string typeId)
+        {
+            List<Material_Type> types = _typeBll.GetEntities(m => m.Material_Type_Parent_Id == typeId);
+            if (types != null)
+            {
+                return JsonConvert.SerializeObject(types);
+            }
+            return "";
         }
 
         public FileContentResult GetImage(string id)
