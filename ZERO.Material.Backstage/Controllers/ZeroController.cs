@@ -17,7 +17,8 @@ namespace ZERO.Material.Backstage.Controllers
         private static readonly UnityContainerHelper Container = new UnityContainerHelper();
         private readonly IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
         private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
-        private ICompanyBll _companyBll = Container.Server<ICompanyBll>();
+        public ICompanyBll CompanyBll = Container.Server<ICompanyBll>();
+        private readonly IBaseApplyBll _applyBll = Container.Server<IBaseApplyBll>();
 
         public ActionResult Index()
         {
@@ -247,7 +248,6 @@ namespace ZERO.Material.Backstage.Controllers
         [HttpPost]
         public ActionResult Apply(Material_Apply materialApply)
         {
-            IBaseApplyBll applyBll = Container.Server<IBaseApplyBll>();
             materialApply.Head_Aduit = 0;
             List<Material_Apply> materialApplies = new List<Material_Apply>();
             if (Session["materialCar"] != null)
@@ -268,7 +268,7 @@ namespace ZERO.Material.Backstage.Controllers
                 }
             }
 
-            if (applyBll.AddEntities(materialApplies))
+            if (_applyBll.AddEntities(materialApplies))
             {
                 return Content("OK");
             }
@@ -310,6 +310,25 @@ namespace ZERO.Material.Backstage.Controllers
 
         #endregion 我的器材
 
+        [CheckLogin]
+        public ActionResult History()
+        {
+            var cookie = Request.Cookies["userInfo"];
+            if (cookie != null)
+            {
+                string name = cookie.Value;
+                var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
+                List<Material_Apply> applies = _applyBll.GetEntities(m => m.Teacher_Id == user.username);
+                foreach (Material_Apply apply in applies)
+                {
+                    apply.Material_Name = _infoBll.GetEntity(m => m.Material_Id == apply.Material_Id).Material_Name;
+                }
+                return View(applies);
+            }
+
+            return Content("登录信息失效,请重新登录");
+        }
+
         public ActionResult GetUserName(string username)
         {
             return Content(Container.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == username).Teacher_Name);
@@ -317,7 +336,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Company(int index)
         {
-            List<Material_Company> companies = _companyBll.GetEntities(m => true);
+            List<Material_Company> companies = CompanyBll.GetEntities(m => true);
             ViewBag.index = index;
             ViewBag.total = companies.Count % 12 == 0 ? companies.Count / 12 - 1 : companies.Count / 12;
             return View(companies.OrderBy(m => m.Id).Skip((index - 1) * 12).Take(12).ToList());
