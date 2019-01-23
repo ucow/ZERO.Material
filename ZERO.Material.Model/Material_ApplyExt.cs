@@ -6,6 +6,10 @@ namespace ZERO.Material.Model
     [MetadataType(typeof(Material_ApplyExt))]
     public partial class Material_Apply : ICloneable
     {
+        public string Teacher_Name { get; set; }
+        public string Teacher_Depart { get; set; }
+        public string Material_Name { get; set; }
+
         public object Clone()
         {
             return this.MemberwiseClone();

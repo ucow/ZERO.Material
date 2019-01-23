@@ -16,7 +16,7 @@
             treeIdName: 'Material_Type_Id',       // treetable新增参数
             treePidName: 'Material_Type_Parent_Id',     // treetable新增参数
             treeDefaultClose: true,   // treetable新增参数
-            treeLinkage: true,        // treetable新增参数
+            treeLinkage: true,       // treetable新增参数
             elem: '#baseTable',
             url: 'List',
             toolbar: '#baseTableToolBar',

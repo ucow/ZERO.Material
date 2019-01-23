@@ -63,7 +63,7 @@
                         <tbody>
                             <tr>
                                 <td style="width: 20%; text-align: center">
-                                    <img style="text-align: center" width="150" height="150" src="@item.Material_Image" />
+                                    <img style="text-align: center" width="150" height="150" src="@Url.Action("GetImage",new {@id=item.Material_Id})" />
                                 </td>
                                 <td style="width: 20%; text-align: center">
                                     <span style="font-size: 15px"> <strong>@Html.ActionLink(item.Material_Name.Replace("授权代理商", "").Replace("?", "™"), "MaterialInfo", new { @id = item.Material_Id })</strong></span>
@@ -108,19 +108,19 @@
     </div>
     <div style="text-align: center; margin-bottom: 50px;">
         <ul class="pagination">
-            <li><a href="Search?material=@ViewBag.Title&company=@ViewBag.company&type=@ViewBag.type&index=@(ViewBag.index - 1)">&laquo;</a></li>
+            <li><a href="Search?material=@ViewBag.Title.Split('_')[0]&company=@ViewBag.company&type=@ViewBag.type&index=@(ViewBag.index - 1)">&laquo;</a></li>
             @for (int i = 0; i < ViewBag.total; i++)
             {
                 if (i == ViewBag.index)
                 {
-                    <li class="active"><a href="Search?material=@ViewBag.Title&company=@ViewBag.company&type=@ViewBag.type&index=@i">@(i + 1)</a></li>
+                    <li class="active"><a href="Search?material=@ViewBag.Title.Split('_')[0]&company=@ViewBag.company&type=@ViewBag.type&index=@i">@(i + 1)</a></li>
                 }
                 else
                 {
-                    <li><a href="Search?material=@ViewBag.Title&company=@ViewBag.company&type=@ViewBag.type&index=@i">@(i + 1)</a></li>
+                    <li><a href="Search?material=@ViewBag.Title.Split('_')[0]&company=@ViewBag.company&type=@ViewBag.type&index=@i">@(i + 1)</a></li>
                 }
             }
-            <li><a href="Search?material=@ViewBag.Title&company=@ViewBag.company&type=@ViewBag.type&index=@(ViewBag.index + 1)">&raquo;</a></li>
+            <li><a href="Search?material=@ViewBag.Title.Split('_')[0]&company=@ViewBag.company&type=@ViewBag.type&index=@(ViewBag.index + 1)">&raquo;</a></li>
         </ul>
     </div>
 </div>

@@ -102,7 +102,7 @@
                 $('#loginLi').addClass('hidden');
                 $('#userLi').removeClass('hidden');
                 $.ajax({
-                    url: "GetUserName",
+                    url: "../../Zero/GetUserName",
                     type: "POST",
                     data: { "username": userInfo.username },
                     success: function (data) {

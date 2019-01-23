@@ -351,5 +351,18 @@ namespace ZERO.Material.Backstage.Controllers
                 }
             }
         }
+
+        public FileContentResult GetImage(string id)
+        {
+            Material_Info info = _infoBll.GetEntity(m => m.Material_Id == id);
+            if (info != null)
+            {
+                return new FileContentResult(info.Material_Image, "Image/jpg");
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }
