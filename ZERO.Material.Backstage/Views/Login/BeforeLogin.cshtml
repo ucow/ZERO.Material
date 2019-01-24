@@ -293,7 +293,7 @@
             //注册
             $('#btnRegister').on('click',
                 function (e) {
-                    if (!$('#isAccept').checked) {
+                    if (!$('#isAccept')[0].checked) {
                         toastr.error("请先接受用户协议");
                     } else if ($('#teacherId').val() === "") {
                         toastr.error("请输入教师编号");
@@ -326,7 +326,7 @@
 
         function CheckCookie() {
             var cookie = $.cookie('userInfo');
-            if (cookie !== undefined) {
+            if (cookie !== undefined && cookie !== "null") {
                 var userInfo = JSON.parse(cookie);
                 Login(userInfo.username, userInfo.password, false);
             }
