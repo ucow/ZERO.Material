@@ -1,0 +1,65 @@
+﻿@model List<ZERO.Material.Model.Material_Apply>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NeedBuy</title>
+</head>
+<body>
+    <div>
+        <table id="needBuyTable" lay-filter="needBuy"></table>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script>
+    layui.use(['table', 'layer'],
+        function () {
+            var table = layui.table;
+
+            var layer = layui.layer;
+            var load = layer.load(1);
+            var tableOption = {
+                elem: "#needBuyTable",
+                //height: 100 %,
+                url: "GetNeedBuy",
+                loading: true,
+                defaultToolbar: false,
+                cellMinWidth: 50,
+                page: true,
+                size: 'lg',
+                limits: [10, 20, 30, 40],
+                text: "未加载到数据",
+                cols: [
+                    [
+                        { type: 'checkbox', fixed: 'left' },
+                        { field: 'Material_Id', title: '器材编号', sort: true },
+                        { field: 'Material_Name', title: '教师姓名' },
+                        { field: 'Company_Name', title: '供应商' },
+                        { field: 'Material_Size', title: '器材规格' },
+                        { field: 'Material_UnitWeight', title: '单位重量' },
+                        { field: 'Needbuy_Count', title: '需购数量' },
+                        { field:'Material_CountUnit',title:'计量单位'},
+                        {
+                            field: 'Last_Time',
+                            title: '最迟入库时间',
+                            sort: true,
+                            templet: "<div>{{layui.util.toDateString(d.Last_Time, 'yyyy-MM-dd ')}}</div>"
+                        },
+                        { field: 'Needbuy_Count', title: '采购数量' }
+                    ]
+                ],
+                done: function (res) {
+                    layer.close(load);
+                }
+            };
+            table.render(tableOption);
+        })
+    </script>
+</body>
+</html>
