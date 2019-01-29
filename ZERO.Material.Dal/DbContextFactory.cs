@@ -7,7 +7,7 @@ namespace ZERO.Material.Dal
     {
         public static DbContext GetDbContext()
         {
-            return new ZERO_Material();
+            return new ZERO_MaterialEntities();
         }
     }
 }

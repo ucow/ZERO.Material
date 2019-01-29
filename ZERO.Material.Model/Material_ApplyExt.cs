@@ -6,13 +6,20 @@ namespace ZERO.Material.Model
     [MetadataType(typeof(Material_ApplyExt))]
     public partial class Material_Apply : ICloneable
     {
-        public string Teacher_Name { get; set; }
-        public string Teacher_Depart { get; set; }
-        public string Material_Name { get; set; }
-
         public object Clone()
         {
             return this.MemberwiseClone();
+        }
+
+        public bool Equals(Material_Apply other)
+        {
+            return string.Equals(Teacher_Id, other.Teacher_Id) &&
+                   Apply_Time.Equals(other.Apply_Time) &&
+                   Start_Time.Equals(other.Start_Time) &&
+                   End_Time.Equals(other.End_Time) &&
+                   string.Equals(Teach_Depart, other.Teach_Depart) &&
+                   string.Equals(Teach_Field, other.Teach_Field) &&
+                   string.Equals(Material_Id, other.Material_Id);
         }
     }
 

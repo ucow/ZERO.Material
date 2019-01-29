@@ -21,14 +21,15 @@ namespace ZERO.Material.Backstage.Controllers
 
         private readonly IBaseApplyBll _applyBll = Container.Server<IBaseApplyBll>();
         private readonly ITeacherBll _teacherBll = Container.Server<ITeacherBll>();
-
+        private readonly IApplyInfoBll _applyInfoBll = Container.Server<IApplyInfoBll>();
         private readonly IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
 
         #endregion 全局变量
 
-        #region 申请列表
+        #region 借用申请列表
 
         // GET: Apply
+        //借用审批
         public ActionResult Borrow()
         {
             List<string> teacherIds = _applyBll.GetEntities(m => true).Select(m => m.Teacher_Id).Distinct().ToList();
@@ -42,6 +43,7 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
+        //获取借用信息
         public string GetMaterialBorrow(int page, int limit, ApplyFilter applyFilter)
         {
             DateTime[] applyTimes = applyFilter.GetStartAndEndTime(applyFilter.ApplyTime);
@@ -54,38 +56,39 @@ namespace ZERO.Material.Backstage.Controllers
             DateTime? endTime0 = endTimes?[0];
             DateTime? endTime1 = endTimes?[1];
             int? status = applyFilter.Status == null ? (int?)null : Int32.Parse(applyFilter.Status);
-            List<Material_Apply> materApplies = _applyBll.GetEntities(m =>
-                (applyFilter.Teacher == null || m.Teacher_Id == applyFilter.Teacher) &&
-                (status == null || m.Head_Aduit == status) &&
-                ((applyTime0 == null || applyTime1 == null) || m.Apply_Time >= applyTime0 && m.Apply_Time <= applyTime1) &&
-                ((startTime0 == null || startTime1 == null) || m.Start_Time >= startTime0 && m.Start_Time <= startTime1) &&
-                ((endTime0 == null || endTime1 == null) || m.End_Time >= endTime0 && m.End_Time <= endTime1))
+            string teacher = applyFilter.Teacher == null
+                ? null
+                : _teacherBll.GetEntity(m => m.Teacher_Id == applyFilter.Teacher).Teacher_Name;
+            IUseApplyBll useApplyBll = Container.Server<IUseApplyBll>();
+            List<Use_Apply> useApplies = useApplyBll.GetEntities(m =>
+                    (applyFilter.Teacher == null || m.Teacher_Name == teacher) &&
+                    (status == null || m.Apply_Status == status) &&
+                    ((applyTime0 == null || applyTime1 == null) || m.Apply_Time >= applyTime0 && m.Apply_Time <= applyTime1) &&
+                    ((startTime0 == null || startTime1 == null) || m.Start_Time >= startTime0 && m.Start_Time <= startTime1) &&
+                    ((endTime0 == null || endTime1 == null) || m.End_Time >= endTime0 && m.End_Time <= endTime1))
                 .Skip((page - 1) * limit).Take(limit).ToList();
-
-            foreach (Material_Apply materApply in materApplies)
-            {
-                Material_Teacher teacher = _teacherBll.GetEntity(m => m.Teacher_Id == materApply.Teacher_Id);
-                materApply.Teacher_Name = teacher.Teacher_Name;
-                materApply.Teacher_Depart = teacher.Teacher_Depart;
-                materApply.Material_Name =
-                    _infoBll.GetEntity(m => m.Material_Id == materApply.Material_Id).Material_Name;
-            }
 
             var msg = new
             {
                 code = 0,
                 msg = "",
-                total = materApplies.Count,
-                data = materApplies
+                total = useApplies.Count,
+                data = useApplies
             };
             return JsonConvert.SerializeObject(msg);
         }
 
-        #endregion 申请列表
+        #endregion 借用申请列表
 
-        public ActionResult Review(List<Material_Apply> applies)
+        public ActionResult Buy()
         {
-            if (_applyBll.UpdateEntities(applies))
+            return View();
+        }
+
+        //审核
+        public ActionResult Review(List<Apply_Info> applies)
+        {
+            if (_applyInfoBll.UpdateEntities(applies))
             {
                 return Content("OK");
             }

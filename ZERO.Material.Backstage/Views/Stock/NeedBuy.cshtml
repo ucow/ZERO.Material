@@ -14,6 +14,13 @@
     <div>
         <table id="needBuyTable" lay-filter="needBuy"></table>
     </div>
+
+    <div id="needCellBar" hidden>
+        <button type="button" class="layui-btn layui-btn-xs">申请入库</button>
+    </div>
+    <div id="needTopBar" hidden>
+        <button type="button" class="layui-btn layui-btn-normal">全部入库</button>
+    </div>
     @Scripts.Render("~/bundles/jquery")
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
@@ -32,6 +39,7 @@
                 defaultToolbar: false,
                 cellMinWidth: 50,
                 page: true,
+                toolbar: "#needTopBar",
                 size: 'lg',
                 limits: [10, 20, 30, 40],
                 text: "未加载到数据",
@@ -39,19 +47,20 @@
                     [
                         { type: 'checkbox', fixed: 'left' },
                         { field: 'Material_Id', title: '器材编号', sort: true },
-                        { field: 'Material_Name', title: '教师姓名' },
+                        { field: 'Material_Name', title: '器材名称' },
                         { field: 'Company_Name', title: '供应商' },
                         { field: 'Material_Size', title: '器材规格' },
                         { field: 'Material_UnitWeight', title: '单位重量' },
                         { field: 'Needbuy_Count', title: '需购数量' },
-                        { field:'Material_CountUnit',title:'计量单位'},
+                        { field: 'Material_CountUnit', title: '计量单位' },
                         {
                             field: 'Last_Time',
                             title: '最迟入库时间',
                             sort: true,
                             templet: "<div>{{layui.util.toDateString(d.Last_Time, 'yyyy-MM-dd ')}}</div>"
                         },
-                        { field: 'Needbuy_Count', title: '采购数量' }
+                        { field: 'Needbuy_Count', title: '采购数量' },
+                        { templet: '#needCellBar', 'title':"操作"}
                     ]
                 ],
                 done: function (res) {

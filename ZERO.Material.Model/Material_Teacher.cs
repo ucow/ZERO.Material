@@ -11,13 +11,22 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
+    
     public partial class Material_Teacher
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Material_Teacher()
+        {
+            this.Material_Apply = new HashSet<Material_Apply>();
+        }
+    
         public int Id { get; set; }
         public string Teacher_Id { get; set; }
         public string Teacher_Name { get; set; }
         public string Teacher_Depart { get; set; }
         public string Teacher_Password { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Material_Apply> Material_Apply { get; set; }
     }
 }

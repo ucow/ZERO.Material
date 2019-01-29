@@ -41,16 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IApplyInfoBll.cs" />
+    <Compile Include="IApplyTypeBll.cs" />
     <Compile Include="IBaseApplyBll.cs" />
     <Compile Include="IBaseBll.cs" />
     <Compile Include="IBaseCompanyBll.cs" />
     <Compile Include="IBaseInfoBll.cs" />
     <Compile Include="IBaseTypeBll.cs" />
     <Compile Include="IBasicBll.cs" />
+    <Compile Include="IBuyApplyBll.cs" />
+    <Compile Include="IBuyInComingApplyBll.cs" />
     <Compile Include="ICompanyBll.cs" />
     <Compile Include="ITeacherBll.cs" />
     <Compile Include="ITypeBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IUseApplyBll.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZERO.Material.IDal\ZERO.Material.IDal.csproj">

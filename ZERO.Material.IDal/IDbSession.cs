@@ -20,6 +20,16 @@ namespace ZERO.Material.IDal
 
         ITeacherDal TeacherDal();
 
+        IApplyInfoDal ApplyInfoDal();
+
+        IApplyTypeDal ApplyTypeDal();
+
+        IBuyInComingApplyDal BuyInComingApplyDal();
+
+        IUseApplyDal UseApplyDal();
+
+        IBuyApplyDal BuyApplyDal();
+
         int SaveChanges();
     }
 }

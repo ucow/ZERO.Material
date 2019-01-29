@@ -44,16 +44,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplyInfoBll.cs" />
+    <Compile Include="ApplyTypeBll.cs" />
     <Compile Include="BaseApplyBll.cs" />
     <Compile Include="BaseBll.cs" />
     <Compile Include="BaseCompanyBll.cs" />
     <Compile Include="BaseInfoBll.cs" />
     <Compile Include="BaseTypeBll.cs" />
     <Compile Include="BasicBll.cs" />
+    <Compile Include="BuyApplyBll.cs" />
+    <Compile Include="BuyInComingApplyBll.cs" />
     <Compile Include="CompanyBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TeacherBll.cs" />
     <Compile Include="TypeBll.cs" />
+    <Compile Include="UseApplyBll.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZERO.Material.Command\ZERO.Material.Command.csproj">

@@ -42,6 +42,31 @@ namespace ZERO.Material.Dal
 
         public ITeacherDal TeacherDal() => StaticDalFactory.GetTeacherDal();
 
+        public IApplyInfoDal ApplyInfoDal()
+        {
+            return StaticDalFactory.GetApplyInfoDal();
+        }
+
+        public IApplyTypeDal ApplyTypeDal()
+        {
+            return StaticDalFactory.GetApplyTypeDal();
+        }
+
+        public IBuyInComingApplyDal BuyInComingApplyDal()
+        {
+            return StaticDalFactory.GetBuyInComingApplyDal();
+        }
+
+        public IUseApplyDal UseApplyDal()
+        {
+            return StaticDalFactory.GetUseApplyDal();
+        }
+
+        public IBuyApplyDal BuyApplyDal()
+        {
+            return StaticDalFactory.GetBuyApplyDal();
+        }
+
         public int SaveChanges()
         {
             return DbContextFactory.GetDbContext().SaveChanges();

@@ -53,7 +53,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apply_Info.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Apply_Type.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="AttributeCustom\IsSortAttribute.cs" />
+    <Compile Include="BuyInComing_Apply.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Buy_Apply.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="IEntity.cs" />
     <Compile Include="MaterialModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -102,6 +114,9 @@
     <Compile Include="Other\ApplyFilter.cs" />
     <Compile Include="Other\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Use_Apply.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />

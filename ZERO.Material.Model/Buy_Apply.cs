@@ -12,19 +12,19 @@ namespace ZERO.Material.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Material_Base_Company
+    public partial class Buy_Apply
     {
-        public int Id { get; set; }
-        public string Company_Id { get; set; }
         public string Material_Id { get; set; }
+        public string Material_Name { get; set; }
+        public string Company_Name { get; set; }
         public double Material_Price { get; set; }
         public double Material_Count { get; set; }
         public string Material_Size { get; set; }
         public double Material_RemainCont { get; set; }
         public string Material_CountUnit { get; set; }
-        public string Material_UnitWeight { get; set; }
-    
-        public virtual Material_Base Material_Base { get; set; }
-        public virtual Material_Company Material_Company { get; set; }
+        public string ApplyType_Id { get; set; }
+        public int Apply_Count { get; set; }
+        public int Apply_Status { get; set; }
+        public string Apply_Advice { get; set; }
     }
 }

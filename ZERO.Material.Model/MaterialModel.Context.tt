@@ -59,7 +59,6 @@ using System.Linq;
         : base("name=<#=container.Name#>")
     {
 <#
-
 if (!loader.IsLazyLoadingEnabled(container))
 {
 #>

@@ -11,7 +11,7 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
+    
     public partial class Material_Info
     {
         public string Material_Id { get; set; }

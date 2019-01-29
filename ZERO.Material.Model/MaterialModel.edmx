@@ -5,6 +5,33 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="ZERO_MaterialModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Apply_Info">
+          <Key>
+            <PropertyRef Name="Apply_Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Apply_Id" Type="int" Nullable="false" />
+          <Property Name="ApplyType_Id" Type="nchar" MaxLength="3" Nullable="false" />
+          <Property Name="Apply_Count" Type="int" Nullable="false" />
+          <Property Name="Apply_Status" Type="int" Nullable="false" />
+          <Property Name="Apply_Advice" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Apply_Type">
+          <Key>
+            <PropertyRef Name="ApplyType_Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ApplyType_Id" Type="nchar" MaxLength="3" Nullable="false" />
+          <Property Name="ApplyType_Name" Type="nchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BuyInComing_Apply">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Last_Time" Type="datetime" Nullable="false" />
+        </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
             <PropertyRef Name="Id" />
@@ -17,10 +44,6 @@
           <Property Name="Teach_Depart" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="Teach_Field" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="Apply_Count" Type="int" Nullable="false" />
-          <Property Name="Needbuy_Count" Type="int" Nullable="false" />
-          <Property Name="Head_Aduit" Type="int" Nullable="false" />
-          <Property Name="Head_Advice" Type="nvarchar(max)" />
         </EntityType>
         <EntityType Name="Material_Base">
           <Key>
@@ -87,6 +110,35 @@
           <Property Name="Material_Type_Parent_Id" Type="nvarchar" MaxLength="128" />
         </EntityType>
         <!--生成过程中发现错误:
+警告 6002: 表/视图“ZERO_Material.dbo.Buy_Apply”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="Buy_Apply">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Company_Name" />
+            <PropertyRef Name="Material_Price" />
+            <PropertyRef Name="Material_Count" />
+            <PropertyRef Name="Material_Size" />
+            <PropertyRef Name="Material_RemainCont" />
+            <PropertyRef Name="Material_CountUnit" />
+            <PropertyRef Name="ApplyType_Id" />
+            <PropertyRef Name="Apply_Count" />
+            <PropertyRef Name="Apply_Status" />
+          </Key>
+          <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Material_Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Company_Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Material_Price" Type="float" Nullable="false" />
+          <Property Name="Material_Count" Type="float" Nullable="false" />
+          <Property Name="Material_Size" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Material_RemainCont" Type="float" Nullable="false" />
+          <Property Name="Material_CountUnit" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="ApplyType_Id" Type="nchar" MaxLength="3" Nullable="false" />
+          <Property Name="Apply_Count" Type="int" Nullable="false" />
+          <Property Name="Apply_Status" Type="int" Nullable="false" />
+          <Property Name="Apply_Advice" Type="nvarchar(max)" />
+        </EntityType>
+        <!--生成过程中发现错误:
 警告 6002: 表/视图“ZERO_Material.dbo.Material_Info”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
         <EntityType Name="Material_Info">
           <Key>
@@ -114,8 +166,69 @@
           <Property Name="Material_Remark" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Material_Image" Type="image" />
         </EntityType>
-        <Association Name="FK_Material_Apply_Material_Base">
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“ZERO_Material.dbo.Use_Apply”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="Use_Apply">
+          <Key>
+            <PropertyRef Name="Apply_Id" />
+            <PropertyRef Name="ApplyType_Id" />
+            <PropertyRef Name="Teacher_Name" />
+            <PropertyRef Name="Apply_Time" />
+            <PropertyRef Name="Start_Time" />
+            <PropertyRef Name="End_Time" />
+            <PropertyRef Name="Teach_Depart" />
+            <PropertyRef Name="Teach_Field" />
+            <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Apply_Count" />
+            <PropertyRef Name="Apply_Status" />
+            <PropertyRef Name="Teacher_Id" />
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Teacher_Depart" />
+          </Key>
+          <Property Name="Apply_Id" Type="int" Nullable="false" />
+          <Property Name="ApplyType_Id" Type="nchar" MaxLength="3" Nullable="false" />
+          <Property Name="Teacher_Name" Type="nvarchar" MaxLength="5" Nullable="false" />
+          <Property Name="Apply_Time" Type="datetime" Nullable="false" />
+          <Property Name="Start_Time" Type="datetime" Nullable="false" />
+          <Property Name="End_Time" Type="datetime" Nullable="false" />
+          <Property Name="Teach_Depart" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Teach_Field" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Material_Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Apply_Count" Type="int" Nullable="false" />
+          <Property Name="Apply_Status" Type="int" Nullable="false" />
+          <Property Name="Apply_Advice" Type="nvarchar(max)" />
+          <Property Name="Teacher_Id" Type="char" MaxLength="4" Nullable="false" />
+          <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Apply_Info_Apply_Type">
+          <End Role="Apply_Type" Type="Self.Apply_Type" Multiplicity="1" />
+          <End Role="Apply_Info" Type="Self.Apply_Info" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Apply_Type">
+              <PropertyRef Name="ApplyType_Id" />
+            </Principal>
+            <Dependent Role="Apply_Info">
+              <PropertyRef Name="ApplyType_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BuyInComing_Apply_Material_Base">
           <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1" />
+          <End Role="BuyInComing_Apply" Type="Self.BuyInComing_Apply" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Base">
+              <PropertyRef Name="Material_Id" />
+            </Principal>
+            <Dependent Role="BuyInComing_Apply">
+              <PropertyRef Name="Material_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Apply_Material_Base">
+          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Material_Apply" Type="Self.Material_Apply" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Material_Base">
@@ -126,8 +239,22 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Material_Apply_Material_Teacher">
+          <End Role="Material_Teacher" Type="Self.Material_Teacher" Multiplicity="1" />
+          <End Role="Material_Apply" Type="Self.Material_Apply" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Teacher">
+              <PropertyRef Name="Teacher_Id" />
+            </Principal>
+            <Dependent Role="Material_Apply">
+              <PropertyRef Name="Teacher_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_Material_Base_Company_Material_Base">
-          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1" />
+          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Material_Base_Company" Type="Self.Material_Base_Company" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Material_Base">
@@ -153,7 +280,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Material_Base_Type_Material_Base">
-          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1" />
+          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Material_Base_Type" Type="Self.Material_Base_Type" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Material_Base">
@@ -177,6 +306,9 @@
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="ZERO_MaterialModelStoreContainer">
+          <EntitySet Name="Apply_Info" EntityType="Self.Apply_Info" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Apply_Type" EntityType="Self.Apply_Type" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BuyInComing_Apply" EntityType="Self.BuyInComing_Apply" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Apply" EntityType="Self.Material_Apply" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Base" EntityType="Self.Material_Base" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Base_Company" EntityType="Self.Material_Base_Company" Schema="dbo" store:Type="Tables" />
@@ -184,6 +316,22 @@
           <EntitySet Name="Material_Company" EntityType="Self.Material_Company" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Teacher" EntityType="Self.Material_Teacher" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Type" EntityType="Self.Material_Type" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Buy_Apply" EntityType="Self.Buy_Apply" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Buy_Apply].[Material_Id] AS [Material_Id], 
+    [Buy_Apply].[Material_Name] AS [Material_Name], 
+    [Buy_Apply].[Company_Name] AS [Company_Name], 
+    [Buy_Apply].[Material_Price] AS [Material_Price], 
+    [Buy_Apply].[Material_Count] AS [Material_Count], 
+    [Buy_Apply].[Material_Size] AS [Material_Size], 
+    [Buy_Apply].[Material_RemainCont] AS [Material_RemainCont], 
+    [Buy_Apply].[Material_CountUnit] AS [Material_CountUnit], 
+    [Buy_Apply].[ApplyType_Id] AS [ApplyType_Id], 
+    [Buy_Apply].[Apply_Count] AS [Apply_Count], 
+    [Buy_Apply].[Apply_Status] AS [Apply_Status], 
+    [Buy_Apply].[Apply_Advice] AS [Apply_Advice]
+    FROM [dbo].[Buy_Apply] AS [Buy_Apply]</DefiningQuery>
+          </EntitySet>
           <EntitySet Name="Material_Info" EntityType="Self.Material_Info" store:Type="Views" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [Material_Info].[Material_Id] AS [Material_Id], 
@@ -200,8 +348,39 @@
     [Material_Info].[Material_Image] AS [Material_Image]
     FROM [dbo].[Material_Info] AS [Material_Info]</DefiningQuery>
           </EntitySet>
+          <EntitySet Name="Use_Apply" EntityType="Self.Use_Apply" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Use_Apply].[Apply_Id] AS [Apply_Id], 
+    [Use_Apply].[ApplyType_Id] AS [ApplyType_Id], 
+    [Use_Apply].[Teacher_Name] AS [Teacher_Name], 
+    [Use_Apply].[Apply_Time] AS [Apply_Time], 
+    [Use_Apply].[Start_Time] AS [Start_Time], 
+    [Use_Apply].[End_Time] AS [End_Time], 
+    [Use_Apply].[Teach_Depart] AS [Teach_Depart], 
+    [Use_Apply].[Teach_Field] AS [Teach_Field], 
+    [Use_Apply].[Material_Name] AS [Material_Name], 
+    [Use_Apply].[Apply_Count] AS [Apply_Count], 
+    [Use_Apply].[Apply_Status] AS [Apply_Status], 
+    [Use_Apply].[Apply_Advice] AS [Apply_Advice], 
+    [Use_Apply].[Teacher_Id] AS [Teacher_Id], 
+    [Use_Apply].[Material_Id] AS [Material_Id], 
+    [Use_Apply].[Teacher_Depart] AS [Teacher_Depart]
+    FROM [dbo].[Use_Apply] AS [Use_Apply]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_Apply_Info_Apply_Type" Association="Self.FK_Apply_Info_Apply_Type">
+            <End Role="Apply_Type" EntitySet="Apply_Type" />
+            <End Role="Apply_Info" EntitySet="Apply_Info" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BuyInComing_Apply_Material_Base" Association="Self.FK_BuyInComing_Apply_Material_Base">
+            <End Role="Material_Base" EntitySet="Material_Base" />
+            <End Role="BuyInComing_Apply" EntitySet="BuyInComing_Apply" />
+          </AssociationSet>
           <AssociationSet Name="FK_Material_Apply_Material_Base" Association="Self.FK_Material_Apply_Material_Base">
             <End Role="Material_Base" EntitySet="Material_Base" />
+            <End Role="Material_Apply" EntitySet="Material_Apply" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Apply_Material_Teacher" Association="Self.FK_Material_Apply_Material_Teacher">
+            <End Role="Material_Teacher" EntitySet="Material_Teacher" />
             <End Role="Material_Apply" EntitySet="Material_Apply" />
           </AssociationSet>
           <AssociationSet Name="FK_Material_Base_Company_Material_Base" Association="Self.FK_Material_Base_Company_Material_Base">
@@ -225,7 +404,10 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="ZERO_MaterialModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="ZERO_Material" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="ZERO_MaterialEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Apply_Info" EntityType="ZERO_MaterialModel.Apply_Info" />
+          <EntitySet Name="Apply_Type" EntityType="ZERO_MaterialModel.Apply_Type" />
+          <EntitySet Name="BuyInComing_Apply" EntityType="ZERO_MaterialModel.BuyInComing_Apply" />
           <EntitySet Name="Material_Apply" EntityType="ZERO_MaterialModel.Material_Apply" />
           <EntitySet Name="Material_Base" EntityType="ZERO_MaterialModel.Material_Base" />
           <EntitySet Name="Material_Base_Company" EntityType="ZERO_MaterialModel.Material_Base_Company" />
@@ -233,8 +415,23 @@
           <EntitySet Name="Material_Company" EntityType="ZERO_MaterialModel.Material_Company" />
           <EntitySet Name="Material_Teacher" EntityType="ZERO_MaterialModel.Material_Teacher" />
           <EntitySet Name="Material_Type" EntityType="ZERO_MaterialModel.Material_Type" />
+          <EntitySet Name="Buy_Apply" EntityType="ZERO_MaterialModel.Buy_Apply" />
+          <EntitySet Name="Material_Info" EntityType="ZERO_MaterialModel.Material_Info" />
+          <EntitySet Name="Use_Apply" EntityType="ZERO_MaterialModel.Use_Apply" />
+          <AssociationSet Name="FK_Apply_Info_Apply_Type" Association="ZERO_MaterialModel.FK_Apply_Info_Apply_Type">
+            <End Role="Apply_Type" EntitySet="Apply_Type" />
+            <End Role="Apply_Info" EntitySet="Apply_Info" />
+          </AssociationSet>
+          <AssociationSet Name="FK_BuyInComing_Apply_Material_Base" Association="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base">
+            <End Role="Material_Base" EntitySet="Material_Base" />
+            <End Role="BuyInComing_Apply" EntitySet="BuyInComing_Apply" />
+          </AssociationSet>
           <AssociationSet Name="FK_Material_Apply_Material_Base" Association="ZERO_MaterialModel.FK_Material_Apply_Material_Base">
             <End Role="Material_Base" EntitySet="Material_Base" />
+            <End Role="Material_Apply" EntitySet="Material_Apply" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Apply_Material_Teacher" Association="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher">
+            <End Role="Material_Teacher" EntitySet="Material_Teacher" />
             <End Role="Material_Apply" EntitySet="Material_Apply" />
           </AssociationSet>
           <AssociationSet Name="FK_Material_Base_Company_Material_Base" Association="ZERO_MaterialModel.FK_Material_Base_Company_Material_Base">
@@ -253,8 +450,37 @@
             <End Role="Material_Type" EntitySet="Material_Type" />
             <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
           </AssociationSet>
-          <EntitySet Name="Material_Info" EntityType="ZERO_MaterialModel.Material_Info" />
         </EntityContainer>
+        <EntityType Name="Apply_Info">
+          <Key>
+            <PropertyRef Name="Apply_Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Apply_Id" Type="Int32" Nullable="false" />
+          <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+          <Property Name="Apply_Count" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Status" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Apply_Type" Relationship="ZERO_MaterialModel.FK_Apply_Info_Apply_Type" FromRole="Apply_Info" ToRole="Apply_Type" />
+        </EntityType>
+        <EntityType Name="Apply_Type">
+          <Key>
+            <PropertyRef Name="ApplyType_Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+          <Property Name="ApplyType_Name" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="Apply_Info" Relationship="ZERO_MaterialModel.FK_Apply_Info_Apply_Type" FromRole="Apply_Type" ToRole="Apply_Info" />
+        </EntityType>
+        <EntityType Name="BuyInComing_Apply">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Last_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Material_Base" Relationship="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base" FromRole="BuyInComing_Apply" ToRole="Material_Base" />
+        </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
             <PropertyRef Name="Id" />
@@ -267,11 +493,8 @@
           <Property Name="Teach_Depart" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="Teach_Field" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="Apply_Count" Type="Int32" Nullable="false" />
-          <Property Name="Needbuy_Count" Type="Int32" Nullable="false" />
-          <Property Name="Head_Aduit" Type="Int32" Nullable="false" />
-          <Property Name="Head_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Material_Base" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Base" FromRole="Material_Apply" ToRole="Material_Base" />
+          <NavigationProperty Name="Material_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" FromRole="Material_Apply" ToRole="Material_Teacher" />
         </EntityType>
         <EntityType Name="Material_Base">
           <Key>
@@ -282,6 +505,7 @@
           <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="BuyInComing_Apply" Relationship="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base" FromRole="Material_Base" ToRole="BuyInComing_Apply" />
           <NavigationProperty Name="Material_Apply" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Base" FromRole="Material_Base" ToRole="Material_Apply" />
           <NavigationProperty Name="Material_Base_Company" Relationship="ZERO_MaterialModel.FK_Material_Base_Company_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Company" />
           <NavigationProperty Name="Material_Base_Type" Relationship="ZERO_MaterialModel.FK_Material_Base_Type_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Type" />
@@ -334,6 +558,7 @@
           <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Password" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Material_Apply" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" FromRole="Material_Teacher" ToRole="Material_Apply" />
         </EntityType>
         <EntityType Name="Material_Type">
           <Key>
@@ -346,8 +571,120 @@
           <Property Name="Material_Type_Parent_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Material_Base_Type" Relationship="ZERO_MaterialModel.FK_Material_Base_Type_Material_Type" FromRole="Material_Type" ToRole="Material_Base_Type" />
         </EntityType>
-        <Association Name="FK_Material_Apply_Material_Base">
+        <EntityType Name="Buy_Apply">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Company_Name" />
+            <PropertyRef Name="Material_Price" />
+            <PropertyRef Name="Material_Count" />
+            <PropertyRef Name="Material_Size" />
+            <PropertyRef Name="Material_RemainCont" />
+            <PropertyRef Name="Material_CountUnit" />
+            <PropertyRef Name="ApplyType_Id" />
+            <PropertyRef Name="Apply_Count" />
+            <PropertyRef Name="Apply_Status" />
+          </Key>
+          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Company_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Price" Type="Double" Nullable="false" />
+          <Property Name="Material_Count" Type="Double" Nullable="false" />
+          <Property Name="Material_Size" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Material_RemainCont" Type="Double" Nullable="false" />
+          <Property Name="Material_CountUnit" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+          <Property Name="Apply_Count" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Status" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Material_Info">
+          <Key>
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Company_Name" />
+            <PropertyRef Name="Material_Price" />
+            <PropertyRef Name="Material_Count" />
+            <PropertyRef Name="Material_RemainCont" />
+            <PropertyRef Name="Material_CountUnit" />
+            <PropertyRef Name="Material_UnitWeight" />
+            <PropertyRef Name="Material_Size" />
+            <PropertyRef Name="Material_Remark" />
+          </Key>
+          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Company_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Price" Type="Double" Nullable="false" />
+          <Property Name="Material_Count" Type="Double" Nullable="false" />
+          <Property Name="Material_RemainCont" Type="Double" Nullable="false" />
+          <Property Name="Material_CountUnit" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Material_UnitWeight" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Size" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Use_Apply">
+          <Key>
+            <PropertyRef Name="Apply_Id" />
+            <PropertyRef Name="ApplyType_Id" />
+            <PropertyRef Name="Teacher_Name" />
+            <PropertyRef Name="Apply_Time" />
+            <PropertyRef Name="Start_Time" />
+            <PropertyRef Name="End_Time" />
+            <PropertyRef Name="Teach_Depart" />
+            <PropertyRef Name="Teach_Field" />
+            <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Apply_Count" />
+            <PropertyRef Name="Apply_Status" />
+            <PropertyRef Name="Teacher_Id" />
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Teacher_Depart" />
+          </Key>
+          <Property Name="Apply_Id" Type="Int32" Nullable="false" />
+          <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+          <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="Apply_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Start_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="End_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Teach_Depart" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Teach_Field" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Apply_Count" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Status" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_Apply_Info_Apply_Type">
+          <End Type="ZERO_MaterialModel.Apply_Type" Role="Apply_Type" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Apply_Info" Role="Apply_Info" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Apply_Type">
+              <PropertyRef Name="ApplyType_Id" />
+            </Principal>
+            <Dependent Role="Apply_Info">
+              <PropertyRef Name="ApplyType_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_BuyInComing_Apply_Material_Base">
           <End Type="ZERO_MaterialModel.Material_Base" Role="Material_Base" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.BuyInComing_Apply" Role="BuyInComing_Apply" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Base">
+              <PropertyRef Name="Material_Id" />
+            </Principal>
+            <Dependent Role="BuyInComing_Apply">
+              <PropertyRef Name="Material_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Apply_Material_Base">
+          <End Type="ZERO_MaterialModel.Material_Base" Role="Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Type="ZERO_MaterialModel.Material_Apply" Role="Material_Apply" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Material_Base">
@@ -358,8 +695,22 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Material_Apply_Material_Teacher">
+          <End Type="ZERO_MaterialModel.Material_Teacher" Role="Material_Teacher" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Apply" Role="Material_Apply" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Teacher">
+              <PropertyRef Name="Teacher_Id" />
+            </Principal>
+            <Dependent Role="Material_Apply">
+              <PropertyRef Name="Teacher_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_Material_Base_Company_Material_Base">
-          <End Type="ZERO_MaterialModel.Material_Base" Role="Material_Base" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Base" Role="Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Type="ZERO_MaterialModel.Material_Base_Company" Role="Material_Base_Company" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Material_Base">
@@ -371,7 +722,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Material_Base_Type_Material_Base">
-          <End Type="ZERO_MaterialModel.Material_Base" Role="Material_Base" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Base" Role="Material_Base" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Type="ZERO_MaterialModel.Material_Base_Type" Role="Material_Base_Type" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Material_Base">
@@ -408,45 +761,45 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityType Name="Material_Info">
-          <Key>
-            <PropertyRef Name="Material_Id" />
-            <PropertyRef Name="Material_Name" />
-            <PropertyRef Name="Company_Name" />
-            <PropertyRef Name="Material_Price" />
-            <PropertyRef Name="Material_Count" />
-            <PropertyRef Name="Material_RemainCont" />
-            <PropertyRef Name="Material_CountUnit" />
-            <PropertyRef Name="Material_UnitWeight" />
-            <PropertyRef Name="Material_Size" />
-            <PropertyRef Name="Material_Remark" />
-          </Key>
-          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Company_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Price" Type="Double" Nullable="false" />
-          <Property Name="Material_Count" Type="Double" Nullable="false" />
-          <Property Name="Material_RemainCont" Type="Double" Nullable="false" />
-          <Property Name="Material_CountUnit" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="Material_UnitWeight" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Size" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
-        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ZERO_MaterialModelStoreContainer" CdmEntityContainer="ZERO_Material">
+        <EntityContainerMapping StorageEntityContainer="ZERO_MaterialModelStoreContainer" CdmEntityContainer="ZERO_MaterialEntities">
+          <EntitySetMapping Name="Apply_Info">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Apply_Info">
+              <MappingFragment StoreEntitySet="Apply_Info">
+                <ScalarProperty Name="Apply_Advice" ColumnName="Apply_Advice" />
+                <ScalarProperty Name="Apply_Status" ColumnName="Apply_Status" />
+                <ScalarProperty Name="Apply_Count" ColumnName="Apply_Count" />
+                <ScalarProperty Name="ApplyType_Id" ColumnName="ApplyType_Id" />
+                <ScalarProperty Name="Apply_Id" ColumnName="Apply_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Apply_Type">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Apply_Type">
+              <MappingFragment StoreEntitySet="Apply_Type">
+                <ScalarProperty Name="ApplyType_Name" ColumnName="ApplyType_Name" />
+                <ScalarProperty Name="ApplyType_Id" ColumnName="ApplyType_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BuyInComing_Apply">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.BuyInComing_Apply">
+              <MappingFragment StoreEntitySet="BuyInComing_Apply">
+                <ScalarProperty Name="Last_Time" ColumnName="Last_Time" />
+                <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="Material_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Apply">
               <MappingFragment StoreEntitySet="Material_Apply">
-                <ScalarProperty Name="Head_Advice" ColumnName="Head_Advice" />
-                <ScalarProperty Name="Head_Aduit" ColumnName="Head_Aduit" />
-                <ScalarProperty Name="Needbuy_Count" ColumnName="Needbuy_Count" />
-                <ScalarProperty Name="Apply_Count" ColumnName="Apply_Count" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
                 <ScalarProperty Name="Teach_Field" ColumnName="Teach_Field" />
                 <ScalarProperty Name="Teach_Depart" ColumnName="Teach_Depart" />
@@ -526,6 +879,24 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="Buy_Apply">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Buy_Apply">
+              <MappingFragment StoreEntitySet="Buy_Apply">
+                <ScalarProperty Name="Apply_Advice" ColumnName="Apply_Advice" />
+                <ScalarProperty Name="Apply_Status" ColumnName="Apply_Status" />
+                <ScalarProperty Name="Apply_Count" ColumnName="Apply_Count" />
+                <ScalarProperty Name="ApplyType_Id" ColumnName="ApplyType_Id" />
+                <ScalarProperty Name="Material_CountUnit" ColumnName="Material_CountUnit" />
+                <ScalarProperty Name="Material_RemainCont" ColumnName="Material_RemainCont" />
+                <ScalarProperty Name="Material_Size" ColumnName="Material_Size" />
+                <ScalarProperty Name="Material_Count" ColumnName="Material_Count" />
+                <ScalarProperty Name="Material_Price" ColumnName="Material_Price" />
+                <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+                <ScalarProperty Name="Material_Name" ColumnName="Material_Name" />
+                <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="Material_Info">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Info">
               <MappingFragment StoreEntitySet="Material_Info">
@@ -541,6 +912,27 @@
                 <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
                 <ScalarProperty Name="Material_Name" ColumnName="Material_Name" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Use_Apply">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Use_Apply">
+              <MappingFragment StoreEntitySet="Use_Apply">
+                <ScalarProperty Name="Teacher_Depart" ColumnName="Teacher_Depart" />
+                <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+                <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />
+                <ScalarProperty Name="Apply_Advice" ColumnName="Apply_Advice" />
+                <ScalarProperty Name="Apply_Status" ColumnName="Apply_Status" />
+                <ScalarProperty Name="Apply_Count" ColumnName="Apply_Count" />
+                <ScalarProperty Name="Material_Name" ColumnName="Material_Name" />
+                <ScalarProperty Name="Teach_Field" ColumnName="Teach_Field" />
+                <ScalarProperty Name="Teach_Depart" ColumnName="Teach_Depart" />
+                <ScalarProperty Name="End_Time" ColumnName="End_Time" />
+                <ScalarProperty Name="Start_Time" ColumnName="Start_Time" />
+                <ScalarProperty Name="Apply_Time" ColumnName="Apply_Time" />
+                <ScalarProperty Name="Teacher_Name" ColumnName="Teacher_Name" />
+                <ScalarProperty Name="ApplyType_Id" ColumnName="ApplyType_Id" />
+                <ScalarProperty Name="Apply_Id" ColumnName="Apply_Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

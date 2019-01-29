@@ -13,10 +13,10 @@ namespace ZERO.Material.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ZERO_Material : DbContext
+    public partial class ZERO_MaterialEntities : DbContext
     {
-        public ZERO_Material()
-            : base("name=ZERO_Material")
+        public ZERO_MaterialEntities()
+            : base("name=ZERO_MaterialEntities")
         {
         }
     
@@ -25,6 +25,9 @@ namespace ZERO.Material.Model
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Apply_Info> Apply_Info { get; set; }
+        public virtual DbSet<Apply_Type> Apply_Type { get; set; }
+        public virtual DbSet<BuyInComing_Apply> BuyInComing_Apply { get; set; }
         public virtual DbSet<Material_Apply> Material_Apply { get; set; }
         public virtual DbSet<Material_Base> Material_Base { get; set; }
         public virtual DbSet<Material_Base_Company> Material_Base_Company { get; set; }
@@ -32,6 +35,8 @@ namespace ZERO.Material.Model
         public virtual DbSet<Material_Company> Material_Company { get; set; }
         public virtual DbSet<Material_Teacher> Material_Teacher { get; set; }
         public virtual DbSet<Material_Type> Material_Type { get; set; }
+        public virtual DbSet<Buy_Apply> Buy_Apply { get; set; }
         public virtual DbSet<Material_Info> Material_Info { get; set; }
+        public virtual DbSet<Use_Apply> Use_Apply { get; set; }
     }
 }

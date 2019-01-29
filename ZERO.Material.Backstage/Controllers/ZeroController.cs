@@ -17,8 +17,12 @@ namespace ZERO.Material.Backstage.Controllers
         private static readonly UnityContainerHelper Container = new UnityContainerHelper();
         private readonly IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
         private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
-        public ICompanyBll CompanyBll = Container.Server<ICompanyBll>();
+        public readonly ICompanyBll CompanyBll = Container.Server<ICompanyBll>();
         private readonly IBaseApplyBll _applyBll = Container.Server<IBaseApplyBll>();
+        private readonly IApplyInfoBll _applyInfoBll = Container.Server<IApplyInfoBll>();
+        private readonly IBuyInComingApplyBll _buyInComingBll = Container.Server<IBuyInComingApplyBll>();
+        private readonly IUseApplyBll _useApplyBll = Container.Server<IUseApplyBll>();
+        private readonly IBaseCompanyBll _baseCompanyBll = Container.Server<IBaseCompanyBll>();
 
         public ActionResult Index()
         {
@@ -248,29 +252,70 @@ namespace ZERO.Material.Backstage.Controllers
         [HttpPost]
         public ActionResult Apply(Material_Apply materialApply)
         {
-            materialApply.Head_Aduit = 0;
-            List<Material_Apply> materialApplies = new List<Material_Apply>();
             if (Session["materialCar"] != null)
             {
                 if (Session["materialCar"] is Dictionary<string, int> carInfos)
                 {
+                    List<Material_Apply> materialApplies = new List<Material_Apply>();
+                    List<BuyInComing_Apply> buyInComingApplies = new List<BuyInComing_Apply>();
                     foreach (string carInfosKey in carInfos.Keys)
                     {
                         Material_Apply newApply = (Material_Apply)materialApply.Clone();
-                        var remainCount = _infoBll.GetEntity(m => m.Material_Id == carInfosKey).Material_RemainCont;
                         newApply.Material_Id = carInfosKey;
-                        newApply.Apply_Count = carInfos[carInfosKey];
-                        newApply.Needbuy_Count = carInfos[carInfosKey] > Int32.Parse(remainCount.ToString())
-                            ? carInfos[carInfosKey] - Int32.Parse(remainCount.ToString())
-                            : 0;
                         materialApplies.Add(newApply);
+                        var remainCount = _infoBll.GetEntity(m => m.Material_Id == carInfosKey).Material_RemainCont;
+                        if (carInfos[carInfosKey] > Int32.Parse(remainCount.ToString()))
+                        {
+                            buyInComingApplies.Add(new BuyInComing_Apply()
+                            {
+                                Material_Id = carInfosKey,
+                                Last_Time = materialApply.Start_Time,
+                            });
+                        }
+                    }
+
+                    if (_applyBll.AddEntities(materialApplies) && _buyInComingBll.AddEntities(buyInComingApplies))
+                    {
+                        List<Apply_Info> applyInfos = new List<Apply_Info>();
+                        List<Material_Base_Company> baseCompanies = new List<Material_Base_Company>();
+                        foreach (Material_Apply apply in materialApplies)
+                        {
+                            applyInfos.Add(new Apply_Info()
+                            {
+                                Apply_Status = 0,
+                                Apply_Count = carInfos[apply.Material_Id],
+                                ApplyType_Id = "001",
+                                Apply_Id = apply.Id
+                            });
+
+                            Material_Base_Company baseCompany = _baseCompanyBll.GetEntity(m => m.Material_Id == apply.Material_Id);
+                            baseCompany.Material_RemainCont =
+                                baseCompany.Material_RemainCont - carInfos[apply.Material_Id] >= 0
+                                    ? baseCompany.Material_RemainCont - carInfos[apply.Material_Id]
+                                    : 0;
+                            baseCompanies.Add(baseCompany);
+                        }
+
+                        foreach (BuyInComing_Apply buyInComingApply in buyInComingApplies)
+                        {
+                            var remainCount = _infoBll.GetEntity(m => m.Material_Id == buyInComingApply.Material_Id).Material_RemainCont;
+
+                            applyInfos.Add(new Apply_Info()
+                            {
+                                Apply_Status = 0,
+                                Apply_Count = carInfos[buyInComingApply.Material_Id] - Int32.Parse(remainCount.ToString()),
+                                ApplyType_Id = "002",
+                                Apply_Id = buyInComingApply.Id,
+                            });
+                        }
+
+                        if (_applyInfoBll.AddEntities(applyInfos) && _baseCompanyBll.UpdateEntities(baseCompanies))
+                        {
+                            Session["materialCar"] = null;
+                            return Content("OK");
+                        }
                     }
                 }
-            }
-
-            if (_applyBll.AddEntities(materialApplies))
-            {
-                return Content("OK");
             }
 
             return Content("Error");
@@ -318,11 +363,8 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 string name = cookie.Value;
                 var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
-                List<Material_Apply> applies = _applyBll.GetEntities(m => m.Teacher_Id == user.username);
-                foreach (Material_Apply apply in applies)
-                {
-                    apply.Material_Name = _infoBll.GetEntity(m => m.Material_Id == apply.Material_Id).Material_Name;
-                }
+                string teacherName = Container.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == user.username).Teacher_Name;
+                List<Use_Apply> applies = _useApplyBll.GetEntities(m => m.Teacher_Name == teacherName);
                 return View(applies);
             }
 

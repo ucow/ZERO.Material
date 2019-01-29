@@ -1,4 +1,6 @@
 ﻿@{
+    /**/
+
     Layout = null;
 }
 
@@ -159,18 +161,17 @@
                         { field: 'Teach_Field', title: '使用专业' },
                         { field: 'Material_Name', title: '器材名称' },
                         { field: 'Apply_Count', title: '申请数量' },
-                        { field: 'Needbuy_Count', title: '采购数量' },
                         {
                             field: 'Head_Aduit',
                             title: '审核结果',
                             fixed: 'right',
                             templet: function(d) {
                                 var content = "<span class='layui-badge - rim'></span>"
-                                if (d.Head_Aduit == "0") {
+                                if (d.Apply_Status == "0") {
                                     return "<span class='layui-badge-rim'>未审核</span>";
-                                } else if (d.Head_Aduit == "1") {
+                                } else if (d.Apply_Status == "1") {
                                     return "<span class='layui-badge layui-bg-blue'>通过</span>";
-                                } else if (d.Head_Aduit == "2") {
+                                } else if (d.Apply_Status == "2") {
                                     return "<span class='layui-badge'>驳回</span>";
                                 }
                                 return content;
@@ -200,8 +201,8 @@
                             btn: ['确定', '取消'],
                             yes: function(index, layero) {
                                 var advice = layero["0"].childNodes[1].childNodes["0"].value;
-                                data.Head_Aduit = layEvent === 'allow' ? 1 : 2;
-                                data.Head_Advice = advice;
+                                data.Apply_Status = layEvent === 'allow' ? 1 : 2;
+                                data.Apply_Advice = advice;
 
                                 $.ajax({
                                     url: "Review",
@@ -242,8 +243,8 @@
                                     var advice = layero["0"].childNodes[1].childNodes["0"].value;
                                     var data = checkStatus.data;
                                     for (var i = 0; i < data.length; i++) {
-                                        data[i].Head_Aduit = obj.event === 'allAllow' ? 1 : 2;
-                                        data[i].Head_Advice = advice;
+                                        data[i].Apply_Status = obj.event === 'allAllow' ? 1 : 2;
+                                        data[i].Apply_Advice = advice;
                                     }
                                     $.ajax({
                                         url: "Review",

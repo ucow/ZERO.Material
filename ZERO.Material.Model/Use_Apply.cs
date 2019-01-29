@@ -12,18 +12,22 @@ namespace ZERO.Material.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Material_Apply
+    public partial class Use_Apply
     {
-        public int Id { get; set; }
-        public string Teacher_Id { get; set; }
+        public int Apply_Id { get; set; }
+        public string ApplyType_Id { get; set; }
+        public string Teacher_Name { get; set; }
         public System.DateTime Apply_Time { get; set; }
         public System.DateTime Start_Time { get; set; }
         public System.DateTime End_Time { get; set; }
         public string Teach_Depart { get; set; }
         public string Teach_Field { get; set; }
+        public string Material_Name { get; set; }
+        public int Apply_Count { get; set; }
+        public int Apply_Status { get; set; }
+        public string Apply_Advice { get; set; }
+        public string Teacher_Id { get; set; }
         public string Material_Id { get; set; }
-    
-        public virtual Material_Base Material_Base { get; set; }
-        public virtual Material_Teacher Material_Teacher { get; set; }
+        public string Teacher_Depart { get; set; }
     }
 }

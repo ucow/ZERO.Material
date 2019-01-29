@@ -9,24 +9,20 @@ namespace TestConsole
     {
         private static void Main(string[] args)
         {
-            List<Person> persons = new List<Person>();
-            for (int i = 0; i < 10; i++)
+            Person person1 = new Person()
             {
-                Person person = new Person()
-                {
-                    Name = "sda" + i.ToString(),
-                    Age = i * 10,
-                    Sex = i % 2 == 0 ? 'N' : 'M'
-                };
-                persons.Add(person);
+                Name = "sda",
+                Age = 10,
+                Sex = 'M'
             };
-
-            var p = from a in persons where a.Age > 50 select a.Name + a.Sex;
-
-            foreach (var item in persons)
+            Person person2 = new Person()
             {
-                System.Console.WriteLine(item.ToString());
-            }
+                Name = "sda",
+                Age = 10,
+                Sex = 'M'
+            };
+            Console.WriteLine(person2.Equals(person1));
+            Console.Read();
         }
     }
 

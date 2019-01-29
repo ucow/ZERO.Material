@@ -12,13 +12,15 @@ namespace ZERO.Material.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Material_Base_Type
+    public partial class Apply_Info
     {
         public int Id { get; set; }
-        public string Material_Type_Id { get; set; }
-        public string Material_Id { get; set; }
+        public int Apply_Id { get; set; }
+        public string ApplyType_Id { get; set; }
+        public int Apply_Count { get; set; }
+        public int Apply_Status { get; set; }
+        public string Apply_Advice { get; set; }
     
-        public virtual Material_Base Material_Base { get; set; }
-        public virtual Material_Type Material_Type { get; set; }
+        public virtual Apply_Type Apply_Type { get; set; }
     }
 }

@@ -21,6 +21,16 @@ namespace ZERO.Material.Dal.Factory
 
         public static IBaseApplyDal GetBaseApplyDal() => Container.Server<IBaseApplyDal>();
 
+        public static IApplyTypeDal GetApplyTypeDal() => Container.Server<IApplyTypeDal>();
+
+        public static IApplyInfoDal GetApplyInfoDal() => Container.Server<IApplyInfoDal>();
+
+        public static IBuyInComingApplyDal GetBuyInComingApplyDal() => Container.Server<IBuyInComingApplyDal>();
+
         public static ITeacherDal GetTeacherDal() => Container.Server<ITeacherDal>();
+
+        public static IUseApplyDal GetUseApplyDal() => Container.Server<IUseApplyDal>();
+
+        public static IBuyApplyDal GetBuyApplyDal() => Container.Server<IBuyApplyDal>();
     }
 }

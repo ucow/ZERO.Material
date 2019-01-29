@@ -24,7 +24,7 @@ namespace ZERO.Material.Bll
             return BasicDal.GetPageEntities(pageIndex, pageCount, orderLambda, out total);
         }
 
-        public bool AddEntities(List<T> ts)
+        public virtual bool AddEntities(List<T> ts)
         {
             return BasicDal.AddEntities(ts);
         }
@@ -34,7 +34,7 @@ namespace ZERO.Material.Bll
         /// </summary>
         /// <param name="ts"></param>
         /// <returns></returns>
-        public bool UpdateEntities(List<T> ts)
+        public virtual bool UpdateEntities(List<T> ts)
         {
             return BasicDal.UpdateEntities(ts);
         }

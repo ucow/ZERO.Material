@@ -22,6 +22,8 @@ namespace ZERO.Material.Backstage.Controllers
 
         private readonly IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
 
+        private readonly IBuyApplyBll _buyApplyBll = Container.Server<IBuyApplyBll>();
+
         #endregion 全局变量
 
         // GET: Stock
@@ -32,38 +34,15 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string GetNeedBuy(int page, int limit)
         {
-            List<Material_Apply> applies = _applyBll.GetEntities(m => m.Head_Aduit == 1 && m.Needbuy_Count > 0);
-            var newApplies = (from l in applies
-
-                              group l by l.Material_Id into grouped
-
-                              select new { Name = grouped.Key, Scores = grouped.Sum(m => m.Needbuy_Count), lastDate = grouped.Max(m => m.Start_Time) }).Skip((page - 1) * limit).Take(limit).ToList();
-
-            ArrayList datas = new ArrayList();
-            foreach (var newApply in newApplies)
-            {
-                Material_Info info = _infoBll.GetEntity(m => m.Material_Id == newApply.Name);
-
-                datas.Add(new
-                {
-                    Material_Id = newApply.Name,
-                    Material_Name = info.Material_Name,
-                    Company_Name = info.Company_Name,
-                    Material_Size = info.Material_Size,
-                    Material_UnitWeight = info.Material_UnitWeight,
-                    Needbuy_Count = newApply.Scores,
-                    Material_CountUnit = info.Material_CountUnit,
-                    Last_Time = newApply.lastDate
-                });
-            }
+            List<Buy_Apply> buyApplies = _buyApplyBll.GetEntities(m => m.Apply_Status == 0).Skip((page - 1) * limit).Take(limit).ToList();
 
             var data =
                 new
                 {
                     code = 0,
                     msg = "",
-                    total = datas.Count,
-                    data = datas
+                    total = buyApplies.Count,
+                    data = buyApplies
                 };
             return JsonConvert.SerializeObject(data);
         }

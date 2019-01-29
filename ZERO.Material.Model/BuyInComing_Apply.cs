@@ -12,13 +12,12 @@ namespace ZERO.Material.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Material_Base_Type
+    public partial class BuyInComing_Apply
     {
         public int Id { get; set; }
-        public string Material_Type_Id { get; set; }
         public string Material_Id { get; set; }
+        public System.DateTime Last_Time { get; set; }
     
         public virtual Material_Base Material_Base { get; set; }
-        public virtual Material_Type Material_Type { get; set; }
     }
 }

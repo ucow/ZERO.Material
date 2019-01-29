@@ -1,4 +1,4 @@
-﻿@model List<ZERO.Material.Model.Material_Apply>
+﻿@model List<ZERO.Material.Model.Use_Apply>
 @{
     ViewBag.Title = "我的申请";
     Layout = "~/Views/Shared/BeforeLayout.cshtml";
@@ -33,7 +33,7 @@
                 </thead>
                 <tbody style="text-align: center; vertical-align: middle">
 
-                    @foreach (var key in Model.Where(m => m.Head_Aduit == 0))
+                    @foreach (var key in Model.Where(m => m.Apply_Status == 0))
                     {
 
                         <tr>
@@ -62,7 +62,7 @@
                                 <strong>@key.Apply_Count</strong>
                             </td>
                             <td>
-                                <strong>@key.Needbuy_Count</strong>
+                                <strong>@key.Apply_Count</strong>
                             </td>
                         </tr>
                     }
@@ -94,7 +94,7 @@
                 </thead>
                 <tbody style="text-align: center; vertical-align: middle">
 
-                    @foreach (var key in Model.Where(m => m.Head_Aduit == 1))
+                    @foreach (var key in Model.Where(m => m.Apply_Status == 1))
                     {
 
                         <tr>
@@ -123,18 +123,18 @@
                                 <strong>@key.Apply_Count</strong>
                             </td>
                             <td>
-                                <strong>@key.Needbuy_Count</strong>
+                                <strong>@key.Apply_Count</strong>
                             </td>
                             <td>
-                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Id">查看意见</button>
-                                <div class="modal fade" id="@key.Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">查看意见</button>
+                                <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                                 <h4 class="modal-title" id="myModalLabel">审批意见</h4>
                                             </div>
-                                            <div class="modal-body">@key.Head_Advice</div>
+                                            <div class="modal-body">@key.Apply_Advice</div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
                                             </div>
@@ -172,7 +172,7 @@
                 </thead>
                 <tbody style="text-align: center; vertical-align: middle">
 
-                    @foreach (var key in Model.Where(m => m.Head_Aduit == 2))
+                    @foreach (var key in Model.Where(m => m.Apply_Status == 2))
                     {
 
                         <tr>
@@ -201,18 +201,18 @@
                                 <strong>@key.Apply_Count</strong>
                             </td>
                             <td>
-                                <strong>@key.Needbuy_Count</strong>
+                                <strong>@key.Apply_Count</strong>
                             </td>
                             <td>
-                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Id">查看意见</button>
-                                <div class="modal fade" id="@key.Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">查看意见</button>
+                                <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                                                 <h4 class="modal-title" id="myModalLabel">审批意见</h4>
                                             </div>
-                                            <div class="modal-body">@key.Head_Advice</div>
+                                            <div class="modal-body">@key.Apply_Advice</div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
                                             </div>
