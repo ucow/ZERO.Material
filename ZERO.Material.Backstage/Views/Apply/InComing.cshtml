@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
@@ -11,7 +10,208 @@
     <title>InComing</title>
 </head>
 <body>
-    <div> 
+    <div>
+        <table id="inComingTable" lay-filter="inComing"></table>
     </div>
+
+    <div id="tableCellTool" hidden>
+        <button class="layui-btn layui-btn-normal layui-btn-xs" lay-event="allow">通过</button>
+        <button class="layui-btn layui-btn-danger layui-btn-xs" lay-event="reject">驳回</button>
+    </div>
+
+    <div id="tableTopTool" hidden>
+        <button class="layui-btn layui-btn-normal layui-btn-lg" lay-event="allAllow">全部通过</button>
+        <button class="layui-btn layui-btn-danger layui-btn-lg" lay-event="allReject">全部驳回</button>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+
+    <script>
+    layui.use(['table', 'layer', 'form', 'laydate'],
+        function() {
+            var table = layui.table;
+            var laydate = layui.laydate;
+            var form = layui.form;
+
+            var layer = layui.layer;
+            var load = layer.load(1);
+
+            /********************************************************** 筛选参数start *********************************************************/
+
+            var status = "";
+            /********************************************************** 筛选参数end *********************************************************/
+            /********************************************************* 时间选择器start *********************************************************/
+
+            /********************************************************* 时间选择器end *********************************************************/
+            /*********************************************************** 表格start *********************************************************/
+            var tableOption = {
+                elem: "#inComingTable",
+                //height: 100 %,
+                url: "GetMaterialBuyInComing",
+                loading: true,
+                where: {
+                    applyType:'003'
+                },
+                defaultToolbar: false,
+                cellMinWidth: 50,
+                toolbar: "#tableTopTool",
+                page: true,
+                size: 'lg',
+                limits: [10, 20, 30, 40],
+                text: {
+                    none: "未加载到相关数据"
+                },
+                cols: [
+                    [
+                        { type: 'checkbox', fixed: 'left' },
+                        { field: 'Material_Id', title: '器材编号', sort: true },
+                        { field: 'Material_Name', title: '器材名称' },
+                        { field: 'Company_Name', title: '供应商' },
+                        {
+                            field: 'Last_Time',
+                            title: '最终入库时间',
+                            sort: true,
+                            templet: "<div>{{layui.util.toDateString(d.Apply_Time, 'yyyy-MM-dd ')}}</div>"
+                        },
+                        { field: 'Material_Price', title: '器材价格(￥)' },
+                        { field: 'Material_Count', title: '器材总量' },
+                        { field: 'Material_RemainCont', title: '器材余量' },
+                        { field: 'Apply_Count', title: '申请数量' },
+                        { field: 'Material_CountUnit', title: "计量单位" },
+                        { field: 'Material_Size', title: '器材规格' },
+                        {
+                            field: 'Apply_Status',
+                            title: '审核结果',
+                            fixed: 'right',
+                            templet: function(d) {
+                                var content = "<span class='layui-badge - rim'></span>"
+                                if (d.Apply_Status == "0") {
+                                    return "<span class='layui-badge-rim'>未审核</span>";
+                                } else if (d.Apply_Status == "1") {
+                                    return "<span class='layui-badge layui-bg-blue'>通过</span>";
+                                } else if (d.Apply_Status == "2") {
+                                    return "<span class='layui-badge'>驳回</span>";
+                                }
+                                return content;
+                            }
+                        },
+                        { field: 'Head', title: "审核", toolbar: '#tableCellTool', fixed: 'right' }
+                    ]
+                ],
+                done: function(res) {
+                    layer.close(load);
+                    laydate.render();
+                }
+            };
+            table.render(tableOption);
+
+            table.on('tool(inComing)',
+                function(obj) {
+                    var data = obj.data; //获得当前行数据
+                    var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+
+                    if (layEvent === 'allow' || layEvent === 'reject') { //查看
+                        layer.open({
+                            title: "审批意见",
+                            type: 1,
+                            shadeClose: true,
+                            shade: false,
+                            btn: ['确定', '取消'],
+                            yes: function(index, layero) {
+                                var advice = layero["0"].childNodes[1].childNodes["0"].value;
+                                data.Apply_Status = layEvent === 'allow' ? 1 : 2;
+                                data.Apply_Advice = advice;
+
+                                $.ajax({
+                                    url: "Review",
+                                    type: "POST",
+                                    data: { "applies": new Array(data) },
+                                    success: function(data) {
+                                        if (data === "OK") {
+                                            layer.msg("审核成功");
+                                            layer.close(index);
+                                        }
+                                    }
+                                });
+                            },
+                            area: ["260px", "200px"],
+                            content:
+                                "<textarea name='' required lay-verify='required' placeholder='请输入审批意见' class='layui-textarea' style='width:100%;height:100%'></textarea>",
+                            end: function() {
+                                table.reload("inComingTable", tableOption);
+                                //layer.msg("校徽");
+                            }
+                        });
+                    }
+                });
+
+            table.on('toolbar(inComing)',
+                function(obj) {
+                    var checkStatus = table.checkStatus(obj.config.id);
+                    switch (obj.event) {
+                    case 'allAllow':
+                    case 'allReject':
+                        layer.open({
+                            title: "审批意见",
+                            type: 1,
+                            shadeClose: true,
+                            shade: false,
+                            btn: ['确定', '取消'],
+                            yes: function(index, layero) {
+                                var advice = layero["0"].childNodes[1].childNodes["0"].value;
+                                var data = checkStatus.data;
+                                for (var i = 0; i < data.length; i++) {
+                                    data[i].Apply_Status = obj.event === 'allAllow' ? 1 : 2;
+                                    data[i].Apply_Advice = advice;
+                                }
+                                $.ajax({
+                                    url: "Review",
+                                    type: "POST",
+                                    data: { "applies": data },
+                                    success: function(data) {
+                                        if (data === "OK") {
+                                            layer.msg("审核成功");
+                                            layer.close(index);
+                                        }
+                                    }
+                                });
+                            },
+                            area: ["260px", "200px"],
+                            content:
+                                "<textarea name='' required lay-verify='required' placeholder='请输入审批意见' class='layui-textarea' style='width:100%;height:100%'></textarea>",
+                            end: function() {
+                                table.reload("inComingTable", tableOption);
+                                //layer.msg("校徽");
+                            }
+                        });
+                        break;
+                    };
+                });
+            /*********************************************************** 表格end *********************************************************/
+
+            /*********************************************************** 表单start *********************************************************/
+            form.render('select');
+            form.on('select(status)',
+                function(obj) {
+                    status = obj.value;
+                    reloadTable();
+                });
+
+            /*********************************************************** 表单end *********************************************************/
+            function reloadTable() {
+                table.reload('buyTable',
+                    {
+                        page: {
+                            curr: 1
+                        },
+                        where: {
+                            'status': status,
+                            applyType: '003'
+                        }
+                    });
+            }
+        })
+    </script>
 </body>
 </html>

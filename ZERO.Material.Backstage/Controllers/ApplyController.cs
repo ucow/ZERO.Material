@@ -90,10 +90,11 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
-        public string GetMaterialBuy(int page, int limit, string status)
+        public string GetMaterialBuyInComing(int page, int limit, string status, string applyType)
         {
             int? state = status == null ? (int?)null : Int32.Parse(status);
-            List<Buy_Apply> buyApplies = _buyApplyBll.GetEntities(m => state == null || m.Apply_Status == state).Skip((page - 1) * limit).Take(limit).ToList();
+            bool isBought = applyType == "003";
+            List<Buy_Apply> buyApplies = _buyApplyBll.GetEntities(m => m.Is_Bought == isBought && m.ApplyType_Id == applyType && (state == null || m.Apply_Status == state)).Skip((page - 1) * limit).Take(limit).ToList();
 
             var msg = new
             {

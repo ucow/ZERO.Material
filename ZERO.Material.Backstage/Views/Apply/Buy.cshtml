@@ -64,8 +64,11 @@
             var tableOption = {
                 elem: "#buyTable",
                 //height: 100 %,
-                url: "GetMaterialBuy",
+                url: "GetMaterialBuyInComing",
                 loading: true,
+                where: {
+                    applyType:'002'
+                },
                 defaultToolbar: false,
                 cellMinWidth: 50,
                 toolbar: "#tableTopTool",
@@ -219,7 +222,8 @@
                             curr: 1
                         },
                         where: {
-                            'status': status
+                            'status': status,
+                            applyType: '002'
                         }
                     });
             }
