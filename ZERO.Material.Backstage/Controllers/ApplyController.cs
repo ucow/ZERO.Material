@@ -94,7 +94,7 @@ namespace ZERO.Material.Backstage.Controllers
         {
             int? state = status == null ? (int?)null : Int32.Parse(status);
             bool isBought = applyType == "003";
-            List<Buy_Apply> buyApplies = _buyApplyBll.GetEntities(m => m.Is_Bought == isBought && m.ApplyType_Id == applyType && (state == null || m.Apply_Status == state)).Skip((page - 1) * limit).Take(limit).ToList();
+            List<Buy_Apply> buyApplies = _buyApplyBll.GetEntities(m => m.Is_InComed == false && m.Is_Bought == isBought && m.ApplyType_Id == applyType && (state == null || m.Apply_Status == state)).Skip((page - 1) * limit).Take(limit).ToList();
 
             var msg = new
             {

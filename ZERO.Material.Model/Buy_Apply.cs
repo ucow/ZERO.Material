@@ -30,5 +30,6 @@ namespace ZERO.Material.Model
         public System.DateTime Last_Time { get; set; }
         public int Apply_Id { get; set; }
         public bool Is_Bought { get; set; }
+        public bool Is_InComed { get; set; }
     }
 }

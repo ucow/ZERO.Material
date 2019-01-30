@@ -10,8 +10,25 @@
     <title>InComing</title>
 </head>
 <body>
-    <div>
-        <table id="inComingTable" lay-filter="inComing"></table>
+    <div class="layui-card">
+        <div class="layui-card-header" style="padding-bottom: 10px">
+            <div>
+                <label>审核状态</label>
+                <div class="layui-inline">
+                    <div class="layui-form">
+                        <select name="teacher" lay-verify="" lay-filter="status">
+                            <option value="">请选择审核状态</option>
+                            <option value="0">未审核</option>
+                            <option value="1">通过</option>
+                            <option value="2">驳回</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-card-body">
+            <table id="inComingTable" lay-filter="inComing"></table>
+        </div>
     </div>
 
     <div id="tableCellTool" hidden>
@@ -51,7 +68,7 @@
                 url: "GetMaterialBuyInComing",
                 loading: true,
                 where: {
-                    applyType:'003'
+                    applyType: '003'
                 },
                 defaultToolbar: false,
                 cellMinWidth: 50,

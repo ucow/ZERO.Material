@@ -33,6 +33,7 @@
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
           <Property Name="Last_Time" Type="datetime" Nullable="false" />
           <Property Name="Is_Bought" Type="bit" Nullable="false" />
+          <Property Name="Is_InComed" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
@@ -130,6 +131,7 @@
             <PropertyRef Name="Apply_Status" />
             <PropertyRef Name="Apply_Id" />
             <PropertyRef Name="Is_Bought" />
+            <PropertyRef Name="Is_InComed" />
           </Key>
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
           <Property Name="Material_Name" Type="nvarchar(max)" Nullable="false" />
@@ -146,6 +148,7 @@
           <Property Name="Apply_Advice" Type="nvarchar(max)" />
           <Property Name="Apply_Id" Type="int" Nullable="false" />
           <Property Name="Is_Bought" Type="bit" Nullable="false" />
+          <Property Name="Is_InComed" Type="bit" Nullable="false" />
         </EntityType>
         <!--生成过程中发现错误:
 警告 6002: 表/视图“ZERO_Material.dbo.Material_Info”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
@@ -343,7 +346,8 @@
     [Buy_Apply].[Apply_Status] AS [Apply_Status], 
     [Buy_Apply].[Apply_Advice] AS [Apply_Advice], 
     [Buy_Apply].[Apply_Id] AS [Apply_Id], 
-    [Buy_Apply].[Is_Bought] AS [Is_Bought]
+    [Buy_Apply].[Is_Bought] AS [Is_Bought], 
+    [Buy_Apply].[Is_InComed] AS [Is_InComed]
     FROM [dbo].[Buy_Apply] AS [Buy_Apply]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="Material_Info" EntityType="Self.Material_Info" store:Type="Views" store:Schema="dbo">
@@ -497,6 +501,7 @@
           <Property Name="Last_Time" Type="DateTime" Nullable="false" Precision="3" />
           <NavigationProperty Name="Material_Base" Relationship="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base" FromRole="BuyInComing_Apply" ToRole="Material_Base" />
           <Property Name="Is_Bought" Type="Boolean" Nullable="false" />
+          <Property Name="Is_InComed" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
@@ -605,6 +610,7 @@
             <PropertyRef Name="Last_Time" />
             <PropertyRef Name="Apply_Id" />
             <PropertyRef Name="Is_Bought" />
+            <PropertyRef Name="Is_InComed" />
           </Key>
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
           <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -621,6 +627,7 @@
           <Property Name="Last_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Apply_Id" Type="Int32" Nullable="false" />
           <Property Name="Is_Bought" Type="Boolean" Nullable="false" />
+          <Property Name="Is_InComed" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Info">
           <Key>
@@ -817,6 +824,7 @@
           <EntitySetMapping Name="BuyInComing_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.BuyInComing_Apply">
               <MappingFragment StoreEntitySet="BuyInComing_Apply">
+                <ScalarProperty Name="Is_InComed" ColumnName="Is_InComed" />
                 <ScalarProperty Name="Is_Bought" ColumnName="Is_Bought" />
                 <ScalarProperty Name="Last_Time" ColumnName="Last_Time" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
@@ -910,6 +918,7 @@
           <EntitySetMapping Name="Buy_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Buy_Apply">
               <MappingFragment StoreEntitySet="Buy_Apply">
+                <ScalarProperty Name="Is_InComed" ColumnName="Is_InComed" />
                 <ScalarProperty Name="Is_Bought" ColumnName="Is_Bought" />
                 <ScalarProperty Name="Apply_Id" ColumnName="Apply_Id" />
                 <ScalarProperty Name="Last_Time" ColumnName="Last_Time" />
