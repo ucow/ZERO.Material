@@ -11,6 +11,7 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
+    using Newtonsoft.Json;
     
     public partial class Apply_Type
     {
@@ -24,6 +25,7 @@ namespace ZERO.Material.Model
         public string ApplyType_Id { get; set; }
         public string ApplyType_Name { get; set; }
     
+        [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Apply_Info> Apply_Info { get; set; }
     }

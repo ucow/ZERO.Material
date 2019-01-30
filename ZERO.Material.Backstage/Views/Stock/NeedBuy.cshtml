@@ -16,59 +16,209 @@
     </div>
 
     <div id="needCellBar" hidden>
-        <button type="button" class="layui-btn layui-btn-xs">申请入库</button>
+        <button type="button" class="layui-btn layui-btn-xs" lay-event="in">申请入库</button>
     </div>
     <div id="needTopBar" hidden>
-        <button type="button" class="layui-btn layui-btn-normal">全部入库</button>
+        <button type="button" class="layui-btn layui-btn-normal" lay-event="allIn">全部入库</button>
+        <button type="button" class="layui-btn layui-btn-normal">申请入库</button>
+    </div>
+
+    <div class="layui-row" id="setInCount" style="display: none;">
+        <div class="container" style="padding: 10px">
+            <form class="layui-form" id="setInCountForm"></form>
+        </div>
     </div>
     @Scripts.Render("~/bundles/jquery")
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
     <script>
-    layui.use(['table', 'layer'],
-        function () {
-            var table = layui.table;
+        layui.use(['table', 'layer', 'form', 'laydate'],
+            function () {
+                var table = layui.table;
+                var laydate = layui.laydate;
+                var form = layui.form;
 
-            var layer = layui.layer;
-            var load = layer.load(1);
-            var tableOption = {
-                elem: "#needBuyTable",
-                //height: 100 %,
-                url: "GetNeedBuy",
-                loading: true,
-                defaultToolbar: false,
-                cellMinWidth: 50,
-                page: true,
-                toolbar: "#needTopBar",
-                size: 'lg',
-                limits: [10, 20, 30, 40],
-                text: "未加载到数据",
-                cols: [
-                    [
-                        { type: 'checkbox', fixed: 'left' },
-                        { field: 'Material_Id', title: '器材编号', sort: true },
-                        { field: 'Material_Name', title: '器材名称' },
-                        { field: 'Company_Name', title: '供应商' },
-                        { field: 'Material_Size', title: '器材规格' },
-                        { field: 'Material_UnitWeight', title: '单位重量' },
-                        { field: 'Needbuy_Count', title: '需购数量' },
-                        { field: 'Material_CountUnit', title: '计量单位' },
+                var layer = layui.layer;
+                var load = layer.load(1);
+
+                /********************************************************** 筛选参数start *********************************************************/
+
+                /********************************************************** 筛选参数end *********************************************************/
+                /********************************************************* 时间选择器start *********************************************************/
+
+                /********************************************************* 时间选择器end *********************************************************/
+                /*********************************************************** 表格start *********************************************************/
+                var tableOption = {
+                    elem: "#needBuyTable",
+                    //height: 100 %,
+                    url: "GetNeedBuy",
+                    loading: true,
+                    defaultToolbar: false,
+                    cellMinWidth: 50,
+                    toolbar: "#needTopBar",
+                    page: true,
+                    size: 'lg',
+                    limits: [10, 20, 30, 40],
+                    text: {
+                        none: "未加载到相关数据"
+                    },
+                    cols: [
+                        [
+                            { type: 'checkbox', fixed: 'left' },
+                            { field: 'Material_Id', title: '器材编号', sort: true },
+                            { field: 'Material_Name', title: '器材名称' },
+                            { field: 'Company_Name', title: '供应商' },
+                            {
+                                field: 'Last_Time',
+                                title: '最终入库时间',
+                                sort: true,
+                                templet: "<div>{{layui.util.toDateString(d.Apply_Time, 'yyyy-MM-dd ')}}</div>"
+                            },
+                            { field: 'Material_Price', title: '器材价格(￥)' },
+                            { field: 'Material_Count', title: '器材总量' },
+                            { field: 'Material_RemainCont', title: '器材余量' },
+                            { field: 'Apply_Count', title: '购买数量' },
+                            { field: 'Material_CountUnit', title: "计量单位" },
+                            { field: 'Material_Size', title: '器材规格' },
+                            { field: 'Head', title: "审核", toolbar: '#needCellBar', fixed: 'right' }
+                        ]
+                    ],
+                    done: function (res) {
+                        layer.close(load);
+                        laydate.render();
+                    }
+                };
+                table.render(tableOption);
+
+                table.on('tool(needBuy)',
+                    function (obj) {
+                        var data = obj.data; //获得当前行数据
+                        var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+
+                        switch (layEvent) {
+                        case 'in':
+                            setInCount(new Array(data));
+                        };
+                    });
+
+                table.on('toolbar(needBuy)',
+                    function (obj) {
+                        var checkStatus = table.checkStatus(obj.config.id);
+                        switch (obj.event) {
+                            case 'allIn':
+                                setInCount(checkStatus.data);
+                        };
+                    });
+                /*********************************************************** 表格end *********************************************************/
+
+                /*********************************************************** 表单start *********************************************************/
+                form.render('select');
+                form.on('select(status)',
+                    function (obj) {
+                        status = obj.value;
+                        reloadTable();
+                    });
+
+                /*********************************************************** 表单end *********************************************************/
+
+                /*********************************************************** 自定义方法start *********************************************************/
+                function reloadTable() {
+                    table.reload('buyTable',
                         {
-                            field: 'Last_Time',
-                            title: '最迟入库时间',
-                            sort: true,
-                            templet: "<div>{{layui.util.toDateString(d.Last_Time, 'yyyy-MM-dd ')}}</div>"
-                        },
-                        { field: 'Needbuy_Count', title: '采购数量' },
-                        { templet: '#needCellBar', 'title':"操作"}
-                    ]
-                ],
-                done: function (res) {
-                    layer.close(load);
+                            page: {
+                                curr: 1
+                            },
+                            where: {
+                                'status': status
+                            }
+                        });
                 }
-            };
-            table.render(tableOption);
-        })
+
+                function setInCount(dataList) {
+                    var baseContent =
+                        "<div class='layui-form-item'><label class='layui-form-label'>{0}</label> <div class='layui-input-block'><input type='text' name='{2}' required  lay-verify='required' placeholder='请输入入库数量' autocomplete='off' class='layui-input' value='{1}'></div></div>";
+                    var content = "";
+                    dataList.forEach(function(item) {
+                        content += baseContent.format(item.Material_Name, item.Apply_Count,item.Material_Id);
+                    });
+                    $('#setInCountForm')[0].innerHTML = content;
+                    layer.open({
+                        title: "入库数量",
+                        type: 1,
+                        shadeClose: true,
+                        shade: false,
+                        //                                    maxmin: true, //开启最大化最小化按钮
+                        area: ["400px", "500px"],
+                        content: $('#setInCount'),
+                        success: function() {
+                            form.render();
+                        },
+                        btn: ["确定", "取消"],
+                        yes: function(index, layero){
+                            //do something
+                            var formData = $('#setInCountForm').serializeArray();
+                            var ajaxData = new Array();
+                            dataList.forEach(function(item) {
+                                formData.forEach(function(formItem) {
+                                    if (formItem.name === item.Material_Id) {
+                                        ajaxData.push({
+                                            Apply_Id: item.Apply_Id,
+                                            ApplyType_Id: "003",
+                                            Apply_Count: formItem.value,
+                                            Apply_Status: 0
+                                        });
+                                    }
+                                });
+                            });
+
+                            $.ajax({
+                                url: 'ApplyInComing',
+                                type: 'POST',
+                                data: {"applyInfos":ajaxData},
+                                success: function(data) {
+                                    if (data === "OK") {
+                                        layer.msg("申请成功");
+
+                                    } else {
+                                        layer.msg("申请失败");
+                                    }
+                                    layer.close(index);
+                                }
+                            });
+
+                             //如果设定了yes回调，需进行手工关闭
+                        },
+                        end: function () {
+
+                        }
+                    });
+                }
+
+                String.prototype.format = function (args) {
+                    var result = this;
+                    if (arguments.length > 0) {
+                        if (arguments.length == 1 && typeof args == "object") {
+                            for (var key in args) {
+                                if (args[key] != undefined) {
+                                    var reg = new RegExp("({" + key + "})", "g");
+                                    result = result.replace(reg, args[key]);
+                                }
+                            }
+                        } else {
+                            for (var i = 0; i < arguments.length; i++) {
+                                if (arguments[i] != undefined) {
+                                    //var reg = new RegExp("({[" + i + "]})", "g");//这个在索引大于9时会有问题，谢谢何以笙箫的指出
+
+                                    var reg = new RegExp("({)" + i + "(})", "g");
+                                    result = result.replace(reg, arguments[i]);
+                                }
+                            }
+                        }
+                    }
+                    return result;
+                };
+                /*********************************************************** 自定义方法end *********************************************************/
+            })
     </script>
 </body>
 </html>

@@ -11,12 +11,14 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
+    using Newtonsoft.Json;
     
     public partial class BuyInComing_Apply
     {
         public int Id { get; set; }
         public string Material_Id { get; set; }
         public System.DateTime Last_Time { get; set; }
+        public bool Is_Bought { get; set; }
     
         public virtual Material_Base Material_Base { get; set; }
     }

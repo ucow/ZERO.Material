@@ -1,6 +1,4 @@
 ﻿@{
-    /**/
-
     Layout = null;
 }
 
@@ -9,7 +7,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Borrow</title>
+    <title>Buy</title>
 </head>
 <body>
     <div class="layui-card">
@@ -26,43 +24,12 @@
                         </select>
                     </div>
                 </div>
-                <label>教师编号/姓名</label>
-                <div class="layui-inline">
-                    <div class="layui-form">
-                        <select name="teacher" lay-verify="" lay-filter="teacher">
-                            <option value="">请选择教师编号/姓名</option>
-                            @foreach (var str in ViewBag.teachers)
-                            {
-                                <option value="@str.Split('/')[0]">@str</option>
-                            }
-                        </select>
-                    </div>
-                </div>
-                <label>申请时间</label>
-                <div class="layui-inline">
-                    <div class="layui-input-inline">
-                        <input type="text" class="layui-input" id="applyTime" placeholder=" - ">
-                    </div>
-                </div>
-                <label>开始时间</label>
-                <div class="layui-inline">
-                    <div class="layui-input-inline">
-                        <input type="text" class="layui-input" id="startTime" placeholder=" - ">
-                    </div>
-                </div>
-                <label>结束时间</label>
-                <div class="layui-inline">
-                    <div class="layui-input-inline">
-                        <input type="text" class="layui-input" id="endTime" placeholder=" - ">
-                    </div>
-                </div>
             </div>
         </div>
         <div class="layui-card-body">
-            <table id="borrowTable" lay-filter="borrow"></table>
+            <table id="buyTable" lay-filter="buy"></table>
         </div>
     </div>
-
     <div id="tableCellTool" hidden>
         <button class="layui-btn layui-btn-normal layui-btn-xs" lay-event="allow">通过</button>
         <button class="layui-btn layui-btn-danger layui-btn-xs" lay-event="reject">驳回</button>
@@ -72,10 +39,10 @@
         <button class="layui-btn layui-btn-normal layui-btn-lg" lay-event="allAllow">全部通过</button>
         <button class="layui-btn layui-btn-danger layui-btn-lg" lay-event="allReject">全部驳回</button>
     </div>
+
     @Scripts.Render("~/bundles/jquery")
     @Styles.Render("~/Content/layui")
-    @Scripts.Render("~/bundles/layui")
-
+    @Scripts.Render("~/bundles/layui")、
     <script>
     layui.use(['table', 'layer', 'form', 'laydate'],
         function() {
@@ -87,44 +54,17 @@
             var load = layer.load(1);
 
             /********************************************************** 筛选参数start *********************************************************/
-            var teacher = "";
-            var applyTime = "";
-            var startTime = "";
-            var endTime = "";
+
             var status = "";
             /********************************************************** 筛选参数end *********************************************************/
             /********************************************************* 时间选择器start *********************************************************/
-            laydate.render({
-                elem: '#applyTime',
-                range: true,
-                done: function(value, date, endDate) {
-                    applyTime = value;
-                    reloadTable();
 
-                }
-            });
-            laydate.render({
-                elem: '#startTime',
-                range: true,
-                done: function(value, date, endDate) {
-                    startTime = value;
-                    reloadTable();
-                }
-            });
-            laydate.render({
-                elem: '#endTime',
-                range: true,
-                done: function(value, date, endDate) {
-                    endTime = value;
-                    reloadTable();
-                }
-            });
             /********************************************************* 时间选择器end *********************************************************/
             /*********************************************************** 表格start *********************************************************/
             var tableOption = {
-                elem: "#borrowTable",
+                elem: "#buyTable",
                 //height: 100 %,
-                url: "GetMaterialBorrow",
+                url: "GetMaterialBuy",
                 loading: true,
                 defaultToolbar: false,
                 cellMinWidth: 50,
@@ -135,37 +75,26 @@
                 text: {
                     none: "未加载到相关数据"
                 },
-
                 cols: [
                     [
                         { type: 'checkbox', fixed: 'left' },
-                        { field: 'Teacher_Id', title: '教师编号', sort: true },
-                        { field: 'Teacher_Name', title: '教师姓名' },
-                        { field: 'Teacher_Depart', title: '教师系别' },
+                        { field: 'Material_Id', title: '器材编号', sort: true },
+                        { field: 'Material_Name', title: '器材名称' },
+                        { field: 'Company_Name', title: '供应商' },
                         {
-                            field: 'Apply_Time',
-                            title: '申请时间',
+                            field: 'Last_Time',
+                            title: '最终入库时间',
                             sort: true,
                             templet: "<div>{{layui.util.toDateString(d.Apply_Time, 'yyyy-MM-dd ')}}</div>"
                         },
-                        {
-                            field: 'Start_Time',
-                            title: '使用时间',
-                            sort: true,
-                            templet: "<div>{{layui.util.toDateString(d.Start_Time, 'yyyy-MM-dd ')}}</div>"
-                        },
-                        {
-                            field: 'End_Time',
-                            title: '归还时间',
-                            sort: true,
-                            templet: "<div>{{layui.util.toDateString(d.End_Time, 'yyyy-MM-dd ')}}</div>"
-                        },
-                        { field: 'Teach_Depart', title: '使用系别' },
-                        { field: 'Teach_Field', title: '使用专业' },
-                        { field: 'Material_Name', title: '器材名称',event: 'detail' },
+                        { field: 'Material_Price', title: '器材价格(￥)' },
+                        { field: 'Material_Count', title: '器材总量' },
+                        { field: 'Material_RemainCont', title: '器材余量' },
                         { field: 'Apply_Count', title: '申请数量' },
+                        { field: 'Material_CountUnit', title: "计量单位" },
+                        { field: 'Material_Size', title: '器材规格' },
                         {
-                            field: 'Head_Aduit',
+                            field: 'Apply_Status',
                             title: '审核结果',
                             fixed: 'right',
                             templet: function(d) {
@@ -190,7 +119,7 @@
             };
             table.render(tableOption);
 
-            table.on('tool(borrow)',
+            table.on('tool(buy)',
                 function(obj) {
                     var data = obj.data; //获得当前行数据
                     var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
@@ -228,63 +157,47 @@
                             }
                         });
                     }
+                });
 
-                    if (layEvent === "detail") {
+            table.on('toolbar(buy)',
+                function(obj) {
+                    var checkStatus = table.checkStatus(obj.config.id);
+                    switch (obj.event) {
+                    case 'allAllow':
+                    case 'allReject':
                         layer.open({
-                            title: "器材详情",
-                            type: 2,
+                            title: "审批意见",
+                            type: 1,
                             shadeClose: true,
                             shade: false,
-                            //                                    maxmin: true, //开启最大化最小化按钮
-                            area: ["100%", "100%"],
-                            content: "../Material/Detail?Material_Id=" + data.Material_Id,
-                            end: function () {
-                                //table.reload("baseTable", tableOption);
+                            btn: ['确定', '取消'],
+                            yes: function(index, layero) {
+                                var advice = layero["0"].childNodes[1].childNodes["0"].value;
+                                var data = checkStatus.data;
+                                for (var i = 0; i < data.length; i++) {
+                                    data[i].Apply_Status = obj.event === 'allAllow' ? 1 : 2;
+                                    data[i].Apply_Advice = advice;
+                                }
+                                $.ajax({
+                                    url: "Review",
+                                    type: "POST",
+                                    data: { "applies": data },
+                                    success: function(data) {
+                                        if (data === "OK") {
+                                            layer.msg("审核成功");
+                                            layer.close(index);
+                                        }
+                                    }
+                                });
+                            },
+                            area: ["260px", "200px"],
+                            content:
+                                "<textarea name='' required lay-verify='required' placeholder='请输入审批意见' class='layui-textarea' style='width:100%;height:100%'></textarea>",
+                            end: function() {
+                                table.reload("borrowTable", tableOption);
                                 //layer.msg("校徽");
                             }
                         });
-                    }
-                });
-
-            table.on('toolbar(borrow)',
-                function(obj) {
-                    var checkStatus = table.checkStatus(obj.config.id);
-                    switch(obj.event){
-                        case 'allAllow':
-                        case 'allReject':
-                            layer.open({
-                                title: "审批意见",
-                                type: 1,
-                                shadeClose: true,
-                                shade: false,
-                                btn: ['确定', '取消'],
-                                yes: function(index, layero) {
-                                    var advice = layero["0"].childNodes[1].childNodes["0"].value;
-                                    var data = checkStatus.data;
-                                    for (var i = 0; i < data.length; i++) {
-                                        data[i].Apply_Status = obj.event === 'allAllow' ? 1 : 2;
-                                        data[i].Apply_Advice = advice;
-                                    }
-                                    $.ajax({
-                                        url: "Review",
-                                        type: "POST",
-                                        data: {"applies":data},
-                                        success: function(data) {
-                                            if (data === "OK") {
-                                                layer.msg("审核成功");
-                                                layer.close(index);
-                                            }
-                                        }
-                                    });
-                                },
-                                area: ["260px", "200px"],
-                                content:
-                                    "<textarea name='' required lay-verify='required' placeholder='请输入审批意见' class='layui-textarea' style='width:100%;height:100%'></textarea>",
-                                end: function() {
-                                    table.reload("borrowTable", tableOption);
-                                    //layer.msg("校徽");
-                                }
-                            });
                         break;
                     };
                 });
@@ -292,29 +205,21 @@
 
             /*********************************************************** 表单start *********************************************************/
             form.render('select');
-            form.on('select(teacher)',
-                function(obj) {
-                    teacher = obj.value;
-                    reloadTable();
-                });
             form.on('select(status)',
                 function(obj) {
                     status = obj.value;
                     reloadTable();
                 });
+
             /*********************************************************** 表单end *********************************************************/
-            function reloadTable(filter) {
-                table.reload('borrowTable',
+            function reloadTable() {
+                table.reload('buyTable',
                     {
                         page: {
                             curr: 1
                         },
                         where: {
-                            'Teacher': teacher,
-                            'ApplyTime': applyTime,
-                            'StartTime': startTime,
-                            'EndTime': endTime,
-                            'Status': status
+                            'status': status
                         }
                     });
             }

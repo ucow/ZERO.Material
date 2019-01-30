@@ -11,6 +11,7 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
+    using Newtonsoft.Json;
     
     public partial class Material_Teacher
     {
@@ -26,6 +27,7 @@ namespace ZERO.Material.Model
         public string Teacher_Depart { get; set; }
         public string Teacher_Password { get; set; }
     
+        [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Material_Apply> Material_Apply { get; set; }
     }

@@ -468,6 +468,8 @@
     <Content Include="Views\Apply\Borrow.cshtml" />
     <Content Include="Views\Zero\History.cshtml" />
     <Content Include="Views\Stock\NeedBuy.cshtml" />
+    <Content Include="Views\Apply\Buy.cshtml" />
+    <Content Include="Views\Apply\InComing.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

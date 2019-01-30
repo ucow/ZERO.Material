@@ -99,6 +99,7 @@ foreach (var entity in typeMapper.GetItemsToGenerate<EntityType>(itemCollection)
             if (navigationProperty.ToEndMember.RelationshipMultiplicity == RelationshipMultiplicity.Many)
             {
 #>
+    [JsonIgnore]
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
 <#
             }
@@ -428,7 +429,7 @@ public class CodeStringGenerator
                 "{0}using System;{1}" +
                 "{2}",
                 inHeader ? Environment.NewLine : "",
-                includeCollections ? (Environment.NewLine + "using System.Collections.Generic;") : "",
+                includeCollections ? (Environment.NewLine + "using System.Collections.Generic;"+Environment.NewLine+"using Newtonsoft.Json;") : "",
                 inHeader ? "" : Environment.NewLine)
             : "";
     }

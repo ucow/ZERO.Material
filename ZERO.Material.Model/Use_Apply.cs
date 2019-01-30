@@ -11,6 +11,7 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
+    using Newtonsoft.Json;
     
     public partial class Use_Apply
     {
@@ -29,5 +30,6 @@ namespace ZERO.Material.Model
         public string Teacher_Id { get; set; }
         public string Material_Id { get; set; }
         public string Teacher_Depart { get; set; }
+        public int Is_Get { get; set; }
     }
 }

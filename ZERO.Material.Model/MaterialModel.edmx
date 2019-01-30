@@ -8,6 +8,7 @@
         <EntityType Name="Apply_Info">
           <Key>
             <PropertyRef Name="Apply_Id" />
+            <PropertyRef Name="ApplyType_Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Apply_Id" Type="int" Nullable="false" />
@@ -31,6 +32,7 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
           <Property Name="Last_Time" Type="datetime" Nullable="false" />
+          <Property Name="Is_Bought" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
@@ -44,6 +46,7 @@
           <Property Name="Teach_Depart" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="Teach_Field" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Is_Get" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Base">
           <Key>
@@ -115,6 +118,7 @@
           <Key>
             <PropertyRef Name="Material_Id" />
             <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Last_Time" />
             <PropertyRef Name="Company_Name" />
             <PropertyRef Name="Material_Price" />
             <PropertyRef Name="Material_Count" />
@@ -124,9 +128,12 @@
             <PropertyRef Name="ApplyType_Id" />
             <PropertyRef Name="Apply_Count" />
             <PropertyRef Name="Apply_Status" />
+            <PropertyRef Name="Apply_Id" />
+            <PropertyRef Name="Is_Bought" />
           </Key>
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
           <Property Name="Material_Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Last_Time" Type="datetime" Nullable="false" />
           <Property Name="Company_Name" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Material_Price" Type="float" Nullable="false" />
           <Property Name="Material_Count" Type="float" Nullable="false" />
@@ -137,6 +144,8 @@
           <Property Name="Apply_Count" Type="int" Nullable="false" />
           <Property Name="Apply_Status" Type="int" Nullable="false" />
           <Property Name="Apply_Advice" Type="nvarchar(max)" />
+          <Property Name="Apply_Id" Type="int" Nullable="false" />
+          <Property Name="Is_Bought" Type="bit" Nullable="false" />
         </EntityType>
         <!--生成过程中发现错误:
 警告 6002: 表/视图“ZERO_Material.dbo.Material_Info”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
@@ -184,6 +193,7 @@
             <PropertyRef Name="Teacher_Id" />
             <PropertyRef Name="Material_Id" />
             <PropertyRef Name="Teacher_Depart" />
+            <PropertyRef Name="Is_Get" />
           </Key>
           <Property Name="Apply_Id" Type="int" Nullable="false" />
           <Property Name="ApplyType_Id" Type="nchar" MaxLength="3" Nullable="false" />
@@ -200,6 +210,7 @@
           <Property Name="Teacher_Id" Type="char" MaxLength="4" Nullable="false" />
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
           <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Is_Get" Type="int" Nullable="false" />
         </EntityType>
         <Association Name="FK_Apply_Info_Apply_Type">
           <End Role="Apply_Type" Type="Self.Apply_Type" Multiplicity="1" />
@@ -320,6 +331,7 @@
             <DefiningQuery>SELECT 
     [Buy_Apply].[Material_Id] AS [Material_Id], 
     [Buy_Apply].[Material_Name] AS [Material_Name], 
+    [Buy_Apply].[Last_Time] AS [Last_Time], 
     [Buy_Apply].[Company_Name] AS [Company_Name], 
     [Buy_Apply].[Material_Price] AS [Material_Price], 
     [Buy_Apply].[Material_Count] AS [Material_Count], 
@@ -329,7 +341,9 @@
     [Buy_Apply].[ApplyType_Id] AS [ApplyType_Id], 
     [Buy_Apply].[Apply_Count] AS [Apply_Count], 
     [Buy_Apply].[Apply_Status] AS [Apply_Status], 
-    [Buy_Apply].[Apply_Advice] AS [Apply_Advice]
+    [Buy_Apply].[Apply_Advice] AS [Apply_Advice], 
+    [Buy_Apply].[Apply_Id] AS [Apply_Id], 
+    [Buy_Apply].[Is_Bought] AS [Is_Bought]
     FROM [dbo].[Buy_Apply] AS [Buy_Apply]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="Material_Info" EntityType="Self.Material_Info" store:Type="Views" store:Schema="dbo">
@@ -364,7 +378,8 @@
     [Use_Apply].[Apply_Advice] AS [Apply_Advice], 
     [Use_Apply].[Teacher_Id] AS [Teacher_Id], 
     [Use_Apply].[Material_Id] AS [Material_Id], 
-    [Use_Apply].[Teacher_Depart] AS [Teacher_Depart]
+    [Use_Apply].[Teacher_Depart] AS [Teacher_Depart], 
+    [Use_Apply].[Is_Get] AS [Is_Get]
     FROM [dbo].[Use_Apply] AS [Use_Apply]</DefiningQuery>
           </EntitySet>
           <AssociationSet Name="FK_Apply_Info_Apply_Type" Association="Self.FK_Apply_Info_Apply_Type">
@@ -454,6 +469,7 @@
         <EntityType Name="Apply_Info">
           <Key>
             <PropertyRef Name="Apply_Id" />
+            <PropertyRef Name="ApplyType_Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Apply_Id" Type="Int32" Nullable="false" />
@@ -480,6 +496,7 @@
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
           <Property Name="Last_Time" Type="DateTime" Nullable="false" Precision="3" />
           <NavigationProperty Name="Material_Base" Relationship="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base" FromRole="BuyInComing_Apply" ToRole="Material_Base" />
+          <Property Name="Is_Bought" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
@@ -495,6 +512,7 @@
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Material_Base" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Base" FromRole="Material_Apply" ToRole="Material_Base" />
           <NavigationProperty Name="Material_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" FromRole="Material_Apply" ToRole="Material_Teacher" />
+          <Property Name="Is_Get" Type="Int32" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Base">
           <Key>
@@ -584,6 +602,9 @@
             <PropertyRef Name="ApplyType_Id" />
             <PropertyRef Name="Apply_Count" />
             <PropertyRef Name="Apply_Status" />
+            <PropertyRef Name="Last_Time" />
+            <PropertyRef Name="Apply_Id" />
+            <PropertyRef Name="Is_Bought" />
           </Key>
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
           <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -597,6 +618,9 @@
           <Property Name="Apply_Count" Type="Int32" Nullable="false" />
           <Property Name="Apply_Status" Type="Int32" Nullable="false" />
           <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Last_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Apply_Id" Type="Int32" Nullable="false" />
+          <Property Name="Is_Bought" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Info">
           <Key>
@@ -640,6 +664,7 @@
             <PropertyRef Name="Teacher_Id" />
             <PropertyRef Name="Material_Id" />
             <PropertyRef Name="Teacher_Depart" />
+            <PropertyRef Name="Is_Get" />
           </Key>
           <Property Name="Apply_Id" Type="Int32" Nullable="false" />
           <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
@@ -656,6 +681,7 @@
           <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Is_Get" Type="Int32" Nullable="false" />
         </EntityType>
         <Association Name="FK_Apply_Info_Apply_Type">
           <End Type="ZERO_MaterialModel.Apply_Type" Role="Apply_Type" Multiplicity="1" />
@@ -791,6 +817,7 @@
           <EntitySetMapping Name="BuyInComing_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.BuyInComing_Apply">
               <MappingFragment StoreEntitySet="BuyInComing_Apply">
+                <ScalarProperty Name="Is_Bought" ColumnName="Is_Bought" />
                 <ScalarProperty Name="Last_Time" ColumnName="Last_Time" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -800,6 +827,7 @@
           <EntitySetMapping Name="Material_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Apply">
               <MappingFragment StoreEntitySet="Material_Apply">
+                <ScalarProperty Name="Is_Get" ColumnName="Is_Get" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
                 <ScalarProperty Name="Teach_Field" ColumnName="Teach_Field" />
                 <ScalarProperty Name="Teach_Depart" ColumnName="Teach_Depart" />
@@ -882,6 +910,9 @@
           <EntitySetMapping Name="Buy_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Buy_Apply">
               <MappingFragment StoreEntitySet="Buy_Apply">
+                <ScalarProperty Name="Is_Bought" ColumnName="Is_Bought" />
+                <ScalarProperty Name="Apply_Id" ColumnName="Apply_Id" />
+                <ScalarProperty Name="Last_Time" ColumnName="Last_Time" />
                 <ScalarProperty Name="Apply_Advice" ColumnName="Apply_Advice" />
                 <ScalarProperty Name="Apply_Status" ColumnName="Apply_Status" />
                 <ScalarProperty Name="Apply_Count" ColumnName="Apply_Count" />
@@ -918,6 +949,7 @@
           <EntitySetMapping Name="Use_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Use_Apply">
               <MappingFragment StoreEntitySet="Use_Apply">
+                <ScalarProperty Name="Is_Get" ColumnName="Is_Get" />
                 <ScalarProperty Name="Teacher_Depart" ColumnName="Teacher_Depart" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
                 <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />

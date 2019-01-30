@@ -11,6 +11,7 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
+    using Newtonsoft.Json;
     
     public partial class Material_Company
     {
@@ -26,6 +27,7 @@ namespace ZERO.Material.Model
         public string Company_Remark { get; set; }
         public byte[] Company_Image { get; set; }
     
+        [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Material_Base_Company> Material_Base_Company { get; set; }
     }

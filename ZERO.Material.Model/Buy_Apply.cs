@@ -11,6 +11,7 @@ namespace ZERO.Material.Model
 {
     using System;
     using System.Collections.Generic;
+    using Newtonsoft.Json;
     
     public partial class Buy_Apply
     {
@@ -26,5 +27,8 @@ namespace ZERO.Material.Model
         public int Apply_Count { get; set; }
         public int Apply_Status { get; set; }
         public string Apply_Advice { get; set; }
+        public System.DateTime Last_Time { get; set; }
+        public int Apply_Id { get; set; }
+        public bool Is_Bought { get; set; }
     }
 }
