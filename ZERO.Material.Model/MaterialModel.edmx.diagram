@@ -7,25 +7,24 @@
       <Diagram DiagramId="74360cfbecdc41528a7c67531c1322a4" Name="Diagram1">
         <EntityTypeShape EntityType="ZERO_MaterialModel.Apply_Info" Width="1.5" PointX="8" PointY="1" />
         <EntityTypeShape EntityType="ZERO_MaterialModel.Apply_Type" Width="1.5" PointX="5.75" PointY="1.25" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.BuyInComing_Apply" Width="1.5" PointX="3" PointY="16.875" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Apply" Width="1.5" PointX="6" PointY="6" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base" Width="1.5" PointX="0.75" PointY="6.125" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Company" Width="1.5" PointX="3" PointY="5.875" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.BuyInComing_Apply" Width="1.5" PointX="2.625" PointY="8.375" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Apply" Width="1.5" PointX="7.625" PointY="4.75" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base" Width="1.5" PointX="4.875" PointY="5.875" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Company" Width="1.5" PointX="5.125" PointY="9.625" />
         <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Type" Width="1.5" PointX="3" PointY="2.5" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Company" Width="1.5" PointX="0.75" PointY="10.375" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Teacher" Width="1.5" PointX="3.75" PointY="10.375" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Company" Width="1.5" PointX="0.5" PointY="6.25" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Teacher" Width="1.5" PointX="8" PointY="9.375" />
         <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Type" Width="1.5" PointX="0.75" PointY="2.375" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Buy_Apply" Width="1.5" PointX="8.75" PointY="4.75" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Info" Width="1.5" PointX="5.75" PointY="9.75" />
-        <EntityTypeShape EntityType="ZERO_MaterialModel.Use_Apply" Width="1.5" PointX="7.75" PointY="9.75" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Buy_Apply" Width="1.5" PointX="13" PointY="4.125" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Info" Width="1.5" PointX="10.5" PointY="6.875" />
         <AssociationConnector Association="ZERO_MaterialModel.FK_Apply_Info_Apply_Type" />
-        <AssociationConnector Association="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base" />
         <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Apply_Material_Base" />
         <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" />
         <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Company_Material_Base" />
         <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Type_Material_Base" />
         <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Company_Material_Company" />
         <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Type_Material_Type" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Use_Apply" Width="1.5" PointX="15.25" PointY="5.125" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

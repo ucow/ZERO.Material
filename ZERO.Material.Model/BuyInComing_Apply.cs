@@ -20,7 +20,5 @@ namespace ZERO.Material.Model
         public System.DateTime Last_Time { get; set; }
         public bool Is_Bought { get; set; }
         public bool Is_InComed { get; set; }
-    
-        public virtual Material_Base Material_Base { get; set; }
     }
 }

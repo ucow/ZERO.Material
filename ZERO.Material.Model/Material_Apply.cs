@@ -23,7 +23,7 @@ namespace ZERO.Material.Model
         public string Teach_Depart { get; set; }
         public string Teach_Field { get; set; }
         public string Material_Id { get; set; }
-        public int Is_Get { get; set; }
+        public bool Is_Get { get; set; }
     
         public virtual Material_Base Material_Base { get; set; }
         public virtual Material_Teacher Material_Teacher { get; set; }

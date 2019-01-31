@@ -22,9 +22,8 @@ namespace ZERO.Material.Backstage.Controllers
         private readonly IBaseApplyBll _applyBll = Container.Server<IBaseApplyBll>();
         private readonly ITeacherBll _teacherBll = Container.Server<ITeacherBll>();
         private readonly IApplyInfoBll _applyInfoBll = Container.Server<IApplyInfoBll>();
-        private readonly IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
-        private readonly IUseApplyBll _useApplyBll = Container.Server<IUseApplyBll>();
         private readonly IBuyApplyBll _buyApplyBll = Container.Server<IBuyApplyBll>();
+        private readonly IBaseCompanyBll _baseCompanyBll = Container.Server<IBaseCompanyBll>();
 
         #endregion 全局变量
 
@@ -63,7 +62,7 @@ namespace ZERO.Material.Backstage.Controllers
                 : _teacherBll.GetEntity(m => m.Teacher_Id == applyFilter.Teacher).Teacher_Name;
             IUseApplyBll useApplyBll = Container.Server<IUseApplyBll>();
             List<Use_Apply> useApplies = useApplyBll.GetEntities(m =>
-                    m.Is_Get == 0 &&
+                    m.Is_Get == false &&
                     (applyFilter.Teacher == null || m.Teacher_Name == teacher) &&
                     (status == null || m.Apply_Status == status) &&
                     ((applyTime0 == null || applyTime1 == null) || m.Apply_Time >= applyTime0 && m.Apply_Time <= applyTime1) &&
@@ -116,11 +115,19 @@ namespace ZERO.Material.Backstage.Controllers
         //审核
         public ActionResult Review(List<Apply_Info> applies)
         {
-            if (_applyInfoBll.UpdateEntities(applies))
+            List<Material_Base_Company> materialBaseCompanies = new List<Material_Base_Company>();
+            foreach (Apply_Info applyInfo in applies)
             {
-                return Content("OK");
+                if (applyInfo.ApplyType_Id == "001" && applyInfo.Apply_Status == 2)
+                {
+                    Material_Apply apply = _applyBll.GetEntity(m => m.Id == applyInfo.Apply_Id);
+                    Material_Base_Company materialBaseCompany =
+                        _baseCompanyBll.GetEntity(m => m.Material_Id == apply.Material_Id);
+                    materialBaseCompany.Material_RemainCont += applyInfo.Apply_Count;
+                    materialBaseCompanies.Add(materialBaseCompany);
+                }
             }
-            return Content("Error");
+            return Content(_applyInfoBll.UpdateEntities(applies) && _baseCompanyBll.UpdateEntities(materialBaseCompanies) ? "OK" : "Error");
         }
     }
 }

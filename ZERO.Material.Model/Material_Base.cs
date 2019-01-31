@@ -18,7 +18,6 @@ namespace ZERO.Material.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Material_Base()
         {
-            this.BuyInComing_Apply = new HashSet<BuyInComing_Apply>();
             this.Material_Apply = new HashSet<Material_Apply>();
             this.Material_Base_Company = new HashSet<Material_Base_Company>();
             this.Material_Base_Type = new HashSet<Material_Base_Type>();
@@ -30,9 +29,6 @@ namespace ZERO.Material.Model
         public string Material_Remark { get; set; }
         public byte[] Material_Image { get; set; }
     
-        [JsonIgnore]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<BuyInComing_Apply> BuyInComing_Apply { get; set; }
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Material_Apply> Material_Apply { get; set; }

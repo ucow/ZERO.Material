@@ -30,6 +30,6 @@ namespace ZERO.Material.Model
         public string Teacher_Id { get; set; }
         public string Material_Id { get; set; }
         public string Teacher_Depart { get; set; }
-        public int Is_Get { get; set; }
+        public bool Is_Get { get; set; }
     }
 }

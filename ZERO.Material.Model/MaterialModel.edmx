@@ -47,7 +47,7 @@
           <Property Name="Teach_Depart" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="Teach_Field" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="Is_Get" Type="int" Nullable="false" />
+          <Property Name="Is_Get" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Base">
           <Key>
@@ -213,7 +213,7 @@
           <Property Name="Teacher_Id" Type="char" MaxLength="4" Nullable="false" />
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
           <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="Is_Get" Type="int" Nullable="false" />
+          <Property Name="Is_Get" Type="bit" Nullable="false" />
         </EntityType>
         <Association Name="FK_Apply_Info_Apply_Type">
           <End Role="Apply_Type" Type="Self.Apply_Type" Multiplicity="1" />
@@ -224,18 +224,6 @@
             </Principal>
             <Dependent Role="Apply_Info">
               <PropertyRef Name="ApplyType_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_BuyInComing_Apply_Material_Base">
-          <End Role="Material_Base" Type="Self.Material_Base" Multiplicity="1" />
-          <End Role="BuyInComing_Apply" Type="Self.BuyInComing_Apply" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Material_Base">
-              <PropertyRef Name="Material_Id" />
-            </Principal>
-            <Dependent Role="BuyInComing_Apply">
-              <PropertyRef Name="Material_Id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -390,10 +378,6 @@
             <End Role="Apply_Type" EntitySet="Apply_Type" />
             <End Role="Apply_Info" EntitySet="Apply_Info" />
           </AssociationSet>
-          <AssociationSet Name="FK_BuyInComing_Apply_Material_Base" Association="Self.FK_BuyInComing_Apply_Material_Base">
-            <End Role="Material_Base" EntitySet="Material_Base" />
-            <End Role="BuyInComing_Apply" EntitySet="BuyInComing_Apply" />
-          </AssociationSet>
           <AssociationSet Name="FK_Material_Apply_Material_Base" Association="Self.FK_Material_Apply_Material_Base">
             <End Role="Material_Base" EntitySet="Material_Base" />
             <End Role="Material_Apply" EntitySet="Material_Apply" />
@@ -436,14 +420,9 @@
           <EntitySet Name="Material_Type" EntityType="ZERO_MaterialModel.Material_Type" />
           <EntitySet Name="Buy_Apply" EntityType="ZERO_MaterialModel.Buy_Apply" />
           <EntitySet Name="Material_Info" EntityType="ZERO_MaterialModel.Material_Info" />
-          <EntitySet Name="Use_Apply" EntityType="ZERO_MaterialModel.Use_Apply" />
           <AssociationSet Name="FK_Apply_Info_Apply_Type" Association="ZERO_MaterialModel.FK_Apply_Info_Apply_Type">
             <End Role="Apply_Type" EntitySet="Apply_Type" />
             <End Role="Apply_Info" EntitySet="Apply_Info" />
-          </AssociationSet>
-          <AssociationSet Name="FK_BuyInComing_Apply_Material_Base" Association="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base">
-            <End Role="Material_Base" EntitySet="Material_Base" />
-            <End Role="BuyInComing_Apply" EntitySet="BuyInComing_Apply" />
           </AssociationSet>
           <AssociationSet Name="FK_Material_Apply_Material_Base" Association="ZERO_MaterialModel.FK_Material_Apply_Material_Base">
             <End Role="Material_Base" EntitySet="Material_Base" />
@@ -469,6 +448,7 @@
             <End Role="Material_Type" EntitySet="Material_Type" />
             <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
           </AssociationSet>
+          <EntitySet Name="Use_Apply" EntityType="ZERO_MaterialModel.Use_Apply" />
         </EntityContainer>
         <EntityType Name="Apply_Info">
           <Key>
@@ -499,7 +479,6 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
           <Property Name="Last_Time" Type="DateTime" Nullable="false" Precision="3" />
-          <NavigationProperty Name="Material_Base" Relationship="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base" FromRole="BuyInComing_Apply" ToRole="Material_Base" />
           <Property Name="Is_Bought" Type="Boolean" Nullable="false" />
           <Property Name="Is_InComed" Type="Boolean" Nullable="false" />
         </EntityType>
@@ -517,7 +496,7 @@
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Material_Base" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Base" FromRole="Material_Apply" ToRole="Material_Base" />
           <NavigationProperty Name="Material_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" FromRole="Material_Apply" ToRole="Material_Teacher" />
-          <Property Name="Is_Get" Type="Int32" Nullable="false" />
+          <Property Name="Is_Get" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Base">
           <Key>
@@ -528,7 +507,6 @@
           <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
-          <NavigationProperty Name="BuyInComing_Apply" Relationship="ZERO_MaterialModel.FK_BuyInComing_Apply_Material_Base" FromRole="Material_Base" ToRole="BuyInComing_Apply" />
           <NavigationProperty Name="Material_Apply" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Base" FromRole="Material_Base" ToRole="Material_Apply" />
           <NavigationProperty Name="Material_Base_Company" Relationship="ZERO_MaterialModel.FK_Material_Base_Company_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Company" />
           <NavigationProperty Name="Material_Base_Type" Relationship="ZERO_MaterialModel.FK_Material_Base_Type_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Type" />
@@ -655,41 +633,6 @@
           <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
-        <EntityType Name="Use_Apply">
-          <Key>
-            <PropertyRef Name="Apply_Id" />
-            <PropertyRef Name="ApplyType_Id" />
-            <PropertyRef Name="Teacher_Name" />
-            <PropertyRef Name="Apply_Time" />
-            <PropertyRef Name="Start_Time" />
-            <PropertyRef Name="End_Time" />
-            <PropertyRef Name="Teach_Depart" />
-            <PropertyRef Name="Teach_Field" />
-            <PropertyRef Name="Material_Name" />
-            <PropertyRef Name="Apply_Count" />
-            <PropertyRef Name="Apply_Status" />
-            <PropertyRef Name="Teacher_Id" />
-            <PropertyRef Name="Material_Id" />
-            <PropertyRef Name="Teacher_Depart" />
-            <PropertyRef Name="Is_Get" />
-          </Key>
-          <Property Name="Apply_Id" Type="Int32" Nullable="false" />
-          <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
-          <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
-          <Property Name="Apply_Time" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="Start_Time" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="End_Time" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="Teach_Depart" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="Teach_Field" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Apply_Count" Type="Int32" Nullable="false" />
-          <Property Name="Apply_Status" Type="Int32" Nullable="false" />
-          <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
-          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Is_Get" Type="Int32" Nullable="false" />
-        </EntityType>
         <Association Name="FK_Apply_Info_Apply_Type">
           <End Type="ZERO_MaterialModel.Apply_Type" Role="Apply_Type" Multiplicity="1" />
           <End Type="ZERO_MaterialModel.Apply_Info" Role="Apply_Info" Multiplicity="*" />
@@ -699,18 +642,6 @@
             </Principal>
             <Dependent Role="Apply_Info">
               <PropertyRef Name="ApplyType_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_BuyInComing_Apply_Material_Base">
-          <End Type="ZERO_MaterialModel.Material_Base" Role="Material_Base" Multiplicity="1" />
-          <End Type="ZERO_MaterialModel.BuyInComing_Apply" Role="BuyInComing_Apply" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Material_Base">
-              <PropertyRef Name="Material_Id" />
-            </Principal>
-            <Dependent Role="BuyInComing_Apply">
-              <PropertyRef Name="Material_Id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -794,6 +725,41 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="Use_Apply">
+          <Key>
+            <PropertyRef Name="Apply_Id" />
+            <PropertyRef Name="ApplyType_Id" />
+            <PropertyRef Name="Teacher_Name" />
+            <PropertyRef Name="Apply_Time" />
+            <PropertyRef Name="Start_Time" />
+            <PropertyRef Name="End_Time" />
+            <PropertyRef Name="Teach_Depart" />
+            <PropertyRef Name="Teach_Field" />
+            <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Apply_Count" />
+            <PropertyRef Name="Apply_Status" />
+            <PropertyRef Name="Teacher_Id" />
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Teacher_Depart" />
+            <PropertyRef Name="Is_Get" />
+          </Key>
+          <Property Name="Apply_Id" Type="Int32" Nullable="false" />
+          <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+          <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="Apply_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Start_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="End_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Teach_Depart" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Teach_Field" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Apply_Count" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Status" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Is_Get" Type="Boolean" Nullable="false" />
+        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->

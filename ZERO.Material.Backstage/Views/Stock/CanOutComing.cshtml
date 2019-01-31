@@ -1,5 +1,4 @@
-﻿@model List<ZERO.Material.Model.Material_Apply>
-@{
+﻿@{
     Layout = null;
 }
 
@@ -8,34 +7,26 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>NeedBuy</title>
+    <title>CanOutComing</title>
 </head>
 <body>
     <div>
-        <table id="needBuyTable" lay-filter="needBuy"></table>
+        <table id="canOutComingTable" lay-filter="canOutComing"></table>
+    </div>
+    <div id="tableCellBar" hidden>
+        <button type="button" class="layui-btn layui-btn-xs" lay-event="confirmOut">确认出库</button>
+    </div>
+    <div id="tableTopBar" hidden>
+        <button type="button" class="layui-btn layui-btn-normal" lay-event="allConfirmOut">全部确认出库</button>
     </div>
 
-    <div id="needCellBar" hidden>
-        <button type="button" class="layui-btn layui-btn-xs" lay-event="in">申请入库</button>
-    </div>
-    <div id="needTopBar" hidden>
-        <button type="button" class="layui-btn layui-btn-normal" lay-event="allIn">全部入库</button>
-        <button type="button" class="layui-btn layui-btn-normal">申请入库</button>
-    </div>
-
-    <div class="layui-row" id="setInCount" style="display: none;">
-        <div class="container" style="padding: 10px">
-            <form class="layui-form" id="setInCountForm"></form>
-        </div>
-    </div>
     @Scripts.Render("~/bundles/jquery")
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
     <script>
-        layui.use(['table', 'layer', 'form', 'laydate'],
+        layui.use(['table', 'layer', 'form'],
             function () {
                 var table = layui.table;
-                var laydate = layui.laydate;
                 var form = layui.form;
 
                 var layer = layui.layer;
@@ -49,13 +40,13 @@
                 /********************************************************* 时间选择器end *********************************************************/
                 /*********************************************************** 表格start *********************************************************/
                 var tableOption = {
-                    elem: "#needBuyTable",
+                    elem: "#canOutComingTable",
                     //height: 100 %,
-                    url: "GetNeedBuy",
+                    url: "GetCanOutComing",
                     loading: true,
                     defaultToolbar: false,
                     cellMinWidth: 50,
-                    toolbar: "#needTopBar",
+                    toolbar: "#tableTopBar",
                     page: true,
                     size: 'lg',
                     limits: [10, 20, 30, 40],
@@ -65,22 +56,32 @@
                     cols: [
                         [
                             { type: 'checkbox', fixed: 'left' },
-                            { field: 'Material_Id', title: '器材编号', sort: true },
-                            { field: 'Material_Name', title: '器材名称' },
-                            { field: 'Company_Name', title: '供应商' },
+                            { field: 'Teacher_Id', title: '教师编号', sort: true },
+                            { field: 'Teacher_Name', title: '教师姓名' },
+                            { field: 'Teacher_Depart', title: '教师系别' },
                             {
-                                field: 'Last_Time',
-                                title: '最终入库时间',
+                                field: 'Apply_Time',
+                                title: '申请时间',
                                 sort: true,
                                 templet: "<div>{{layui.util.toDateString(d.Apply_Time, 'yyyy-MM-dd ')}}</div>"
                             },
-                            { field: 'Material_Price', title: '器材价格(￥)' },
-                            { field: 'Material_Count', title: '器材总量' },
-                            { field: 'Material_RemainCont', title: '器材余量' },
-                            { field: 'Apply_Count', title: '购买数量' },
-                            { field: 'Material_CountUnit', title: "计量单位" },
-                            { field: 'Material_Size', title: '器材规格' },
-                            { field: 'Head', title: "审核", toolbar: '#needCellBar', fixed: 'right' }
+                            {
+                                field: 'Start_Time',
+                                title: '使用时间',
+                                sort: true,
+                                templet: "<div>{{layui.util.toDateString(d.Start_Time, 'yyyy-MM-dd ')}}</div>"
+                            },
+                            {
+                                field: 'End_Time',
+                                title: '归还时间',
+                                sort: true,
+                                templet: "<div>{{layui.util.toDateString(d.End_Time, 'yyyy-MM-dd ')}}</div>"
+                            },
+                            { field: 'Teach_Depart', title: '使用系别' },
+                            { field: 'Teach_Field', title: '使用专业' },
+                            { field: 'Material_Name', title: '器材名称', event: 'detail' },
+                            { field: 'Apply_Count', title: '申请数量' },
+                            { field: 'Head', title: "确认出库", toolbar: '#tableCellBar', fixed: 'right' }
                         ]
                     ],
                     done: function (res) {
@@ -89,25 +90,39 @@
                 };
                 table.render(tableOption);
 
-                table.on('tool(needBuy)',
+                table.on('tool(canOutComing)',
                     function (obj) {
                         var data = obj.data; //获得当前行数据
                         var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
 
                         switch (layEvent) {
-                        case 'in':
-                                setInCount(new Array(data));
-                                table.reload('needBuyTable', tableOption);
+                            case 'confirmOut':
+                                confirmOutComing(new Array(data));
+                                break;
+                            case 'detail':
+                                layer.open({
+                                    title: "器材详情",
+                                    type: 2,
+                                    shadeClose: true,
+                                    shade: false,
+                                    //                                    maxmin: true, //开启最大化最小化按钮
+                                    area: ["100%", "100%"],
+                                    content: "../Material/Detail?Material_Id=" + data.Material_Id,
+                                    end: function () {
+                                        //table.reload("baseTable", tableOption);
+                                        //layer.msg("校徽");
+                                    }
+                                });
+                                break;
                         };
                     });
 
-                table.on('toolbar(needBuy)',
+                table.on('toolbar(canOutComing)',
                     function (obj) {
                         var checkStatus = table.checkStatus(obj.config.id);
                         switch (obj.event) {
-                            case 'allIn':
-                                setInCount(checkStatus.data);
-                                table.reload('needBuyTable', tableOption);
+                            case 'allConfirmOut':
+                                confirmOutComing(checkStatus.data);
                         };
                     });
                 /*********************************************************** 表格end *********************************************************/
@@ -134,62 +149,29 @@
                         });
                 }
 
-                function setInCount(dataList) {
-                    var baseContent =
-                        "<div class='layui-form-item'><label class='layui-form-label'>{0}</label> <div class='layui-input-block'><input type='text' name='{2}' required  lay-verify='required' placeholder='请输入入库数量' autocomplete='off' class='layui-input' value='{1}'></div></div>";
-                    var content = "";
-                    dataList.forEach(function(item) {
-                        content += baseContent.format(item.Material_Name, item.Apply_Count,item.Material_Id);
+                function confirmOutComing(dataList) {
+                    var ajaxData = new Array();
+                    dataList.forEach(function (dataItem) {
+                        ajaxData.push({
+                            Apply_Id: dataItem.Apply_Id,
+                            ApplyType_Id: dataItem.ApplyType_Id ,
+                            Apply_Count: dataItem.Apply_Count,
+                            Apply_Status: 0,
+                            Apply_Advice: dataItem.Apply_Advice
+                         });
                     });
-                    $('#setInCountForm')[0].innerHTML = content;
-                    layer.open({
-                        title: "入库数量",
-                        type: 1,
-                        shadeClose: true,
-                        shade: false,
-                        //                                    maxmin: true, //开启最大化最小化按钮
-                        area: ["400px", "500px"],
-                        content: $('#setInCount'),
-                        success: function() {
-                            form.render();
-                        },
-                        btn: ["确定", "取消"],
-                        yes: function(index, layero){
-                            //do something
-                            var formData = $('#setInCountForm').serializeArray();
-                            var ajaxData = new Array();
-                            dataList.forEach(function(item) {
-                                formData.forEach(function(formItem) {
-                                    if (formItem.name === item.Material_Id) {
-                                        ajaxData.push({
-                                            Apply_Id: item.Apply_Id,
-                                            ApplyType_Id: "003",
-                                            Apply_Count: formItem.value,
-                                            Apply_Status: 0
-                                        });
-                                    }
-                                });
-                            });
 
-                            $.ajax({
-                                url: 'ApplyInComing',
-                                type: 'POST',
-                                data: {"applyInfos":ajaxData},
-                                success: function(data) {
-                                    if (data === "OK") {
-                                        layer.msg("申请成功");
-
-                                    } else {
-                                        layer.msg("申请失败");
-                                    }
-                                    layer.close(index);
-                                }
-                            });
-
-                             //如果设定了yes回调，需进行手工关闭
-                        },
-                        end: function () {
-
+                    $.ajax({
+                        url: 'ConfirmOutComing',
+                        type: 'POST',
+                        data: {"applyInfos":ajaxData},
+                        success: function(data) {
+                            if (data === "OK") {
+                                layer.msg("确认成功");
+                                table.reload('canOutComingTable', tableOption);
+                            } else {
+                                layer.msg("确认失败");
+                            }
                         }
                     });
                 }
