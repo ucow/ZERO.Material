@@ -11,9 +11,10 @@ function GetModelInfo() {
         dataType: "json",
         success: function (data) {
             GetColumns(eval(data));
-            layui.use(["table", "layer"], function () {
+            layui.use(["table", "layer", 'form'], function () {
                 var table = layui.table;
                 var layer = layui.layer;
+                var form = layui.form;
                 var load = layer.load(1);
                 var tableOption = {
                     elem: "#baseTable",
@@ -76,7 +77,6 @@ function GetModelInfo() {
                             case "Delete":
                                 layer.confirm('确认删除？', function (index) {
                                     layer.close(index);
-                                    //"{\"" + column[0].field + "\":\"" + data[column[0].field] + "\"}";
                                     $.ajax({
                                         type: "post",
                                         url: "Delete?" + column[0].field + "=" + data[column[0].field],
@@ -97,30 +97,33 @@ function GetModelInfo() {
                                     type: 2,
                                     shadeClose: true,
                                     shade: false,
-                                    //                                    maxmin: true, //开启最大化最小化按钮
                                     area: ["100%", "100%"],
                                     resize: false,
                                     content: "Add?" + column[0].field + "=" + data[column[0].field],
-                                    //                                    full: function (layero) {
-                                    //                                        layer.iframeAuto(layer.getFrameIndex(window[layero.find('iframe')[0]['name']].name));
-                                    //                                    },
-                                    //                                    restore: function (layero) {
-                                    //                                        //                                        var index = layer.getFrameIndex(window[layero.find('iframe')[0]['name']].frameElement.name);
-                                    //                                        //                                        layer.style(index,
-                                    //                                        //                                            {
-                                    //                                        //                                                height: '500px'
-                                    //                                        //                                            });
-                                    //                                        window[layero.find('iframe')[0]['name']].frameElement.height = "500px";
-                                    //                                    },
                                     end: function () {
                                         table.reload("baseTable", tableOption);
-                                        //layer.msg("校徽");
                                     }
                                 });
                                 break;
                             default:
                         }
                     });
+
+                form.on('switch(show)', function (obj) {
+                    layer.msg(this.value + ":" + obj.elem.checked);
+                    $.ajax({
+                        url: "SetMaterialShow",
+                        type: "POST",
+                        data: { 'id': this.value, 'check': obj.elem.checked },
+                        success: function (data) {
+                            if (data === "OK") {
+                                layer.msg("设置成功");
+                            } else {
+                                layer.msg("设置失败");
+                            }
+                        }
+                    });
+                });
             });
         }
     });
@@ -133,10 +136,14 @@ function GetColumns(data) {
         obj.field = data[i].name;
         obj.title = data[i].value;
         obj.sort = data[i].isSort;
+        if (data[i].name === "Is_Show") {
+            obj.templet = "#show";
+        }
         column.push(obj);
     }
     obj = new Object();
     obj.title = "操作";
     obj.toolbar = "#colToolBar";
+    obj.fixed = 'right';
     column.push(obj);
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Drawing;
 using ZERO.Material.Model.AttributeCustom;
 
@@ -43,6 +44,9 @@ namespace ZERO.Material.Model
 
         [Display(Name = "规格")]
         public string Material_Size { get; set; }
+
+        [Display(Name = "是否展示")]
+        public Nullable<bool> Is_Show { get; set; }
 
         [Display(Name = "备注")]
         public string Material_Remark { get; set; }

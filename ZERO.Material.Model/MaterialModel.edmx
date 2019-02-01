@@ -58,6 +58,7 @@
           <Property Name="Material_Name" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Material_Remark" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Material_Image" Type="image" />
+          <Property Name="Is_Show" Type="bit" />
         </EntityType>
         <EntityType Name="Material_Base_Company">
           <Key>
@@ -137,6 +138,7 @@
           <Property Name="Material_Name" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Last_Time" Type="datetime" Nullable="false" />
           <Property Name="Company_Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Material_Type_Name" Type="nvarchar(max)" />
           <Property Name="Material_Price" Type="float" Nullable="false" />
           <Property Name="Material_Count" Type="float" Nullable="false" />
           <Property Name="Material_Size" Type="nvarchar" MaxLength="128" Nullable="false" />
@@ -177,6 +179,7 @@
           <Property Name="Material_Type_Name" Type="nvarchar(max)" />
           <Property Name="Material_Remark" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Material_Image" Type="image" />
+          <Property Name="Is_Show" Type="bit" />
         </EntityType>
         <!--生成过程中发现错误:
 警告 6002: 表/视图“ZERO_Material.dbo.Use_Apply”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
@@ -324,6 +327,7 @@
     [Buy_Apply].[Material_Name] AS [Material_Name], 
     [Buy_Apply].[Last_Time] AS [Last_Time], 
     [Buy_Apply].[Company_Name] AS [Company_Name], 
+    [Buy_Apply].[Material_Type_Name] AS [Material_Type_Name], 
     [Buy_Apply].[Material_Price] AS [Material_Price], 
     [Buy_Apply].[Material_Count] AS [Material_Count], 
     [Buy_Apply].[Material_Size] AS [Material_Size], 
@@ -351,7 +355,8 @@
     [Material_Info].[Material_Size] AS [Material_Size], 
     [Material_Info].[Material_Type_Name] AS [Material_Type_Name], 
     [Material_Info].[Material_Remark] AS [Material_Remark], 
-    [Material_Info].[Material_Image] AS [Material_Image]
+    [Material_Info].[Material_Image] AS [Material_Image], 
+    [Material_Info].[Is_Show] AS [Is_Show]
     FROM [dbo].[Material_Info] AS [Material_Info]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="Use_Apply" EntityType="Self.Use_Apply" store:Type="Views" store:Schema="dbo">
@@ -510,6 +515,7 @@
           <NavigationProperty Name="Material_Apply" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Base" FromRole="Material_Base" ToRole="Material_Apply" />
           <NavigationProperty Name="Material_Base_Company" Relationship="ZERO_MaterialModel.FK_Material_Base_Company_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Company" />
           <NavigationProperty Name="Material_Base_Type" Relationship="ZERO_MaterialModel.FK_Material_Base_Type_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Type" />
+          <Property Name="Is_Show" Type="Boolean" />
         </EntityType>
         <EntityType Name="Material_Base_Company">
           <Key>
@@ -606,6 +612,7 @@
           <Property Name="Apply_Id" Type="Int32" Nullable="false" />
           <Property Name="Is_Bought" Type="Boolean" Nullable="false" />
           <Property Name="Is_InComed" Type="Boolean" Nullable="false" />
+          <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Material_Info">
           <Key>
@@ -632,6 +639,7 @@
           <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Is_Show" Type="Boolean" />
         </EntityType>
         <Association Name="FK_Apply_Info_Apply_Type">
           <End Type="ZERO_MaterialModel.Apply_Type" Role="Apply_Type" Multiplicity="1" />
@@ -816,6 +824,7 @@
           <EntitySetMapping Name="Material_Base">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Base">
               <MappingFragment StoreEntitySet="Material_Base">
+                <ScalarProperty Name="Is_Show" ColumnName="Is_Show" />
                 <ScalarProperty Name="Material_Image" ColumnName="Material_Image" />
                 <ScalarProperty Name="Material_Remark" ColumnName="Material_Remark" />
                 <ScalarProperty Name="Material_Name" ColumnName="Material_Name" />
@@ -884,6 +893,7 @@
           <EntitySetMapping Name="Buy_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Buy_Apply">
               <MappingFragment StoreEntitySet="Buy_Apply">
+                <ScalarProperty Name="Material_Type_Name" ColumnName="Material_Type_Name" />
                 <ScalarProperty Name="Is_InComed" ColumnName="Is_InComed" />
                 <ScalarProperty Name="Is_Bought" ColumnName="Is_Bought" />
                 <ScalarProperty Name="Apply_Id" ColumnName="Apply_Id" />
@@ -906,6 +916,7 @@
           <EntitySetMapping Name="Material_Info">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Info">
               <MappingFragment StoreEntitySet="Material_Info">
+                <ScalarProperty Name="Is_Show" ColumnName="Is_Show" />
                 <ScalarProperty Name="Material_Image" ColumnName="Material_Image" />
                 <ScalarProperty Name="Material_Remark" ColumnName="Material_Remark" />
                 <ScalarProperty Name="Material_Type_Name" ColumnName="Material_Type_Name" />

@@ -11,7 +11,7 @@ using ZERO.Material.Model;
 
 namespace ZERO.Material.Backstage.Controllers
 {
-    public class StockController : Controller
+    public class StockController : BaseController<Apply_Info>
     {
         #region 全局变量
 
@@ -22,6 +22,9 @@ namespace ZERO.Material.Backstage.Controllers
         private readonly IBaseCompanyBll _baseCompanyBll = Container.Server<IBaseCompanyBll>();
         private readonly IUseApplyBll _useApplyBll = Container.Server<IUseApplyBll>();
         private readonly IBaseApplyBll _baseApplyBll = Container.Server<IBaseApplyBll>();
+        private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
+        private readonly ICompanyBll _companyBll = Container.Server<ICompanyBll>();
+        private readonly IBaseInfoBll _baseInfoBll = Container.Server<IBaseInfoBll>();
 
         #endregion 全局变量
 
@@ -149,9 +152,89 @@ namespace ZERO.Material.Backstage.Controllers
 
         #region 申请入库
 
-        public ActionResult ApplyInComing()
+        public ActionResult SelfApplyInComing()
         {
+            ViewBag.types = _typeBll.GetEntities(p => p.Material_Type_Parent_Id == "000000");
+            ViewBag.companys = _companyBll.GetEntities(p => true).Select(p => p.Company_Name);
             return View();
+        }
+
+        [ValidateInput(false)]
+        [HttpPost]
+        public string SelfApplyInComing(Material_Info materialInfo, int applyCount)
+        {
+            if (_baseInfoBll.GetEntities(m => m.Material_Id == materialInfo.Material_Id) == null)
+            {
+                materialInfo.Material_Count = 0;
+                materialInfo.Material_RemainCont = 0;
+                materialInfo.Is_Show = false;
+                if (_baseInfoBll.AddBaseInfo(materialInfo) != "添加成功")
+                {
+                    return "Error";
+                }
+            }
+            BuyInComing_Apply buyInComingApply = new BuyInComing_Apply()
+            {
+                Material_Id = materialInfo.Material_Id,
+                Is_InComed = false,
+                Is_Bought = false,
+                Last_Time = DateTime.MaxValue
+            };
+
+            if (_buyInComingApplyBll.AddEntities(new List<BuyInComing_Apply>() { buyInComingApply }))
+            {
+                Apply_Info applyInfo = new Apply_Info
+                {
+                    Apply_Id = buyInComingApply.Id,
+                    ApplyType_Id = "002",
+                    Apply_Count = applyCount,
+                    Apply_Status = 0
+                };
+                if (_applyInfoBll.AddEntities(new List<Apply_Info> { applyInfo }))
+                {
+                    return "OK";
+                }
+            }
+
+            return "Error";
+        }
+
+        [HttpPost]
+        public string GetChildType(string typeId)
+        {
+            List<Material_Type> types = _typeBll.GetEntities(m => m.Material_Type_Parent_Id == typeId);
+            if (types != null)
+            {
+                return JsonConvert.SerializeObject(types);
+            }
+            return "";
+        }
+
+        [HttpPost]
+        public string GetMaterialsByType(string typeId)
+        {
+            string name = _typeBll.GetEntity(m => m.Material_Type_Id == typeId).Material_Type_Name;
+            List<Material_Info> materialInfos = _baseInfoBll.GetEntities(m => m.Material_Type_Name == name);
+
+            return JsonConvert.SerializeObject(materialInfos);
+        }
+
+        [HttpPost]
+        public string GetNewMaterialId()
+        {
+            Random random = new Random();
+            string newId = random.Next(0, 333333).ToString();
+            bool isContain = true;
+            while (isContain)
+            {
+                if (_baseInfoBll.GetEntity(m => m.Material_Id == newId) == null)
+                {
+                    isContain = false;
+                }
+                newId = random.Next(0, 333333).ToString();
+            }
+
+            return newId;
         }
 
         #endregion 申请入库

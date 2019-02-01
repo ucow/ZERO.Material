@@ -28,5 +28,9 @@
             <button class="layui-btn layui-btn-xs layui-btn-danger" lay-event="Delete">删除</button>
         </div>
     </div>
+    <script type="text/html" id="show">
+        <!-- 这里的 checked 的状态只是演示 -->
+        <input type="checkbox" name="Is_Show" value="{{d.Material_Id}}" lay-skin="switch" lay-text="是|否" lay-filter="show" {{ d.Is_Show == true ? 'checked' : '' }}>
+    </script>
 </body>
 </html>

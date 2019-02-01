@@ -1,0 +1,410 @@
+﻿@model ZERO.Material.Model.Material_Info
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ApplyInComing</title>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+</head>
+<body>
+    <div style="padding: 50px; padding-left: 0;padding-bottom: 0">
+        @using (Ajax.BeginForm("SelfApplyInComing", null,
+            new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" },
+            new { @class = "layui-form" }))
+        {
+
+            <div class="layui-form-item">
+                <table>
+                    <tr>
+                        <td>
+                            <label class="layui-form-label">器材类别</label>
+                        </td>
+                        <td>
+                            <div class="layui-input-block" style="margin: 0">
+                                <table>
+                                    <tr>
+
+                                        <td>
+                                            <select lay-verify="required" lay-search lay-filter="grand" id="grand">
+                                                <option value="">请选择</option>
+                                                @foreach (var type in ViewBag.types)
+                                                {
+                                                    <option value="@type.Material_Type_Id">@type.Material_Type_Name</option>
+                                                }
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select lay-verify="required" lay-search lay-filter="father" id="father">
+                                                <option value="">请选择</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="Material_Type_Name" lay-verify="required" lay-search lay-filter="son" id="son">
+                                                <option value="">请选择</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Id, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    <select name="Material_Id" lay-verify="required" lay-search lay-filter="id" id="id" lay-search>
+                        <option value="">请选择编号</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Name, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    <input type="text" name="Material_Name" id="inputName" class="layui-input" style="position:absolute;z-index:2;width:80%;" lay-verify="required" value="" onkeyup="search()" autocomplete="off">
+                    <select type="text" id="name" lay-filter="name" autocomplete="off" placeholder="移交单位全称" lay-verify="required" class="layui-select" lay-search>
+                        <option value="">请选择名称</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Price, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_Price, new { @class = "layui-input", @placeholder = "请输入价格", @id = "price" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">入库数量</label>
+                <div class="layui-input-block">
+                    <input type="text" class="layui-input" placeholder="请输入入库数量" id="applyCount" name="applyCount" />
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_CountUnit, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_CountUnit, new { @class = "layui-input", @placeholder = "请输入单位", @id = "unit" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Size, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_Size, new { @class = "layui-input", @placeholder = "请输入规格", @id = "size" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_UnitWeight, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Material_UnitWeight, new { @class = "layui-input", @placeholder = "请输入单位重量", @id = "unitWeight" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">供货商</label>
+                <div class="layui-input-block">
+                    <select name="Company_Name" lay-verify="required" lay-search id="company">
+                        <option value=""></option>
+                        @foreach (var company in ViewBag.companys)
+                        {
+
+                            <option value="@company">@company</option>
+
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">图片</label>
+                <div class="layui-input-block">
+                    <button type="button" class="layui-btn" id="updateImage">
+                        <i class="layui-icon">&#xe67c;</i>上传图片
+                    </button>
+                    <div class="layui-upload-list">
+                        <img class="layui-upload-img" id="image" width="100" height="100">
+                        <p id="demoText"></p>
+                    </div>
+                    @Html.Hidden("Material_Image", "", new { @id = "imageBytes" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                @Html.LabelFor(m => m.Material_Remark, new { @class = "layui-form-label" })
+                <div class="layui-input-block">
+                    @Html.TextAreaFor(m => m.Material_Remark, new { @id = "remark", @placeholder = "请输入备注" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary" id="reset">重置</button>
+                </div>
+            </div>
+        }
+    </div>
+    <script>
+        layui.use(['form', 'layedit', 'upload'], function () {
+            var form = layui.form;
+            var layedit = layui.layedit;
+            var upload = layui.upload;
+
+            var ieditor = layedit.build('remark', {
+                //插入代码设置
+                codeConfig: {
+                    hide: true,  //是否显示编码语言选择框
+                    default: 'javascript' //hide为true时的默认语言格式
+                }
+                , tool: [
+                    'strong' //加粗
+                    , 'italic' //斜体
+                    , 'underline' //下划线
+                    , 'del' //删除线
+                    , '|' //分割线
+                    , 'left' //左对齐
+                    , 'center' //居中对齐
+                    , 'right' //右对齐
+                    , 'link' //超链接
+                    , 'unlink' //清除链接
+                ],
+                height: '90%'
+            });
+            form.on('select(name)', function (data) {   //选择移交单位 赋值给input框
+                $("#inputName").val(data.value);
+                $("#name").next().find("dl").css({ "display": "none" });
+                form.render();
+            });
+            //    var index = parent.layer.getFrameIndex(window.name);
+            //    parent.layer.iframeAuto(index);
+
+            window.search = function () {
+                var value = $("#inputName").val();
+                $("#name").val(value);
+                form.render();
+                $("#name").next().find("dl").css({ "display": "block" });
+                var dl = $("#name").next().find("dl").children();
+                var j = -1;
+                for (var i = 0; i < dl.length; i++) {
+                    if (dl[i].innerHTML.indexOf(value) <= -1) {
+                        dl[i].style.display = "none";
+                        j++;
+                    }
+                    if (j === dl.length - 1) {
+                        $("#name").next().find("dl").css({ "display": "none" });
+                    }
+                }
+            }
+
+            var uploadInst = upload.render({
+                elem: '#updateImage',
+                accept: 'images',
+                url: 'UploadImage',
+                acceptMime: "image/*",
+                before: function (obj) {
+                    obj.preview(function (index, file, result) {
+                        $('#image').attr('src', result);
+                    });
+                },
+                done: function (res, index, upload) {
+                    if (res.code === 0) {
+                        $('#imageBytes').val(res.data);
+                    }
+                },
+                error: function () {
+                    var demoText = $('#demoText');
+                    demoText.html(
+                        '<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-xs demo-reload">重试</a>');
+                    demoText.find('.demo-reload').on('click',
+                        function () {
+                            uploadInst.upload();
+                        });
+                }
+            });
+
+            form.on('select(grand)', function (obj) {
+                var typeId = obj.value;
+                getChildType('#father', typeId);
+                $("#son")[0].innerHTML = "<option value=\"\">请选择</option>";
+            });
+            form.on('select(father)', function (obj) {
+                var typeId = obj.value;
+                getChildType('#son', typeId);
+            });
+
+            form.on('select(son)',
+                function (obj) {
+                    var typeId = obj.value;
+                    $.ajax({
+                        url: "GetMaterialsByType",
+                        type: "POST",
+                        data: { "typeId": typeId },
+                        success: function (data) {
+                            if (data !== "") {
+                                var value = JSON.parse(data);
+                                $("#id")[0].innerHTML = "<option value=\"\">请选择编号</option>";
+                                $("#name")[0].innerHTML = "<option value=\"\">请选择名称</option>";
+                                var optionContent = "<option value='{0}'>{1}</option>";
+                                $("#id")[0].innerHTML += optionContent.format("0",
+                                    "新器材");
+                                $("#name")[0].innerHTML += optionContent.format("0",
+                                    "新器材");
+                                value.forEach(function (currentValue, index, arr) {
+                                    $("#id")[0].innerHTML += optionContent.format(currentValue.Material_Id,
+                                        currentValue.Material_Id);
+                                    $("#name")[0].innerHTML += optionContent.format(currentValue.Material_Name,
+                                        currentValue.Material_Name);
+                                }, this);
+
+                                form.on('select(id)',
+                                    function (obj) {
+                                        var selectValue = obj.value;
+                                        if (selectValue === "0") {
+                                            setNewMaterialId(optionContent);
+                                        } else {
+                                            value.forEach(function (currentValue, index, arr) {
+                                                if (selectValue === currentValue.Material_Id) {
+                                                    $('#name').val(currentValue.Material_Name);
+                                                    $('#inputName').val(currentValue.Material_Name);
+                                                    setFormValue(currentValue);
+                                                    form.render();
+                                                }
+                                            }, this);
+                                        }
+                                    });
+                                form.on('select(name)',
+                                    function (obj) {
+                                        var selectValue = obj.value;
+                                        if (selectValue === "0") {
+                                            $("#inputName").val("");
+                                            setNewMaterialId(optionContent);
+                                        } else {
+                                            $("#inputName").val(selectValue);
+                                        }
+                                        $("#name").next().find("dl").css({ "display": "none" });
+                                        value.forEach(function (currentValue, index, arr) {
+                                            if (selectValue === currentValue.Material_Name) {
+                                                $('#id').val(currentValue.Material_Id);
+                                            }
+                                        }, this);
+                                        form.render();
+                                    });
+                                form.render();
+                            }
+                        }
+                    });
+                });
+
+            $('#reset').on('click',
+                function () {
+                    layedit.setContent(ieditor, "");
+                });
+
+            function getChildType(son, value) {
+                $.ajax({
+                    url: "GetChildType",
+                    type: "POST",
+                    data: { "typeId": value },
+                    success: function (data) {
+                        if (data !== "") {
+                            var value = JSON.parse(data);
+                            $(son)[0].innerHTML = "<option value=\"\">请选择</option>";
+                            var optionContent = "<option value='{0}'>{1}</option>";
+                            value.forEach(function (currentValue, index, arr) {
+                                $(son)[0].innerHTML += optionContent.format(currentValue.Material_Type_Id,
+                                    currentValue.Material_Type_Name);
+                            }, this);
+                            form.render();
+                        }
+                    }
+                });
+            }
+
+            function setNewMaterialId(optionContent) {
+                $.ajax({
+                    url: 'GetNewMaterialId',
+                    type: "POST",
+                    success: function (data) {
+                        $("#id")[0].innerHTML += optionContent.format(data,
+                            data);
+                        $("#id").val(data);
+                        $('#name').val("");
+                        $('#price').val("");
+                        $('#price').removeAttr('readonly');
+                        $('#unit').val("");
+                        $('#unit').removeAttr('readonly');
+                        $('#size').val("");
+                        $('#size').removeAttr('readonly');
+                        $('#unitWeight').val("");
+                        $('#unitWeight').removeAttr('readonly');
+                        $('#company').val("");
+                        $('#company').removeAttr('readonly');
+                        $('#company').attr('lay-search', 'lay-search');
+                        $('#image').removeAttr('src');;
+                        $('#updateImage').removeAttr('readonly');
+                        layedit.setContent(ieditor, "");
+                        $("iframe[textarea='remark']").contents().find('body').removeAttr('contenteditable');
+                        form.render();
+                    }
+                });
+            }
+
+            function setFormValue(currentValue) {
+                $('#price').val(currentValue.Material_Price);
+                $('#price').attr('readonly', 'readonly');
+                $('#unit').val(currentValue.Material_CountUnit);
+                $('#unit').attr('readonly', 'readonly');
+                $('#size').val(currentValue.Material_Size);
+                $('#size').attr('readonly', 'readonly');
+                $('#unitWeight').val(currentValue.Material_UnitWeight);
+                $('#unitWeight').attr('readonly', 'readonly');
+                $('#company').val(currentValue.Company_Name);
+                $('#company').attr('readonly', 'readonly');
+                $('#company').removeAttr('lay-search');
+                $('#image').attr('src', '../Material/GetImage/' + currentValue.Material_Id);
+                $('#updateImage').attr('readonly', 'readonly');
+                layedit.setContent(ieditor, currentValue.Material_Remark);
+                $("iframe[textarea='remark']").contents().find('body').attr("contenteditable", false);
+            }
+
+            form.render('select');
+        });
+
+        function AfterSuccess(data) {
+            if (data === "OK") {
+                layer.msg("申请成功,请等待审核");
+            } else {
+                layer.msg("申请失败");
+            }
+        }
+
+        String.prototype.format = function (args) {
+            var result = this;
+            if (arguments.length > 0) {
+                if (arguments.length == 1 && typeof args == "object") {
+                    for (var key in args) {
+                        if (args[key] != undefined) {
+                            var reg = new RegExp("({" + key + "})", "g");
+                            result = result.replace(reg, args[key]);
+                        }
+                    }
+                } else {
+                    for (var i = 0; i < arguments.length; i++) {
+                        if (arguments[i] != undefined) {
+                            //var reg = new RegExp("({[" + i + "]})", "g");//这个在索引大于9时会有问题，谢谢何以笙箫的指出
+
+                            var reg = new RegExp("({)" + i + "(})", "g");
+                            result = result.replace(reg, arguments[i]);
+                        }
+                    }
+                }
+            }
+            return result;
+        };
+    </script>
+</body>
+</html>

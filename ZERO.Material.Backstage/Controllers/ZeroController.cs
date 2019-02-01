@@ -54,7 +54,7 @@ namespace ZERO.Material.Backstage.Controllers
                     }
                     else
                     {
-                        materialInfos.AddRange(_infoBll.GetEntities(m => m.Company_Name == company));
+                        materialInfos.AddRange(_infoBll.GetEntities(m => m.Company_Name == company && m.Is_Show == true));
                     }
                 }
                 else
@@ -62,9 +62,9 @@ namespace ZERO.Material.Backstage.Controllers
                     List<string> typeNames = new List<string>();
                     GetChildTypes(typeNames, type);
                     materialInfos.AddRange(string.IsNullOrWhiteSpace(company)
-                        ? _infoBll.GetEntities(m => typeNames.Contains(m.Material_Type_Name))
+                        ? _infoBll.GetEntities(m => typeNames.Contains(m.Material_Type_Name) && m.Is_Show == true)
                         : _infoBll.GetEntities(m =>
-                            typeNames.Contains(m.Material_Type_Name) && m.Company_Name == company));
+                            typeNames.Contains(m.Material_Type_Name) && m.Company_Name == company && m.Is_Show == true));
                 }
             }
             else
@@ -72,18 +72,18 @@ namespace ZERO.Material.Backstage.Controllers
                 if (string.IsNullOrWhiteSpace(type))
                 {
                     materialInfos.AddRange(string.IsNullOrWhiteSpace(company)
-                        ? _infoBll.GetEntities(m => m.Material_Name.Contains(material))
-                        : _infoBll.GetEntities(m => m.Material_Name.Contains(material) && m.Company_Name == company));
+                        ? _infoBll.GetEntities(m => m.Material_Name.Contains(material) && m.Is_Show == true)
+                        : _infoBll.GetEntities(m => m.Material_Name.Contains(material) && m.Company_Name == company && m.Is_Show == true));
                 }
                 else
                 {
                     List<string> typeNames = new List<string>();
                     GetChildTypes(typeNames, type);
                     materialInfos.AddRange(string.IsNullOrWhiteSpace(company)
-                        ? _infoBll.GetEntities(m => typeNames.Contains(type) && m.Material_Name.Contains(material))
+                        ? _infoBll.GetEntities(m => typeNames.Contains(type) && m.Material_Name.Contains(material) && m.Is_Show == true)
                         : _infoBll.GetEntities(m =>
                             typeNames.Contains(m.Material_Type_Name) && m.Company_Name == company &&
-                            m.Material_Name.Contains(material)));
+                            m.Material_Name.Contains(material) && m.Is_Show == true));
                 }
             }
 
@@ -171,7 +171,7 @@ namespace ZERO.Material.Backstage.Controllers
         /// <returns></returns>
         public ActionResult MaterialInfo(string id)
         {
-            Material_Info materialInfo = _infoBll.GetEntity(m => m.Material_Id == id);
+            Material_Info materialInfo = _infoBll.GetEntity(m => m.Material_Id == id && m.Is_Show == true);
             Stack<string> materType = new Stack<string>();
             materType.Push(materialInfo.Material_Type_Name);
             GetAllTypes(materType, materialInfo.Material_Type_Name);
@@ -415,7 +415,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public FileContentResult GetImage(string id)
         {
-            Material_Info info = _infoBll.GetEntity(m => m.Material_Id == id);
+            Material_Info info = _infoBll.GetEntity(m => m.Material_Id == id && m.Is_Show == true);
             if (info != null)
             {
                 return new FileContentResult(info.Material_Image, "Image/jpg");

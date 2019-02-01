@@ -31,5 +31,6 @@ namespace ZERO.Material.Model
         public int Apply_Id { get; set; }
         public bool Is_Bought { get; set; }
         public bool Is_InComed { get; set; }
+        public string Material_Type_Name { get; set; }
     }
 }

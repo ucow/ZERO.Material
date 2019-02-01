@@ -28,6 +28,7 @@ namespace ZERO.Material.Model
         public string Material_Name { get; set; }
         public string Material_Remark { get; set; }
         public byte[] Material_Image { get; set; }
+        public Nullable<bool> Is_Show { get; set; }
     
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

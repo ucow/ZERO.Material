@@ -9,6 +9,10 @@ namespace ZERO.Material.Bll
 {
     public class BaseInfoBll : BasicBll<Material_Info>, IBaseInfoBll
     {
+        public BaseInfoBll()
+        {
+        }
+
         public override void SetBasicDal()
         {
             BasicDal = DbSession.BaseInfoDal();

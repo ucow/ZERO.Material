@@ -9,19 +9,8 @@ namespace TestConsole
     {
         private static void Main(string[] args)
         {
-            Person person1 = new Person()
-            {
-                Name = "sda",
-                Age = 10,
-                Sex = 'M'
-            };
-            Person person2 = new Person()
-            {
-                Name = "sda",
-                Age = 10,
-                Sex = 'M'
-            };
-            Console.WriteLine(person2.Equals(person1));
+            Student s = new Student();
+            Console.WriteLine(s.ToString());
             Console.Read();
         }
     }
@@ -32,9 +21,26 @@ namespace TestConsole
         public int Age { get; set; }
         public char Sex { get; set; }
 
+        public Person()
+        {
+            Name = "sdsad";
+            Age = 12;
+            Sex = 'M';
+        }
+
         public override string ToString()
         {
             return $"{this.Name}:{this.Age}:{this.Sex}";
+        }
+    }
+
+    internal class Student : Person
+    {
+        public string Id { get; set; }
+
+        public Student()
+        {
+            Id = "1111";
         }
     }
 }

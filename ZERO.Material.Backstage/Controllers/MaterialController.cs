@@ -14,6 +14,7 @@ namespace ZERO.Material.Backstage.Controllers
         private readonly IBaseBll _baseBll = Container.Server<IBaseBll>();
         private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
         private readonly ICompanyBll _companyBll = Container.Server<ICompanyBll>();
+
         private readonly IBaseInfoBll _baseInfoBll = Container.Server<IBaseInfoBll>();
 
         // GET: Material
@@ -127,6 +128,19 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 return null;
             }
+        }
+
+        [HttpPost]
+        public string SetMaterialShow(string id, bool check)
+        {
+            Material_Base materialBase = _baseBll.GetEntity(m => m.Material_Id == id);
+            materialBase.Is_Show = check;
+            if (!_baseBll.UpdateEntities(new List<Material_Base> { materialBase }))
+            {
+                return "Error";
+            }
+
+            return "OK";
         }
     }
 }
