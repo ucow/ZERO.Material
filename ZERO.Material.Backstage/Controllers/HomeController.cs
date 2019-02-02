@@ -1,13 +1,10 @@
 ﻿using System.Reflection;
 using System.Web.Mvc;
-using log4net;
 
 namespace ZERO.Material.Backstage.Controllers
 {
     public class HomeController : Controller
     {
-        private ILog _log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
-
         public ActionResult Index()
         {
             return View();

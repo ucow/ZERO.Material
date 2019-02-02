@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4e72cef1917a4197b47fb4cde2f69963" Name="Diagram1">
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Apply_Info" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Apply_Type" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.BuyInComing_Apply" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Apply" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Company" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Base_Type" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Company" Width="1.5" PointX="3.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Teacher" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Type" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Buy_Apply" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Material_Info" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZERO_MaterialModel.Use_Apply" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Apply_Info_Apply_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Apply_Material_Base" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Company_Material_Base" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Type_Material_Base" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Company_Material_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="ZERO_MaterialModel.FK_Material_Base_Type_Material_Type" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

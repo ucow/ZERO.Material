@@ -9,8 +9,12 @@ namespace TestConsole
     {
         private static void Main(string[] args)
         {
-            Student s = new Student();
-            Console.WriteLine(s.ToString());
+            ZERO_MaterialEntities context = new ZERO_MaterialEntities();
+            foreach (Apply_Info applyInfo in context.Apply_Info)
+            {
+                Console.WriteLine(applyInfo.Apply_Id);
+            }
+
             Console.Read();
         }
     }

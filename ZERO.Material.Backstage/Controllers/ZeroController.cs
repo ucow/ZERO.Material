@@ -17,7 +17,7 @@ namespace ZERO.Material.Backstage.Controllers
         private static readonly UnityContainerHelper Container = new UnityContainerHelper();
         private readonly IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
         private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
-        public readonly ICompanyBll CompanyBll = Container.Server<ICompanyBll>();
+        private readonly ICompanyBll _companyBll = Container.Server<ICompanyBll>();
         private readonly IBaseApplyBll _applyBll = Container.Server<IBaseApplyBll>();
         private readonly IApplyInfoBll _applyInfoBll = Container.Server<IApplyInfoBll>();
         private readonly IBuyInComingApplyBll _buyInComingBll = Container.Server<IBuyInComingApplyBll>();
@@ -378,7 +378,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Company(int index)
         {
-            List<Material_Company> companies = CompanyBll.GetEntities(m => true);
+            List<Material_Company> companies = _companyBll.GetEntities(m => true);
             ViewBag.index = index;
             ViewBag.total = companies.Count % 12 == 0 ? companies.Count / 12 - 1 : companies.Count / 12;
             return View(companies.OrderBy(m => m.Id).Skip((index - 1) * 12).Take(12).ToList());
