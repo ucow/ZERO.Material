@@ -28,12 +28,17 @@ namespace ZERO.Material.Model
         public virtual DbSet<Apply_Info> Apply_Info { get; set; }
         public virtual DbSet<Apply_Type> Apply_Type { get; set; }
         public virtual DbSet<BuyInComing_Apply> BuyInComing_Apply { get; set; }
+        public virtual DbSet<Material_Action> Material_Action { get; set; }
         public virtual DbSet<Material_Apply> Material_Apply { get; set; }
         public virtual DbSet<Material_Base> Material_Base { get; set; }
         public virtual DbSet<Material_Base_Company> Material_Base_Company { get; set; }
         public virtual DbSet<Material_Base_Type> Material_Base_Type { get; set; }
         public virtual DbSet<Material_Company> Material_Company { get; set; }
+        public virtual DbSet<Material_Role> Material_Role { get; set; }
+        public virtual DbSet<Material_Role_Action> Material_Role_Action { get; set; }
+        public virtual DbSet<Material_Role_Teacher> Material_Role_Teacher { get; set; }
         public virtual DbSet<Material_Teacher> Material_Teacher { get; set; }
+        public virtual DbSet<Material_Teacher_Action> Material_Teacher_Action { get; set; }
         public virtual DbSet<Material_Type> Material_Type { get; set; }
         public virtual DbSet<Buy_Apply> Buy_Apply { get; set; }
         public virtual DbSet<Material_Info> Material_Info { get; set; }

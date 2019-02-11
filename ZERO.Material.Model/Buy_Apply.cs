@@ -17,7 +17,9 @@ namespace ZERO.Material.Model
     {
         public string Material_Id { get; set; }
         public string Material_Name { get; set; }
+        public System.DateTime Last_Time { get; set; }
         public string Company_Name { get; set; }
+        public string Material_Type_Name { get; set; }
         public double Material_Price { get; set; }
         public double Material_Count { get; set; }
         public string Material_Size { get; set; }
@@ -27,10 +29,8 @@ namespace ZERO.Material.Model
         public int Apply_Count { get; set; }
         public int Apply_Status { get; set; }
         public string Apply_Advice { get; set; }
-        public System.DateTime Last_Time { get; set; }
         public int Apply_Id { get; set; }
         public bool Is_Bought { get; set; }
         public bool Is_InComed { get; set; }
-        public string Material_Type_Name { get; set; }
     }
 }

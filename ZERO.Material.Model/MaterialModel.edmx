@@ -35,12 +35,23 @@
           <Property Name="Is_Bought" Type="bit" Nullable="false" />
           <Property Name="Is_InComed" Type="bit" Nullable="false" />
         </EntityType>
+        <EntityType Name="Material_Action">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Action_Name" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Action_Url" Type="char" MaxLength="50" Nullable="false" />
+          <Property Name="Http_Method" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Del_Flag" Type="bit" Nullable="false" />
+          <Property Name="Action_Remark" Type="nvarchar(max)" />
+        </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Teacher_Id" Type="char" MaxLength="4" Nullable="false" />
+          <Property Name="Teacher_Id" Type="char" MaxLength="8" Nullable="false" />
           <Property Name="Apply_Time" Type="datetime" Nullable="false" />
           <Property Name="Start_Time" Type="datetime" Nullable="false" />
           <Property Name="End_Time" Type="datetime" Nullable="false" />
@@ -58,7 +69,7 @@
           <Property Name="Material_Name" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Material_Remark" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Material_Image" Type="image" />
-          <Property Name="Is_Show" Type="bit" />
+          <Property Name="Is_Show" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Base_Company">
           <Key>
@@ -94,15 +105,54 @@
           <Property Name="Company_Remark" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Company_Image" Type="image" />
         </EntityType>
+        <EntityType Name="Material_Role">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Role_Name" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Role_Remark" Type="nvarchar(max)" />
+          <Property Name="Del_Flag" Type="bit" />
+        </EntityType>
+        <EntityType Name="Material_Role_Action">
+          <Key>
+            <PropertyRef Name="Role_Id" />
+            <PropertyRef Name="Action_Id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Role_Id" Type="int" Nullable="false" />
+          <Property Name="Action_Id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Material_Role_Teacher">
+          <Key>
+            <PropertyRef Name="Teacher_Id" />
+            <PropertyRef Name="Role_Id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Teacher_Id" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="Role_Id" Type="int" Nullable="false" />
+        </EntityType>
         <EntityType Name="Material_Teacher">
           <Key>
             <PropertyRef Name="Teacher_Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Teacher_Id" Type="char" MaxLength="4" Nullable="false" />
+          <Property Name="Teacher_Id" Type="char" MaxLength="8" Nullable="false" />
           <Property Name="Teacher_Name" Type="nvarchar" MaxLength="5" Nullable="false" />
           <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Teacher_Password" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Del_Flag" Type="bit" />
+        </EntityType>
+        <EntityType Name="Material_Teacher_Action">
+          <Key>
+            <PropertyRef Name="Teacher_Id" />
+            <PropertyRef Name="Action_Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Teacher_Id" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="Action_Id" Type="int" Nullable="false" />
+          <Property Name="Has_Permission" Type="bit" />
+          <Property Name="Del_Flag" Type="bit" />
         </EntityType>
         <EntityType Name="Material_Type">
           <Key>
@@ -310,16 +360,93 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Material_Role_Action_Material_Action">
+          <End Role="Material_Action" Type="Self.Material_Action" Multiplicity="1" />
+          <End Role="Material_Role_Action" Type="Self.Material_Role_Action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Action">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Material_Role_Action">
+              <PropertyRef Name="Action_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Role_Action_Material_Role">
+          <End Role="Material_Role" Type="Self.Material_Role" Multiplicity="1" />
+          <End Role="Material_Role_Action" Type="Self.Material_Role_Action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Material_Role_Action">
+              <PropertyRef Name="Role_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Role_Teacher_Material_Role">
+          <End Role="Material_Role" Type="Self.Material_Role" Multiplicity="1" />
+          <End Role="Material_Role_Teacher" Type="Self.Material_Role_Teacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Material_Role_Teacher">
+              <PropertyRef Name="Role_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Role_Teacher_Material_Teacher">
+          <End Role="Material_Teacher" Type="Self.Material_Teacher" Multiplicity="1" />
+          <End Role="Material_Role_Teacher" Type="Self.Material_Role_Teacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Teacher">
+              <PropertyRef Name="Teacher_Id" />
+            </Principal>
+            <Dependent Role="Material_Role_Teacher">
+              <PropertyRef Name="Teacher_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Teacher_Action_Material_Teacher">
+          <End Role="Material_Teacher" Type="Self.Material_Teacher" Multiplicity="1" />
+          <End Role="Material_Teacher_Action" Type="Self.Material_Teacher_Action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Teacher">
+              <PropertyRef Name="Teacher_Id" />
+            </Principal>
+            <Dependent Role="Material_Teacher_Action">
+              <PropertyRef Name="Teacher_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Teacher_Action_Material_Teacher_Action">
+          <End Role="Material_Action" Type="Self.Material_Action" Multiplicity="1" />
+          <End Role="Material_Teacher_Action" Type="Self.Material_Teacher_Action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Action">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Material_Teacher_Action">
+              <PropertyRef Name="Action_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <EntityContainer Name="ZERO_MaterialModelStoreContainer">
           <EntitySet Name="Apply_Info" EntityType="Self.Apply_Info" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Apply_Type" EntityType="Self.Apply_Type" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="BuyInComing_Apply" EntityType="Self.BuyInComing_Apply" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Action" EntityType="Self.Material_Action" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Apply" EntityType="Self.Material_Apply" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Base" EntityType="Self.Material_Base" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Base_Company" EntityType="Self.Material_Base_Company" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Base_Type" EntityType="Self.Material_Base_Type" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Company" EntityType="Self.Material_Company" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Role" EntityType="Self.Material_Role" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Role_Action" EntityType="Self.Material_Role_Action" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Role_Teacher" EntityType="Self.Material_Role_Teacher" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Teacher" EntityType="Self.Material_Teacher" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Material_Teacher_Action" EntityType="Self.Material_Teacher_Action" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Material_Type" EntityType="Self.Material_Type" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Buy_Apply" EntityType="Self.Buy_Apply" store:Type="Views" store:Schema="dbo">
             <DefiningQuery>SELECT 
@@ -407,6 +534,30 @@
             <End Role="Material_Type" EntitySet="Material_Type" />
             <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
           </AssociationSet>
+          <AssociationSet Name="FK_Material_Role_Action_Material_Action" Association="Self.FK_Material_Role_Action_Material_Action">
+            <End Role="Material_Action" EntitySet="Material_Action" />
+            <End Role="Material_Role_Action" EntitySet="Material_Role_Action" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Role_Action_Material_Role" Association="Self.FK_Material_Role_Action_Material_Role">
+            <End Role="Material_Role" EntitySet="Material_Role" />
+            <End Role="Material_Role_Action" EntitySet="Material_Role_Action" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Role_Teacher_Material_Role" Association="Self.FK_Material_Role_Teacher_Material_Role">
+            <End Role="Material_Role" EntitySet="Material_Role" />
+            <End Role="Material_Role_Teacher" EntitySet="Material_Role_Teacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Role_Teacher_Material_Teacher" Association="Self.FK_Material_Role_Teacher_Material_Teacher">
+            <End Role="Material_Teacher" EntitySet="Material_Teacher" />
+            <End Role="Material_Role_Teacher" EntitySet="Material_Role_Teacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Teacher_Action_Material_Teacher" Association="Self.FK_Material_Teacher_Action_Material_Teacher">
+            <End Role="Material_Teacher" EntitySet="Material_Teacher" />
+            <End Role="Material_Teacher_Action" EntitySet="Material_Teacher_Action" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Teacher_Action_Material_Teacher_Action" Association="Self.FK_Material_Teacher_Action_Material_Teacher_Action">
+            <End Role="Material_Action" EntitySet="Material_Action" />
+            <End Role="Material_Teacher_Action" EntitySet="Material_Teacher_Action" />
+          </AssociationSet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -416,18 +567,32 @@
           <EntitySet Name="Apply_Info" EntityType="ZERO_MaterialModel.Apply_Info" />
           <EntitySet Name="Apply_Type" EntityType="ZERO_MaterialModel.Apply_Type" />
           <EntitySet Name="BuyInComing_Apply" EntityType="ZERO_MaterialModel.BuyInComing_Apply" />
+          <EntitySet Name="Material_Action" EntityType="ZERO_MaterialModel.Material_Action" />
           <EntitySet Name="Material_Apply" EntityType="ZERO_MaterialModel.Material_Apply" />
           <EntitySet Name="Material_Base" EntityType="ZERO_MaterialModel.Material_Base" />
           <EntitySet Name="Material_Base_Company" EntityType="ZERO_MaterialModel.Material_Base_Company" />
           <EntitySet Name="Material_Base_Type" EntityType="ZERO_MaterialModel.Material_Base_Type" />
           <EntitySet Name="Material_Company" EntityType="ZERO_MaterialModel.Material_Company" />
+          <EntitySet Name="Material_Role" EntityType="ZERO_MaterialModel.Material_Role" />
+          <EntitySet Name="Material_Role_Action" EntityType="ZERO_MaterialModel.Material_Role_Action" />
+          <EntitySet Name="Material_Role_Teacher" EntityType="ZERO_MaterialModel.Material_Role_Teacher" />
           <EntitySet Name="Material_Teacher" EntityType="ZERO_MaterialModel.Material_Teacher" />
+          <EntitySet Name="Material_Teacher_Action" EntityType="ZERO_MaterialModel.Material_Teacher_Action" />
           <EntitySet Name="Material_Type" EntityType="ZERO_MaterialModel.Material_Type" />
           <EntitySet Name="Buy_Apply" EntityType="ZERO_MaterialModel.Buy_Apply" />
           <EntitySet Name="Material_Info" EntityType="ZERO_MaterialModel.Material_Info" />
+          <EntitySet Name="Use_Apply" EntityType="ZERO_MaterialModel.Use_Apply" />
           <AssociationSet Name="FK_Apply_Info_Apply_Type" Association="ZERO_MaterialModel.FK_Apply_Info_Apply_Type">
             <End Role="Apply_Type" EntitySet="Apply_Type" />
             <End Role="Apply_Info" EntitySet="Apply_Info" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Role_Action_Material_Action" Association="ZERO_MaterialModel.FK_Material_Role_Action_Material_Action">
+            <End Role="Material_Action" EntitySet="Material_Action" />
+            <End Role="Material_Role_Action" EntitySet="Material_Role_Action" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Teacher_Action_Material_Teacher_Action" Association="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher_Action">
+            <End Role="Material_Action" EntitySet="Material_Action" />
+            <End Role="Material_Teacher_Action" EntitySet="Material_Teacher_Action" />
           </AssociationSet>
           <AssociationSet Name="FK_Material_Apply_Material_Base" Association="ZERO_MaterialModel.FK_Material_Apply_Material_Base">
             <End Role="Material_Base" EntitySet="Material_Base" />
@@ -453,7 +618,22 @@
             <End Role="Material_Type" EntitySet="Material_Type" />
             <End Role="Material_Base_Type" EntitySet="Material_Base_Type" />
           </AssociationSet>
-          <EntitySet Name="Use_Apply" EntityType="ZERO_MaterialModel.Use_Apply" />
+          <AssociationSet Name="FK_Material_Role_Action_Material_Role" Association="ZERO_MaterialModel.FK_Material_Role_Action_Material_Role">
+            <End Role="Material_Role" EntitySet="Material_Role" />
+            <End Role="Material_Role_Action" EntitySet="Material_Role_Action" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Role_Teacher_Material_Role" Association="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Role">
+            <End Role="Material_Role" EntitySet="Material_Role" />
+            <End Role="Material_Role_Teacher" EntitySet="Material_Role_Teacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Role_Teacher_Material_Teacher" Association="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Teacher">
+            <End Role="Material_Teacher" EntitySet="Material_Teacher" />
+            <End Role="Material_Role_Teacher" EntitySet="Material_Role_Teacher" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Material_Teacher_Action_Material_Teacher" Association="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher">
+            <End Role="Material_Teacher" EntitySet="Material_Teacher" />
+            <End Role="Material_Teacher_Action" EntitySet="Material_Teacher_Action" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="Apply_Info">
           <Key>
@@ -487,21 +667,34 @@
           <Property Name="Is_Bought" Type="Boolean" Nullable="false" />
           <Property Name="Is_InComed" Type="Boolean" Nullable="false" />
         </EntityType>
+        <EntityType Name="Material_Action">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Action_Name" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Action_Url" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="Http_Method" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Del_Flag" Type="Boolean" Nullable="false" />
+          <Property Name="Action_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Material_Role_Action" Relationship="ZERO_MaterialModel.FK_Material_Role_Action_Material_Action" FromRole="Material_Action" ToRole="Material_Role_Action" />
+          <NavigationProperty Name="Material_Teacher_Action" Relationship="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher_Action" FromRole="Material_Action" ToRole="Material_Teacher_Action" />
+        </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
           <Property Name="Apply_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Start_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="End_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Teach_Depart" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="Teach_Field" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Is_Get" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="Material_Base" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Base" FromRole="Material_Apply" ToRole="Material_Base" />
           <NavigationProperty Name="Material_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" FromRole="Material_Apply" ToRole="Material_Teacher" />
-          <Property Name="Is_Get" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Base">
           <Key>
@@ -512,10 +705,10 @@
           <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Remark" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Is_Show" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="Material_Apply" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Base" FromRole="Material_Base" ToRole="Material_Apply" />
           <NavigationProperty Name="Material_Base_Company" Relationship="ZERO_MaterialModel.FK_Material_Base_Company_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Company" />
           <NavigationProperty Name="Material_Base_Type" Relationship="ZERO_MaterialModel.FK_Material_Base_Type_Material_Base" FromRole="Material_Base" ToRole="Material_Base_Type" />
-          <Property Name="Is_Show" Type="Boolean" />
         </EntityType>
         <EntityType Name="Material_Base_Company">
           <Key>
@@ -556,16 +749,65 @@
           <Property Name="Company_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
           <NavigationProperty Name="Material_Base_Company" Relationship="ZERO_MaterialModel.FK_Material_Base_Company_Material_Company" FromRole="Material_Company" ToRole="Material_Base_Company" />
         </EntityType>
+        <EntityType Name="Material_Role">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Role_Name" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Role_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Del_Flag" Type="Boolean" />
+          <NavigationProperty Name="Material_Role_Action" Relationship="ZERO_MaterialModel.FK_Material_Role_Action_Material_Role" FromRole="Material_Role" ToRole="Material_Role_Action" />
+          <NavigationProperty Name="Material_Role_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Role" FromRole="Material_Role" ToRole="Material_Role_Teacher" />
+        </EntityType>
+        <EntityType Name="Material_Role_Action">
+          <Key>
+            <PropertyRef Name="Role_Id" />
+            <PropertyRef Name="Action_Id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Role_Id" Type="Int32" Nullable="false" />
+          <Property Name="Action_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Material_Action" Relationship="ZERO_MaterialModel.FK_Material_Role_Action_Material_Action" FromRole="Material_Role_Action" ToRole="Material_Action" />
+          <NavigationProperty Name="Material_Role" Relationship="ZERO_MaterialModel.FK_Material_Role_Action_Material_Role" FromRole="Material_Role_Action" ToRole="Material_Role" />
+        </EntityType>
+        <EntityType Name="Material_Role_Teacher">
+          <Key>
+            <PropertyRef Name="Teacher_Id" />
+            <PropertyRef Name="Role_Id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
+          <Property Name="Role_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Material_Role" Relationship="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Role" FromRole="Material_Role_Teacher" ToRole="Material_Role" />
+          <NavigationProperty Name="Material_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Teacher" FromRole="Material_Role_Teacher" ToRole="Material_Teacher" />
+        </EntityType>
         <EntityType Name="Material_Teacher">
           <Key>
             <PropertyRef Name="Teacher_Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
           <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Password" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Del_Flag" Type="Boolean" />
           <NavigationProperty Name="Material_Apply" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" FromRole="Material_Teacher" ToRole="Material_Apply" />
+          <NavigationProperty Name="Material_Role_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Teacher" FromRole="Material_Teacher" ToRole="Material_Role_Teacher" />
+          <NavigationProperty Name="Material_Teacher_Action" Relationship="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher" FromRole="Material_Teacher" ToRole="Material_Teacher_Action" />
+        </EntityType>
+        <EntityType Name="Material_Teacher_Action">
+          <Key>
+            <PropertyRef Name="Teacher_Id" />
+            <PropertyRef Name="Action_Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
+          <Property Name="Action_Id" Type="Int32" Nullable="false" />
+          <Property Name="Has_Permission" Type="Boolean" />
+          <Property Name="Del_Flag" Type="Boolean" />
+          <NavigationProperty Name="Material_Action" Relationship="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher_Action" FromRole="Material_Teacher_Action" ToRole="Material_Action" />
+          <NavigationProperty Name="Material_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher" FromRole="Material_Teacher_Action" ToRole="Material_Teacher" />
         </EntityType>
         <EntityType Name="Material_Type">
           <Key>
@@ -582,6 +824,7 @@
           <Key>
             <PropertyRef Name="Material_Id" />
             <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Last_Time" />
             <PropertyRef Name="Company_Name" />
             <PropertyRef Name="Material_Price" />
             <PropertyRef Name="Material_Count" />
@@ -591,14 +834,15 @@
             <PropertyRef Name="ApplyType_Id" />
             <PropertyRef Name="Apply_Count" />
             <PropertyRef Name="Apply_Status" />
-            <PropertyRef Name="Last_Time" />
             <PropertyRef Name="Apply_Id" />
             <PropertyRef Name="Is_Bought" />
             <PropertyRef Name="Is_InComed" />
           </Key>
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
           <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Last_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Company_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Material_Price" Type="Double" Nullable="false" />
           <Property Name="Material_Count" Type="Double" Nullable="false" />
           <Property Name="Material_Size" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
@@ -608,11 +852,9 @@
           <Property Name="Apply_Count" Type="Int32" Nullable="false" />
           <Property Name="Apply_Status" Type="Int32" Nullable="false" />
           <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Last_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Apply_Id" Type="Int32" Nullable="false" />
           <Property Name="Is_Bought" Type="Boolean" Nullable="false" />
           <Property Name="Is_InComed" Type="Boolean" Nullable="false" />
-          <Property Name="Material_Type_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Material_Info">
           <Key>
@@ -641,6 +883,41 @@
           <Property Name="Material_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
           <Property Name="Is_Show" Type="Boolean" />
         </EntityType>
+        <EntityType Name="Use_Apply">
+          <Key>
+            <PropertyRef Name="Apply_Id" />
+            <PropertyRef Name="ApplyType_Id" />
+            <PropertyRef Name="Teacher_Name" />
+            <PropertyRef Name="Apply_Time" />
+            <PropertyRef Name="Start_Time" />
+            <PropertyRef Name="End_Time" />
+            <PropertyRef Name="Teach_Depart" />
+            <PropertyRef Name="Teach_Field" />
+            <PropertyRef Name="Material_Name" />
+            <PropertyRef Name="Apply_Count" />
+            <PropertyRef Name="Apply_Status" />
+            <PropertyRef Name="Teacher_Id" />
+            <PropertyRef Name="Material_Id" />
+            <PropertyRef Name="Teacher_Depart" />
+            <PropertyRef Name="Is_Get" />
+          </Key>
+          <Property Name="Apply_Id" Type="Int32" Nullable="false" />
+          <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+          <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="Apply_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Start_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="End_Time" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Teach_Depart" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Teach_Field" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Apply_Count" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Status" Type="Int32" Nullable="false" />
+          <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Is_Get" Type="Boolean" Nullable="false" />
+        </EntityType>
         <Association Name="FK_Apply_Info_Apply_Type">
           <End Type="ZERO_MaterialModel.Apply_Type" Role="Apply_Type" Multiplicity="1" />
           <End Type="ZERO_MaterialModel.Apply_Info" Role="Apply_Info" Multiplicity="*" />
@@ -650,6 +927,30 @@
             </Principal>
             <Dependent Role="Apply_Info">
               <PropertyRef Name="ApplyType_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Role_Action_Material_Action">
+          <End Type="ZERO_MaterialModel.Material_Action" Role="Material_Action" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Role_Action" Role="Material_Role_Action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Action">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Material_Role_Action">
+              <PropertyRef Name="Action_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Teacher_Action_Material_Teacher_Action">
+          <End Type="ZERO_MaterialModel.Material_Action" Role="Material_Action" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Teacher_Action" Role="Material_Teacher_Action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Action">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Material_Teacher_Action">
+              <PropertyRef Name="Action_Id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -733,41 +1034,54 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityType Name="Use_Apply">
-          <Key>
-            <PropertyRef Name="Apply_Id" />
-            <PropertyRef Name="ApplyType_Id" />
-            <PropertyRef Name="Teacher_Name" />
-            <PropertyRef Name="Apply_Time" />
-            <PropertyRef Name="Start_Time" />
-            <PropertyRef Name="End_Time" />
-            <PropertyRef Name="Teach_Depart" />
-            <PropertyRef Name="Teach_Field" />
-            <PropertyRef Name="Material_Name" />
-            <PropertyRef Name="Apply_Count" />
-            <PropertyRef Name="Apply_Status" />
-            <PropertyRef Name="Teacher_Id" />
-            <PropertyRef Name="Material_Id" />
-            <PropertyRef Name="Teacher_Depart" />
-            <PropertyRef Name="Is_Get" />
-          </Key>
-          <Property Name="Apply_Id" Type="Int32" Nullable="false" />
-          <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
-          <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
-          <Property Name="Apply_Time" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="Start_Time" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="End_Time" Type="DateTime" Nullable="false" Precision="3" />
-          <Property Name="Teach_Depart" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="Teach_Field" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="Material_Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Apply_Count" Type="Int32" Nullable="false" />
-          <Property Name="Apply_Status" Type="Int32" Nullable="false" />
-          <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
-          <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Is_Get" Type="Boolean" Nullable="false" />
-        </EntityType>
+        <Association Name="FK_Material_Role_Action_Material_Role">
+          <End Type="ZERO_MaterialModel.Material_Role" Role="Material_Role" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Role_Action" Role="Material_Role_Action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Material_Role_Action">
+              <PropertyRef Name="Role_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Role_Teacher_Material_Role">
+          <End Type="ZERO_MaterialModel.Material_Role" Role="Material_Role" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Role_Teacher" Role="Material_Role_Teacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Material_Role_Teacher">
+              <PropertyRef Name="Role_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Role_Teacher_Material_Teacher">
+          <End Type="ZERO_MaterialModel.Material_Teacher" Role="Material_Teacher" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Role_Teacher" Role="Material_Role_Teacher" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Teacher">
+              <PropertyRef Name="Teacher_Id" />
+            </Principal>
+            <Dependent Role="Material_Role_Teacher">
+              <PropertyRef Name="Teacher_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Material_Teacher_Action_Material_Teacher">
+          <End Type="ZERO_MaterialModel.Material_Teacher" Role="Material_Teacher" Multiplicity="1" />
+          <End Type="ZERO_MaterialModel.Material_Teacher_Action" Role="Material_Teacher_Action" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Material_Teacher">
+              <PropertyRef Name="Teacher_Id" />
+            </Principal>
+            <Dependent Role="Material_Teacher_Action">
+              <PropertyRef Name="Teacher_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -802,6 +1116,18 @@
                 <ScalarProperty Name="Is_Bought" ColumnName="Is_Bought" />
                 <ScalarProperty Name="Last_Time" ColumnName="Last_Time" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Action">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Action">
+              <MappingFragment StoreEntitySet="Material_Action">
+                <ScalarProperty Name="Action_Remark" ColumnName="Action_Remark" />
+                <ScalarProperty Name="Del_Flag" ColumnName="Del_Flag" />
+                <ScalarProperty Name="Http_Method" ColumnName="Http_Method" />
+                <ScalarProperty Name="Action_Url" ColumnName="Action_Url" />
+                <ScalarProperty Name="Action_Name" ColumnName="Action_Name" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -868,12 +1194,52 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="Material_Role">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Role">
+              <MappingFragment StoreEntitySet="Material_Role">
+                <ScalarProperty Name="Del_Flag" ColumnName="Del_Flag" />
+                <ScalarProperty Name="Role_Remark" ColumnName="Role_Remark" />
+                <ScalarProperty Name="Role_Name" ColumnName="Role_Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Role_Action">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Role_Action">
+              <MappingFragment StoreEntitySet="Material_Role_Action">
+                <ScalarProperty Name="Action_Id" ColumnName="Action_Id" />
+                <ScalarProperty Name="Role_Id" ColumnName="Role_Id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Role_Teacher">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Role_Teacher">
+              <MappingFragment StoreEntitySet="Material_Role_Teacher">
+                <ScalarProperty Name="Role_Id" ColumnName="Role_Id" />
+                <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="Material_Teacher">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Teacher">
               <MappingFragment StoreEntitySet="Material_Teacher">
+                <ScalarProperty Name="Del_Flag" ColumnName="Del_Flag" />
                 <ScalarProperty Name="Teacher_Password" ColumnName="Teacher_Password" />
                 <ScalarProperty Name="Teacher_Depart" ColumnName="Teacher_Depart" />
                 <ScalarProperty Name="Teacher_Name" ColumnName="Teacher_Name" />
+                <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Material_Teacher_Action">
+            <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Teacher_Action">
+              <MappingFragment StoreEntitySet="Material_Teacher_Action">
+                <ScalarProperty Name="Del_Flag" ColumnName="Del_Flag" />
+                <ScalarProperty Name="Has_Permission" ColumnName="Has_Permission" />
+                <ScalarProperty Name="Action_Id" ColumnName="Action_Id" />
                 <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
@@ -893,11 +1259,9 @@
           <EntitySetMapping Name="Buy_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Buy_Apply">
               <MappingFragment StoreEntitySet="Buy_Apply">
-                <ScalarProperty Name="Material_Type_Name" ColumnName="Material_Type_Name" />
                 <ScalarProperty Name="Is_InComed" ColumnName="Is_InComed" />
                 <ScalarProperty Name="Is_Bought" ColumnName="Is_Bought" />
                 <ScalarProperty Name="Apply_Id" ColumnName="Apply_Id" />
-                <ScalarProperty Name="Last_Time" ColumnName="Last_Time" />
                 <ScalarProperty Name="Apply_Advice" ColumnName="Apply_Advice" />
                 <ScalarProperty Name="Apply_Status" ColumnName="Apply_Status" />
                 <ScalarProperty Name="Apply_Count" ColumnName="Apply_Count" />
@@ -907,7 +1271,9 @@
                 <ScalarProperty Name="Material_Size" ColumnName="Material_Size" />
                 <ScalarProperty Name="Material_Count" ColumnName="Material_Count" />
                 <ScalarProperty Name="Material_Price" ColumnName="Material_Price" />
+                <ScalarProperty Name="Material_Type_Name" ColumnName="Material_Type_Name" />
                 <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+                <ScalarProperty Name="Last_Time" ColumnName="Last_Time" />
                 <ScalarProperty Name="Material_Name" ColumnName="Material_Name" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
               </MappingFragment>

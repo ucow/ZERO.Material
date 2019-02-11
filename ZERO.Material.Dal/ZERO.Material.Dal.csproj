@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionDal.cs" />
     <Compile Include="ApplyInfoDal.cs" />
     <Compile Include="ApplyTypeDal.cs" />
     <Compile Include="BaseApplyDal.cs" />
@@ -62,6 +63,10 @@
     <Compile Include="DbContextFactory.cs" />
     <Compile Include="DbSession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleActionDal.cs" />
+    <Compile Include="RoleDal.cs" />
+    <Compile Include="RoleTeacherDal.cs" />
+    <Compile Include="TeacherActionDal.cs" />
     <Compile Include="TeacherDal.cs" />
     <Compile Include="TypeDal.cs" />
     <Compile Include="UseApplyDal.cs" />

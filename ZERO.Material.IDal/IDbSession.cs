@@ -30,6 +30,16 @@ namespace ZERO.Material.IDal
 
         IBuyApplyDal BuyApplyDal();
 
+        IActionDal ActionDal();
+
+        IRoleDal RoleDal();
+
+        IRoleActionDal RoleActionDal();
+
+        IRoleTeacherDal RoleTeacherDal();
+
+        ITeacherActionDal TeacherActionDal();
+
         int SaveChanges();
     }
 }

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IActionBll.cs" />
     <Compile Include="IApplyInfoBll.cs" />
     <Compile Include="IApplyTypeBll.cs" />
     <Compile Include="IBaseApplyBll.cs" />
@@ -52,6 +53,10 @@
     <Compile Include="IBuyApplyBll.cs" />
     <Compile Include="IBuyInComingApplyBll.cs" />
     <Compile Include="ICompanyBll.cs" />
+    <Compile Include="IRoleActionBll.cs" />
+    <Compile Include="IRoleBll.cs" />
+    <Compile Include="IRoleTeacherBll.cs" />
+    <Compile Include="ITeacherActionBll.cs" />
     <Compile Include="ITeacherBll.cs" />
     <Compile Include="ITypeBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

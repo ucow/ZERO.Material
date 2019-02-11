@@ -32,5 +32,15 @@ namespace ZERO.Material.Dal.Factory
         public static IUseApplyDal GetUseApplyDal() => Container.Server<IUseApplyDal>();
 
         public static IBuyApplyDal GetBuyApplyDal() => Container.Server<IBuyApplyDal>();
+
+        public static IActionDal GetActionDal() => Container.Server<IActionDal>();
+
+        public static IRoleDal GetRoleDal() => Container.Server<IRoleDal>();
+
+        public static IRoleActionDal GetRoleActionDal() => Container.Server<IRoleActionDal>();
+
+        public static IRoleTeacherDal GetRoleTeacherDal() => Container.Server<IRoleTeacherDal>();
+
+        public static ITeacherActionDal GetTeacherActionDal() => Container.Server<ITeacherActionDal>();
     }
 }

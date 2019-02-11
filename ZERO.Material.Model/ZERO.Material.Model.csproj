@@ -82,6 +82,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MaterialModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Material_Action.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Material_Apply.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
@@ -103,10 +106,22 @@
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Material_MessageExt.cs" />
+    <Compile Include="Material_Role.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_Role_Action.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material_Role_Teacher.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Material_Teacher.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Material_TeacherExt.cs" />
+    <Compile Include="Material_Teacher_Action.cs">
+      <DependentUpon>MaterialModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Material_Type.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>

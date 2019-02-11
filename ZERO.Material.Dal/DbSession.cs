@@ -67,6 +67,31 @@ namespace ZERO.Material.Dal
             return StaticDalFactory.GetBuyApplyDal();
         }
 
+        public IActionDal ActionDal()
+        {
+            return StaticDalFactory.GetActionDal();
+        }
+
+        public IRoleDal RoleDal()
+        {
+            return StaticDalFactory.GetRoleDal();
+        }
+
+        public IRoleActionDal RoleActionDal()
+        {
+            return StaticDalFactory.GetRoleActionDal();
+        }
+
+        public IRoleTeacherDal RoleTeacherDal()
+        {
+            return StaticDalFactory.GetRoleTeacherDal();
+        }
+
+        public ITeacherActionDal TeacherActionDal()
+        {
+            return StaticDalFactory.GetTeacherActionDal();
+        }
+
         public int SaveChanges()
         {
             return DbContextFactory.GetDbContext().SaveChanges();
