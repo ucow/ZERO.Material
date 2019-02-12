@@ -129,7 +129,7 @@
                                 //"{\"" + column[0].field + "\":\"" + data[column[0].field] + "\"}";
                                 $.ajax({
                                     type: "post",
-                                    url: "Delete?Material_Type_Id=" + data["Material_Type_Id"],
+                                    url: "DeleteAction?Id=" + data["Id"],
                                     success: function (data) {
                                         if (data === "OK") {
                                             layer.msg("删除成功");

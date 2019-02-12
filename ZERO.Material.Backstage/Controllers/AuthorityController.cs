@@ -81,6 +81,11 @@ namespace ZERO.Material.Backstage.Controllers
             return _actionBll.AddEntities(new List<Material_Action>() { materialAction }) ? "添加成功" : "添加失败";
         }
 
+        public string DeleteAction(int id)
+        {
+            return _actionBll.DeleteEntity(new List<Material_Action>() { _actionBll.Find(id) }) ? "OK" : "Error";
+        }
+
         #endregion 页面管理
     }
 }
