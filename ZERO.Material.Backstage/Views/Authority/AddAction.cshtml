@@ -1,0 +1,143 @@
+﻿@model ZERO.Material.Model.Material_Action
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddAction</title>
+
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+</head>
+<body>
+    <div class="container" style="padding-left: 500px; padding-right: 500px; padding-top: 50px">
+        @using (Ajax.BeginForm("AddAction", null, new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess", OnBegin = "BeginForm" }, new { @class = "layui-form" }))
+        {
+            <div class="layui-form-item">
+                <label class="layui-form-label">页面名称</label>
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Action_Name, new { @class = "layui-input", @placeholder = "请输入页面名称", @autocomplete = "off" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">是否菜单</label>
+                <div class="layui-input-block">
+                    <input type="checkbox" lay-filter="IsMenu" name="Is_Menu" lay-skin="switch" lay-text="是|否" value="true" checked>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">页面链接</label>
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Action_Url, new { @class = "layui-input", @placeholder = "请输入页面链接", @autocomplete = "off" })
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">访问方法</label>
+                <div class="layui-input-block">
+                    <input type="radio" name="Http_Method" value="Get" title="Get" checked>
+                    <input type="radio" name="Http_Method" value="Post" title="Post">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">父菜单</label>
+                <div class="layui-input-block">
+                    <select name="Menu_Id" id="parentMenu">
+                        <option value=""></option>
+                        <option value="0">无</option>
+                        @foreach (var item in ViewBag.parentMenu)
+                        {
+                            <option value="@item.Id">@item.Action_Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">删除标志</label>
+                <div class="layui-input-block">
+                    <input type="checkbox" name="Del_Flag" lay-skin="switch" lay-text="是|否" value="true">
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">文本域</label>
+                <div class="layui-input-block">
+                    @Html.TextAreaFor(m => m.Action_Remark, new { @id = "remark", @placeholder = "请输入备注" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        }
+    </div>
+    <script>
+        function BeginForm(data, data2) {
+            //            var obj = JSON.parse(data2.data);
+            //            if (obj.Is_Menu == undefined) {
+            //                obj.Is_Menu = false;
+            //            } else {
+            //                obj.Is_Menu = obj.Is_Menu === "on" ? true : false;
+            //            }
+            //
+            //            if (obj.Del_Flag == undefined) {
+            //                obj.Del_Flag = false;
+            //            } else {
+            //                obj.Del_Flag = obj.Del_Flag === "on" ? true : false;
+            //            }
+        }
+
+        function AfterSuccess(data) {
+            var index = parent.layer.getFrameIndex(window.name);
+            if (data.indexOf("失败") !== -1) {
+                parent.layer.msg(data, { icon: 5 });
+            } else {
+                parent.layer.msg(data, { icon: 1 });
+            }
+
+            parent.layer.close(index);
+        }
+
+        layui.use(['form', 'layedit'],
+            function () {
+                var form = layui.form;
+                var layedit = layui.layedit;
+                var ieditor = layedit.build('remark', {
+                    //插入代码设置
+                    codeConfig: {
+                        hide: true,  //是否显示编码语言选择框
+                        default: 'javascript' //hide为true时的默认语言格式
+                    }
+                    , tool: [
+                        'strong' //加粗
+                        , 'italic' //斜体
+                        , 'underline' //下划线
+                        , 'del' //删除线
+                        , '|' //分割线
+                        , 'left' //左对齐
+                        , 'center' //居中对齐
+                        , 'right' //右对齐
+                        , 'link' //超链接
+                        , 'unlink' //清除链接
+                    ],
+                    height: '90%'
+                });
+
+                //                form.on('switch(IsMenu)', function (data) {
+                //                    data.elem.checked ? $('#parentMenu').removeAttr('disabled') : $('#parentMenu').attr('disabled', 'disabled');
+                //                    form.render();
+                //                });
+
+            });
+    </script>
+</body>
+</html>

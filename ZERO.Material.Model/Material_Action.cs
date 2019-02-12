@@ -28,6 +28,8 @@ namespace ZERO.Material.Model
         public string Http_Method { get; set; }
         public bool Del_Flag { get; set; }
         public string Action_Remark { get; set; }
+        public int Menu_Id { get; set; }
+        public bool Is_Menu { get; set; }
     
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

@@ -1,0 +1,150 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Role</title>
+</head>
+<body>
+    <div>
+        <table id="roleTable" lay-filter="role"></table>
+    </div>
+
+    <div id="tableCellTool" hidden="hidden">
+        <button class="layui-btn layui-btn-xs">修改权限</button>
+    </div>
+
+    <script type="text/html" id="del">
+        <input type="checkbox" name="Is_Show" value="{{d.Id}}" lay-skin="switch" lay-text="是|否" lay-filter="show" {{ d.Del_Flag == true ? 'checked' : '' }}>
+    </script>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script>
+        layui.use(['table'],
+            function () {
+                var table = layui.table;
+                var load = layer.load(1);
+                /*********************************************************** 表格start *********************************************************/
+                var tableOption = {
+                    elem: "#roleTable",
+                    //height: 100 %,
+                    url: "GetMaterialRole",
+                    loading: true,
+                    defaultToolbar: false,
+                    cellMinWidth: 50,
+                    toolbar: "#tableTopTool",
+                    page: true,
+                    size: 'lg',
+                    limits: [10, 20, 30, 40],
+                    text: {
+                        none: "未加载到相关数据"
+                    },
+                    cols: [
+                        [
+                            { type: 'checkbox', fixed: 'left' },
+                            { field: 'Id', title: '角色编号', sort: true },
+                            { field: 'Role_Name', title: '角色名称' },
+                            { field: 'Del_Flag', title: '删除标志', templet: '#del' },
+                            { field: 'Role_Remark', title: '角色备注' },
+                            { title: '操作', toolbar: '#tableCellTool' }
+                        ]
+                    ],
+                    done: function (res) {
+                        layer.close(load);
+                    }
+                };
+                table.render(tableOption);
+
+                table.on('tool(buy)',
+                    function (obj) {
+                        var data = obj.data; //获得当前行数据
+                        var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+
+                        if (layEvent === 'allow' || layEvent === 'reject') { //查看
+                            layer.open({
+                                title: "审批意见",
+                                type: 1,
+                                shadeClose: true,
+                                shade: false,
+                                btn: ['确定', '取消'],
+                                yes: function (index, layero) {
+                                    var advice = layero["0"].childNodes[1].childNodes["0"].value;
+                                    data.Apply_Status = layEvent === 'allow' ? 1 : 2;
+                                    data.Apply_Advice = advice;
+
+                                    $.ajax({
+                                        url: "Review",
+                                        type: "POST",
+                                        data: { "applies": new Array(data) },
+                                        success: function (data) {
+                                            if (data === "OK") {
+                                                layer.msg("审核成功");
+                                                layer.close(index);
+                                            }
+                                        }
+                                    });
+                                },
+                                area: ["260px", "200px"],
+                                content:
+                                    "<textarea name='' required lay-verify='required' placeholder='请输入审批意见' class='layui-textarea' style='width:100%;height:100%'></textarea>",
+                                end: function () {
+                                    table.reload("borrowTable", tableOption);
+                                    //layer.msg("校徽");
+                                }
+                            });
+                        }
+                    });
+
+                table.on('toolbar(buy)',
+                    function (obj) {
+                        var checkStatus = table.checkStatus(obj.config.id);
+                        switch (obj.event) {
+                            case 'allAllow':
+                            case 'allReject':
+                                layer.open({
+                                    title: "审批意见",
+                                    type: 1,
+                                    shadeClose: true,
+                                    shade: false,
+                                    btn: ['确定', '取消'],
+                                    yes: function (index, layero) {
+                                        var advice = layero["0"].childNodes[1].childNodes["0"].value;
+                                        var data = checkStatus.data;
+                                        for (var i = 0; i < data.length; i++) {
+                                            data[i].Apply_Status = obj.event === 'allAllow' ? 1 : 2;
+                                            data[i].Apply_Advice = advice;
+                                        }
+                                        $.ajax({
+                                            url: "Review",
+                                            type: "POST",
+                                            data: { "applies": data },
+                                            success: function (data) {
+                                                if (data === "OK") {
+                                                    layer.msg("审核成功");
+                                                    layer.close(index);
+                                                }
+                                            }
+                                        });
+                                    },
+                                    area: ["260px", "200px"],
+                                    content:
+                                        "<textarea name='' required lay-verify='required' placeholder='请输入审批意见' class='layui-textarea' style='width:100%;height:100%'></textarea>",
+                                    end: function () {
+                                        table.reload("borrowTable", tableOption);
+                                        //layer.msg("校徽");
+                                    }
+                                });
+                                break;
+                        };
+                    });
+                /*********************************************************** 表格end *********************************************************/
+
+            })
+    </script>
+</body>
+</html>

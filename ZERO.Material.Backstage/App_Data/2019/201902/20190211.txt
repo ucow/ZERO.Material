@@ -518,3 +518,4041 @@
 出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
 错误描述：::1:::1在2019/2/11 11:24:18结束访问/Apply/GetMaterialBuyInComing
  
+
+ 
+记录时间：2019-02-11 11:25:53,941 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 11:25:53开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 11:25:53,969 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 11:25:53结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 13:14:01,536 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:01开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 13:14:01,565 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:01结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 13:14:07,284 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:07开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 13:14:07,284 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:07结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 13:14:07,371 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:07开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 13:14:07,372 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:07结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 13:14:08,389 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:08开始访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-02-11 13:14:08,522 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:08结束访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-02-11 13:14:08,617 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:08开始访问/Material/List
+ 
+
+ 
+记录时间：2019-02-11 13:14:09,784 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:14:09结束访问/Material/List
+ 
+
+ 
+记录时间：2019-02-11 13:24:31,020 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:24:30开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 13:24:31,048 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:24:31结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 13:24:34,360 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:24:34开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 13:24:34,780 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:24:34结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 13:25:17,426 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:25:17开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 13:25:17,426 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:25:17结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 13:25:19,164 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:25:19开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 13:25:19,186 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:25:19结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 13:33:48,954 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:33:48开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 13:33:48,955 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:33:48结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 13:33:49,412 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:33:49开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 13:33:49,419 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:33:49结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 13:34:14,929 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:34:14开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 13:34:14,929 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:34:14结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 13:34:15,350 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:34:15开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 13:34:15,353 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:34:15结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 13:44:08,656 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:44:08开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 13:44:08,690 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 13:44:08结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 14:09:43,549 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:09:43开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:09:43,576 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:09:43结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:09:53,155 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:09:53开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:09:53,623 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:09:53结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:09:53,626 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在执行 controller[AuthorityController] 的 action[GetMaterialAction] 时产生异常
+ 
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'Material_Action1' with type 'System.Data.Entity.DynamicProxies.Material_Action_F49F76F41C13BC0845FC8D6D6D2CFB22157A650E03ED5B3A2321B9A8B61A93D1'. Path 'data[0]'.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   在 Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   在 ZERO.Material.Backstage.Controllers.AuthorityController.GetMaterialAction() 位置 D:\MyDevelop\ZERO.Material\ZERO.Material.Backstage\Controllers\AuthorityController.cs:行号 68
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-02-11 14:10:06,664 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:10:06开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:10:06,680 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:10:06结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:10:06,681 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在执行 controller[AuthorityController] 的 action[GetMaterialAction] 时产生异常
+ 
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'Material_Action1' with type 'System.Data.Entity.DynamicProxies.Material_Action_F49F76F41C13BC0845FC8D6D6D2CFB22157A650E03ED5B3A2321B9A8B61A93D1'. Path 'data[0]'.
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   在 Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   在 ZERO.Material.Backstage.Controllers.AuthorityController.GetMaterialAction() 位置 D:\MyDevelop\ZERO.Material\ZERO.Material.Backstage\Controllers\AuthorityController.cs:行号 68
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-02-11 14:12:24,180 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:12:24开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:12:25,621 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:12:25结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:12:33,171 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:12:33开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:12:33,175 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:12:33结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:12:35,298 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:12:35开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:12:35,299 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:12:35结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:12:36,883 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:12:36开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:12:36,888 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:12:36结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:13:44,351 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:13:44开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:13:44,378 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:13:44结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:13:47,267 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:13:47开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:13:47,591 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:13:47结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:26:17,099 
+线程ID:[31] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:26:17开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:26:17,100 
+线程ID:[31] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:26:17结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:26:19,280 
+线程ID:[33] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:26:19开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:26:19,292 
+线程ID:[33] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:26:19结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:29:32,984 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:29:32开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:29:32,984 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:29:32结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:29:33,457 
+线程ID:[39] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:29:33开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:29:33,464 
+线程ID:[39] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:29:33结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:29:45,012 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:29:45开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:29:45,018 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:29:45结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:36:29,136 
+线程ID:[50] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:36:29开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:36:29,137 
+线程ID:[50] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:36:29结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:36:29,608 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:36:29开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:36:29,617 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:36:29结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:36:40,252 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:36:40开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:36:40,257 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:36:40结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:42:35,804 
+线程ID:[52] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:42:35开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:42:35,829 
+线程ID:[52] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:42:35结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:42:37,308 
+线程ID:[63] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:42:37开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:42:38,670 
+线程ID:[63] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:42:38结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:42:40,074 
+线程ID:[65] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:42:40开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 14:42:40,075 
+线程ID:[65] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:42:40结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 14:44:00,232 
+线程ID:[63] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:44:00开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:44:00,232 
+线程ID:[63] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:44:00结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:44:00,695 
+线程ID:[59] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:44:00开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:44:00,700 
+线程ID:[59] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:44:00结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:44:01,649 
+线程ID:[65] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:44:01开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 14:44:01,650 
+线程ID:[65] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:44:01结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 14:59:03,988 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:03开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:59:03,988 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:03结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:59:08,015 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:08开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:59:08,023 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:08结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:59:09,574 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:09开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 14:59:09,574 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:09结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 14:59:48,688 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:48开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:59:48,689 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:48结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 14:59:49,120 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:49开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:59:49,126 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:49结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 14:59:50,163 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:50开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 14:59:50,164 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 14:59:50结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:00:21,271 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:21开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:00:21,271 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:21结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:00:21,710 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:21开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:00:21,715 
+线程ID:[44] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:21结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:00:22,577 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:22开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:00:22,577 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:22结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:00:44,878 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:44开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:00:44,878 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:44结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:00:45,301 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:45开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:00:45,308 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:45结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:00:46,063 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:46开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:00:46,063 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:00:46结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:01:04,005 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:04开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:01:04,006 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:04结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:01:04,446 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:04开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:01:04,451 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:04结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:01:05,374 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:05开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:01:05,374 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:05结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:01:23,778 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:23开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:01:23,779 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:23结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:01:24,210 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:24开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:01:24,215 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:24结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:01:24,933 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:24开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:01:24,934 
+线程ID:[42] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:01:24结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:02:43,419 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:02:43开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:02:43,419 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:02:43结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:02:43,861 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:02:43开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:02:43,867 
+线程ID:[49] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:02:43结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:02:44,723 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:02:44开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:02:44,724 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:02:44结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:06:55,268 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:06:55开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:06:55,298 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:06:55结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:06:59,353 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:06:59开始访问/Apply/Borrow
+ 
+
+ 
+记录时间：2019-02-11 15:06:59,353 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:06:59开始访问/Apply/Borrow
+ 
+
+ 
+记录时间：2019-02-11 15:07:00,074 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:00结束访问/Apply/Borrow
+ 
+
+ 
+记录时间：2019-02-11 15:07:00,074 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:00结束访问/Apply/Borrow
+ 
+
+ 
+记录时间：2019-02-11 15:07:01,199 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:01开始访问/Apply/GetMaterialBorrow
+ 
+
+ 
+记录时间：2019-02-11 15:07:01,422 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:01结束访问/Apply/GetMaterialBorrow
+ 
+
+ 
+记录时间：2019-02-11 15:07:03,791 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:03开始访问/Apply/Buy
+ 
+
+ 
+记录时间：2019-02-11 15:07:03,792 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:03结束访问/Apply/Buy
+ 
+
+ 
+记录时间：2019-02-11 15:07:03,819 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:03开始访问/Apply/Buy
+ 
+
+ 
+记录时间：2019-02-11 15:07:03,820 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:03结束访问/Apply/Buy
+ 
+
+ 
+记录时间：2019-02-11 15:07:03,932 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:03开始访问/Apply/GetMaterialBuyInComing
+ 
+
+ 
+记录时间：2019-02-11 15:07:04,225 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:04结束访问/Apply/GetMaterialBuyInComing
+ 
+
+ 
+记录时间：2019-02-11 15:07:06,500 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:06开始访问/Apply/InComing
+ 
+
+ 
+记录时间：2019-02-11 15:07:06,501 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:06结束访问/Apply/InComing
+ 
+
+ 
+记录时间：2019-02-11 15:07:06,616 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:06开始访问/Apply/GetMaterialBuyInComing
+ 
+
+ 
+记录时间：2019-02-11 15:07:06,639 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:06结束访问/Apply/GetMaterialBuyInComing
+ 
+
+ 
+记录时间：2019-02-11 15:07:08,413 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:08开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:08,417 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:08结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:08,418 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:08开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:08,418 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:08结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:09,053 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:09开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:09,054 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:09结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:09,053 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:09开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:09,054 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:09结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:09,494 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:09开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:09,494 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:09结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:09,494 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:09开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:09,495 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:09结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:10,795 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:10开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:10,795 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:10开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:10,796 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:10结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:10,797 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:10结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:11,519 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:11开始访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-02-11 15:07:11,523 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:11结束访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-02-11 15:07:11,564 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:11开始访问/Material/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:11,820 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:11结束访问/Material/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:13,055 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:13开始访问/Material/Add
+ 
+
+ 
+记录时间：2019-02-11 15:07:13,342 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:13结束访问/Material/Add
+ 
+
+ 
+记录时间：2019-02-11 15:07:18,050 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:18开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:18,052 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:18结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:18,481 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:18开始访问/Type/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:19,570 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:19结束访问/Type/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:21,508 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:21开始访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 15:07:21,548 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:21结束访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 15:07:33,672 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:33开始访问/Company/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:33,673 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:33结束访问/Company/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:33,679 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:33开始访问/Company/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:33,680 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:33结束访问/Company/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:34,103 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:34开始访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-02-11 15:07:34,103 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:34结束访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-02-11 15:07:34,159 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:34开始访问/Company/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:34,199 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:34结束访问/Company/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:35,703 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:35开始访问/Company/Add
+ 
+
+ 
+记录时间：2019-02-11 15:07:35,705 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:35结束访问/Company/Add
+ 
+
+ 
+记录时间：2019-02-11 15:07:38,688 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:38开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:38,688 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:38结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:38,777 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:38开始访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-02-11 15:07:38,787 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:38结束访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-02-11 15:07:38,850 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:38开始访问/Material/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:38,893 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:38结束访问/Material/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:39,113 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:39开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:39,113 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:39结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 15:07:39,293 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:39开始访问/Type/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:40,559 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:40结束访问/Type/List
+ 
+
+ 
+记录时间：2019-02-11 15:07:42,489 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:42开始访问/Stock/NeedBuy
+ 
+
+ 
+记录时间：2019-02-11 15:07:42,490 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:42结束访问/Stock/NeedBuy
+ 
+
+ 
+记录时间：2019-02-11 15:07:43,030 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:43开始访问/Stock/GetNeedBuy
+ 
+
+ 
+记录时间：2019-02-11 15:07:43,058 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:43结束访问/Stock/GetNeedBuy
+ 
+
+ 
+记录时间：2019-02-11 15:07:45,773 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:45开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-02-11 15:07:45,853 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:07:45结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:10,872 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:10开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-02-11 15:08:10,886 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:10结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-02-11 15:08:12,744 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:12开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-02-11 15:08:12,757 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:12结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-02-11 15:08:13,879 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:13开始访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-02-11 15:08:13,940 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:13结束访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-02-11 15:08:17,278 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:17开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-02-11 15:08:17,291 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:17结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-02-11 15:08:18,544 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:18开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-02-11 15:08:18,557 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:18结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-02-11 15:08:19,719 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:19开始访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-02-11 15:08:19,839 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:19结束访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-02-11 15:08:21,842 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:21开始访问/Material/GetImage
+ 
+
+ 
+记录时间：2019-02-11 15:08:21,866 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:21结束访问/Material/GetImage
+ 
+
+ 
+记录时间：2019-02-11 15:08:37,070 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:37开始访问/Stock/GetNewMaterialId
+ 
+
+ 
+记录时间：2019-02-11 15:08:37,107 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:37结束访问/Stock/GetNewMaterialId
+ 
+
+ 
+记录时间：2019-02-11 15:08:42,539 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:42开始访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:42,540 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:42结束访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:42,567 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:42开始访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:42,567 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:42结束访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:42,707 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:42开始访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:42,728 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:42结束访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:45,105 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:45开始访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:45,106 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:45结束访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:45,112 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:45开始访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:45,113 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:45结束访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:45,223 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:45开始访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-02-11 15:08:45,255 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:45结束访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-02-11 15:08:47,050 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:47开始访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:47,050 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:47结束访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:47,171 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:47开始访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:47,188 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:47结束访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:48,380 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:48开始访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:48,380 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:48结束访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:48,487 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:48开始访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-02-11 15:08:48,512 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:48结束访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-02-11 15:08:49,013 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:49开始访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:49,014 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:49结束访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:49,147 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:49开始访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:49,161 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:49结束访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:49,547 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:49开始访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:49,548 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:49结束访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-02-11 15:08:49,676 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:49开始访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-02-11 15:08:49,710 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:08:49结束访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-02-11 15:09:56,685 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:09:56开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:09:56,713 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:09:56结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:12:07,025 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:12:07开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:12:07,026 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:12:07结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:19:14,917 
+线程ID:[33] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:19:14开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:19:16,405 
+线程ID:[33] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:19:16结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:27:02,450 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:27:02开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:27:02,471 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:27:02结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:32:27,621 
+线程ID:[40] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:32:27开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:32:27,623 
+线程ID:[40] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:32:27结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:34:25,801 
+线程ID:[50] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:34:25开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:34:25,802 
+线程ID:[50] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:34:25结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:34:43,502 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:34:43开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:34:43,503 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:34:43结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:34:44,068 
+线程ID:[50] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:34:44开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:34:44,213 
+线程ID:[50] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:34:44结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:34:51,541 
+线程ID:[48] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:34:51开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:34:51,543 
+线程ID:[48] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:34:51结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:44:34,852 
+线程ID:[66] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:34开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:44:34,852 
+线程ID:[66] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:34结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:44:35,350 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:35开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:44:35,359 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:35结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:44:36,572 
+线程ID:[66] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:36开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:44:36,574 
+线程ID:[66] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:36结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:44:39,005 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:39开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:44:39,011 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:39结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:44:58,234 
+线程ID:[73] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:58开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:44:58,234 
+线程ID:[73] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:58结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:44:58,365 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:58开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:44:58,370 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:44:58结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:45:32,596 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:32开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:45:32,597 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:32结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:45:33,059 
+线程ID:[73] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:33开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:45:33,067 
+线程ID:[73] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:33结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:45:34,120 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:34开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:45:34,121 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:34结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:45:51,629 
+线程ID:[77] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:51开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:45:51,629 
+线程ID:[77] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:51结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:45:52,068 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:52开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:45:52,073 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:52结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:45:52,727 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:52开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:45:52,728 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:45:52结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:46:39,646 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:46:39开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:46:39,647 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:46:39结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:46:40,091 
+线程ID:[60] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:46:40开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:46:40,101 
+线程ID:[60] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:46:40结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:46:41,487 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:46:41开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:46:41,488 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:46:41结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:47:32,307 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:47:32开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:47:32,308 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:47:32结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:47:32,753 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:47:32开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:47:32,759 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:47:32结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:47:34,194 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:47:34开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:47:34,196 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:47:34结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:48:00,560 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:48:00开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:48:00,565 
+线程ID:[71] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:48:00结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:51:33,373 
+线程ID:[70] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:51:33开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:51:33,374 
+线程ID:[70] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:51:33结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:51:33,856 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:51:33开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:51:33,866 
+线程ID:[69] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:51:33结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:51:34,383 
+线程ID:[70] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:51:34开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:51:34,384 
+线程ID:[70] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:51:34结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:57:53,662 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:57:53开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:57:53,691 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:57:53结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:57:57,555 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:57:57开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:57:57,555 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:57:57开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:57:57,555 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:57:57结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:57:57,556 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:57:57结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:57:58,141 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:57:58开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:57:59,077 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:57:59结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:58:00,875 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:58:00开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:58:00,910 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:58:00结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:59:03,002 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:03开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:59:23,523 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:23开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:59:23,552 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:23结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 15:59:29,082 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:29开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:59:29,082 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:29开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:59:29,083 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:29结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:59:29,083 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:29结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 15:59:29,310 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:29开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:59:30,181 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:30结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 15:59:31,384 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:31开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 15:59:31,415 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 15:59:31结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:00:06,483 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:00:06开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:08:40,294 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:40开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:08:40,329 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:40结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:08:44,425 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:44开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-02-11 16:08:44,425 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:44开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-02-11 16:08:45,620 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:45结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-02-11 16:08:45,620 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:45结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-02-11 16:08:46,276 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:46开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:08:46,276 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:46开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:08:46,278 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:46结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:08:46,278 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:46结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:08:46,770 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:46开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:08:47,068 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:47结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:08:48,349 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:48开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:08:48,366 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:08:48结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:09:43,349 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:09:43开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:13:57,229 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:13:57开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:13:57,259 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:13:57结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:14:02,574 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:02开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:14:02,574 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:02开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:14:02,575 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:02结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:14:02,575 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:02结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:14:02,899 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:02开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:14:03,849 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:03结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:14:04,598 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:04开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:14:04,645 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:04结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:14:33,651 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:33开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:14:33,652 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:33结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:14:37,272 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:37开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:14:37,274 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:37结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:14:37,280 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:37开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:14:37,280 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:37结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:14:37,789 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:37开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 16:14:37,925 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:37结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 16:14:38,451 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:38开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:14:38,453 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:38开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:14:38,454 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:38结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:14:38,454 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:38结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:14:38,586 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:38开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:14:38,721 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:38结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:14:39,693 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:39开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:14:39,708 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:14:39结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:15:16,385 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:15:16开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:18:35,681 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:18:35开始访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 16:18:36,217 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:18:36结束访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 16:23:37,015 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:36开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:23:37,048 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:37结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:23:40,332 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:40开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 16:23:40,332 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:40开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 16:23:40,333 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:40结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 16:23:40,333 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:40结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 16:23:40,577 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:40开始访问/Type/List
+ 
+
+ 
+记录时间：2019-02-11 16:23:43,117 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:43结束访问/Type/List
+ 
+
+ 
+记录时间：2019-02-11 16:23:45,368 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:45开始访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 16:23:45,424 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:45结束访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 16:23:50,924 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:23:50开始访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 16:24:04,984 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:04开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:24:05,014 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:05结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:24:09,223 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:09开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 16:24:09,223 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:09开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 16:24:09,224 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:09结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 16:24:09,224 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:09结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-02-11 16:24:09,449 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:09开始访问/Type/List
+ 
+
+ 
+记录时间：2019-02-11 16:24:11,593 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:11结束访问/Type/List
+ 
+
+ 
+记录时间：2019-02-11 16:24:13,261 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:13开始访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 16:24:13,315 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:13结束访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 16:24:30,610 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:24:30开始访问/Type/Add
+ 
+
+ 
+记录时间：2019-02-11 16:25:58,063 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:25:57开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:25:58,095 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:25:58结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:26:03,580 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:03开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:26:03,580 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:03开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:26:03,581 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:03结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:26:03,581 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:03结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:26:03,786 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:03开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:26:04,660 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:04结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:26:05,837 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:05开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:26:05,873 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:05结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:26:26,031 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:26:26开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:36:27,068 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:26开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:36:27,099 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:27结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:36:32,351 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:32开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:36:32,382 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:32开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:36:32,430 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:32结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:36:32,426 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:32结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:36:33,038 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:33开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 16:36:33,550 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:33结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 16:36:34,966 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:34开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:36:34,966 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:34结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:36:34,971 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:34开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:36:34,972 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:34结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:36:35,072 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:35开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:36:35,192 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:35结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:36:36,140 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:36开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:36:36,175 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:36结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:36:42,801 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:36:42开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:44:40,140 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:44:40开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:44:40,464 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:44:40结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:45:02,940 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:45:02开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:45:02,942 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:45:02结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:47:10,915 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:47:10开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:47:11,059 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:47:11结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:48:31,760 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:48:31开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:48:31,767 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:48:31结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:02,543 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:02开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:02,567 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:02结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:11,599 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:11开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:49:11,629 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:11结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:49:15,833 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:15开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:49:15,833 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:15结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:49:15,912 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:15开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:49:15,912 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:15结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:49:16,242 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:16开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:16,819 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:16结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:18,267 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:18开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:49:18,271 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:18开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:49:18,272 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:18结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:49:18,272 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:18结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-11 16:49:18,425 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:18开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 16:49:18,496 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:18结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-11 16:49:20,122 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:20开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:49:20,123 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:20结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:49:20,225 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:20开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:20,318 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:20结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:21,118 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:21开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:21,150 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:21结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:49:44,136 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:49:44开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:54:40,556 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:40开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:54:40,585 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:40结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:54:43,372 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:43开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:54:43,372 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:43开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:54:43,374 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:43结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:54:43,374 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:43结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:54:43,662 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:43开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:54:44,974 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:44结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:54:46,693 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:46开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:54:46,722 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:54:46结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:56:26,237 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:26开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:56:26,267 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:26结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:56:29,043 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:29开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:56:29,043 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:29开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:56:29,044 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:29结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:56:29,044 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:29结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:56:29,264 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:29开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:56:30,317 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:30结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:56:32,337 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:32开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:56:32,370 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:32结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:56:50,153 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:56:50开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:57:15,865 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:15开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:57:15,896 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:15结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:57:19,509 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:19开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:57:19,510 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:19结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:57:19,511 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:19开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:57:19,512 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:19结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:57:19,752 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:19开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:57:20,850 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:20结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:57:21,862 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:21开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:57:21,904 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:21结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:57:51,493 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:51开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:57:51,494 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:51结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:57:52,275 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:52开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:57:52,380 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:52结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:57:53,287 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:53开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:57:53,303 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:57:53结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:58:04,794 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:04开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:58:42,221 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:42开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:58:42,253 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:42结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-11 16:58:45,125 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:45开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:58:45,126 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:45开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:58:45,127 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:45结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:58:45,130 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:45结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-11 16:58:45,405 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:45开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:58:46,586 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:46结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:58:47,556 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:47开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:58:47,594 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:47结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:58:55,978 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:58:55开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:59:09,412 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:59:09结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-02-11 16:59:09,633 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:59:09开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-11 16:59:09,732 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/11 16:59:09结束访问/Authority/GetMaterialAction
+ 
