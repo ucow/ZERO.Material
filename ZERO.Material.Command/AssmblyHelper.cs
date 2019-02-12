@@ -49,5 +49,29 @@ namespace ZERO.Material.Command
 
             return JsonConvert.SerializeObject(modelInfos);
         }
+
+        public static void ClassEvaluate<TSource, TTarget>(TSource source, TTarget target)
+        {
+            if (source == null)
+            {
+                return;
+            }
+
+            Type sourceType = source.GetType();
+            Type targetType = target.GetType();
+            PropertyInfo[] sourceInfos = sourceType.GetProperties();
+            PropertyInfo[] targetInfos = targetType.GetProperties();
+            foreach (PropertyInfo targetInfo in targetInfos)
+            {
+                foreach (PropertyInfo sourceInfo in sourceInfos)
+                {
+                    var sourceInfoValue = sourceInfo.GetValue(source);
+                    if (targetInfo.Name == sourceInfo.Name)
+                    {
+                        targetInfo.SetValue(target, sourceInfoValue);
+                    }
+                }
+            }
+        }
     }
 }

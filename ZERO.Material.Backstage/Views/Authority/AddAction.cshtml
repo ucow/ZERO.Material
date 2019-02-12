@@ -22,13 +22,20 @@
             <div class="layui-form-item">
                 <label class="layui-form-label">页面名称</label>
                 <div class="layui-input-block">
+                    @Html.HiddenFor(m => m.Id)
                     @Html.TextBoxFor(m => m.Action_Name, new { @class = "layui-input", @placeholder = "请输入页面名称", @autocomplete = "off" })
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">是否菜单</label>
                 <div class="layui-input-block">
-                    <input type="checkbox" lay-filter="IsMenu" name="Is_Menu" lay-skin="switch" lay-text="是|否" value="true" checked>
+                    @Html.CheckBoxFor(m => m.Is_Menu,new Dictionary<string, object>
+                    {
+                        { "lay-filter","IsMenu"},
+                        {"lay-skin","switch" },
+                        { "lay-text","是|否"},
+                        { "value","true"}
+                    })
                 </div>
             </div>
             <div class="layui-form-item">
@@ -41,29 +48,28 @@
             <div class="layui-form-item">
                 <label class="layui-form-label">访问方法</label>
                 <div class="layui-input-block">
-                    <input type="radio" name="Http_Method" value="Get" title="Get" checked>
-                    <input type="radio" name="Http_Method" value="Post" title="Post">
+                    @Html.RadioButtonFor(m => m.Http_Method, "Get", new { @title = "Get" })
+                    @Html.RadioButtonFor(m => m.Http_Method, "Post", new { @title = "Post" })
                 </div>
             </div>
 
             <div class="layui-form-item">
                 <label class="layui-form-label">父菜单</label>
                 <div class="layui-input-block">
-                    <select name="Menu_Id" id="parentMenu">
-                        <option value=""></option>
-                        <option value="0">无</option>
-                        @foreach (var item in ViewBag.parentMenu)
-                        {
-                            <option value="@item.Id">@item.Action_Name</option>
-                        }
-                    </select>
+                    @Html.DropDownListFor(m => m.Menu_Id, ViewBag.parentMenu as SelectList, "", new { @id = "parentMenu" })
                 </div>
             </div>
 
             <div class="layui-form-item">
                 <label class="layui-form-label">删除标志</label>
                 <div class="layui-input-block">
-                    <input type="checkbox" name="Del_Flag" lay-skin="switch" lay-text="是|否" value="true">
+                    @Html.CheckBoxFor(m => m.Del_Flag,new Dictionary<string, object>
+                    {
+                        { "lay-filter","DelFalg"},
+                        {"lay-skin","switch" },
+                        { "lay-text","是|否"},
+                        { "value","true"}
+                    })
                 </div>
             </div>
             <div class="layui-form-item layui-form-text">

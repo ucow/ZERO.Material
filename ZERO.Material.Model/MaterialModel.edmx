@@ -40,9 +40,9 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Action_Name" Type="nchar" MaxLength="10" Nullable="false" />
-          <Property Name="Action_Url" Type="char" MaxLength="50" />
-          <Property Name="Http_Method" Type="nchar" MaxLength="10" />
+          <Property Name="Action_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Action_Url" Type="varchar" MaxLength="50" />
+          <Property Name="Http_Method" Type="nvarchar" MaxLength="50" />
           <Property Name="Menu_Id" Type="int" Nullable="false" />
           <Property Name="Is_Menu" Type="bit" Nullable="false" />
           <Property Name="Del_Flag" Type="bit" Nullable="false" />
@@ -53,7 +53,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Teacher_Id" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="Teacher_Id" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Apply_Time" Type="datetime" Nullable="false" />
           <Property Name="Start_Time" Type="datetime" Nullable="false" />
           <Property Name="End_Time" Type="datetime" Nullable="false" />
@@ -112,7 +112,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Role_Name" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Role_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Role_Remark" Type="nvarchar(max)" />
           <Property Name="Del_Flag" Type="bit" />
         </EntityType>
@@ -131,7 +131,7 @@
             <PropertyRef Name="Role_Id" />
           </Key>
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Teacher_Id" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="Teacher_Id" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Role_Id" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Teacher">
@@ -139,7 +139,7 @@
             <PropertyRef Name="Teacher_Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Teacher_Id" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="Teacher_Id" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Teacher_Name" Type="nvarchar" MaxLength="5" Nullable="false" />
           <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Teacher_Password" Type="varchar" MaxLength="10" Nullable="false" />
@@ -151,7 +151,7 @@
             <PropertyRef Name="Action_Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Teacher_Id" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="Teacher_Id" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Action_Id" Type="int" Nullable="false" />
           <Property Name="Has_Permission" Type="bit" />
           <Property Name="Del_Flag" Type="bit" />
@@ -279,18 +279,6 @@
             </Principal>
             <Dependent Role="Apply_Info">
               <PropertyRef Name="ApplyType_Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_Material_Action_Material_Action">
-          <End Role="Material_Action" Type="Self.Material_Action" Multiplicity="1" />
-          <End Role="Material_Action1" Type="Self.Material_Action" Multiplicity="0..1" />
-          <ReferentialConstraint>
-            <Principal Role="Material_Action">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="Material_Action1">
-              <PropertyRef Name="Id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -524,10 +512,6 @@
             <End Role="Apply_Type" EntitySet="Apply_Type" />
             <End Role="Apply_Info" EntitySet="Apply_Info" />
           </AssociationSet>
-          <AssociationSet Name="FK_Material_Action_Material_Action" Association="Self.FK_Material_Action_Material_Action">
-            <End Role="Material_Action" EntitySet="Material_Action" />
-            <End Role="Material_Action1" EntitySet="Material_Action" />
-          </AssociationSet>
           <AssociationSet Name="FK_Material_Apply_Material_Base" Association="Self.FK_Material_Apply_Material_Base">
             <End Role="Material_Base" EntitySet="Material_Base" />
             <End Role="Material_Apply" EntitySet="Material_Apply" />
@@ -690,22 +674,22 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Action_Name" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
-          <Property Name="Action_Url" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
-          <Property Name="Http_Method" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Action_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Action_Url" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Http_Method" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Menu_Id" Type="Int32" Nullable="false" />
+          <Property Name="Is_Menu" Type="Boolean" Nullable="false" />
           <Property Name="Del_Flag" Type="Boolean" Nullable="false" />
           <Property Name="Action_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Material_Role_Action" Relationship="ZERO_MaterialModel.FK_Material_Role_Action_Material_Action" FromRole="Material_Action" ToRole="Material_Role_Action" />
           <NavigationProperty Name="Material_Teacher_Action" Relationship="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher_Action" FromRole="Material_Action" ToRole="Material_Teacher_Action" />
-          <Property Name="Menu_Id" Type="Int32" Nullable="false" />
-          <Property Name="Is_Menu" Type="Boolean" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Apply">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Apply_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Start_Time" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="End_Time" Type="DateTime" Nullable="false" Precision="3" />
@@ -774,7 +758,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Role_Name" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Role_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Role_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Del_Flag" Type="Boolean" />
           <NavigationProperty Name="Material_Role_Action" Relationship="ZERO_MaterialModel.FK_Material_Role_Action_Material_Role" FromRole="Material_Role" ToRole="Material_Role_Action" />
@@ -797,7 +781,7 @@
             <PropertyRef Name="Role_Id" />
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Role_Id" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Material_Role" Relationship="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Role" FromRole="Material_Role_Teacher" ToRole="Material_Role" />
           <NavigationProperty Name="Material_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Teacher" FromRole="Material_Role_Teacher" ToRole="Material_Teacher" />
@@ -807,7 +791,7 @@
             <PropertyRef Name="Teacher_Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Password" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
@@ -822,7 +806,7 @@
             <PropertyRef Name="Action_Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
+          <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Action_Id" Type="Int32" Nullable="false" />
           <Property Name="Has_Permission" Type="Boolean" />
           <Property Name="Del_Flag" Type="Boolean" />
@@ -1143,10 +1127,10 @@
           <EntitySetMapping Name="Material_Action">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Action">
               <MappingFragment StoreEntitySet="Material_Action">
-                <ScalarProperty Name="Is_Menu" ColumnName="Is_Menu" />
-                <ScalarProperty Name="Menu_Id" ColumnName="Menu_Id" />
                 <ScalarProperty Name="Action_Remark" ColumnName="Action_Remark" />
                 <ScalarProperty Name="Del_Flag" ColumnName="Del_Flag" />
+                <ScalarProperty Name="Is_Menu" ColumnName="Is_Menu" />
+                <ScalarProperty Name="Menu_Id" ColumnName="Menu_Id" />
                 <ScalarProperty Name="Http_Method" ColumnName="Http_Method" />
                 <ScalarProperty Name="Action_Url" ColumnName="Action_Url" />
                 <ScalarProperty Name="Action_Name" ColumnName="Action_Name" />

@@ -69,16 +69,40 @@ namespace ZERO.Material.Backstage.Controllers
             return JsonConvert.SerializeObject(msg);
         }
 
-        public ActionResult AddAction()
+        public ActionResult AddAction(int? id)
         {
-            ViewBag.parentMenu = _actionBll.GetEntities(m => m.Menu_Id == 0);
-            return View();
+            List<Material_Action> actions = _actionBll.GetEntities(m => m.Menu_Id == 0);
+            actions.Add(new Material_Action()
+            {
+                Action_Name = "无",
+                Id = 0,
+                Menu_Id = 0
+            });
+
+            ViewBag.parentMenu = new SelectList(actions, "Id", "Action_Name");
+
+            //
+            if (id == null)
+            {
+                return View();
+            }
+
+            return View(_actionBll.Find(id));
         }
 
         [HttpPost]
         public string AddAction(Material_Action materialAction)
         {
-            return _actionBll.AddEntities(new List<Material_Action>() { materialAction }) ? "添加成功" : "添加失败";
+            Material_Action action = _actionBll.Find(materialAction.Id);
+            if (action == null)
+            {
+                return _actionBll.AddEntities(new List<Material_Action>() { materialAction }) ? "添加成功" : "添加失败";
+            }
+            else
+            {
+                AssmblyHelper.ClassEvaluate(materialAction, action);
+                return _actionBll.UpdateEntities(new List<Material_Action>() { action }) ? "更新成功" : "更新失败";
+            }
         }
 
         public string DeleteAction(int id)
