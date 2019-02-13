@@ -20,17 +20,24 @@
             <button class="layui-btn layui-btn-normal" lay-event='close'>关闭全部</button>
         </div>
         <div id="colToolBar" hidden="hidden">
-            <button class="layui-btn layui-btn-xs" lay-event="Detail">详情</button>
+            <button class="layui-btn layui-btn-xs" lay-event="SetAuth">设置访问角色</button>
             <button class="layui-btn layui-btn-xs" lay-event="Update">修改</button>
-            <button class="layui-btn layui-btn-xs layui-btn-danger" lay-event="Delete">删除</button>
         </div>
+        <form class="layui-form" hidden id="setActionRole" style="margin-top: 50px">
+            <div class="layui-input-block">
+                @foreach (var item in ViewBag.roles)
+                {
+                    <input type="checkbox" name=@item.Id title=@item.Role_Name>
+                }
+            </div>
+        </form>
     </div>
 
     <script type="text/html" id="del">
-        <input type="checkbox" name="Is_Show" value="{{d.Id}}" lay-skin="switch" lay-text="是|否" lay-filter="show" {{ d.Del_Flag == true ? 'checked' : '' }}>
+        <input type="checkbox" name="IsDel" value="{{d.Id}}" lay-skin="switch" lay-text="是|否" lay-filter="del" {{ d.Del_Flag == true ? 'checked' : '' }}>
     </script>
     <script type="text/html" id="isMenu">
-        <input type="checkbox" name="Is_Show" value="{{d.Id}}" lay-skin="switch" lay-text="是|否" lay-filter="show" {{ d.Is_Menu == true ? 'checked' : '' }}>
+        <input type="checkbox" name="IsMenu" value="{{d.Id}}" lay-skin="switch" lay-text="是|否" lay-filter="menu" {{ d.Is_Menu == true ? 'checked' : '' }}>
     </script>
     @Scripts.Render("~/bundles/jquery")
     @Styles.Render("~/Content/layui")
@@ -40,10 +47,11 @@
             base: '../Content/module/'
         }).extend({
             treetable: 'treetable-lay/treetable'
-        }).use(['layer', 'table', 'treetable'], function () {
+        }).use(['layer', 'table', 'treetable', 'form'], function () {
             var $ = layui.jquery;
             var table = layui.table;
             var layer = layui.layer;
+            var form = layui.form;
             var treetable = layui.treetable;
 
             var renderTable = function () {
@@ -108,37 +116,64 @@
                 function (obj) {
                     var data = obj.data;
                     switch (obj.event) {
-                        case "Detail":
+                        case "SetAuth":
+                            $.ajax({
+                                url: 'GetActionRole',
+                                type: 'POST',
+                                data: { "id": data["Id"] },
+                                success: function (data) {
+                                    var roles = JSON.parse(data);
+                                    if (roles.length > 0) {
+                                        for (var i = 0; i < $('#setActionRole :checkbox').length; i++) {
+                                            $('#setActionRole :checkbox')[i].checked = false;
+                                        }
+                                        roles.forEach(function (item) {
+                                            var selector = "#setActionRole :checkbox[title='" + item + "']";
+                                            $(selector)[0].checked = true;
+                                        });
+                                    } else if (roles.length === 0) {
+                                        for (var i = 0; i < $('#setActionRole :checkbox').length; i++) {
+                                            $('#setActionRole :checkbox')[i].checked = false;
+                                        }
+                                    }
+
+                                    form.render();
+                                }
+                            });
                             layer.open({
-                                title: "器材详情",
-                                type: 2,
+                                title: "设置权限",
+                                type: 1,
                                 shadeClose: true,
                                 shade: false,
                                 //                                    maxmin: true, //开启最大化最小化按钮
-                                area: ["100%", "100%"],
-                                content: "Detail?Material_Type_Id=" + data["Material_Type_Id"],
-                                end: function () {
-                                    //table.reload("baseTable", tableOption);
-                                    //layer.msg("校徽");
-                                }
-                            });
-                            break;
-                        case "Delete":
-                            layer.confirm('确认删除？', function (index) {
-                                layer.close(index);
-                                //"{\"" + column[0].field + "\":\"" + data[column[0].field] + "\"}";
-                                $.ajax({
-                                    type: "post",
-                                    url: "DeleteAction?Id=" + data["Id"],
-                                    success: function (data) {
-                                        if (data === "OK") {
-                                            layer.msg("删除成功");
-                                            renderTable();
-                                        } else {
-                                            layer.msg("删除失败");
-                                        }
+                                btn: ["确定", "取消"],
+                                area: ["500px", "200px"],
+                                content: $('#setActionRole'),
+                                yes: function (index, layero) {
+                                    var formData = $('#setActionRole').serializeArray();
+                                    var datas = new Array();
+                                    if (formData.length > 0) {
+                                        formData.forEach(function (item) {
+                                            datas.push(item.name);
+                                        });
                                     }
-                                });
+                                    $.ajax({
+                                        url: 'SetActionRole',
+                                        type: 'post',
+                                        data: { "actionId": data["Id"], "ids": datas },
+                                        success: function (data) {
+                                            if (data === "OK") {
+                                                layer.msg("设置成功");
+                                            } else {
+                                                layer.msg("设置失败");
+                                            }
+                                            layer.close(index);
+                                        }
+                                    });
+                                },
+                                end: function () {
+
+                                }
                             });
                             break;
                         case "Update":
@@ -158,6 +193,38 @@
                             break;
                         default:
                     }
+                });
+
+            form.on('switch(del)',
+                function (obj) {
+                    $.ajax({
+                        url: 'DeleteAction',
+                        type: 'post',
+                        data: { "id": this.value, "isDel": obj.elem.checked },
+                        success: function (data) {
+                            if (data === "OK") {
+                                layer.msg("设置成功");
+                            } else {
+                                layer.msg("设置失败");
+                            }
+                        }
+                    });
+                });
+
+            form.on('switch(menu)',
+                function (obj) {
+                    $.ajax({
+                        url: 'SetMenu',
+                        type: 'post',
+                        data: { "id": this.value, "isMenu": obj.elem.checked },
+                        success: function (data) {
+                            if (data === "OK") {
+                                layer.msg("设置成功");
+                            } else {
+                                layer.msg("设置失败");
+                            }
+                        }
+                    });
                 });
         });
     </script>

@@ -1,5 +1,7 @@
 ﻿@model ZERO.Material.Model.Material_Action
 @{
+    /**/
+
     Layout = null;
 }
 
@@ -16,7 +18,7 @@
     @Scripts.Render("~/bundles/layui")
 </head>
 <body>
-    <div class="container" style="padding-left: 500px; padding-right: 500px; padding-top: 50px">
+    <div class="container" style="padding-right: 100px; padding-top: 50px">
         @using (Ajax.BeginForm("AddAction", null, new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess", OnBegin = "BeginForm" }, new { @class = "layui-form" }))
         {
             <div class="layui-form-item">
@@ -72,8 +74,29 @@
                     })
                 </div>
             </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">访问权限</label>
+                <div class="layui-input-block">
+                    @foreach (var item in ViewBag.roles)
+                    {
+                        bool flag = false;
+                        if (ViewBag.actionRole != null)
+                        {
+                            foreach (var actionItem in ViewBag.actionRole)
+                            {
+                                if (actionItem == item.Id)
+                                {
+                                    flag = true;
+                                }
+                            }
+                        }
+                        <input type="checkbox" name="roles" title=@item.Role_Name value=@item.Id checked="@flag">
+                    }
+                </div>
+            </div>
             <div class="layui-form-item layui-form-text">
-                <label class="layui-form-label">文本域</label>
+                <label class="layui-form-label">备注</label>
                 <div class="layui-input-block">
                     @Html.TextAreaFor(m => m.Action_Remark, new { @id = "remark", @placeholder = "请输入备注" })
                 </div>

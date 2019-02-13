@@ -1,5 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
 using System.Web.Mvc;
 using System.Web.Razor.Generator;
 using ZERO.Material.Command;
@@ -15,6 +17,7 @@ namespace ZERO.Material.Backstage.Controllers
         private static readonly UnityContainerHelper Container = new UnityContainerHelper();
         private readonly IRoleBll _roleBll = Container.Server<IRoleBll>();
         private readonly IActionBll _actionBll = Container.Server<IActionBll>();
+        private readonly IRoleActionBll _roleActionBll = Container.Server<IRoleActionBll>();
 
         #endregion 全局变量
 
@@ -45,6 +48,8 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Action()
         {
+            List<Material_Role> roles = _roleBll.GetEntities(m => m.Del_Flag == false);
+            ViewBag.roles = roles;
             return View();
         }
 
@@ -72,6 +77,8 @@ namespace ZERO.Material.Backstage.Controllers
         public ActionResult AddAction(int? id)
         {
             List<Material_Action> actions = _actionBll.GetEntities(m => m.Menu_Id == 0);
+            List<Material_Role> roles = _roleBll.GetEntities(m => m.Del_Flag == false);
+            ViewBag.roles = roles;
             actions.Add(new Material_Action()
             {
                 Action_Name = "无",
@@ -87,27 +94,50 @@ namespace ZERO.Material.Backstage.Controllers
                 return View();
             }
 
+            ViewBag.actionRole = _roleActionBll.GetEntities(m => m.Action_Id == id).Select(m => m.Role_Id).ToList();
             return View(_actionBll.Find(id));
         }
 
+        [ValidateInput(false)]
         [HttpPost]
-        public string AddAction(Material_Action materialAction)
+        public string AddAction(Material_Action materialAction, int[] roles)
         {
             Material_Action action = _actionBll.Find(materialAction.Id);
             if (action == null)
             {
-                return _actionBll.AddEntities(new List<Material_Action>() { materialAction }) ? "添加成功" : "添加失败";
+                return _actionBll.AddEntities(new List<Material_Action>() { materialAction }) && _roleActionBll.SetRoleByAction(roles.ToList(), materialAction.Id) ? "添加成功" : "添加失败";
             }
             else
             {
                 AssmblyHelper.ClassEvaluate(materialAction, action);
-                return _actionBll.UpdateEntities(new List<Material_Action>() { action }) ? "更新成功" : "更新失败";
+                return _actionBll.UpdateEntities(new List<Material_Action>() { action }) && _roleActionBll.SetRoleByAction(roles.ToList(), materialAction.Id) ? "更新成功" : "更新失败";
             }
         }
 
-        public string DeleteAction(int id)
+        public string DeleteAction(int id, bool isDel)
         {
-            return _actionBll.DeleteEntity(new List<Material_Action>() { _actionBll.Find(id) }) ? "OK" : "Error";
+            Material_Action action = _actionBll.Find(id);
+            action.Del_Flag = isDel;
+            return _actionBll.UpdateEntities(new List<Material_Action>() { action }) ? "OK" : "Error";
+        }
+
+        public string SetMenu(int id, bool isMenu)
+        {
+            Material_Action action = _actionBll.Find(id);
+            action.Is_Menu = isMenu;
+            return _actionBll.UpdateEntities(new List<Material_Action>() { action }) ? "OK" : "Error";
+        }
+
+        public string GetActionRole(int id)
+        {
+            List<int> roleIds = _roleActionBll.GetEntities(m => m.Action_Id == id).Select(m => m.Role_Id).ToList();
+            List<string> roleNames = _roleBll.GetEntities(m => roleIds.Contains(m.Id) && m.Del_Flag == false).Select(m => m.Role_Name).ToList();
+            return JsonConvert.SerializeObject(roleNames);
+        }
+
+        public string SetActionRole(List<int> ids, int actionId)
+        {
+            return _roleActionBll.SetRoleByAction(ids, actionId) ? "OK" : "Error";
         }
 
         #endregion 页面管理
