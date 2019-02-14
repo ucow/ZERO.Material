@@ -57,7 +57,6 @@ namespace ZERO.Material.Backstage.Controllers
                 return View();
             }
 
-            ViewBag.actionRole = _roleActionBll.GetEntities(m => m.Action_Id == id).Select(m => m.Role_Id).ToList();
             return View(_roleBll.Find(id));
         }
 
@@ -83,7 +82,7 @@ namespace ZERO.Material.Backstage.Controllers
         }
 
         [HttpPost]
-        public string GetActionTree()
+        public string GetActionTree(int? id)
         {
             List<Material_Action> materialActions = _actionBll.GetEntities(m => m.Del_Flag == false);
             List<ActionTree> trees = new List<ActionTree>();
@@ -147,6 +146,12 @@ namespace ZERO.Material.Backstage.Controllers
                         });
                     }
                 }
+            }
+            //如果id不是null 选中该id的权限页面
+            if (id != null)
+            {
+                List<int> actionIds = _roleActionBll.GetEntities(m => m.Role_Id == id).Select(m => m.Action_Id).ToList();
+                SetRoleActionChecked(actionIds, trees);
             }
 
             var dataTrees = new
@@ -257,5 +262,24 @@ namespace ZERO.Material.Backstage.Controllers
         }
 
         #endregion 页面管理
+
+        #region 私有方法
+
+        private void SetRoleActionChecked(List<int> actionIds, List<ActionTree> actionTrees)
+        {
+            foreach (ActionTree actionTree in actionTrees)
+            {
+                if (actionIds.Contains(actionTree.Value))
+                {
+                    actionTree.Checked = true;
+                    if (actionTree.Data != null)
+                    {
+                        SetRoleActionChecked(actionIds, actionTree.Data);
+                    }
+                }
+            }
+        }
+
+        #endregion 私有方法
     }
 }

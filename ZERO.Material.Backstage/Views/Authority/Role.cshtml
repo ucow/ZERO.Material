@@ -18,7 +18,7 @@
     </div>
     <div id="tableCellTool" hidden="hidden">
         <button class="layui-btn layui-btn-xs" lay-event="Update">修改</button>
-        <button class="layui-btn layui-btn-xs" lay-event="Update">设置权限</button>
+        @* <button class="layui-btn layui-btn-xs" lay-event="SetAction">设置权限</button> *@
     </div>
 
     <script type="text/html" id="del">
@@ -65,43 +65,63 @@
                 table.render(tableOption);
 
                 //列工具栏
-                table.on('tool(buy)',
+                table.on('tool(role)',
                     function (obj) {
-                        var data = obj.data; //获得当前行数据
-                        var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
-
-                        if (layEvent === 'allow' || layEvent === 'reject') { //查看
-                            layer.open({
-                                title: "审批意见",
-                                type: 1,
-                                shadeClose: true,
-                                shade: false,
-                                btn: ['确定', '取消'],
-                                yes: function (index, layero) {
-                                    var advice = layero["0"].childNodes[1].childNodes["0"].value;
-                                    data.Apply_Status = layEvent === 'allow' ? 1 : 2;
-                                    data.Apply_Advice = advice;
-
-                                    $.ajax({
-                                        url: "Review",
-                                        type: "POST",
-                                        data: { "applies": new Array(data) },
-                                        success: function (data) {
-                                            if (data === "OK") {
-                                                layer.msg("审核成功");
+                        var data = obj.data;
+                        switch (obj.event) {
+                            case "SetAction":
+                                layer.open({
+                                    title: "设置权限",
+                                    type: 1,
+                                    shadeClose: true,
+                                    shade: false,
+                                    //                                    maxmin: true, //开启最大化最小化按钮
+                                    btn: ["确定", "取消"],
+                                    area: ["500px", "200px"],
+                                    content: $('#setActionRole'),
+                                    yes: function (index, layero) {
+                                        var formData = $('#setActionRole').serializeArray();
+                                        var datas = new Array();
+                                        if (formData.length > 0) {
+                                            formData.forEach(function (item) {
+                                                datas.push(item.name);
+                                            });
+                                        }
+                                        $.ajax({
+                                            url: 'SetActionRole',
+                                            type: 'post',
+                                            data: { "actionId": data["Id"], "ids": datas },
+                                            success: function (data) {
+                                                if (data === "OK") {
+                                                    layer.msg("设置成功");
+                                                } else {
+                                                    layer.msg("设置失败");
+                                                }
                                                 layer.close(index);
                                             }
-                                        }
-                                    });
-                                },
-                                area: ["260px", "200px"],
-                                content:
-                                    "<textarea name='' required lay-verify='required' placeholder='请输入审批意见' class='layui-textarea' style='width:100%;height:100%'></textarea>",
-                                end: function () {
-                                    table.reload("borrowTable", tableOption);
-                                    //layer.msg("校徽");
-                                }
-                            });
+                                        });
+                                    },
+                                    end: function () {
+
+                                    }
+                                });
+                                break;
+                            case "Update":
+                                layer.open({
+                                    title: "更新页面",
+                                    type: 2,
+                                    shadeClose: true,
+                                    shade: false,
+                                    //                                    maxmin: true, //开启最大化最小化按钮
+                                    area: ["100%", "100%"],
+                                    resize: false,
+                                    content: "AddRole?id=" + data["Id"],
+                                    end: function () {
+                                        table.render(tableOption);
+                                    }
+                                });
+                                break;
+                            default:
                         }
                     });
 

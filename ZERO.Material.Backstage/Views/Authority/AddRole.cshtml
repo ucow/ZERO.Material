@@ -16,7 +16,6 @@
     <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
-    <script src="~/Content/layui/layui-xtree.js"></script>
 </head>
 <body>
     <div class="container" style="padding-right: 100px; padding-top: 50px">
@@ -107,9 +106,11 @@
                     height: '90%'
                 });
                 var isOpen = false;
+
                 $.ajax({
                     url: 'GetActionTree',
                     type: 'POST',
+                    data: { "id": $('#Id').val() },
                     success: function (data) {
                         var trees = JSON.parse(data).data;
                         // 如果后台返回的不是树结构，请使用 authtree.listConvert 转换
