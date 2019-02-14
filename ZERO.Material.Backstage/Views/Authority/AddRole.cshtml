@@ -1,0 +1,138 @@
+﻿@model ZERO.Material.Model.Material_Role
+
+@{
+    /**/
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddRole</title>
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script src="~/Content/layui/layui-xtree.js"></script>
+</head>
+<body>
+    <div class="container" style="padding-right: 100px; padding-top: 50px">
+        @using (Ajax.BeginForm("AddRole", null, new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new { @class = "layui-form" }))
+        {
+            <div class="layui-form-item">
+                <label class="layui-form-label">角色名称</label>
+                <div class="layui-input-block">
+                    @Html.HiddenFor(m => m.Id)
+                    @Html.TextBoxFor(m => m.Role_Name, new { @class = "layui-input", @placeholder = "请输入角色名称", @autocomplete = "off" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">设置权限</label>
+                <div class="layui-input-block">
+                    <div>
+                        <button type="button" class="layui-btn layui-btn-sm" id="openClose">展开/关闭全部</button>
+                    </div>
+                    <div id="actionTree"></div>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">删除标志</label>
+                <div class="layui-input-block">
+                    @Html.CheckBoxFor(m => m.Del_Flag,new Dictionary<string, object>
+                    {
+                        { "lay-filter","IsMenu"},
+                        {"lay-skin","switch" },
+                        { "lay-text","是|否"},
+                        { "value","true"}
+                    })
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">备注</label>
+                <div class="layui-input-block">
+                    @Html.TextAreaFor(m => m.Role_Remark, new { @id = "remark", @placeholder = "请输入备注" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        }
+    </div>
+    <script>
+        function AfterSuccess(data) {
+            var index = parent.layer.getFrameIndex(window.name);
+            if (data.indexOf("失败") !== -1) {
+                parent.layer.msg(data, { icon: 5 });
+            } else {
+                parent.layer.msg(data, { icon: 1 });
+            }
+
+            parent.layer.close(index);
+        }
+
+        layui.config({
+            base: '../Content/layui/lay/modules/'
+        }).extend({
+            authtree: 'authtree'
+        });
+        layui.use(['form', 'layedit', 'authtree'],
+            function () {
+                var form = layui.form;
+                var layedit = layui.layedit;
+                var authtree = layui.authtree;
+                var ieditor = layedit.build('remark', {
+                    //插入代码设置
+                    codeConfig: {
+                        hide: true,  //是否显示编码语言选择框
+                        default: 'javascript' //hide为true时的默认语言格式
+                    }
+                    , tool: [
+                        'strong' //加粗
+                        , 'italic' //斜体
+                        , 'underline' //下划线
+                        , 'del' //删除线
+                        , '|' //分割线
+                        , 'left' //左对齐
+                        , 'center' //居中对齐
+                        , 'right' //右对齐
+                        , 'link' //超链接
+                        , 'unlink' //清除链接
+                    ],
+                    height: '90%'
+                });
+                var isOpen = false;
+                $.ajax({
+                    url: 'GetActionTree',
+                    type: 'POST',
+                    success: function (data) {
+                        var trees = JSON.parse(data).data;
+                        // 如果后台返回的不是树结构，请使用 authtree.listConvert 转换
+                        authtree.render('#actionTree',
+                            trees,
+                            {
+                                inputname: 'actions',
+                                layfilter: 'actions',
+                                autowidth: true
+                            });
+                    }
+                });
+
+                $('#openClose').on('click',
+                    function () {
+                        if (isOpen) {
+                            authtree.closeAll('#actionTree');
+                        } else {
+                            authtree.showAll('#actionTree');
+                        }
+                        isOpen = !isOpen;
+                    });
+            });
+    </script>
+</body>
+</html>

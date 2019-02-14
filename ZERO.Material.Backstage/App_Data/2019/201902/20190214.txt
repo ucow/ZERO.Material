@@ -1,0 +1,2568 @@
+
+ 
+记录时间：2019-02-14 09:03:00,152 
+线程ID:[201] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:03:00开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:03:00,187 
+线程ID:[201] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:03:00结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:03:10,385 
+线程ID:[199] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:03:10开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:03:12,348 
+线程ID:[199] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:03:12结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:07:42,964 
+线程ID:[203] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:07:42开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:07:43,025 
+线程ID:[203] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:07:43结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:07:50,170 
+线程ID:[107] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:07:50开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:07:51,610 
+线程ID:[107] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:07:51结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:09:11,829 
+线程ID:[117] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:09:11开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:09:11,855 
+线程ID:[117] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:09:11结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:09:15,820 
+线程ID:[203] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:09:15开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:09:20,436 
+线程ID:[203] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:09:20结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:16:24,068 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:24开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:16:24,072 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:24结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:16:27,082 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:27开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:16:27,083 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:27结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:16:29,122 
+线程ID:[201] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:29开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:16:29,135 
+线程ID:[201] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:29结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:16:55,652 
+线程ID:[201] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:55开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:16:55,652 
+线程ID:[201] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:55结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:16:57,222 
+线程ID:[103] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:57开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:16:57,223 
+线程ID:[103] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:57结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:16:59,653 
+线程ID:[190] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:59开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:16:59,661 
+线程ID:[190] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:16:59结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:17:14,647 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:14开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:17:14,648 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:14结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:17:15,893 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:15开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:17:15,895 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:15结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:17:50,683 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:50开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:17:50,683 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:50结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:17:51,850 
+线程ID:[190] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:51开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:17:51,850 
+线程ID:[190] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:51结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:17:53,736 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:53开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:17:53,740 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:17:53结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:18:19,745 
+线程ID:[110] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:18:19开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:18:19,745 
+线程ID:[110] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:18:19结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:18:20,714 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:18:20开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:18:20,715 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:18:20结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:18:22,058 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:18:22开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:18:22,063 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:18:22结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:19:30,558 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:19:30开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:19:30,558 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:19:30结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:19:32,181 
+线程ID:[110] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:19:32开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:19:32,183 
+线程ID:[110] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:19:32结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:21:26,165 
+线程ID:[110] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:21:26开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:21:26,166 
+线程ID:[110] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:21:26结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:21:28,766 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:21:28开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:21:28,770 
+线程ID:[119] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:21:28结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:21:29,991 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:21:29开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:21:29,994 
+线程ID:[98] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:21:29结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:25:30,625 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:30开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:25:30,692 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:30结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:25:44,023 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:44开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:25:44,023 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:44开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:25:44,023 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:44结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:25:44,023 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:44结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:25:44,742 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:44开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:25:45,700 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:45结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:25:46,330 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:46开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:25:46,332 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:46结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:25:47,443 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:47开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:25:47,444 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:47结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:25:48,995 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:25:48开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:31:31,772 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:31开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:31:31,810 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:31结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:31:39,218 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:39开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:31:39,218 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:39开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:31:39,219 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:39结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:31:39,219 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:39结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:31:39,540 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:39开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:31:40,420 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:40结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:31:41,162 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:41开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:31:41,164 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:41结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:31:42,239 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:42开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:31:42,239 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:42结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:31:43,873 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:31:43开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:32:35,607 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:32:35开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:32:35,638 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:32:35结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:35:40,173 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:40开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:35:40,173 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:40开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:35:40,173 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:40结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:35:40,173 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:40结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:35:40,451 
+线程ID:[19] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:40开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:35:41,332 
+线程ID:[19] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:41结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:35:41,567 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:41开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:35:41,569 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:41结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:35:42,618 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:42开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:35:42,619 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:42结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:35:44,177 
+线程ID:[19] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:35:44开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:37:45,257 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:37:45开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:37:45,289 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:37:45结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:39:56,688 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:56开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:39:56,688 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:56开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:39:56,688 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:56结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:39:56,688 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:56结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:39:56,967 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:56开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:39:57,828 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:57结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:39:58,417 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:58开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:39:58,420 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:58结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:39:59,566 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:59开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:39:59,567 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:39:59结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:40:00,786 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:40:00开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:41:24,029 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:23开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:41:24,060 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:24结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 09:41:29,796 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:29开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:41:29,796 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:29开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:41:29,796 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:29结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:41:29,796 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:29结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 09:41:30,791 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:30开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:41:31,281 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:31结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 09:41:31,907 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:31开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:41:31,909 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:31结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:41:33,035 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:33开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:41:33,036 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:33结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:41:34,381 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:34开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:41:34,435 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:41:34结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:43:41,144 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:43:41开始访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:43:41,144 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:43:41结束访问/Authority/SetRoleAction
+ 
+
+ 
+记录时间：2019-02-14 09:43:42,132 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:43:42开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:43:42,149 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:43:42结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:47:27,421 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:47:27开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:47:27,458 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:47:27结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:48:43,173 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:48:43开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:48:43,174 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:48:43结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:48:45,553 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:48:45开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:48:45,553 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:48:45结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:49:02,531 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:49:02开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:49:02,531 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:49:02结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:49:03,079 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:49:03开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:49:03,456 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:49:03结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:49:03,459 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:49:03开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:49:03,462 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:49:03结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:51:33,459 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:51:33开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:51:33,486 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:51:33结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:51:35,012 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:51:35开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:51:36,360 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:51:36结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:51:36,365 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:51:36开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:51:36,369 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:51:36结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:52:04,001 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:04开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:52:04,001 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:04结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:52:04,598 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:04开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:52:04,602 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:04结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:52:04,606 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:04开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:52:04,609 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:04结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:52:33,214 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:33开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:52:33,242 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:33结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:52:34,859 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:34开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:52:36,246 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:36结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:52:36,249 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:36开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:52:36,252 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:52:36结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:53:00,124 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:53:00开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:53:00,167 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:53:00结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:53:01,649 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:53:01开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:53:01,931 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:53:01结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:53:01,937 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:53:01开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:53:01,941 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:53:01结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:55:45,815 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:55:45开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:55:45,815 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:55:45结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:55:46,415 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:55:46开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:55:46,418 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:55:46结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:57:32,989 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:32开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:32,990 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:32结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:33,523 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:33开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:57:33,529 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:33结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 09:57:34,778 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:34开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:34,779 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:34结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:35,288 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:35开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:35,289 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:35结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:35,704 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:35开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:35,705 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:35结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:35,983 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:35开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:35,984 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:35结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:36,576 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:36开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:36,576 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:36结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:37,151 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:37开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:37,152 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:37结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:37,488 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:37开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:37,489 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:37结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:38,072 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:38开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:38,073 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:38结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:38,378 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:38开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 09:57:38,378 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 9:57:38结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:28:02,153 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:28:02开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:28:02,181 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:28:02结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:30:19,819 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:30:19开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:30:19,848 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:30:19结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:30:21,507 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:30:21开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:30:22,873 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:30:22结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:32:49,503 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:32:49开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:32:49,504 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:32:49结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:32:50,116 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:32:50开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:32:50,119 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:32:50结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:32:56,263 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:32:56开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:32:56,263 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:32:56结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:32:56,510 
+线程ID:[28] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:32:56开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:32:56,512 
+线程ID:[28] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:32:56结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:33:08,992 
+线程ID:[28] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:33:08开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:33:08,993 
+线程ID:[28] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:33:08结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:33:09,268 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:33:09开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:33:09,271 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:33:09结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:34:25,054 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:34:25开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:34:25,055 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:34:25结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:34:25,670 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:34:25开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:34:25,673 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:34:25结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:40:39,850 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:40:39开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:40:39,878 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:40:39结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:40:41,469 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:40:41开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:40:42,855 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:40:42结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:41:04,330 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:04开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:04,331 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:04结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:05,523 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:05开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:05,524 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:05结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:05,987 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:05开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:05,987 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:05结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:06,436 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:06开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:06,436 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:06结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:07,026 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:07开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:07,027 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:07结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:07,492 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:07开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:41:07,493 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:41:07结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:43:11,799 
+线程ID:[28] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:43:11开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:43:11,799 
+线程ID:[28] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:43:11结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:43:12,462 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:43:12开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:43:12,467 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:43:12结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:49:16,810 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:49:16开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:49:16,811 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:49:16结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:49:17,440 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:49:17开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:49:17,448 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:49:17结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:49:42,153 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:49:42开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:49:42,153 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:49:42结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:49:42,648 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:49:42开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:49:42,653 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:49:42结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:53:19,674 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:53:19开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:53:19,675 
+线程ID:[34] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:53:19结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:53:20,255 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:53:20开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:53:20,261 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:53:20结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:53:50,144 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:53:50开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:53:50,147 
+线程ID:[27] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:53:50结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:53:50,763 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:53:50开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:53:50,765 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:53:50结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:55:45,958 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:45开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 10:55:46,001 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:46结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 10:55:52,019 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:52开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:55:52,020 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:52结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:55:52,045 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:52开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:55:52,045 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:52结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:55:52,750 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:52开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 10:55:53,695 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:53结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 10:55:58,708 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:58开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 10:55:58,733 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:55:58结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 10:56:23,793 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:23开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 10:56:23,830 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:23结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 10:56:31,806 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:31开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-14 10:56:31,806 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:31开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-14 10:56:32,921 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:32结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-14 10:56:33,071 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:33结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-14 10:56:33,628 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:33开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-14 10:56:33,827 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:33开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:56:33,827 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:33结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:56:33,834 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:33开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:56:33,834 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:33结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:56:33,948 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:33结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-14 10:56:33,987 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:33开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 10:56:34,039 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:34结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 10:56:35,404 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:35开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:56:35,406 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:35结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:56:35,625 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:35开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:56:35,653 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:35结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:56:55,935 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:56:55开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:57:19,779 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:19开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 10:57:19,808 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:19结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 10:57:36,308 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:36开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:57:36,308 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:36开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:57:36,309 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:36结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:57:36,309 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:36结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 10:57:36,590 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:36开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 10:57:37,475 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:37结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 10:57:38,477 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:38开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:57:38,479 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:38结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 10:57:38,707 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:38开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:57:38,757 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:38结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 10:57:48,711 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:48开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-14 10:57:48,732 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:48开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-14 10:57:48,761 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:48结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-14 10:57:48,761 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:48结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-02-14 10:57:48,922 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:48开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-14 10:57:49,062 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:57:49结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-02-14 10:58:23,313 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 10:58:23开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 11:22:30,237 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:30开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 11:22:30,267 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:30结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 11:22:35,558 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:35开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:22:35,558 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:35开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:22:35,559 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:35结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:22:35,559 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:35结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:22:37,251 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:37开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 11:22:37,808 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:37结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 11:22:38,405 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:38开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 11:22:38,407 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:38结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 11:22:38,640 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:38开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 11:22:38,690 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:22:38结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 11:23:38,628 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:23:38开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 11:24:01,357 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:24:01开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 11:24:01,387 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:24:01结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-02-14 11:24:04,728 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:24:04开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:24:04,728 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:24:04开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:24:04,730 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:24:04结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:24:04,729 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:24:04结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:24:05,397 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:24:05开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 11:24:07,155 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:24:07结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 11:25:43,473 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:25:43开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:25:43,473 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:25:43结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-02-14 11:25:43,610 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:25:43开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 11:25:43,638 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:25:43结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 11:25:44,981 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:25:44开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 11:25:44,984 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:25:44结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 11:25:45,310 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:25:45开始访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 11:25:45,377 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:25:45结束访问/Authority/GetActionTree
+ 
+
+ 
+记录时间：2019-02-14 11:26:13,624 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:26:13开始访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 11:26:14,460 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:26:14结束访问/Authority/AddRole
+ 
+
+ 
+记录时间：2019-02-14 11:26:14,693 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:26:14开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-02-14 11:26:14,718 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/14 11:26:14结束访问/Authority/GetMaterialRole
+ 

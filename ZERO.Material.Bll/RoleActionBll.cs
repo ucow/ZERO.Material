@@ -98,9 +98,31 @@ namespace ZERO.Material.Bll
             return false;
         }
 
+        // 删除原有权限重新分配权限
         public bool SetActionByRole(List<int> actionIds, int roleId)
         {
-            throw new System.NotImplementedException();
+            List<Material_Role_Action> roleActions = GetEntities(m => m.Role_Id == roleId);
+            if (!DeleteEntity(roleActions))
+            {
+                return false;
+            }
+
+            List<Material_Role_Action> addRoleActions = new List<Material_Role_Action>();
+            foreach (int actionId in actionIds)
+            {
+                addRoleActions.Add(new Material_Role_Action
+                {
+                    Role_Id = roleId,
+                    Action_Id = actionId
+                });
+            }
+
+            if (AddEntities(addRoleActions))
+            {
+                return true;
+            }
+
+            return true;
         }
     }
 }

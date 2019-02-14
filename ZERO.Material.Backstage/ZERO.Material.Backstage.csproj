@@ -400,6 +400,7 @@
     <Content Include="Content\layui\images\face\9.gif" />
     <Content Include="Content\layui\layui.all.js" />
     <Content Include="Content\layui\layui.js" />
+    <Content Include="Content\layui\lay\modules\authtree.js" />
     <Content Include="Content\layui\lay\modules\carousel.js" />
     <Content Include="Content\layui\lay\modules\code.js" />
     <Content Include="Content\layui\lay\modules\colorpicker.js" />
@@ -473,6 +474,8 @@
     <Content Include="Views\Authority\Role.cshtml" />
     <Content Include="Views\Authority\Action.cshtml" />
     <Content Include="Views\Authority\AddAction.cshtml" />
+    <Content Include="Views\Authority\AddRole.cshtml" />
+    <Content Include="Views\Authority\SetRoleAction.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

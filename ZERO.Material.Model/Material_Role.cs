@@ -25,7 +25,7 @@ namespace ZERO.Material.Model
         public int Id { get; set; }
         public string Role_Name { get; set; }
         public string Role_Remark { get; set; }
-        public Nullable<bool> Del_Flag { get; set; }
+        public bool Del_Flag { get; set; }
     
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

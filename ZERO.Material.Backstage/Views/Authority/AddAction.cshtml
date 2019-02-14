@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="container" style="padding-right: 100px; padding-top: 50px">
-        @using (Ajax.BeginForm("AddAction", null, new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess", OnBegin = "BeginForm" }, new { @class = "layui-form" }))
+        @using (Ajax.BeginForm("AddAction", null, new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new { @class = "layui-form" }))
         {
             <div class="layui-form-item">
                 <label class="layui-form-label">页面名称</label>
@@ -110,20 +110,6 @@
         }
     </div>
     <script>
-        function BeginForm(data, data2) {
-            //            var obj = JSON.parse(data2.data);
-            //            if (obj.Is_Menu == undefined) {
-            //                obj.Is_Menu = false;
-            //            } else {
-            //                obj.Is_Menu = obj.Is_Menu === "on" ? true : false;
-            //            }
-            //
-            //            if (obj.Del_Flag == undefined) {
-            //                obj.Del_Flag = false;
-            //            } else {
-            //                obj.Del_Flag = obj.Del_Flag === "on" ? true : false;
-            //            }
-        }
 
         function AfterSuccess(data) {
             var index = parent.layer.getFrameIndex(window.name);

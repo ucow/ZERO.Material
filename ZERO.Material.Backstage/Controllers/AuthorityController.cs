@@ -7,6 +7,7 @@ using System.Web.Razor.Generator;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
+using ZERO.Material.Model.Other;
 
 namespace ZERO.Material.Backstage.Controllers
 {
@@ -40,6 +41,121 @@ namespace ZERO.Material.Backstage.Controllers
                 data = roles
             };
             return JsonConvert.SerializeObject(msg);
+        }
+
+        public string DeleteRole(int id, bool isDel)
+        {
+            Material_Role role = _roleBll.Find(id);
+            role.Del_Flag = isDel;
+            return _roleBll.UpdateEntities(new List<Material_Role>() { role }) ? "OK" : "Error";
+        }
+
+        public ActionResult AddRole(int? id)
+        {
+            if (id == null)
+            {
+                return View();
+            }
+
+            ViewBag.actionRole = _roleActionBll.GetEntities(m => m.Action_Id == id).Select(m => m.Role_Id).ToList();
+            return View(_roleBll.Find(id));
+        }
+
+        [HttpPost]
+        public string AddRole(Material_Role materialRole, List<int> actions)
+        {
+            Material_Role updateRole = _roleBll.Find(materialRole.Id);
+            if (updateRole == null)
+            {
+                return _roleBll.AddEntities(new List<Material_Role> { materialRole }) &&
+                       _roleActionBll.SetActionByRole(actions, materialRole.Id) ? "添加成功" : "添加失败";
+            }
+            else
+            {
+                AssmblyHelper.ClassEvaluate(materialRole, updateRole);
+                return _roleBll.UpdateEntities(new List<Material_Role> { updateRole }) && _roleActionBll.SetActionByRole(actions, updateRole.Id) ? "更新成功" : "更新失败";
+            }
+        }
+
+        public ActionResult SetRoleAction()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public string GetActionTree()
+        {
+            List<Material_Action> materialActions = _actionBll.GetEntities(m => m.Del_Flag == false);
+            List<ActionTree> trees = new List<ActionTree>();
+            foreach (Material_Action materialAction in materialActions)
+            {
+                //父节点
+                if (materialAction.Menu_Id == 0)
+                {
+                    if (trees.FirstOrDefault(m => m.Value == materialAction.Id) == null)
+                    {
+                        trees.Add(new ActionTree
+                        {
+                            Title = materialAction.Action_Name,
+                            Value = materialAction.Id,
+                            Checked = false,
+                            Disabled = false
+                        });
+                    }
+                }
+                else//子节点
+                {
+                    //查找父节点
+                    ActionTree tree = trees.FirstOrDefault(m => m.Value == materialAction.Menu_Id);
+                    //没有找到父节点 添加父节点
+                    if (tree == null)
+                    {
+                        Material_Action action = materialActions.Find(m => m.Id == materialAction.Menu_Id);
+                        tree = new ActionTree
+                        {
+                            Title = action.Action_Name,
+                            Value = action.Id,
+                            Checked = false,
+                            Disabled = false
+                        };
+                        trees.Add(tree);
+                    }
+
+                    if (tree.Data == null)
+                    {
+                        tree.Data = new List<ActionTree>
+                        {
+                            new ActionTree
+                            {
+                                Title = materialAction.Action_Name,
+                                Value = materialAction.Id,
+                                Checked = false,
+                                Disabled = false,
+                                Data = new List<ActionTree>()
+                            }
+                        };
+                    }
+                    else
+                    {
+                        tree.Data.Add(new ActionTree
+                        {
+                            Title = materialAction.Action_Name,
+                            Value = materialAction.Id,
+                            Checked = false,
+                            Disabled = false,
+                            Data = new List<ActionTree>()
+                        });
+                    }
+                }
+            }
+
+            var dataTrees = new
+            {
+                code = 0,
+                data = trees,
+                msg = "获取成功"
+            };
+            return JsonConvert.SerializeObject(dataTrees);
         }
 
         #endregion 角色管理

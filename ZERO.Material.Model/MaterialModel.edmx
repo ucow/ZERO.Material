@@ -114,7 +114,7 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Role_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Role_Remark" Type="nvarchar(max)" />
-          <Property Name="Del_Flag" Type="bit" />
+          <Property Name="Del_Flag" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Role_Action">
           <Key>
@@ -760,7 +760,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Role_Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Role_Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Del_Flag" Type="Boolean" />
+          <Property Name="Del_Flag" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="Material_Role_Action" Relationship="ZERO_MaterialModel.FK_Material_Role_Action_Material_Role" FromRole="Material_Role" ToRole="Material_Role_Action" />
           <NavigationProperty Name="Material_Role_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Role" FromRole="Material_Role" ToRole="Material_Role_Teacher" />
         </EntityType>
