@@ -10263,3 +10263,2947 @@ System.Data.Entity.Infrastructure.DbUpdateException: ¸üĞÂÌõÄ¿Ê±³ö´í¡£ÓĞ¹ØÏêÏ¸ĞÅÏ
 ³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
 ´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:15:07½áÊø·ÃÎÊ/Authority/GetMaterialTeacher
  
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:18:50,085 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:18:50¿ªÊ¼·ÃÎÊ/Home/Index
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:18:50,116 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:18:50½áÊø·ÃÎÊ/Home/Index
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:18:53,155 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:18:53¿ªÊ¼·ÃÎÊ/Authority/Action
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:18:53,155 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:18:53¿ªÊ¼·ÃÎÊ/Authority/Action
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:18:53,880 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:18:53½áÊø·ÃÎÊ/Authority/Action
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:18:53,880 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:18:53½áÊø·ÃÎÊ/Authority/Action
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:18:54,116 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:18:54¿ªÊ¼·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:18:54,389 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:18:54½áÊø·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:20:03,308 
+Ïß³ÌID:[12] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:20:03¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:20:03,345 
+Ïß³ÌID:[12] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:20:03½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:20:46,732 
+Ïß³ÌID:[6] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:20:46¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:20:46,905 
+Ïß³ÌID:[6] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:20:46½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:20:47,129 
+Ïß³ÌID:[12] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:20:47¿ªÊ¼·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:20:47,250 
+Ïß³ÌID:[12] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:20:47½áÊø·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:20:59,287 
+Ïß³ÌID:[6] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:20:59¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:20:59,314 
+Ïß³ÌID:[6] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:20:59½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:21:33,963 
+Ïß³ÌID:[6] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:21:33¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:21:34,050 
+Ïß³ÌID:[6] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:21:34½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:21:34,276 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:21:34¿ªÊ¼·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:21:34,401 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:21:34½áÊø·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:21:40,618 
+Ïß³ÌID:[12] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:21:40¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:21:40,648 
+Ïß³ÌID:[12] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:21:40½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:22:38,050 
+Ïß³ÌID:[17] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:22:38¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:22:38,137 
+Ïß³ÌID:[17] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:22:38½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:22:38,366 
+Ïß³ÌID:[6] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:22:38¿ªÊ¼·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:22:38,488 
+Ïß³ÌID:[6] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:22:38½áÊø·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:22:45,204 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:22:45¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:22:45,233 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:22:45½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:23:22,162 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:23:22¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:23:22,247 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:23:22½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:23:22,468 
+Ïß³ÌID:[20] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:23:22¿ªÊ¼·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:23:22,602 
+Ïß³ÌID:[20] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:23:22½áÊø·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:23:26,244 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:23:26¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:23:26,272 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:23:26½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:01,086 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:01¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:01,182 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:01½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:01,407 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:01¿ªÊ¼·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:01,530 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:01½áÊø·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:26,457 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:26¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:26,521 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:26½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:31,852 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:31¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:31,974 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:31½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:32,201 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:32¿ªÊ¼·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:32,316 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:32½áÊø·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:45,956 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:45¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:46,018 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:46½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:56,853 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:56¿ªÊ¼·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:56,959 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:56½áÊø·ÃÎÊ/Authority/AddAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:57,186 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:57¿ªÊ¼·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:24:57,313 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:24:57½áÊø·ÃÎÊ/Authority/GetMaterialAction
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:35:44,033 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:35:43¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:35:44,060 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:35:44½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:35:45,723 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:35:45¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:35:45,786 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:35:45½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:36:41,026 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:36:41¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:36:41,027 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:36:41½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:36:41,394 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:36:41¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:36:41,395 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:36:41½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:37:27,529 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:37:27¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:37:27,529 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:37:27½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:37:27,866 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:37:27¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:37:27,868 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:37:27½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:37:55,462 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:37:55¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:37:55,463 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:37:55½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:37:55,781 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:37:55¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:37:55,782 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:37:55½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:13,698 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:13¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:13,699 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:13½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:14,029 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:14¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:14,031 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:14½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:15,382 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:15¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:15,383 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:15½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:15,398 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:15¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:15,401 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:15½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,116 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,116 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,134 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,135 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,317 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,318 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,331 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,333 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,756 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,757 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,773 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,774 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,966 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,966 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,984 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:16,985 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,167 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,168 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,190 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,191 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,356 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,357 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,381 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,383 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,536 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,536 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,567 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,568 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,685 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,685 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,699 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,703 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,991 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:17,992 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:17½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,009 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,010 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,139 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,140 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,156 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,157 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,286 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,287 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,312 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,317 
+Ïß³ÌID:[13] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,437 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,438 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,457 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,459 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,598 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,599 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,618 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,620 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,752 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,752 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,770 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:18,771 
+Ïß³ÌID:[3] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:19,069 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:19¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:19,069 
+Ïß³ÌID:[11] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:19½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:19,081 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:19¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:38:19,082 
+Ïß³ÌID:[7] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:38:19½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:42:17,345 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:42:17¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:42:17,346 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:42:17½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:42:17,746 
+Ïß³ÌID:[20] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:42:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:42:17,747 
+Ïß³ÌID:[20] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:42:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:00,637 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:00¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:00,637 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:00½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:00,966 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:00¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:00,968 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:00½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:35,747 
+Ïß³ÌID:[32] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:35¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:35,748 
+Ïß³ÌID:[32] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:35½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:36,103 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:36¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:36,103 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:36½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:40,226 
+Ïß³ÌID:[32] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:40¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:40,228 
+Ïß³ÌID:[32] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:40½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:58,786 
+Ïß³ÌID:[32] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:58¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:58,786 
+Ïß³ÌID:[32] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:58½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:59,107 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:59¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:43:59,108 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:43:59½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:44:22,090 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:44:22¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:44:22,091 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:44:22½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:44:22,428 
+Ïß³ÌID:[36] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:44:22¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:44:22,429 
+Ïß³ÌID:[36] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:44:22½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:04,501 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:04¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:04,501 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:04½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:04,840 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:04¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:04,841 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:04½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:09,622 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:09¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:09,623 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:09½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:09,942 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:09¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:09,943 
+Ïß³ÌID:[19] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:09½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:13,606 
+Ïß³ÌID:[36] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:13¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:13,606 
+Ïß³ÌID:[36] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:13½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:13,980 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:13¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:13,981 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:13½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:19,453 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:19¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:19,453 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:19½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:19,782 
+Ïß³ÌID:[32] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:19¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:45:19,783 
+Ïß³ÌID:[32] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:45:19½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:50:28,038 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:50:28¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:50:28,039 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:50:28½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:50:28,418 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:50:28¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:50:28,420 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:50:28½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:50:36,936 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:50:36¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:50:36,962 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:50:36½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:50:38,132 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:50:38¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:50:38,137 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:50:38½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:08,163 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:08¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:08,164 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:08½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:08,485 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:08¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:08,490 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:08½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:14,695 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:14¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:14,696 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:14½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:15,742 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:15¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:15,743 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:15½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:15,942 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:15¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:15,944 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:15½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,158 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,160 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,334 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,336 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,495 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,496 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,663 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,664 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,826 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,827 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,990 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:16,991 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:16½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,154 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,155 
+Ïß³ÌID:[31] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,310 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,312 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,479 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,480 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,660 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,661 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,812 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,813 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,966 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:17,968 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:17½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:18,142 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:18,143 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:18,281 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:18,282 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:18,446 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:18,447 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,103 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,104 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,262 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,264 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,431 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,432 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,599 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,600 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,743 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,744 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,894 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:22,896 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:22½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,050 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,051 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,208 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,209 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,383 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,384 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,518 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,519 
+Ïß³ÌID:[29] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,691 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,692 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,843 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:23,844 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:23½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,143 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,144 
+Ïß³ÌID:[16] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,294 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,296 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,455 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,457 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,758 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,759 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,919 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:24,920 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:24½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,078 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,079 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,246 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,247 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,422 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,423 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,575 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,576 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,763 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,764 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,951 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:25,952 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:25½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,120 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,121 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,294 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,295 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,470 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,471 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,654 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,655 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,848 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:26,850 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:26½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,026 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,027 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,207 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,208 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,390 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,392 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,558 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,559 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,718 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,719 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,880 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:27,881 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:27½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,038 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,039 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,208 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,209 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,382 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,384 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,558 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,559 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,734 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,735 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,910 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:28,911 
+Ïß³ÌID:[14] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:28½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:29,078 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:29¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:29,079 
+Ïß³ÌID:[22] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:29½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:29,246 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:29¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:51:29,247 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:51:29½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:52:57,780 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:52:57¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:52:57,781 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:52:57½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:52:58,168 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:52:58¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:52:58,169 
+Ïß³ÌID:[21] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:52:58½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:20,073 
+Ïß³ÌID:[38] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:20¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:20,073 
+Ïß³ÌID:[38] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:20½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:20,388 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:20¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:20,389 
+Ïß³ÌID:[23] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:20½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:22,474 
+Ïß³ÌID:[38] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:22¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:22,474 
+Ïß³ÌID:[38] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:22½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:22,490 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:22¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:22,492 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:22½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:45,240 
+Ïß³ÌID:[38] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:45¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:45,241 
+Ïß³ÌID:[38] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:45½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:45,645 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:45¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:45,646 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:45½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:59,879 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:59¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:53:59,879 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:53:59½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:00,211 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:00¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:00,212 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:00½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:38,438 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:38¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:38,439 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:38½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:38,780 
+Ïß³ÌID:[44] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:38¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:38,781 
+Ïß³ÌID:[44] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:38½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:51,862 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:51¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:51,862 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:51½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:52,203 
+Ïß³ÌID:[42] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:52¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:52,204 
+Ïß³ÌID:[42] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:52½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:55,414 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:55¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:55,414 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:55½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:55,829 
+Ïß³ÌID:[42] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:55¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:54:55,829 
+Ïß³ÌID:[42] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:54:55½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:05,635 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:05¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:05,636 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:05½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:05,971 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:05¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:05,974 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:05½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:19,828 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:19¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:19,829 
+Ïß³ÌID:[10] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:19½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:20,150 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:20¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:20,151 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:20½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:38,884 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:38¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:38,885 
+Ïß³ÌID:[39] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:38½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:39,210 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:39¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 15:55:39,213 
+Ïß³ÌID:[9] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 15:55:39½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:09,875 
+Ïß³ÌID:[27] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:09¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:09,876 
+Ïß³ÌID:[27] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:09½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:10,220 
+Ïß³ÌID:[41] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:10¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:10,223 
+Ïß³ÌID:[41] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:10½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:18,138 
+Ïß³ÌID:[41] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:18¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:18,139 
+Ïß³ÌID:[41] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:18½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:18,442 
+Ïß³ÌID:[34] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:18¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:18,443 
+Ïß³ÌID:[34] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:18½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:34,345 
+Ïß³ÌID:[34] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:34¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:34,345 
+Ïß³ÌID:[34] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:34½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:34,647 
+Ïß³ÌID:[53] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:34¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:34,648 
+Ïß³ÌID:[53] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:34½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:56,987 
+Ïß³ÌID:[34] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:56¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:57,005 
+Ïß³ÌID:[34] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:57½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:58,083 
+Ïß³ÌID:[52] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:58¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:00:58,086 
+Ïß³ÌID:[52] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:00:58½áÊø·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:01:47,214 
+Ïß³ÌID:[56] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:01:47¿ªÊ¼·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:01:47,214 
+Ïß³ÌID:[56] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:01:47½áÊø·ÃÎÊ/Login/BackstageLogin
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:01:47,537 
+Ïß³ÌID:[34] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:01:47¿ªÊ¼·ÃÎÊ/Login/GetValidateCode
+ 
+
+ 
+¼ÇÂ¼Ê±¼ä£º2019-02-15 16:01:47,542 
+Ïß³ÌID:[34] 
+ÈÕÖ¾¼¶±ğ£º  INFO  
+³ö´íÀà£ºloginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+´íÎóÃèÊö£º::1:::1ÔÚ2019/2/15 16:01:47½áÊø·ÃÎÊ/Login/GetValidateCode
+ 

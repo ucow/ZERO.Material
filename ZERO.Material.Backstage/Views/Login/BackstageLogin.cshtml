@@ -1,0 +1,81 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>BackstageLogin</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <style type="text/css">
+        body {
+            background: #1d598e;
+        }
+
+        .layui-form {
+            width: 20%;
+            height: 20%;
+            margin: 0 auto;
+            margin-top: 10%;
+            padding: 15px 28px 0px;
+            background: #fff;
+        }
+
+        .layui-input-block {
+            margin-left: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1d598e;
+        }
+    </style>
+</head>
+<body>
+    <form class="layui-form" action="BackstageLogin" method="post">
+        <div class="layui-form-item">
+            <h1>实验耗材管理系统后台登录</h1>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <input type="text" name="username" placeholder="请输入账号" autocomplete="off" class="layui-input" autofocus="true" required>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <input type="password" name="password" placeholder="请输入密码" autocomplete="off" class="layui-input" required>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-inline">
+                <input type="text" name="password" required lay-verify="required" placeholder="验证码" autocomplete="off" class="layui-input">
+            </div>
+            <img id="verify_img" src="@Url.Action("GetValidateCode")" alt="验证码" height="38">
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <input type="checkbox" name="rememberMe" class="layui-input" value="1" lay-skin="primary" title="记住密码">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn layui-btn-fluid" type="submit">登 录</button>
+            </div>
+        </div>
+    </form>
+    <script>
+        layui.use(['layer', 'form'], function () {
+            var layer = layui.layer,
+                form = layui.form,
+                $ = layui.jquery;
+            $(document).on('click', "#verify_img", function () {
+                $("#verify_img").attr("src", "GetValidateCode?id=" + Math.random());
+            });
+        });
+    </script>
+</body>
+</html>

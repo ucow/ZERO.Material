@@ -11,8 +11,7 @@ namespace ZERO.Material.Backstage.Filter
             {
                 if (filterContext.HttpContext.Request.IsAjaxRequest())
                 {
-                    ContentResult content = new ContentResult();
-                    content.Content = "请先登录";
+                    ContentResult content = new ContentResult { Content = "请先登录" };
                     filterContext.Result = content;
                 }
                 else

@@ -12,11 +12,18 @@ namespace ZERO.Material.Backstage.Controllers
 {
     public class LoginController : Controller
     {
+        #region 全局变量
+
         private static readonly UnityContainerHelper Container = new UnityContainerHelper();
 
         private ITeacherBll _teacherBll = Container.Server<ITeacherBll>();
 
+        #endregion 全局变量
+
         // GET: Login
+
+        #region 前台登录
+
         public ActionResult BeforeLogin()
         {
             return View();
@@ -49,6 +56,24 @@ namespace ZERO.Material.Backstage.Controllers
             return Content("Error");
         }
 
+        #endregion 前台登录
+
+        #region 后台登录
+
+        public ActionResult BackstageLogin()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult BackstageLogin()
+        {
+            return View();
+        }
+
+        #endregion 后台登录
+
+        //获取验证码
         public ActionResult GetValidateCode()
         {
             ValidateCode vCode = new ValidateCode();

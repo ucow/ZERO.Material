@@ -478,6 +478,7 @@
     <Content Include="Views\Authority\AddRole.cshtml" />
     <Content Include="Views\Authority\Teacher.cshtml" />
     <Content Include="Views\Authority\AddTeacher.cshtml" />
+    <Content Include="Views\Login\BackstageLogin.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
