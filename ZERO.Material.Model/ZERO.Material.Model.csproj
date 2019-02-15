@@ -59,6 +59,7 @@
     <Compile Include="Apply_Type.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="AttributeCustom\NotEvaluate.cs" />
     <Compile Include="AttributeCustom\IsSortAttribute.cs" />
     <Compile Include="BuyInComing_Apply.cs">
       <DependentUpon>MaterialModel.tt</DependentUpon>

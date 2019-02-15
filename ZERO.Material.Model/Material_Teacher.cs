@@ -28,7 +28,7 @@ namespace ZERO.Material.Model
         public string Teacher_Name { get; set; }
         public string Teacher_Depart { get; set; }
         public string Teacher_Password { get; set; }
-        public Nullable<bool> Del_Flag { get; set; }
+        public bool Del_Flag { get; set; }
     
         [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

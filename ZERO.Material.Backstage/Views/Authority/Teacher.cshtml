@@ -1,0 +1,169 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Role</title>
+</head>
+<body>
+    <div>
+        <table id="teacherTable" lay-filter="teacher"></table>
+    </div>
+    <div id="tableTopTool" hidden="hidden">
+        <button class="layui-btn layui-btn-normal" lay-event='Add'>添加用户</button>
+    </div>
+    <div id="tableCellTool" hidden="hidden">
+        <button class="layui-btn layui-btn-xs" lay-event="Update">修改</button>
+        @* <button class="layui-btn layui-btn-xs" lay-event="SetAction">设置权限</button> *@
+    </div>
+
+    <script type="text/html" id="del">
+        <input type="checkbox" name="IsDel" value="{{d.Teacher_Id}}" lay-skin="switch" lay-text="是|否" lay-filter="del" {{ d.Del_Flag == true ? 'checked' : '' }}>
+    </script>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script>
+        layui.use(['table', 'form'],
+            function () {
+                var table = layui.table;
+                var form = layui.form;
+                var load = layer.load(1);
+                /*********************************************************** 表格start *********************************************************/
+                var tableOption = {
+                    elem: "#teacherTable",
+                    //height: 100 %,
+                    url: "GetMaterialTeacher",
+                    loading: true,
+                    defaultToolbar: false,
+                    cellMinWidth: 50,
+                    toolbar: "#tableTopTool",
+                    page: true,
+                    size: 'lg',
+                    limits: [10, 20, 30, 40],
+                    text: {
+                        none: "未加载到相关数据"
+                    },
+                    cols: [
+                        [
+                            { type: 'checkbox', fixed: 'left' },
+                            { field: 'Teacher_Id', title: '教师编号', sort: true },
+                            { field: 'Teacher_Name', title: '教师名称' },
+                            { field: 'Teacher_Depart', title: '教师系别' },
+                            { field: 'Teacher_Password', title: '教师密码' },
+                            { field: 'Del_Flag', title: '删除标志', templet: '#del' },
+                            { title: '操作', toolbar: '#tableCellTool' }
+                        ]
+                    ],
+                    done: function (res) {
+                        layer.close(load);
+                    }
+                };
+                table.render(tableOption);
+
+                //列工具栏
+                table.on('tool(teacher)',
+                    function (obj) {
+                        var data = obj.data;
+                        switch (obj.event) {
+                            case "SetAction":
+                                layer.open({
+                                    title: "设置权限",
+                                    type: 1,
+                                    shadeClose: true,
+                                    shade: false,
+                                    //                                    maxmin: true, //开启最大化最小化按钮
+                                    btn: ["确定", "取消"],
+                                    area: ["500px", "200px"],
+                                    content: $('#setActionRole'),
+                                    yes: function (index, layero) {
+                                        var formData = $('#setActionRole').serializeArray();
+                                        var datas = new Array();
+                                        if (formData.length > 0) {
+                                            formData.forEach(function (item) {
+                                                datas.push(item.name);
+                                            });
+                                        }
+                                        $.ajax({
+                                            url: 'SetActionRole',
+                                            type: 'post',
+                                            data: { "actionId": data["Id"], "ids": datas },
+                                            success: function (data) {
+                                                if (data === "OK") {
+                                                    layer.msg("设置成功");
+                                                } else {
+                                                    layer.msg("设置失败");
+                                                }
+                                                layer.close(index);
+                                            }
+                                        });
+                                    },
+                                    end: function () {
+
+                                    }
+                                });
+                                break;
+                            case "Update":
+                                layer.open({
+                                    title: "更新页面",
+                                    type: 2,
+                                    shadeClose: true,
+                                    shade: false,
+                                    //                                    maxmin: true, //开启最大化最小化按钮
+                                    area: ["100%", "100%"],
+                                    resize: false,
+                                    content: "AddTeacher?id=" + data["Teacher_Id"],
+                                    end: function () {
+                                        table.render(tableOption);
+                                    }
+                                });
+                                break;
+                            default:
+                        }
+                    });
+
+                //头部工具栏
+                table.on('toolbar(teacher)',
+                    function (obj) {
+                        var checkStatus = table.checkStatus(obj.config.id);
+                        switch (obj.event) {
+                            case "Add":
+                                layer.open({
+                                    title: "添加用户",
+                                    type: 2,
+                                    shadeClose: true,
+                                    shade: false,
+                                    //                                maxmin: true, //开启最大化最小化按钮
+                                    area: ["100%", "100%"],
+                                    content: "AddTeacher?Id=",
+                                    end: function () {
+                                        table.render(tableOption);
+                                    }
+                                });
+                                break;
+                        };
+                    });
+
+                form.on('switch(del)',
+                    function (obj) {
+                        $.ajax({
+                            url: 'DeleteTeacher',
+                            type: 'post',
+                            data: { "id": this.value, "isDel": obj.elem.checked },
+                            success: function (data) {
+                                if (data === "OK") {
+                                    layer.msg("设置成功");
+                                } else {
+                                    layer.msg("设置失败");
+                                }
+                            }
+                        });
+                    });
+            })
+    </script>
+</body>
+</html>

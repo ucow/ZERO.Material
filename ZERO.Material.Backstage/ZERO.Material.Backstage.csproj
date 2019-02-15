@@ -463,6 +463,7 @@
     <Content Include="Content\layui\font\iconfont.eot" />
     <Content Include="Content\layui\font\iconfont.ttf" />
     <Content Include="Content\layui\font\iconfont.woff" />
+    <Content Include="Scripts\command.js" />
     <Content Include="Views\Apply\Borrow.cshtml" />
     <Content Include="Views\Zero\History.cshtml" />
     <Content Include="Views\Stock\NeedBuy.cshtml" />
@@ -475,6 +476,8 @@
     <Content Include="Views\Authority\Action.cshtml" />
     <Content Include="Views\Authority\AddAction.cshtml" />
     <Content Include="Views\Authority\AddRole.cshtml" />
+    <Content Include="Views\Authority\Teacher.cshtml" />
+    <Content Include="Views\Authority\AddTeacher.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

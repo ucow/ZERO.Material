@@ -1,0 +1,186 @@
+﻿@model ZERO.Material.Model.Material_Teacher
+
+@{
+    /**/
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddRole</title>
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/command.js"></script>
+</head>
+<body>
+    <div class="container" style="padding-right: 100px; padding-top: 50px">
+        @using (Ajax.BeginForm("AddTeacher", null, new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new { @class = "layui-form" }))
+        {
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">用户编号</label>
+                <div class="layui-input-block">
+                    @if (Model != null)
+                    {
+                        <input type="hidden" name="Id" value="@Model.Id" />
+                    }
+                    @Html.TextBoxFor(m => m.Teacher_Id, new { @class = "layui-input", @placeholder = "请输入用户编号", @autocomplete = "off" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">用户名称</label>
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Teacher_Name, new { @class = "layui-input", @placeholder = "请输入用户名称", @autocomplete = "off" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">用户系别</label>
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Teacher_Depart, new { @class = "layui-input", @placeholder = "请输入用户系别", @autocomplete = "off" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">用户密码</label>
+                <div class="layui-input-block">
+                    @Html.TextBoxFor(m => m.Teacher_Password, new { @class = "layui-input", @placeholder = "请输入用户密码", @autocomplete = "off" })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">设置角色</label>
+                <div class="layui-input-block">
+                    @foreach (var item in ViewBag.roles)
+                    {
+                        bool flag = false;
+                        if (ViewBag.teacherRoles != null)
+                        {
+                            foreach (var teacherRole in ViewBag.teacherRoles)
+                            {
+                                if (teacherRole == item.Id)
+                                {
+                                    flag = true;
+                                }
+                            }
+                        }
+                        <input type="checkbox" name="roles" lay-filter="role" title=@item.Role_Name value=@item.Id checked="@flag">
+                    }
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">设置权限</label>
+                <div class="layui-input-block">
+                    <div>
+                        <button type="button" class="layui-btn layui-btn-sm" id="openClose">展开/关闭全部</button>
+                    </div>
+                    <div id="actionTree"></div>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">删除标志</label>
+                <div class="layui-input-block">
+                    @Html.CheckBoxFor(m => m.Del_Flag,new Dictionary<string, object>
+                    {
+                        { "lay-filter","IsMenu"},
+                        {"lay-skin","switch" },
+                        { "lay-text","是|否"},
+                        { "value","true"}
+                    })
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        }
+    </div>
+    <script>
+        function AfterSuccess(data) {
+            var index = parent.layer.getFrameIndex(window.name);
+            if (data.indexOf("失败") !== -1) {
+                parent.layer.msg(data, { icon: 5 });
+            } else {
+                parent.layer.msg(data, { icon: 1 });
+            }
+
+            parent.layer.close(index);
+        }
+
+        layui.config({
+            base: '../Content/layui/lay/modules/'
+        }).extend({
+            authtree: 'authtree'
+        });
+        layui.use(['form', 'layedit', 'authtree'],
+            function () {
+                var form = layui.form;
+                var layedit = layui.layedit;
+                var authtree = layui.authtree;
+                var isOpen = false;
+                var roleData = new Array();
+
+                $("input[name='roles']").serializeArray().forEach(function (item) {
+
+                    roleData.push(item.value);
+
+                });
+                $.ajax({
+                    url: 'GetActionTree',
+                    type: 'POST',
+                    data: { "id": roleData, "teacherId": $("input[name='Teacher_Id']").val() },
+                    success: function (data) {
+                        var trees = JSON.parse(data).data;
+                        // 如果后台返回的不是树结构，请使用 authtree.listConvert 转换
+                        authtree.render('#actionTree',
+                            trees,
+                            {
+                                inputname: 'actions',
+                                layfilter: 'actions',
+                                autowidth: true
+                            });
+                    }
+                });
+
+                form.on('checkbox(role)', function (data) {
+                    if (data.elem.checked) {
+                        roleData.push(data.value);
+                    } else {
+                        roleData.remove(data.value);
+                    }
+                    $.ajax({
+                        url: 'GetActionTree',
+                        type: 'POST',
+                        data: { "id": roleData },
+                        success: function (data) {
+                            var trees = JSON.parse(data).data;
+                            // 如果后台返回的不是树结构，请使用 authtree.listConvert 转换
+                            authtree.render('#actionTree',
+                                trees,
+                                {
+                                    inputname: 'actions',
+                                    layfilter: 'actions',
+                                    autowidth: true
+                                });
+                        }
+                    });
+                });
+
+                $('#openClose').on('click',
+                    function () {
+                        if (isOpen) {
+                            authtree.closeAll('#actionTree');
+                        } else {
+                            authtree.showAll('#actionTree');
+                        }
+                        isOpen = !isOpen;
+                    });
+            });
+    </script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using ZERO.Material.Model.AttributeCustom;
 
 namespace ZERO.Material.Model
 {
@@ -11,7 +12,6 @@ namespace ZERO.Material.Model
     public class TeacherExt
     {
         [Required(ErrorMessage = "请输入{0}")]
-        [StringLength(maximumLength: 4, MinimumLength = 4, ErrorMessage = "教师编号必须4位")]
         [DisplayName("教师编号")]
         public string Teacher_Id { get; set; }
 

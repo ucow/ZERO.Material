@@ -3,6 +3,8 @@
 @{
     /**/
 
+    /**/
+
     Layout = null;
 }
 
@@ -110,7 +112,7 @@
                 $.ajax({
                     url: 'GetActionTree',
                     type: 'POST',
-                    data: { "id": $('#Id').val() },
+                    data: { "id": new Array($('#Id').val()) },
                     success: function (data) {
                         var trees = JSON.parse(data).data;
                         // 如果后台返回的不是树结构，请使用 authtree.listConvert 转换

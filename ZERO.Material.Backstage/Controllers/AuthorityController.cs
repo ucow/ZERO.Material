@@ -1,9 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Web.Mvc;
-using System.Web.Razor.Generator;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
@@ -19,6 +17,9 @@ namespace ZERO.Material.Backstage.Controllers
         private readonly IRoleBll _roleBll = Container.Server<IRoleBll>();
         private readonly IActionBll _actionBll = Container.Server<IActionBll>();
         private readonly IRoleActionBll _roleActionBll = Container.Server<IRoleActionBll>();
+        private readonly ITeacherBll _teacherBll = Container.Server<ITeacherBll>();
+        private readonly IRoleTeacherBll _roleTeacherBll = Container.Server<IRoleTeacherBll>();
+        private readonly ITeacherActionBll _teacherActionBll = Container.Server<ITeacherActionBll>();
 
         #endregion 全局变量
 
@@ -37,7 +38,7 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 code = 0,
                 msg = "",
-                total = total,
+                total,
                 data = roles
             };
             return JsonConvert.SerializeObject(msg);
@@ -76,13 +77,8 @@ namespace ZERO.Material.Backstage.Controllers
             }
         }
 
-        public ActionResult SetRoleAction()
-        {
-            return View();
-        }
-
         [HttpPost]
-        public string GetActionTree(int? id)
+        public string GetActionTree(List<int> id, string teacherId)
         {
             List<Material_Action> materialActions = _actionBll.GetEntities(m => m.Del_Flag == false);
             List<ActionTree> trees = new List<ActionTree>();
@@ -147,11 +143,18 @@ namespace ZERO.Material.Backstage.Controllers
                     }
                 }
             }
-            //如果id不是null 选中该id的权限页面
+            //如果id不是null 选中该角色id的权限页面
             if (id != null)
             {
-                List<int> actionIds = _roleActionBll.GetEntities(m => m.Role_Id == id).Select(m => m.Action_Id).ToList();
+                List<int> actionIds = _roleActionBll.GetEntities(m => id.Contains(m.Role_Id)).Select(m => m.Action_Id).ToList();
                 SetRoleActionChecked(actionIds, trees);
+            }
+
+            //如果teacherId 设置该用户的权限
+            if (teacherId != null)
+            {
+                List<Material_Teacher_Action> materialTeacherActions = _teacherActionBll.GetEntities(m => m.Teacher_Id == teacherId);
+                SetTeacherActionChecked(materialTeacherActions, trees);
             }
 
             var dataTrees = new
@@ -263,6 +266,77 @@ namespace ZERO.Material.Backstage.Controllers
 
         #endregion 页面管理
 
+        #region 用户管理
+
+        public ActionResult Teacher()
+        {
+            return View();
+        }
+
+        public string GetMaterialTeacher(int limit, int page)
+        {
+            List<Material_Teacher> showTeachers =
+                _teacherBll.GetPageEntities(page, limit, m => m.Teacher_Id, out int total);
+            var msg = new
+            {
+                code = 0,
+                msg = "",
+                total,
+                data = showTeachers
+            };
+            return JsonConvert.SerializeObject(msg);
+        }
+
+        public string DeleteTeacher(string id, bool isDel)
+        {
+            Material_Teacher teacher = _teacherBll.Find(id);
+            teacher.Del_Flag = isDel;
+            return _teacherBll.UpdateEntities(new List<Material_Teacher>() { teacher }) ? "OK" : "Error";
+        }
+
+        public ActionResult AddTeacher(string id)
+        {
+            List<Material_Role> roles = _roleBll.GetEntities(m => m.Del_Flag == false);
+            ViewBag.roles = roles;
+            if (id == null)
+            {
+                return View();
+            }
+
+            Material_Teacher teacher = _teacherBll.Find(id);
+            ViewBag.teacherRoles = _roleTeacherBll.GetEntities(m => m.Teacher_Id == id).Select(m => m.Role_Id).ToList();
+            return View(teacher);
+        }
+
+        [HttpPost]
+        public string AddTeacher(Material_Teacher materialTeacher, List<int> actions, List<int> roles)
+        {
+            Material_Teacher updateTeacher = _teacherBll.Find(materialTeacher.Teacher_Id);
+            List<int> roleActionIds = _roleActionBll.GetEntities(m => roles.Contains(m.Role_Id))
+                .Select(m => m.Action_Id).ToList();
+            if (updateTeacher == null)
+            {
+                return
+                    _teacherBll.AddEntities(new List<Material_Teacher> { materialTeacher }) &&
+                    _roleTeacherBll.SetTeacherRole(materialTeacher.Teacher_Id, roles) &&
+                    _teacherActionBll.SetTeacherAction(materialTeacher.Teacher_Id, roleActionIds, actions)
+                     ? "添加成功"
+                     : "添加失败";
+            }
+            else
+            {
+                AssmblyHelper.ClassEvaluate(materialTeacher, updateTeacher);
+                return
+                    _teacherBll.UpdateEntities(new List<Material_Teacher> { updateTeacher }) &&
+                    _roleTeacherBll.SetTeacherRole(materialTeacher.Teacher_Id, roles) &&
+                    _teacherActionBll.SetTeacherAction(materialTeacher.Teacher_Id, roleActionIds, actions)
+                    ? "更新成功"
+                    : "更新失败";
+            }
+        }
+
+        #endregion 用户管理
+
         #region 私有方法
 
         private void SetRoleActionChecked(List<int> actionIds, List<ActionTree> actionTrees)
@@ -275,6 +349,24 @@ namespace ZERO.Material.Backstage.Controllers
                     if (actionTree.Data != null)
                     {
                         SetRoleActionChecked(actionIds, actionTree.Data);
+                    }
+                }
+            }
+        }
+
+        private void SetTeacherActionChecked(List<Material_Teacher_Action> materialTeacherActions, List<ActionTree> trees)
+        {
+            foreach (Material_Teacher_Action materialTeacherAction in materialTeacherActions)
+            {
+                foreach (ActionTree actionTree in trees)
+                {
+                    if (actionTree.Value == materialTeacherAction.Action_Id)
+                    {
+                        actionTree.Checked = materialTeacherAction.Has_Permission;
+                        if (actionTree.Data != null)
+                        {
+                            SetTeacherActionChecked(materialTeacherActions, actionTree.Data);
+                        }
                     }
                 }
             }

@@ -143,7 +143,7 @@
           <Property Name="Teacher_Name" Type="nvarchar" MaxLength="5" Nullable="false" />
           <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Teacher_Password" Type="varchar" MaxLength="10" Nullable="false" />
-          <Property Name="Del_Flag" Type="bit" />
+          <Property Name="Del_Flag" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Teacher_Action">
           <Key>
@@ -153,8 +153,7 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Teacher_Id" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Action_Id" Type="int" Nullable="false" />
-          <Property Name="Has_Permission" Type="bit" />
-          <Property Name="Del_Flag" Type="bit" />
+          <Property Name="Has_Permission" Type="bit" Nullable="false" />
         </EntityType>
         <EntityType Name="Material_Type">
           <Key>
@@ -795,7 +794,7 @@
           <Property Name="Teacher_Name" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Password" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="Del_Flag" Type="Boolean" />
+          <Property Name="Del_Flag" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="Material_Apply" Relationship="ZERO_MaterialModel.FK_Material_Apply_Material_Teacher" FromRole="Material_Teacher" ToRole="Material_Apply" />
           <NavigationProperty Name="Material_Role_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Role_Teacher_Material_Teacher" FromRole="Material_Teacher" ToRole="Material_Role_Teacher" />
           <NavigationProperty Name="Material_Teacher_Action" Relationship="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher" FromRole="Material_Teacher" ToRole="Material_Teacher_Action" />
@@ -808,8 +807,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Action_Id" Type="Int32" Nullable="false" />
-          <Property Name="Has_Permission" Type="Boolean" />
-          <Property Name="Del_Flag" Type="Boolean" />
+          <Property Name="Has_Permission" Type="Boolean" Nullable="false" />
           <NavigationProperty Name="Material_Action" Relationship="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher_Action" FromRole="Material_Teacher_Action" ToRole="Material_Action" />
           <NavigationProperty Name="Material_Teacher" Relationship="ZERO_MaterialModel.FK_Material_Teacher_Action_Material_Teacher" FromRole="Material_Teacher_Action" ToRole="Material_Teacher" />
         </EntityType>
@@ -1243,7 +1241,6 @@
           <EntitySetMapping Name="Material_Teacher_Action">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Material_Teacher_Action">
               <MappingFragment StoreEntitySet="Material_Teacher_Action">
-                <ScalarProperty Name="Del_Flag" ColumnName="Del_Flag" />
                 <ScalarProperty Name="Has_Permission" ColumnName="Has_Permission" />
                 <ScalarProperty Name="Action_Id" ColumnName="Action_Id" />
                 <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />

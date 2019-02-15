@@ -18,8 +18,7 @@ namespace ZERO.Material.Model
         public int Id { get; set; }
         public string Teacher_Id { get; set; }
         public int Action_Id { get; set; }
-        public Nullable<bool> Has_Permission { get; set; }
-        public Nullable<bool> Del_Flag { get; set; }
+        public bool Has_Permission { get; set; }
     
         public virtual Material_Action Material_Action { get; set; }
         public virtual Material_Teacher Material_Teacher { get; set; }
