@@ -15,16 +15,15 @@ namespace ZERO.Material.Backstage.Controllers
     {
         #region 全局变量
 
-        private static readonly UnityContainerHelper Container = new UnityContainerHelper();
-        private readonly IBuyApplyBll _buyApplyBll = Container.Server<IBuyApplyBll>();
-        private readonly IApplyInfoBll _applyInfoBll = Container.Server<IApplyInfoBll>();
-        private readonly IBuyInComingApplyBll _buyInComingApplyBll = Container.Server<IBuyInComingApplyBll>();
-        private readonly IBaseCompanyBll _baseCompanyBll = Container.Server<IBaseCompanyBll>();
-        private readonly IUseApplyBll _useApplyBll = Container.Server<IUseApplyBll>();
-        private readonly IBaseApplyBll _baseApplyBll = Container.Server<IBaseApplyBll>();
-        private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
-        private readonly ICompanyBll _companyBll = Container.Server<ICompanyBll>();
-        private readonly IBaseInfoBll _baseInfoBll = Container.Server<IBaseInfoBll>();
+        private readonly IBuyApplyBll _buyApplyBll = UnityContainerHelper.Server<IBuyApplyBll>();
+        private readonly IApplyInfoBll _applyInfoBll = UnityContainerHelper.Server<IApplyInfoBll>();
+        private readonly IBuyInComingApplyBll _buyInComingApplyBll = UnityContainerHelper.Server<IBuyInComingApplyBll>();
+        private readonly IBaseCompanyBll _baseCompanyBll = UnityContainerHelper.Server<IBaseCompanyBll>();
+        private readonly IUseApplyBll _useApplyBll = UnityContainerHelper.Server<IUseApplyBll>();
+        private readonly IBaseApplyBll _baseApplyBll = UnityContainerHelper.Server<IBaseApplyBll>();
+        private readonly ITypeBll _typeBll = UnityContainerHelper.Server<ITypeBll>();
+        private readonly ICompanyBll _companyBll = UnityContainerHelper.Server<ICompanyBll>();
+        private readonly IBaseInfoBll _baseInfoBll = UnityContainerHelper.Server<IBaseInfoBll>();
 
         #endregion 全局变量
 

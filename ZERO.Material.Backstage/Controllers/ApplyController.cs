@@ -17,13 +17,11 @@ namespace ZERO.Material.Backstage.Controllers
     {
         #region 全局变量
 
-        private static readonly UnityContainerHelper Container = new UnityContainerHelper();
-
-        private readonly IBaseApplyBll _applyBll = Container.Server<IBaseApplyBll>();
-        private readonly ITeacherBll _teacherBll = Container.Server<ITeacherBll>();
-        private readonly IApplyInfoBll _applyInfoBll = Container.Server<IApplyInfoBll>();
-        private readonly IBuyApplyBll _buyApplyBll = Container.Server<IBuyApplyBll>();
-        private readonly IBaseCompanyBll _baseCompanyBll = Container.Server<IBaseCompanyBll>();
+        private readonly IBaseApplyBll _applyBll = UnityContainerHelper.Server<IBaseApplyBll>();
+        private readonly ITeacherBll _teacherBll = UnityContainerHelper.Server<ITeacherBll>();
+        private readonly IApplyInfoBll _applyInfoBll = UnityContainerHelper.Server<IApplyInfoBll>();
+        private readonly IBuyApplyBll _buyApplyBll = UnityContainerHelper.Server<IBuyApplyBll>();
+        private readonly IBaseCompanyBll _baseCompanyBll = UnityContainerHelper.Server<IBaseCompanyBll>();
 
         #endregion 全局变量
 
@@ -60,7 +58,7 @@ namespace ZERO.Material.Backstage.Controllers
             string teacher = applyFilter.Teacher == null
                 ? null
                 : _teacherBll.GetEntity(m => m.Teacher_Id == applyFilter.Teacher).Teacher_Name;
-            IUseApplyBll useApplyBll = Container.Server<IUseApplyBll>();
+            IUseApplyBll useApplyBll = UnityContainerHelper.Server<IUseApplyBll>();
             List<Use_Apply> useApplies = useApplyBll.GetEntities(m =>
                     m.Is_Get == false &&
                     (applyFilter.Teacher == null || m.Teacher_Name == teacher) &&

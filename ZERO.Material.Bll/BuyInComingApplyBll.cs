@@ -21,7 +21,7 @@ namespace ZERO.Material.Bll
                 BuyInComing_Apply buyIn = GetEntity(m => m.Material_Id == buyInComingApply.Material_Id);
                 if (buyIn != null)
                 {
-                    if (new UnityContainerHelper().Server<IApplyInfoBll>().GetEntity(m => m.Apply_Id == buyIn.Id && m.Apply_Status == 0) != null)
+                    if (UnityContainerHelper.Server<IApplyInfoBll>().GetEntity(m => m.Apply_Id == buyIn.Id && m.Apply_Status == 0) != null)
                     {
                         buyInComingApply.Id = buyIn.Id;
                     }

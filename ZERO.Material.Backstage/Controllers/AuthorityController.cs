@@ -13,13 +13,12 @@ namespace ZERO.Material.Backstage.Controllers
     {
         #region 全局变量
 
-        private static readonly UnityContainerHelper Container = new UnityContainerHelper();
-        private readonly IRoleBll _roleBll = Container.Server<IRoleBll>();
-        private readonly IActionBll _actionBll = Container.Server<IActionBll>();
-        private readonly IRoleActionBll _roleActionBll = Container.Server<IRoleActionBll>();
-        private readonly ITeacherBll _teacherBll = Container.Server<ITeacherBll>();
-        private readonly IRoleTeacherBll _roleTeacherBll = Container.Server<IRoleTeacherBll>();
-        private readonly ITeacherActionBll _teacherActionBll = Container.Server<ITeacherActionBll>();
+        private readonly IRoleBll _roleBll = UnityContainerHelper.Server<IRoleBll>();
+        private readonly IActionBll _actionBll = UnityContainerHelper.Server<IActionBll>();
+        private readonly IRoleActionBll _roleActionBll = UnityContainerHelper.Server<IRoleActionBll>();
+        private readonly ITeacherBll _teacherBll = UnityContainerHelper.Server<ITeacherBll>();
+        private readonly IRoleTeacherBll _roleTeacherBll = UnityContainerHelper.Server<IRoleTeacherBll>();
+        private readonly ITeacherActionBll _teacherActionBll = UnityContainerHelper.Server<ITeacherActionBll>();
 
         #endregion 全局变量
 

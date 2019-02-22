@@ -10,12 +10,11 @@ namespace ZERO.Material.Backstage.Controllers
 {
     public class MaterialController : BaseController<Material_Info>
     {
-        private static readonly UnityContainerHelper Container = new UnityContainerHelper();
-        private readonly IBaseBll _baseBll = Container.Server<IBaseBll>();
-        private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
-        private readonly ICompanyBll _companyBll = Container.Server<ICompanyBll>();
+        private readonly IBaseBll _baseBll = UnityContainerHelper.Server<IBaseBll>();
+        private readonly ITypeBll _typeBll = UnityContainerHelper.Server<ITypeBll>();
+        private readonly ICompanyBll _companyBll = UnityContainerHelper.Server<ICompanyBll>();
 
-        private readonly IBaseInfoBll _baseInfoBll = Container.Server<IBaseInfoBll>();
+        private readonly IBaseInfoBll _baseInfoBll = UnityContainerHelper.Server<IBaseInfoBll>();
 
         // GET: Material
         public ActionResult Index()

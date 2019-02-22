@@ -1,0 +1,144 @@
+
+ 
+记录时间：2019-02-22 13:02:56,414 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:02:56开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:02:56,495 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:02:56结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:04:41,781 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:04:41开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:04:41,782 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:04:41结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:05:47,865 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:05:47开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:05:47,893 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:05:47结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:06:24,861 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:06:24开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:06:24,861 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:06:24结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:13:17,306 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:13:17开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:13:17,307 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:13:17结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:13:19,759 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:13:19开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:13:19,760 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:13:19结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:13:56,395 
+线程ID:[31] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:13:56开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:13:56,395 
+线程ID:[31] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:13:56结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:13:57,399 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:13:57开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:13:57,399 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:13:57结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:15:08,956 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:15:08开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-02-22 13:15:08,957 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=TIANXIANG\gupp, log4net:HostName=HANBO-PC}] 
+错误描述：::1:::1在2019/2/22 13:15:08结束访问/Chart/Index
+ 

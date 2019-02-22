@@ -6,23 +6,23 @@ namespace ZERO.Material.Command
 {
     public class UnityContainerHelper
     {
-        private IUnityContainer container = new UnityContainer();
+        private static readonly IUnityContainer Container = new UnityContainer();
 
-        public UnityContainerHelper()
+        static UnityContainerHelper()
         {
             UnityConfigurationSection configuration =
                 ConfigurationManager.GetSection(UnityConfigurationSection.SectionName) as UnityConfigurationSection;
-            configuration?.Configure(container, "Material");
+            configuration?.Configure(Container, "Material");
         }
 
-        public T Server<T>()
+        public static T Server<T>()
         {
-            return container.Resolve<T>();
+            return Container.Resolve<T>();
         }
 
-        public T Server<T>(string name)
+        public static T Server<T>(string name)
         {
-            return container.Resolve<T>(name);
+            return Container.Resolve<T>(name);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace ZERO.Material.Backstage.Controllers
 {
     public class TypeController : BaseController<Material_Type>
     {
-        private ITypeBll _typeBll = new UnityContainerHelper().Server<ITypeBll>();
+        private ITypeBll _typeBll = UnityContainerHelper.Server<ITypeBll>();
 
         // GET: Company
         public ActionResult Index()

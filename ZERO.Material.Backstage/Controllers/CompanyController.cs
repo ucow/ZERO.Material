@@ -9,7 +9,7 @@ namespace ZERO.Material.Backstage.Controllers
 {
     public class CompanyController : BaseController<Material_Company>
     {
-        private ICompanyBll _companyBll = new UnityContainerHelper().Server<ICompanyBll>();
+        private ICompanyBll _companyBll = UnityContainerHelper.Server<ICompanyBll>();
 
         // GET: Company
         public ActionResult Index()

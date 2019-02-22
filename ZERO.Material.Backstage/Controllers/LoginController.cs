@@ -14,9 +14,7 @@ namespace ZERO.Material.Backstage.Controllers
     {
         #region 全局变量
 
-        private static readonly UnityContainerHelper Container = new UnityContainerHelper();
-
-        private ITeacherBll _teacherBll = Container.Server<ITeacherBll>();
+        private ITeacherBll _teacherBll = UnityContainerHelper.Server<ITeacherBll>();
 
         #endregion 全局变量
 
@@ -66,7 +64,7 @@ namespace ZERO.Material.Backstage.Controllers
         }
 
         [HttpPost]
-        public ActionResult BackstageLogin()
+        public ActionResult BackstageLogin(string username, string password)
         {
             return View();
         }

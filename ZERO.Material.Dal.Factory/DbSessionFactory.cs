@@ -5,11 +5,9 @@ namespace ZERO.Material.Dal.Factory
 {
     public class DbSessionFactory
     {
-        private static readonly UnityContainerHelper Container = new UnityContainerHelper();
-
         public static IDbSession GetDbSession()
         {
-            return Container.Server<IDbSession>();
+            return UnityContainerHelper.Server<IDbSession>();
         }
     }
 }

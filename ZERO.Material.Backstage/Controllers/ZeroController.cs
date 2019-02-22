@@ -14,15 +14,14 @@ namespace ZERO.Material.Backstage.Controllers
 {
     public class ZeroController : Controller
     {
-        private static readonly UnityContainerHelper Container = new UnityContainerHelper();
-        private readonly IBaseInfoBll _infoBll = Container.Server<IBaseInfoBll>();
-        private readonly ITypeBll _typeBll = Container.Server<ITypeBll>();
-        private readonly ICompanyBll _companyBll = Container.Server<ICompanyBll>();
-        private readonly IBaseApplyBll _applyBll = Container.Server<IBaseApplyBll>();
-        private readonly IApplyInfoBll _applyInfoBll = Container.Server<IApplyInfoBll>();
-        private readonly IBuyInComingApplyBll _buyInComingBll = Container.Server<IBuyInComingApplyBll>();
-        private readonly IUseApplyBll _useApplyBll = Container.Server<IUseApplyBll>();
-        private readonly IBaseCompanyBll _baseCompanyBll = Container.Server<IBaseCompanyBll>();
+        private readonly IBaseInfoBll _infoBll = UnityContainerHelper.Server<IBaseInfoBll>();
+        private readonly ITypeBll _typeBll = UnityContainerHelper.Server<ITypeBll>();
+        private readonly ICompanyBll _companyBll = UnityContainerHelper.Server<ICompanyBll>();
+        private readonly IBaseApplyBll _applyBll = UnityContainerHelper.Server<IBaseApplyBll>();
+        private readonly IApplyInfoBll _applyInfoBll = UnityContainerHelper.Server<IApplyInfoBll>();
+        private readonly IBuyInComingApplyBll _buyInComingBll = UnityContainerHelper.Server<IBuyInComingApplyBll>();
+        private readonly IUseApplyBll _useApplyBll = UnityContainerHelper.Server<IUseApplyBll>();
+        private readonly IBaseCompanyBll _baseCompanyBll = UnityContainerHelper.Server<IBaseCompanyBll>();
 
         public ActionResult Index()
         {
@@ -191,7 +190,7 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 string name = cookie.Value;
                 var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
-                var teacher = Container.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == user.username);
+                var teacher = UnityContainerHelper.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == user.username);
                 ViewBag.teacher = teacher;
             }
 
@@ -363,7 +362,7 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 string name = cookie.Value;
                 var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
-                string teacherName = Container.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == user.username).Teacher_Name;
+                string teacherName = UnityContainerHelper.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == user.username).Teacher_Name;
                 List<Use_Apply> applies = _useApplyBll.GetEntities(m => m.Teacher_Name == teacherName);
                 return View(applies);
             }
@@ -373,7 +372,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult GetUserName(string username)
         {
-            return Content(Container.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == username).Teacher_Name);
+            return Content(UnityContainerHelper.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == username).Teacher_Name);
         }
 
         public ActionResult Company(int index)

@@ -28,7 +28,7 @@ namespace ZERO.Material.Bll
                                                       string.Equals(m.Material_Id, item.Material_Id));
                 if (apply != null)
                 {
-                    if (container.Server<IApplyInfoBll>().GetEntity(m => m.Apply_Id == apply.Id && m.Apply_Status == 0) != null)
+                    if (UnityContainerHelper.Server<IApplyInfoBll>().GetEntity(m => m.Apply_Id == apply.Id && m.Apply_Status == 0) != null)
                     {
                         item.Id = apply.Id;
                     }

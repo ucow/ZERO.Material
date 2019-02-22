@@ -20,9 +20,8 @@ namespace ZERO.Material.Bll
 
         public string UpdateBaseInfo(Material_Info materialInfo, string oldTypeName, string oldCompanyName)
         {
-            UnityContainerHelper container = new UnityContainerHelper();
             //更新Material_Base表
-            IBaseBll baseBll = container.Server<IBaseBll>();
+            IBaseBll baseBll = UnityContainerHelper.Server<IBaseBll>();
             Material_Base materialBase = baseBll.Find(materialInfo.Material_Id);
             if (materialBase != null)
             {
@@ -36,8 +35,8 @@ namespace ZERO.Material.Bll
                 materialBase
             });
             //更新Material_Base_Type表
-            IBaseTypeBll baseTypeBll = container.Server<IBaseTypeBll>();
-            ITypeBll typeBll = container.Server<ITypeBll>();
+            IBaseTypeBll baseTypeBll = UnityContainerHelper.Server<IBaseTypeBll>();
+            ITypeBll typeBll = UnityContainerHelper.Server<ITypeBll>();
             Material_Base_Type baseType = baseTypeBll.Find(typeBll.GetEntity(m => m.Material_Type_Name == oldTypeName).Material_Type_Id, materialInfo.Material_Id);
             if (baseType != null)
             {
@@ -54,8 +53,8 @@ namespace ZERO.Material.Bll
             });
 
             //更新Material_Base_Company表
-            IBaseCompanyBll baseCompanyBll = container.Server<IBaseCompanyBll>();
-            ICompanyBll companyBll = container.Server<ICompanyBll>();
+            IBaseCompanyBll baseCompanyBll = UnityContainerHelper.Server<IBaseCompanyBll>();
+            ICompanyBll companyBll = UnityContainerHelper.Server<ICompanyBll>();
             Material_Base_Company baseCompany = baseCompanyBll.Find(companyBll.GetEntity(m => m.Company_Name == oldCompanyName).Company_Id,
                 materialInfo.Material_Id);
             if (baseCompany != null)
@@ -83,12 +82,12 @@ namespace ZERO.Material.Bll
 
         public string AddBaseInfo(Material_Info materialInfo)
         {
-            UnityContainerHelper container = new UnityContainerHelper();
-            IBaseBll baseBll = container.Server<IBaseBll>();
-            ITypeBll typeBll = container.Server<ITypeBll>();
-            ICompanyBll companyBll = container.Server<ICompanyBll>();
-            IBaseTypeBll baseTypeBll = container.Server<IBaseTypeBll>();
-            IBaseCompanyBll baseCompanyBll = container.Server<IBaseCompanyBll>();
+            UnityContainerHelper UnityContainerHelper = new UnityContainerHelper();
+            IBaseBll baseBll = UnityContainerHelper.Server<IBaseBll>();
+            ITypeBll typeBll = UnityContainerHelper.Server<ITypeBll>();
+            ICompanyBll companyBll = UnityContainerHelper.Server<ICompanyBll>();
+            IBaseTypeBll baseTypeBll = UnityContainerHelper.Server<IBaseTypeBll>();
+            IBaseCompanyBll baseCompanyBll = UnityContainerHelper.Server<IBaseCompanyBll>();
 
             bool baseIsNull = true;
             bool typeIsNull = true;

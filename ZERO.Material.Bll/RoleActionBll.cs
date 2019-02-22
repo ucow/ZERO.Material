@@ -19,7 +19,7 @@ namespace ZERO.Material.Bll
         //4. 如果该页面是父菜单项，并且分配了权限，在给自己分配权限的同时，需要判断子页面的权限，如果子页面拥有的权限多余父菜单项，这需要将多余的权限删除。
         public bool SetRoleByAction(List<int> roleIds, int actionId)
         {
-            IActionBll actionBll = new UnityContainerHelper().Server<IActionBll>();
+            IActionBll actionBll = UnityContainerHelper.Server<IActionBll>();
             //删除该页面原有的角色权限
             List<Material_Role_Action> roleActions = GetEntities(m => m.Action_Id == actionId);
             if (!DeleteEntity(roleActions))

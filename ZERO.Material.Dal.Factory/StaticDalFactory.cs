@@ -5,42 +5,40 @@ namespace ZERO.Material.Dal.Factory
 {
     public class StaticDalFactory
     {
-        private static readonly UnityContainerHelper Container = new UnityContainerHelper();
+        public static IBaseDal GetIBaseDal() => UnityContainerHelper.Server<IBaseDal>();
 
-        public static IBaseDal GetIBaseDal() => Container.Server<IBaseDal>();
+        public static IBaseCompanyDal GetIBaseCompanyDal() => UnityContainerHelper.Server<IBaseCompanyDal>();
 
-        public static IBaseCompanyDal GetIBaseCompanyDal() => Container.Server<IBaseCompanyDal>();
+        public static IBaseInfoDal GetBaseInfoDal() => UnityContainerHelper.Server<IBaseInfoDal>();
 
-        public static IBaseInfoDal GetBaseInfoDal() => Container.Server<IBaseInfoDal>();
+        public static IBaseTypeDal GetBaseTypeDal() => UnityContainerHelper.Server<IBaseTypeDal>();
 
-        public static IBaseTypeDal GetBaseTypeDal() => Container.Server<IBaseTypeDal>();
+        public static ICompanyDal GetCompanyDal() => UnityContainerHelper.Server<ICompanyDal>();
 
-        public static ICompanyDal GetCompanyDal() => Container.Server<ICompanyDal>();
+        public static ITypeDal GeTypeDal() => UnityContainerHelper.Server<ITypeDal>();
 
-        public static ITypeDal GeTypeDal() => Container.Server<ITypeDal>();
+        public static IBaseApplyDal GetBaseApplyDal() => UnityContainerHelper.Server<IBaseApplyDal>();
 
-        public static IBaseApplyDal GetBaseApplyDal() => Container.Server<IBaseApplyDal>();
+        public static IApplyTypeDal GetApplyTypeDal() => UnityContainerHelper.Server<IApplyTypeDal>();
 
-        public static IApplyTypeDal GetApplyTypeDal() => Container.Server<IApplyTypeDal>();
+        public static IApplyInfoDal GetApplyInfoDal() => UnityContainerHelper.Server<IApplyInfoDal>();
 
-        public static IApplyInfoDal GetApplyInfoDal() => Container.Server<IApplyInfoDal>();
+        public static IBuyInComingApplyDal GetBuyInComingApplyDal() => UnityContainerHelper.Server<IBuyInComingApplyDal>();
 
-        public static IBuyInComingApplyDal GetBuyInComingApplyDal() => Container.Server<IBuyInComingApplyDal>();
+        public static ITeacherDal GetTeacherDal() => UnityContainerHelper.Server<ITeacherDal>();
 
-        public static ITeacherDal GetTeacherDal() => Container.Server<ITeacherDal>();
+        public static IUseApplyDal GetUseApplyDal() => UnityContainerHelper.Server<IUseApplyDal>();
 
-        public static IUseApplyDal GetUseApplyDal() => Container.Server<IUseApplyDal>();
+        public static IBuyApplyDal GetBuyApplyDal() => UnityContainerHelper.Server<IBuyApplyDal>();
 
-        public static IBuyApplyDal GetBuyApplyDal() => Container.Server<IBuyApplyDal>();
+        public static IActionDal GetActionDal() => UnityContainerHelper.Server<IActionDal>();
 
-        public static IActionDal GetActionDal() => Container.Server<IActionDal>();
+        public static IRoleDal GetRoleDal() => UnityContainerHelper.Server<IRoleDal>();
 
-        public static IRoleDal GetRoleDal() => Container.Server<IRoleDal>();
+        public static IRoleActionDal GetRoleActionDal() => UnityContainerHelper.Server<IRoleActionDal>();
 
-        public static IRoleActionDal GetRoleActionDal() => Container.Server<IRoleActionDal>();
+        public static IRoleTeacherDal GetRoleTeacherDal() => UnityContainerHelper.Server<IRoleTeacherDal>();
 
-        public static IRoleTeacherDal GetRoleTeacherDal() => Container.Server<IRoleTeacherDal>();
-
-        public static ITeacherActionDal GetTeacherActionDal() => Container.Server<ITeacherActionDal>();
+        public static ITeacherActionDal GetTeacherActionDal() => UnityContainerHelper.Server<ITeacherActionDal>();
     }
 }

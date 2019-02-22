@@ -4,23 +4,25 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6A2A7ABC-E746-45E1-AE47-E278CEB57603}</ProjectGuid>
+    <ProjectGuid>{94A01A18-CDD4-4E4A-95CC-2E6B94F01F22}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZERO.Material.Bll</RootNamespace>
-    <AssemblyName>ZERO.Material.Bll</AssemblyName>
+    <RootNamespace>ZERO.Material.Bll.Factory</RootNamespace>
+    <AssemblyName>ZERO.Material.Bll.Factory</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\ZERO.Material.Backstage\bin\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,53 +31,29 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionBll.cs" />
-    <Compile Include="ApplyInfoBll.cs" />
-    <Compile Include="ApplyTypeBll.cs" />
-    <Compile Include="BaseApplyBll.cs" />
-    <Compile Include="BaseBll.cs" />
-    <Compile Include="BaseCompanyBll.cs" />
-    <Compile Include="BaseInfoBll.cs" />
-    <Compile Include="BaseTypeBll.cs" />
-    <Compile Include="BasicBll.cs" />
-    <Compile Include="BuyApplyBll.cs" />
-    <Compile Include="BuyInComingApplyBll.cs" />
-    <Compile Include="CompanyBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoleActionBll.cs" />
-    <Compile Include="RoleBll.cs" />
-    <Compile Include="RoleTeacherBll.cs" />
-    <Compile Include="TeacherActionBll.cs" />
-    <Compile Include="TeacherBll.cs" />
-    <Compile Include="TypeBll.cs" />
-    <Compile Include="UseApplyBll.cs" />
+    <Compile Include="StaticBllFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZERO.Material.Command\ZERO.Material.Command.csproj">
-      <Project>{DA457C1A-0EF0-476A-A15C-E1B2602B81EB}</Project>
+      <Project>{da457c1a-0ef0-476a-a15c-e1b2602b81eb}</Project>
       <Name>ZERO.Material.Command</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ZERO.Material.Dal.Factory\ZERO.Material.Dal.Factory.csproj">
-      <Project>{7c72238f-68e7-4d34-b7ea-a9adbc8d02bd}</Project>
-      <Name>ZERO.Material.Dal.Factory</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ZERO.Material.IBll\ZERO.Material.IBll.csproj">
-      <Project>{27567BC0-B0E6-408D-8576-2DFB1473718A}</Project>
+      <Project>{27567bc0-b0e6-408d-8576-2dfb1473718a}</Project>
       <Name>ZERO.Material.IBll</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ZERO.Material.IDal\ZERO.Material.IDal.csproj">
-      <Project>{1314df3a-8a82-42b4-bebe-8d77957b11bf}</Project>
-      <Name>ZERO.Material.IDal</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ZERO.Material.Model\ZERO.Material.Model.csproj">
-      <Project>{569d4674-9715-4ce6-941f-0c6eadb6a550}</Project>
-      <Name>ZERO.Material.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
