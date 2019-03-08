@@ -132,6 +132,7 @@
     <Compile Include="Material_TypeExt.cs" />
     <Compile Include="Other\ActionTree.cs" />
     <Compile Include="Other\ApplyFilter.cs" />
+    <Compile Include="Other\EChartModel.cs" />
     <Compile Include="Other\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Use_Apply.cs">

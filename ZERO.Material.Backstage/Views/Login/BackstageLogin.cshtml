@@ -11,6 +11,9 @@
     @Scripts.Render("~/bundles/jquery")
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/Scripts/Jquery.Session.js"></script>
+    <script src="~/Scripts/jquery.cookie-1.4.1.min.js"></script>
     <style type="text/css">
         body {
             background: #1d598e;
@@ -36,7 +39,9 @@
     </style>
 </head>
 <body>
-    <form class="layui-form" action="BackstageLogin" method="post">
+    @using (Ajax.BeginForm("BackstageLogin", "Login",
+        new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" }, new { @class = "layui-form" }))
+    {
         <div class="layui-form-item">
             <h1>实验耗材管理系统后台登录</h1>
         </div>
@@ -52,22 +57,42 @@
         </div>
         <div class="layui-form-item">
             <div class="layui-input-inline">
-                <input type="text" name="password" required lay-verify="required" placeholder="验证码" autocomplete="off" class="layui-input">
+                <input type="text" name="validateCode" required lay-verify="required" placeholder="验证码" autocomplete="off" class="layui-input" id="validateCode">
             </div>
             <img id="verify_img" src="@Url.Action("GetValidateCode")" alt="验证码" height="38">
         </div>
         <div class="layui-form-item">
             <div class="layui-input-block">
-                <input type="checkbox" name="rememberMe" class="layui-input" value="1" lay-skin="primary" title="记住密码">
+                <input type="checkbox" name="rememberMe" class="layui-input" value="1" lay-skin="primary" id="remember" title="记住密码">
             </div>
         </div>
         <div class="layui-form-item">
             <div class="layui-input-block">
-                <button class="layui-btn layui-btn-fluid" type="submit">登 录</button>
+                <button class="layui-btn layui-btn-fluid" type="submit" id="submit">登 录</button>
             </div>
         </div>
-    </form>
+    }
     <script>
+        function AfterSuccess(data) {
+            var isRemember = $('#remember')[0].checked;
+            if (data === "OK") {
+                var managerData = {
+                    username: $("input [name='username']").val(),
+                    password: $("input [name='password']").val()
+                }
+                if (isRemember) {
+                    $.cookie('managerInfo', JSON.stringify(managerData), { expires: 7, path: '/' });
+                } else
+                    $.cookie('managerInfo', JSON.stringify(managerData), { path: '/' });
+                location.href = "../Zero/Index";
+            } else {
+                if (data === "验证码错误") {
+                    $("#verify_img").attr("src", "GetValidateCode?id=" + Math.random());
+                }
+                layer.msg(data, { icon: 5 });
+            }
+        }
+
         layui.use(['layer', 'form'], function () {
             var layer = layui.layer,
                 form = layui.form,
@@ -75,6 +100,7 @@
             $(document).on('click', "#verify_img", function () {
                 $("#verify_img").attr("src", "GetValidateCode?id=" + Math.random());
             });
+
         });
     </script>
 </body>

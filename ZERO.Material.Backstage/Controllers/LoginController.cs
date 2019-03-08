@@ -64,9 +64,25 @@ namespace ZERO.Material.Backstage.Controllers
         }
 
         [HttpPost]
-        public ActionResult BackstageLogin(string username, string password)
+        public ActionResult BackstageLogin(string username, string password, string validateCode)
         {
-            return View();
+            if (validateCode != Session["ValidateCode"].ToString())
+            {
+                return Content("验证码错误");
+            }
+
+            Material_Teacher teacher = _teacherBll.GetEntity(m =>
+                m.Teacher_Name == username && m.Teacher_Password == password && !m.Del_Flag);
+            if (teacher == null)
+            {
+                return Content("该用户不存在，请先注册");
+            }
+            else if (teacher.Teacher_Password != password)
+            {
+                return Content("密码错误，请核对密码");
+            }
+
+            return Content("OK");
         }
 
         #endregion 后台登录
