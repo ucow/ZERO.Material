@@ -47,7 +47,7 @@
         </div>
         <div class="layui-form-item">
             <div class="layui-input-block">
-                <input type="text" name="username" placeholder="请输入账号" autocomplete="off" class="layui-input" autofocus="true" required>
+                <input type="text" id="username" name="username" placeholder="请输入账号" autocomplete="off" class="layui-input" autofocus="true" required>
             </div>
         </div>
         <div class="layui-form-item">
@@ -76,15 +76,14 @@
         function AfterSuccess(data) {
             var isRemember = $('#remember')[0].checked;
             if (data === "OK") {
-                var managerData = {
-                    username: $("input [name='username']").val(),
-                    password: $("input [name='password']").val()
-                }
+                var username = $("#username").val();
                 if (isRemember) {
-                    $.cookie('managerInfo', JSON.stringify(managerData), { expires: 7, path: '/' });
-                } else
-                    $.cookie('managerInfo', JSON.stringify(managerData), { path: '/' });
-                location.href = "../Zero/Index";
+                    $.cookie('managerInfo', username, { expires: 7, path: '/' });
+                } else {
+                    $.cookie('managerInfo', username, { path: '/' });
+                }
+
+                location.href = "../Home/Index";
             } else {
                 if (data === "验证码错误") {
                     $("#verify_img").attr("src", "GetValidateCode?id=" + Math.random());

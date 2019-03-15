@@ -14,6 +14,8 @@ namespace ZERO.Material.Backstage.Controllers
 {
     public class ZeroController : Controller
     {
+        #region 全局变量
+
         private readonly IBaseInfoBll _infoBll = UnityContainerHelper.Server<IBaseInfoBll>();
         private readonly ITypeBll _typeBll = UnityContainerHelper.Server<ITypeBll>();
         private readonly ICompanyBll _companyBll = UnityContainerHelper.Server<ICompanyBll>();
@@ -23,6 +25,9 @@ namespace ZERO.Material.Backstage.Controllers
         private readonly IUseApplyBll _useApplyBll = UnityContainerHelper.Server<IUseApplyBll>();
         private readonly IBaseCompanyBll _baseCompanyBll = UnityContainerHelper.Server<IBaseCompanyBll>();
 
+        #endregion 全局变量
+
+        [CheckLogin(IsChecked = false)]
         public ActionResult Index()
         {
             return View();
@@ -36,6 +41,7 @@ namespace ZERO.Material.Backstage.Controllers
         /// <param name="company"></param>
         /// <param name="index"></param>
         /// <returns></returns>
+        [CheckLogin(IsChecked = false)]
         public ActionResult Search(string material, string type, string company, int index)
         {
             ViewBag.Title = $"{material}_{company}_{type}";
@@ -119,6 +125,7 @@ namespace ZERO.Material.Backstage.Controllers
         /// 器材列表
         /// </summary>
         /// <returns></returns>
+        [CheckLogin(IsChecked = false)]
         public ActionResult MaterialInfos()
         {
             Dictionary<string, List<Material_Info>> infoDictionary = new Dictionary<string, List<Material_Info>>();
@@ -168,6 +175,7 @@ namespace ZERO.Material.Backstage.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [CheckLogin(IsChecked = false)]
         public ActionResult MaterialInfo(string id)
         {
             Material_Info materialInfo = _infoBll.GetEntity(m => m.Material_Id == id && m.Is_Show == true);
@@ -181,7 +189,6 @@ namespace ZERO.Material.Backstage.Controllers
 
         #region 我的器材
 
-        [CheckLogin]
         public ActionResult Apply(string id, string count)
         {
             Dictionary<Material_Info, string> infos = new Dictionary<Material_Info, string>();
@@ -325,7 +332,6 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
-        [CheckLogin]
         [HttpPost]
         public ActionResult MaterialCar(string material, string count)
         {
@@ -354,7 +360,6 @@ namespace ZERO.Material.Backstage.Controllers
 
         #endregion 我的器材
 
-        [CheckLogin]
         public ActionResult History()
         {
             var cookie = Request.Cookies["userInfo"];
@@ -375,6 +380,7 @@ namespace ZERO.Material.Backstage.Controllers
             return Content(UnityContainerHelper.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == username).Teacher_Name);
         }
 
+        [CheckLogin(IsChecked = false)]
         public ActionResult Company(int index)
         {
             List<Material_Company> companies = _companyBll.GetEntities(m => true);
@@ -412,6 +418,7 @@ namespace ZERO.Material.Backstage.Controllers
             }
         }
 
+        [CheckLogin(IsChecked = false)]
         public FileContentResult GetImage(string id)
         {
             Material_Info info = _infoBll.GetEntity(m => m.Material_Id == id && m.Is_Show == true);

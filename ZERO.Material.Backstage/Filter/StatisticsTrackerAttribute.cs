@@ -8,6 +8,7 @@ namespace ZERO.Material.Backstage.Filter
     /// <summary>
     /// 统计跟踪器
     /// 错误日志跟踪
+    /// 权限处理
     /// </summary>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false)]
     public class StatisticsTrackerAttribute : ActionFilterAttribute, IExceptionFilter
@@ -50,10 +51,10 @@ namespace ZERO.Material.Backstage.Filter
         {
             if (!filterContext.ExceptionHandled)
             {
-                string ControllerName = string.Format("{0}Controller", filterContext.RouteData.Values["controller"] as string);
-                string ActionName = filterContext.RouteData.Values["action"] as string;
-                string ErrorMsg = string.Format("{2}:{3}在执行 controller[{0}] 的 action[{1}] 时产生异常", ControllerName, ActionName, filterContext.RequestContext.HttpContext.Request.UserHostName, filterContext.RequestContext.HttpContext.Request.UserHostAddress);
-                Log4NetHelper.Error(ErrorMsg, filterContext.Exception);
+                string controllerName = string.Format("{0}Controller", filterContext.RouteData.Values["controller"] as string);
+                string actionName = filterContext.RouteData.Values["action"] as string;
+                string errorMsg = string.Format("{2}:{3}在执行 controller[{0}] 的 action[{1}] 时产生异常", controllerName, actionName, filterContext.RequestContext.HttpContext.Request.UserHostName, filterContext.RequestContext.HttpContext.Request.UserHostAddress);
+                Log4NetHelper.Error(errorMsg, filterContext.Exception);
             }
         }
 

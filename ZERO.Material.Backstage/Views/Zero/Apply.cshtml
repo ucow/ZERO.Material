@@ -121,7 +121,7 @@
                 }
             </tbody>
         </table>
-        <div style="text-align: right"><button type="submit" class="btn btn-warning">提价申请</button></div>
+        <div style="text-align: right"><button id="submit" type="submit" class="btn btn-warning">提价申请</button></div>
     }
 </div>
 <script>
@@ -141,4 +141,13 @@
             location.href = 'Success';
         }
     }
+
+    toastr.options.positionClass = 'toast-bottom-center';
+    $('#submit').on('click',
+        function () {
+            if ($('#Teach_Depart').val() === "" || $('#Teach_Field').val() === "") {
+                toastr.warning("请输入申请班级系别以及班级专业");
+                return false;
+            }
+        });
 </script>

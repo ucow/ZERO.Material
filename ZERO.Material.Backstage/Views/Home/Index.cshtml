@@ -16,7 +16,7 @@
 
     <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
     <script src="~/Content/layui/layui.js"></script>
-
+    <script src="~/Scripts/jquery.cookie.js"></script>
     <script>
 
         function FrameWH() {
@@ -80,6 +80,17 @@
                 }
                 active.tabChange(dataid.attr("data-id"));
             });
+
+            var cookie = $.cookie("managerInfo");
+            if (cookie !== "null" && cookie !== undefined) {
+                $('#loginName').text(cookie);
+            }
+
+            $('#exit').on('click',
+                function () {
+                    $.cookie("managerInfo", null, { path: '/' });
+                    location.href("../Login/BackstageLogin");
+                });
         });
     </script>
 </head>
@@ -89,16 +100,14 @@
             <div class="layui-logo">实验耗材后台管理系统</div>
             <ul class="layui-nav layui-layout-right">
                 <li class="layui-nav-item">
-                    <a href="javascript:;">
-                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
-                        贤心
+                    <a href="javascript:;" id="loginName">
                     </a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="">基本资料</a></dd>
-                        <dd><a href="">安全设置</a></dd>
-                    </dl>
+                    @*<dl class="layui-nav-child">
+                            <dd><a href="">基本资料</a></dd>
+                            <dd><a href="">安全设置</a></dd>
+                        </dl>*@
                 </li>
-                <li class="layui-nav-item"><a href="">退出</a></li>
+                <li class="layui-nav-item"><a href="" id="exit">退出</a></li>
             </ul>
         </div>
 

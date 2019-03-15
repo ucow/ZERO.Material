@@ -115,7 +115,11 @@
     toastr.options.positionClass = 'toast-bottom-center';
     function AddMaterialCar() {
             var material = '@Model.Material_Id';
-            var count = $('.count').val();
+        var count = $('.count').val();
+        if (count === "0") {
+            toastr.warning("请选择输入数量");
+            return false;
+        }
             var info = { material,count}
             $.ajax({
                 url: "../../Zero/MaterialCar",
@@ -127,6 +131,10 @@
             });
     }
     function ApplyMaterial(id, count) {
+        if (count === "0") {
+            toastr.warning("请选择输入数量");
+            return false;
+        }
         location.href = '../../Zero/Apply?id=' + id + '&count=' + count;
     }
     $('.count').on('input',

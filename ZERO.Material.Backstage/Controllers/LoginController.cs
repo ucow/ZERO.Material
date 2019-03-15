@@ -4,12 +4,14 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using ZERO.Material.Backstage.Filter;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
 
 namespace ZERO.Material.Backstage.Controllers
 {
+    [CheckLogin(IsChecked = false)]
     public class LoginController : Controller
     {
         #region 全局变量
@@ -30,7 +32,7 @@ namespace ZERO.Material.Backstage.Controllers
         [HttpPost]
         public ActionResult BeforeLogin(string username, string password)
         {
-            Material_Teacher teacher = _teacherBll.GetEntity(m => m.Teacher_Id == username);
+            Material_Teacher teacher = _teacherBll.GetEntity(m => (m.Teacher_Id == username || m.Teacher_Name == username) && m.Del_Flag == false);
             if (teacher == null)
             {
                 return Content("该用户不存在，请先注册");
@@ -72,14 +74,14 @@ namespace ZERO.Material.Backstage.Controllers
             }
 
             Material_Teacher teacher = _teacherBll.GetEntity(m =>
-                m.Teacher_Name == username && m.Teacher_Password == password && !m.Del_Flag);
+                (m.Teacher_Name == username || m.Teacher_Id == username) && m.Teacher_Password == password && !m.Del_Flag);
             if (teacher == null)
             {
                 return Content("该用户不存在，请先注册");
             }
             else if (teacher.Teacher_Password != password)
             {
-                return Content("密码错误，请核对密码");
+                return Content("用户名或密码错误，请核对");
             }
 
             return Content("OK");

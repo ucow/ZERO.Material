@@ -13,9 +13,15 @@
                 <h3 class="panel-title" style="font-weight: bold">
                     @Html.ActionLink(key, "Search", "Zero", new { @material = "", @company = "", @type = key, @index = 0 }, new { @style = "color:black" })
 
-                    @foreach (var item in ViewBag.childtypes[key])
+                    @foreach (var child in ViewBag.childtypes[key])
                     {
-                        <span style="font-size: 10px; font-weight: normal">&nbsp; @Html.ActionLink(key, "Search", "Zero", new { @material = "", @company = "", @type = item, @index = 0 }, new { @style = "color:black" })&nbsp;</span>
+
+                        <span style="font-size: 10px; font-weight: normal">
+                            &nbsp;
+                            @*@Html.ActionLink((string)child, "Search", "Zero")*@
+                            @Html.ActionLink((string)child, "Search", "Zero", new { @material = "", @company = "", @type = child, @index = 0 }, new { @style = "color:black" })&nbsp;
+                        </span>
+
                     }
                 </h3>
             </div>
