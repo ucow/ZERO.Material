@@ -32,7 +32,13 @@ function GetModelInfo() {
                         layer.close(load);
                     }
                 };
-                table.render(tableOption);
+                var tableIns = table.render(tableOption);
+
+                // #region 筛选条件
+                var typeId = "";
+                var companyName = "";
+                var materialName = "";
+                // #endregion
 
                 table.on("toolbar(baseTable)", function (obj) {
                     //var checkStatus = table.checkStatus(obj.config.id);
@@ -124,6 +130,67 @@ function GetModelInfo() {
                         }
                     });
                 });
+
+                form.on('select(grand)', function (obj) {
+                    var typeId = obj.value;
+                    getChildType('#father', typeId);
+                    $("#son")[0].innerHTML = "<option value=\"\">请选择</option>";
+                });
+                form.on('select(father)', function (obj) {
+                    var typeId = obj.value;
+                    getChildType('#son', typeId);
+                });
+
+                form.on('select(son)',
+                    function (obj) {
+                        typeId = obj.value;
+                        reloadTable();
+                    });
+                form.on('select(company)',
+                    function(obj) {
+                        companyName = obj.value;
+                        reloadTable();
+                    });
+
+                $("#materialName").on("input", function (e) {
+                    //获取input输入的值
+                    materialName = e.delegateTarget.value;
+                    reloadTable();
+                });
+
+                function reloadTable() {
+                    tableIns.reload(
+                        {
+                            page: {
+                                curr: 1
+                            },
+                            where: {
+                                typeId: typeId,
+                                companyName: companyName,
+                                materialName:materialName
+                            }
+                        });
+                }
+
+                function getChildType(son, value) {
+                    $.ajax({
+                        url: "GetChildType",
+                        type: "POST",
+                        data: { "typeId": value },
+                        success: function (data) {
+                            if (data !== "") {
+                                var value = JSON.parse(data);
+                                $(son)[0].innerHTML = "<option value=\"\">请选择</option>";
+                                var optionContent = "<option value='{0}'>{1}</option>";
+                                value.forEach(function (currentValue, index, arr) {
+                                    $(son)[0].innerHTML += optionContent.format(currentValue.Material_Type_Id,
+                                        currentValue.Material_Type_Name);
+                                }, this);
+                                form.render();
+                            }
+                        }
+                    });
+                }
             });
         }
     });
@@ -147,3 +214,4 @@ function GetColumns(data) {
     obj.fixed = 'right';
     column.push(obj);
 }
+

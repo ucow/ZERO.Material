@@ -17,9 +17,11 @@ namespace ZERO.Material.IBll
 
         T GetEntity(Expression<Func<T, bool>> whereLambda);
 
-        List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda,
+        List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda,
             out int total);
 
         List<T> GetEntities(Expression<Func<T, bool>> whereLambda);
+
+        List<TB> ExecuteSqlCommand<TB>(string sql);
     }
 }

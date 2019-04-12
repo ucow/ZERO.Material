@@ -9,29 +9,14 @@
 
 namespace ZERO.Material.Model
 {
-    using System;
+    using System;using Newtonsoft.Json;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
     
     public partial class Material_Role
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Material_Role()
-        {
-            this.Material_Role_Action = new HashSet<Material_Role_Action>();
-            this.Material_Role_Teacher = new HashSet<Material_Role_Teacher>();
-        }
-    
         public int Id { get; set; }
         public string Role_Name { get; set; }
         public string Role_Remark { get; set; }
         public bool Del_Flag { get; set; }
-    
-        [JsonIgnore]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Material_Role_Action> Material_Role_Action { get; set; }
-        [JsonIgnore]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Material_Role_Teacher> Material_Role_Teacher { get; set; }
     }
 }

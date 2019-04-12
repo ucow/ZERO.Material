@@ -1,0 +1,2858 @@
+
+ 
+记录时间：2019-03-26 09:13:55,780 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:13:55开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 09:13:55,817 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:13:55结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 09:14:02,353 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:02开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:14:02,355 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:02结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:14:02,465 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:02开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:14:02,465 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:02结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:14:02,894 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:02开始访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:14:02,920 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:02开始访问/Chart/TeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:14:02,921 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:02结束访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:14:02,933 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:02结束访问/Chart/TeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:14:03,011 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:03开始访问/Chart/ApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:14:03,011 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:03结束访问/Chart/ApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:14:03,597 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:03开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 09:14:03,597 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:03结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 09:14:03,945 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:03开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:14:04,118 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:04开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:14:04,375 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:04开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:14:04,707 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:04结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:14:04,707 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:04结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:14:04,727 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:04结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:14:12,665 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:14:12开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:24:34,263 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:34开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:24:34,299 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:34结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:24:36,480 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:36开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:24:36,538 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:36开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:24:36,554 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:36开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:24:36,558 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:36开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:24:37,049 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:37结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:24:37,049 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:37结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:24:37,094 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:37结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:24:55,522 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:24:55结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:26:26,199 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:26开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-26 09:26:26,237 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:26结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-26 09:26:30,807 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:30开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-26 09:26:31,280 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:31结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-26 09:26:45,166 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:45开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:26:45,207 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:45结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:26:47,320 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:47开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:26:47,331 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:47开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:26:47,401 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:47开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:26:47,427 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:47开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:26:47,808 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:47结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:26:47,809 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:47结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:26:47,849 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:26:47结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:27:06,721 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:27:06结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:27:27,770 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:27:27开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:27:27,771 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:27:27结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:27:28,052 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:27:28开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:27:28,095 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:27:28开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:27:28,113 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:27:28开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:27:28,185 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:27:28结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:27:28,368 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:27:28结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:28:20,476 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:20开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:28:20,515 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:20结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:28:39,529 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:39开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:28:39,566 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:39结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:28:40,865 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:40开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:28:40,878 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:40开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:28:40,994 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:40开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:28:41,002 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:41开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:28:41,391 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:41结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:28:41,391 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:41结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:28:41,412 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:28:41结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:29:00,865 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:29:00结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:38,825 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:38开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:38,857 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:38结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:40,292 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:40开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:40,305 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:40开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:40,308 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:40开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:40,313 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:40开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:40,464 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:40结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:40,464 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:40结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:40,473 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:40结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:41,579 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:41结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,352 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,353 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,427 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,429 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,429 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,436 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[GetTypeChartData] 时产生异常
+ 
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.InvalidOperationException: 连接未关闭。 连接的当前状态为打开。
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntities(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 84
+   在 ZERO.Material.Bll.BasicBll`1.GetEntities(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 58
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeChartData() 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 42
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-03-26 09:34:52,445 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,448 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,448 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,475 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:52,487 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:52结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:53,957 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:53开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:53,958 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:53结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,028 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,038 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,038 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,040 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,041 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,045 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,049 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,049 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[GetTeacherApply] 时产生异常
+ 
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.InvalidOperationException: 连接未关闭。 连接的当前状态为正在连接。
+   在 System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass69`1.<ExecuteStoreQueryReliably>b__67()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreQueryReliably[TElement](String commandText, String entitySetName, ExecutionOptions executionOptions, Object[] parameters)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreQuery[TElement](String commandText, ExecutionOptions executionOptions, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClass14`1.<ExecuteSqlQuery>b__13()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZERO.Material.Dal.BasicDal`1.ExecuteSqlCommand[TB](String sql) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 114
+   在 ZERO.Material.Bll.BasicBll`1.ExecuteSqlCommand[TB](String sql) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 63
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTeacherApply() 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 100
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-03-26 09:34:54,211 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,211 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,282 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,283 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,285 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[GetTypeChartData] 时产生异常
+ 
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.InvalidOperationException: 连接未关闭。 连接的当前状态为正在连接。
+   在 System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntities(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 84
+   在 ZERO.Material.Bll.BasicBll`1.GetEntities(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 58
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeNumber(String typeId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 198
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeNumber(String typeId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 206
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeNumber(String typeId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 206
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeChartData() 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 48
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-03-26 09:34:54,288 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,289 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,289 
+线程ID:[6] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[GetTypeChartData] 时产生异常
+ 
+System.Data.Entity.Core.EntityException: 基础提供程序在 Open 上失败。 ---> System.InvalidOperationException: 连接未关闭。 连接的当前状态为正在连接。
+   在 System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntities(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 84
+   在 ZERO.Material.Bll.BasicBll`1.GetEntities(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 58
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeNumber(String typeId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 198
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeNumber(String typeId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 206
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeChartData() 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 48
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-03-26 09:34:54,290 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,293 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,305 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,308 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,309 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,393 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,393 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,442 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,445 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,449 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,449 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,458 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,460 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,461 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,573 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,573 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,638 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,641 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,643 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,645 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,656 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54开始访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,658 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetApplyMost
+ 
+
+ 
+记录时间：2019-03-26 09:34:54,658 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:34:54结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 09:35:06,289 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[Index] 时产生异常
+ 
+System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.InvalidOperationException: ExecuteReader 要求已打开且可用的 Connection。连接的当前状态为打开。
+   在 System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   在 System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 94
+   在 ZERO.Material.Bll.BasicBll`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 53
+   在 ZERO.Material.Backstage.Filter.AuthorityAttribute.OnActionExecuting(ActionExecutingContext filterContext) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Filter\AuthorityAttribute.cs:行号 38
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__0(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+
+ 
+记录时间：2019-03-26 09:35:10,143 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[Index] 时产生异常
+ 
+System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.InvalidOperationException: ExecuteReader 要求已打开且可用的 Connection。连接的当前状态为打开。
+   在 System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   在 System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 94
+   在 ZERO.Material.Bll.BasicBll`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 53
+   在 ZERO.Material.Backstage.Filter.AuthorityAttribute.OnActionExecuting(ActionExecutingContext filterContext) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Filter\AuthorityAttribute.cs:行号 38
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__0(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+
+ 
+记录时间：2019-03-26 09:35:10,794 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[Index] 时产生异常
+ 
+System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.InvalidOperationException: ExecuteReader 要求已打开且可用的 Connection。连接的当前状态为打开。
+   在 System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   在 System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 94
+   在 ZERO.Material.Bll.BasicBll`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 53
+   在 ZERO.Material.Backstage.Filter.AuthorityAttribute.OnActionExecuting(ActionExecutingContext filterContext) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Filter\AuthorityAttribute.cs:行号 38
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__0(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+
+ 
+记录时间：2019-03-26 09:35:11,116 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[Index] 时产生异常
+ 
+System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.InvalidOperationException: ExecuteReader 要求已打开且可用的 Connection。连接的当前状态为打开。
+   在 System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   在 System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 94
+   在 ZERO.Material.Bll.BasicBll`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 53
+   在 ZERO.Material.Backstage.Filter.AuthorityAttribute.OnActionExecuting(ActionExecutingContext filterContext) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Filter\AuthorityAttribute.cs:行号 38
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__0(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+
+ 
+记录时间：2019-03-26 09:35:11,299 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[Index] 时产生异常
+ 
+System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.InvalidOperationException: ExecuteReader 要求已打开且可用的 Connection。连接的当前状态为打开。
+   在 System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   在 System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 94
+   在 ZERO.Material.Bll.BasicBll`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 53
+   在 ZERO.Material.Backstage.Filter.AuthorityAttribute.OnActionExecuting(ActionExecutingContext filterContext) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Filter\AuthorityAttribute.cs:行号 38
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__0(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+
+ 
+记录时间：2019-03-26 09:35:18,396 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[Index] 时产生异常
+ 
+System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.InvalidOperationException: ExecuteReader 要求已打开且可用的 Connection。连接的当前状态为打开。
+   在 System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   在 System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 94
+   在 ZERO.Material.Bll.BasicBll`1.GetEntity(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 53
+   在 ZERO.Material.Backstage.Filter.AuthorityAttribute.OnActionExecuting(ActionExecutingContext filterContext) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Filter\AuthorityAttribute.cs:行号 38
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__0(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__0(AsyncCallback asyncCallback, Object asyncState)
+
+ 
+记录时间：2019-03-26 09:35:24,682 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:35:24结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:35:24,682 
+线程ID:[11] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[ChartController] 的 action[GetTypeChartData] 时产生异常
+ 
+System.Data.Entity.Core.EntityCommandExecutionException: 执行命令定义时出错。有关详细信息，请参阅内部异常。 ---> System.InvalidOperationException: ExecuteReader 要求已打开且可用的 Connection。连接的当前状态为打开。
+   在 System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   在 System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   在 System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZERO.Material.Dal.BasicDal`1.GetEntities(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 84
+   在 ZERO.Material.Bll.BasicBll`1.GetEntities(Expression`1 whereLambda) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 58
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeNumber(String typeId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 201
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeNumber(String typeId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 206
+   在 ZERO.Material.Backstage.Controllers.ChartController.GetTypeChartData() 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\ChartController.cs:行号 48
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-03-26 09:35:25,265 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:35:25结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:35:47,619 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:35:47开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:35:47,648 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:35:47结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:37:20,395 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:37:20开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:37:20,396 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:37:20结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:37:21,017 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:37:21开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:37:22,269 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:37:22结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:38:18,205 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:38:18开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:38:18,245 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:38:18结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:38:20,395 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:38:20开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:38:39,523 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:38:39结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:40:04,193 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:04开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:40:04,194 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:04结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:40:04,837 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:04开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:40:04,871 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:04开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:40:05,061 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:05结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:40:24,788 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:24结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:40:25,129 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:25开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:40:25,129 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:25结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:40:25,333 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:25开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:40:25,351 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:25开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:40:25,385 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:25结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:40:25,968 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:25开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:40:25,968 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:25结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:40:26,205 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:26开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:40:26,208 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:26开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:40:26,246 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:26结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:40:52,466 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:52开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:40:52,510 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:52结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:40:53,725 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:53开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:40:53,726 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:53开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:40:54,460 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:40:54结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:41:12,657 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:41:12结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:43:55,062 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:43:55开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:43:55,095 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:43:55结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:43:56,647 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:43:56开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:43:58,078 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:43:58结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:43:58,146 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:43:58开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:43:58,158 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:43:58结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:44:43,795 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:44:43开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:44:43,796 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:44:43结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:44:44,677 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:44:44开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:44:45,391 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:44:45结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:44:45,453 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:44:45开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:44:45,456 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:44:45结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 09:50:39,650 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:39开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 09:50:39,685 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:39结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 09:50:43,211 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:43开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:50:43,217 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:43结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:50:43,286 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:43开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:50:43,286 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:43结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:50:44,182 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:44开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:50:44,543 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:44开始访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:50:44,543 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:44结束访问/Chart/Index
+ 
+
+ 
+记录时间：2019-03-26 09:50:44,660 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:50:44开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 09:51:25,610 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:51:25开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 09:51:25,644 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 9:51:25结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 14:49:27,940 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:49:27开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 14:49:27,976 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:49:27结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 14:50:19,531 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:19开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 14:50:19,533 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:19结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 14:50:19,579 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:19开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 14:50:19,580 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:19结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 14:50:20,740 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:20开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 14:50:30,319 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:30开始访问/Chart/TeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 14:50:30,321 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:30结束访问/Chart/TeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 14:50:30,559 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:30开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 14:50:31,954 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:31结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 14:50:34,653 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:34开始访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 14:50:34,654 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 14:50:34结束访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:02:30,395 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:02:30开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-26 15:02:30,437 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:02:30结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-26 15:02:44,849 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:02:44开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 15:02:44,891 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:02:44结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 15:02:51,527 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:02:51开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 15:02:51,528 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:02:51结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 15:02:51,786 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:02:51开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 15:04:03,452 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:03开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:03,483 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:03结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:09,297 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:09开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 15:04:09,298 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:09结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 15:04:09,326 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:09开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 15:04:09,326 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:09结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 15:04:09,757 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:09开始访问/Chart/TeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 15:04:09,758 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:09结束访问/Chart/TeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 15:04:10,049 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:10开始访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:10,050 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:10结束访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:10,704 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:10开始访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:10,704 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:10结束访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:10,720 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:10开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 15:04:10,896 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:10开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 15:04:11,065 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:11开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:11,453 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:11结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 15:04:11,549 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:11结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:16,421 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:16开始访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:16,422 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:16结束访问/Chart/TeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:16,889 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:16开始访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:17,099 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:17结束访问/Chart/GetTeacherApply
+ 
+
+ 
+记录时间：2019-03-26 15:04:18,336 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:18开始访问/Chart/TeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 15:04:18,337 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:18结束访问/Chart/TeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 15:04:18,505 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:18开始访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 15:04:18,534 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:18结束访问/Chart/GetTeacherDepartStatis
+ 
+
+ 
+记录时间：2019-03-26 15:04:19,614 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:19开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 15:04:19,615 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:19结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 15:04:19,780 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:19开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 15:04:35,774 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:35开始访问/Authority/Teacher
+ 
+
+ 
+记录时间：2019-03-26 15:04:35,774 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:35开始访问/Authority/Teacher
+ 
+
+ 
+记录时间：2019-03-26 15:04:35,809 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:35结束访问/Authority/Teacher
+ 
+
+ 
+记录时间：2019-03-26 15:04:35,810 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:35结束访问/Authority/Teacher
+ 
+
+ 
+记录时间：2019-03-26 15:04:38,398 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:38开始访问/Authority/GetMaterialTeacher
+ 
+
+ 
+记录时间：2019-03-26 15:04:38,964 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:38结束访问/Authority/GetMaterialTeacher
+ 
+
+ 
+记录时间：2019-03-26 15:04:42,165 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:42开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-26 15:04:42,564 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:42结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-26 15:04:43,817 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:43开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-26 15:04:44,559 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:44结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-26 15:04:46,695 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:46结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 15:04:52,146 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:52结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 15:04:53,359 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:53开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-26 15:04:53,360 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:53开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-26 15:04:53,361 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:53结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-26 15:04:53,360 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:53结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-26 15:04:53,556 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:53开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-03-26 15:04:53,606 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:53结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-03-26 15:04:55,992 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:55开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:55,995 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:55结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:55,997 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:55开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:55,997 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:55结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:56,716 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:56开始访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-26 15:04:56,721 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:56结束访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-26 15:04:56,866 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:56开始访问/Material/List
+ 
+
+ 
+记录时间：2019-03-26 15:04:56,980 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:56结束访问/Material/List
+ 
+
+ 
+记录时间：2019-03-26 15:04:57,785 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:57开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:57,786 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:57结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:58,462 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:58开始访问/Type/List
+ 
+
+ 
+记录时间：2019-03-26 15:04:59,964 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:59开始访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-26 15:04:59,966 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:04:59结束访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-26 15:05:00,523 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:00开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-26 15:05:00,524 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:00结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-26 15:05:00,878 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:00开始访问/Type/List
+ 
+
+ 
+记录时间：2019-03-26 15:05:00,898 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:00开始访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-26 15:05:00,935 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:00结束访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-26 15:05:01,037 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:01结束访问/Type/List
+ 
+
+ 
+记录时间：2019-03-26 15:05:01,272 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:01开始访问/Company/List
+ 
+
+ 
+记录时间：2019-03-26 15:05:01,641 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:01结束访问/Company/List
+ 
+
+ 
+记录时间：2019-03-26 15:05:01,831 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:01开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-26 15:05:01,832 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:01结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-26 15:05:01,966 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:01开始访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-26 15:05:01,967 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:01结束访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-26 15:05:02,233 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:02开始访问/Material/List
+ 
+
+ 
+记录时间：2019-03-26 15:05:02,357 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:02结束访问/Material/List
+ 
+
+ 
+记录时间：2019-03-26 15:05:03,526 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 15:05:03结束访问/Type/List
+ 
+
+ 
+记录时间：2019-03-26 16:03:19,792 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:03:19开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 16:03:19,828 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:03:19结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 16:03:25,966 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:03:25开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 16:03:46,865 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:03:46结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 16:05:58,755 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:05:58开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 16:05:58,756 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:05:58结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 16:05:58,870 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:05:58开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 16:06:18,546 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:06:18结束访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 16:08:27,836 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:08:27开始访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 16:08:27,837 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:08:27结束访问/Chart/TypeChart
+ 
+
+ 
+记录时间：2019-03-26 16:08:27,957 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:08:27开始访问/Chart/GetTypeChartData
+ 
+
+ 
+记录时间：2019-03-26 16:08:47,790 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/26 16:08:47结束访问/Chart/GetTypeChartData
+ 

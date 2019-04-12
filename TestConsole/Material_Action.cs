@@ -12,15 +12,15 @@ namespace TestConsole
     using System;
     using System.Collections.Generic;
     
-    public partial class Apply_Info
+    public partial class Material_Action
     {
         public int Id { get; set; }
-        public int Apply_Id { get; set; }
-        public string ApplyType_Id { get; set; }
-        public int Apply_Count { get; set; }
-        public int Apply_Status { get; set; }
-        public string Apply_Advice { get; set; }
-    
-        public virtual Apply_Type Apply_Type { get; set; }
+        public string Action_Name { get; set; }
+        public string Action_Url { get; set; }
+        public string Http_Method { get; set; }
+        public int Menu_Id { get; set; }
+        public bool Is_Menu { get; set; }
+        public bool Del_Flag { get; set; }
+        public string Action_Remark { get; set; }
     }
 }

@@ -19,7 +19,8 @@
 </style>
 
 <div class="container" style="padding: 30px">
-    @using (Ajax.BeginForm("Apply", new AjaxOptions() { HttpMethod = "Post", OnSuccess = "AfterApply" }))
+
+    @using (Ajax.BeginForm("Apply", new AjaxOptions() {HttpMethod = "Post", OnSuccess = "AfterApply"}))
     {
         <h3><strong>请填写申请信息表：</strong></h3>
         <table style="width: 80%; margin: 0 auto">
@@ -28,13 +29,13 @@
                     @Html.LabelFor(m => m.Teacher_Id)
                 </td>
                 <td style="width: 30%">
-                    <input type="text" name="Teacher_Id" class="form-control" placeholder="请输入教师编号" value=@ViewBag.teacher.Teacher_Id readonly="readonly" />
+                    <input type="text" name="Teacher_Id" class="form-control" placeholder="请输入教师编号" value=@ViewBag.teacher.Teacher_Id readonly="readonly"/>
                 </td>
                 <td style="width: 10%; text-align: right; padding: 10px">
                     <label>教师姓名</label>
                 </td>
                 <td style="width: 30%">
-                    <input type="text" class="form-control" placeholder="请输入教师姓名" value=@ViewBag.teacher.Teacher_Name readonly="readonly" />
+                    <input type="text" class="form-control" placeholder="请输入教师姓名" value=@ViewBag.teacher.Teacher_Name readonly="readonly"/>
                 </td>
             </tr>
             <tr>
@@ -42,7 +43,7 @@
                     <label>教师系别</label>
                 </td>
                 <td style="width: 30%">
-                    <input type="text" class="form-control" placeholder="请输入教师系别" value=@ViewBag.teacher.Teacher_Depart readonly="readonly" />
+                    <input type="text" class="form-control" placeholder="请输入教师系别" value=@ViewBag.teacher.Teacher_Depart readonly="readonly"/>
                 </td>
                 <td style="width: 10%; text-align: right; padding: 10px">
                     @Html.LabelFor(m => m.Apply_Time)
@@ -70,13 +71,13 @@
                     @Html.LabelFor(m => m.Teach_Depart)
                 </td>
                 <td style="width: 30%">
-                    @Html.TextBoxFor(m => m.Teach_Depart, new { @class = "form-control", @placeholder = "请输入班级系别" })
+                    @Html.TextBoxFor(m => m.Teach_Depart, new {@class = "form-control", @placeholder = "请输入班级系别"})
                 </td>
                 <td style="width: 10%; text-align: right; padding: 10px">
                     @Html.LabelFor(m => m.Teach_Field)
                 </td>
                 <td style="width: 30%">
-                    @Html.TextBoxFor(m => m.Teach_Field, new { @class = "form-control", @placeholder = "请输入班级专业" })
+                    @Html.TextBoxFor(m => m.Teach_Field, new {@class = "form-control", @placeholder = "请输入班级专业"})
                 </td>
             </tr>
         </table>
@@ -84,41 +85,41 @@
         <h3><strong>请确认申请器材：</strong></h3>
         <table class="table">
             <thead style="text-align: center">
-                <tr>
-                    <td></td>
-                    <td>名称</td>
-                    <td>供应商</td>
-                    <td>规格</td>
-                    <td>数量</td>
-                    <td>采购数量</td>
-                </tr>
+            <tr>
+                <td></td>
+                <td>名称</td>
+                <td>供应商</td>
+                <td>规格</td>
+                <td>数量</td>
+                <td>采购数量</td>
+            </tr>
             </thead>
             <tbody style="text-align: center; vertical-align: middle">
 
-                @foreach (var key in ViewBag.materialInfos.Keys)
-                {
+            @foreach (var key in ViewBag.materialInfos.Keys)
+            {
 
-                    <tr>
-                        <td>
-                            <img src="@Url.Action("GetImage",new {@id=key.Material_Id})" width="100" height="100" />
-                        </td>
-                        <td>
-                            <strong>@key.Material_Name</strong>
-                        </td>
-                        <td>
-                            <strong>@key.Company_Name</strong>
-                        </td>
-                        <td>
-                            <strong>@key.Material_Size</strong>
-                        </td>
-                        <td>
-                            <strong>@ViewBag.materialInfos[key].Split(':')[0]</strong>
-                        </td>
-                        <td>
-                            <strong>@ViewBag.materialInfos[key].Split(':')[1]</strong>
-                        </td>
-                    </tr>
-                }
+                <tr>
+                    <td>
+                        <img src="@Url.Action("GetImage", new {@id = key.Material_Id})" width="100" height="100"/>
+                    </td>
+                    <td>
+                        <strong>@key.Material_Name</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Company_Name</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Material_Size</strong>
+                    </td>
+                    <td>
+                        <strong>@ViewBag.materialInfos[key].Split(':')[0]</strong>
+                    </td>
+                    <td>
+                        <strong>@ViewBag.materialInfos[key].Split(':')[1]</strong>
+                    </td>
+                </tr>
+            }
             </tbody>
         </table>
         <div style="text-align: right"><button id="submit" type="submit" class="btn btn-warning">提价申请</button></div>
@@ -142,6 +143,7 @@
         }
     }
 
+    
     toastr.options.positionClass = 'toast-bottom-center';
     $('#submit').on('click',
         function () {

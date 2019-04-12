@@ -1,0 +1,68 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TeacherApply</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/ECharts/echarts.min.js"></script>
+</head>
+<body>
+<div class="container" id="main" style="width: 800px;height: 600px"></div>
+<script>
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    $.post('GetTeacherApply').done(function (data) {
+        var chartData = JSON.parse(data);
+        var serise = [];
+        for (var i = 0; i < chartData.legend.length; i++) {
+            serise.push({
+                name: chartData.legend[i],
+                type: "line",
+                data: chartData.yAxis[chartData.legend[i]]
+            });
+        }
+        myChart.setOption({
+            title: {
+                text: "教师申请数量"
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            legend: {
+                data: chartData.legend
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: chartData.xAxis
+            },
+            yAxis: {
+                type: 'value'
+            },
+
+            series:serise
+        });
+    });
+</script>
+</body>
+</html>

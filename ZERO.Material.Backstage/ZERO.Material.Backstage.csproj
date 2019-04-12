@@ -34,6 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -488,6 +489,7 @@
     <Content Include="Scripts\ECharts\chart\wordCloud.js" />
     <Content Include="Scripts\ECharts\echarts-all.js" />
     <Content Include="Scripts\ECharts\echarts.js" />
+    <Content Include="Scripts\require.js" />
     <Content Include="Views\Apply\Borrow.cshtml" />
     <Content Include="Views\Zero\History.cshtml" />
     <Content Include="Views\Stock\NeedBuy.cshtml" />
@@ -503,9 +505,14 @@
     <Content Include="Views\Authority\Teacher.cshtml" />
     <Content Include="Views\Authority\AddTeacher.cshtml" />
     <Content Include="Views\Login\BackstageLogin.cshtml" />
-    <Content Include="Views\Chart\Index.cshtml" />
+    <Content Include="Views\Chart\TypeChart.cshtml" />
     <Content Include="Views\Error\NoAuthority.cshtml" />
     <Content Include="Views\Error\NoFound.cshtml" />
+    <Content Include="Views\Chart\ApplyMost.cshtml" />
+    <Content Include="Views\Chart\TeacherApply.cshtml" />
+    <Content Include="Views\Chart\TeacherDepartStatis.cshtml" />
+    <Content Include="Views\Chart\Index.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -633,7 +640,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>35320</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:35320/</IISUrl>
+          <IISUrl>http://localhost:31099/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

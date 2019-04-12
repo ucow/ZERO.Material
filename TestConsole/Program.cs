@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
+using ZERO.Material.Model;
 
 namespace TestConsole
 {
@@ -9,13 +12,20 @@ namespace TestConsole
     {
         private static void Main(string[] args)
         {
-            ZERO_MaterialEntities context = new ZERO_MaterialEntities();
-            foreach (Apply_Info applyInfo in context.Apply_Info)
+            ZERO_MaterialEntities2 context = new ZERO_MaterialEntities2();
+            foreach (var action in context.Material_Action)
             {
-                Console.WriteLine(applyInfo.Apply_Id);
+                string url = action.Action_Url;
+                if (url != null)
+                {
+                    action.Action_Url = url.Replace("\\", "/");
+                    context.Material_Action.Attach(action);
+                    context.Entry(action).State = EntityState.Modified;
+                }
+ ;
             }
 
-            Console.Read();
+            context.SaveChanges();
         }
     }
 

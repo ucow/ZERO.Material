@@ -15,7 +15,6 @@
 
                     @foreach (var child in ViewBag.childtypes[key])
                     {
-
                         <span style="font-size: 10px; font-weight: normal">
                             &nbsp;
                             @*@Html.ActionLink((string)child, "Search", "Zero")*@
@@ -39,7 +38,7 @@
                                                 <img width="100" height="100" src="@Url.Action("GetImage",new {@id=Model[key][j].Material_Id})" />
                                             </div>
                                             <div style="text-align: center">
-                                                <strong> @Model[key][i].Material_Name.Replace("授权代理商", "").Replace("?", "™")</strong>
+                                                <strong> @Model[key][j].Material_Name.Replace("授权代理商", "").Replace("?", "™")</strong>
                                             </div>
                                         </a>
                                     </td>

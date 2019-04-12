@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Diagnostics;
+using System.Linq;
 using System.Web.Mvc;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
@@ -6,7 +7,7 @@ using ZERO.Material.Model;
 
 namespace ZERO.Material.Backstage.Filter
 {
-    public class AuthorityAttribute : ActionFilterAttribute
+    public class AuthorityFilterAttribute : ActionFilterAttribute
     {
         #region 全局变量
 
@@ -23,24 +24,31 @@ namespace ZERO.Material.Backstage.Filter
         {
             var managerInfo = filterContext.RequestContext.HttpContext.Request.Cookies["managerInfo"]?.Value;
 
-            if (managerInfo == null)
+            if (managerInfo == "null" || managerInfo == null)
                 return;
 
-            var controller = (filterContext.RouteData.Values["controller"] as string)?.ToLower();
-            var action = (filterContext.RouteData.Values["action"] as string)?.ToLower();
+            var controller = (filterContext.RouteData.Values["controller"] as string).FirstToUpper();
+            var action = (filterContext.RouteData.Values["action"] as string).FirstToUpper();
             if (controller == "zero" || controller == "error" || controller == "login")
                 return;
-
+            var url = filterContext.HttpContext.Request.Url.ToString();
             //..\Company\Index
-            var actionUrl = $"..\\{controller}\\{action}";
+
+            var actionUrl = string.Format("..\\{0}\\{1}", controller, action);
+            
+            var materialActions = _actionBll.GetEntities(m => m.Action_Url == actionUrl);
+            if (materialActions == null || materialActions.Count == 0)
+            {
+                return;
+            }
             var materialAction = _actionBll.GetEntity(m => m.Action_Url == actionUrl);
             if (materialAction == null)
                 return;
-
+            
             Material_Teacher materialTeacher = _teacherBll.GetEntity(m => m.Teacher_Name == managerInfo || m.Teacher_Id == managerInfo);
-            if (materialTeacher == null)
-                return;
+            
             var roleIds = _roleTeacherBll.GetEntities(m => m.Teacher_Id == materialTeacher.Teacher_Id).Select(m => m.Role_Id).ToList();
+            
             var actionIds = _roleActionBll.GetEntities(m => roleIds.Contains(m.Role_Id)).Select(m => m.Action_Id).ToList();
             if (actionIds.Contains(materialAction.Id))
             {

@@ -132,7 +132,10 @@
     <Compile Include="Material_TypeExt.cs" />
     <Compile Include="Other\ActionTree.cs" />
     <Compile Include="Other\ApplyFilter.cs" />
+    <Compile Include="Other\ApplyMostModel.cs" />
     <Compile Include="Other\EChartModel.cs" />
+    <Compile Include="Other\TeacherApplyModel.cs" />
+    <Compile Include="Other\TeacherDepartStatisModel.cs" />
     <Compile Include="Other\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Use_Apply.cs">
@@ -156,8 +159,8 @@
   <ItemGroup>
     <Content Include="MaterialModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MaterialModel.edmx</DependentUpon>
       <LastGenOutput>MaterialModel.Context.cs</LastGenOutput>
+      <DependentUpon>MaterialModel.edmx</DependentUpon>
     </Content>
     <Content Include="MaterialModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

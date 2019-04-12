@@ -14,11 +14,66 @@
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
     <script src="~/Scripts/Material/Index.js"></script>
+    <script src="~/Scripts/command.js"></script>
 </head>
 <body>
 
     <div>
-        <table id="baseTable" lay-filter="baseTable"></table>
+        <div class="layui-card">
+            <div class="layui-card-header" style="padding-bottom: 10px;height: 120%">
+                <div>
+                    <div class="layui-inline">
+                        <div class="layui-form">
+                            <div class="layui-input-block" style="margin: 0">
+                                <table>
+                                    <tr>
+                                        <td>器材名称：</td>
+                                        <td>
+                                            <input id="materialName" type="text" name="materialName" autocomplete="off" class="layui-input">
+                                        </td>
+                                        <td>&nbsp;&nbsp;器材类别：</td>
+                                        <td>
+                                            <select lay-verify="required" lay-search lay-filter="grand" id="grand">
+                                                <option value="">请选择</option>
+                                                @foreach (var type in ViewBag.types)
+                                                {
+                                                    <option value="@type.Material_Type_Id">@type.Material_Type_Name</option>
+                                                }
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select lay-verify="required" lay-search lay-filter="father" id="father">
+                                                <option value="">请选择</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select name="Material_Type_Name" lay-verify="required" lay-search lay-filter="son" id="son">
+                                                <option value="">请选择</option>
+                                            </select>
+                                        </td>
+                                        <td>&nbsp;&nbsp;供应商：</td>
+                                        <td>
+                                            <select lay-verify="required" lay-search lay-filter="company" id="company">
+                                                <option value="">请选择</option>
+                                                @foreach (var type in ViewBag.companys)
+                                                {
+                                                    <option value="@type">@type</option>
+                                                }
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="layui-card-body">
+                <table id="baseTable" lay-filter="baseTable"></table>
+            </div>
+        </div>
+        
         <div id="baseTableToolBar" hidden="hidden">
             <button class="layui-btn layui-btn-normal" lay-event="Add">添加器材</button>
         </div>

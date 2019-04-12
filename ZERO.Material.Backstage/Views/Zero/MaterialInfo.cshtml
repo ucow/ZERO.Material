@@ -125,8 +125,12 @@
                 url: "../../Zero/MaterialCar",
                 type: "POST",
                 data: info,
-                success: function(data) {
-                    toastr.info(data);
+                success: function (data) {
+                    if (data.indexOf('登录') != -1) {
+                        toastr.warning(data);
+                    } else {
+                        toastr.info(data);
+                    }
                 }
             });
     }

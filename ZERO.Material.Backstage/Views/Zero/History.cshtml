@@ -29,13 +29,13 @@
                         <td>使用专业</td>
                         <td>申请数量</td>
                         <td>购买数量</td>
+                        <td>操作</td>
                     </tr>
                 </thead>
                 <tbody style="text-align: center; vertical-align: middle">
 
                     @foreach (var key in Model.Where(m => m.Apply_Status == 0))
                     {
-
                         <tr>
                             <td>
                                 <img src="@Url.Action("GetImage",new {@id=key.Material_Id})" width="100" height="100" />
@@ -62,7 +62,25 @@
                                 <strong>@key.Apply_Count</strong>
                             </td>
                             <td>
-                                <strong>@key.Apply_Count</strong>
+                                <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
+                            </td>
+                            <td>
+                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">取消申请</button>
+                                <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            </div>
+                                            <div class="modal-body">
+                                                <span style="font-weight: bolder;font-size: 20px;">确认取消申请吗？</span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                                <button type="button" class="btn btn-primary cancelApply" id="@key.Apply_Id">确认</button>
+                                            </div>
+                                        </div><!-- /.modal-content -->
+                                    </div><!-- /.modal -->
+                                </div>
                             </td>
                         </tr>
                     }
@@ -123,7 +141,7 @@
                                 <strong>@key.Apply_Count</strong>
                             </td>
                             <td>
-                                <strong>@key.Apply_Count</strong>
+                                <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
                             </td>
                             <td>
                                 <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">查看意见</button>
@@ -201,7 +219,7 @@
                                 <strong>@key.Apply_Count</strong>
                             </td>
                             <td>
-                                <strong>@key.Apply_Count</strong>
+                                <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
                             </td>
                             <td>
                                 <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">查看意见</button>
@@ -228,7 +246,20 @@
     </div>
 </div>
 <script>
-    function showAdvice(advice) {
-
-    }
+    $('.cancelApply').on('click',
+        function() {
+            var id = this.id;
+            $.ajax({
+                type: "post",
+                url: "CancelApply",
+                data: { "applyId": id },
+                success: function(data) {
+                    if (data === "OK") {
+                        $('#' + id).modal('hide');
+                        location.reload(true);
+                    }
+                }
+            });
+            
+        });
 </script>

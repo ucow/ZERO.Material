@@ -32,7 +32,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string GetMaterialRole(int page, int limit)
         {
-            List<Material_Role> roles = _roleBll.GetPageEntities(page, limit, m => m.Id, out int total);
+            List<Material_Role> roles = _roleBll.GetPageEntities(page, limit, m => m.Id,(m=>true), out int total);
             var msg = new
             {
                 code = 0,
@@ -233,7 +233,7 @@ namespace ZERO.Material.Backstage.Controllers
             else
             {
                 AssmblyHelper.ClassEvaluate(materialAction, action);
-                return _actionBll.UpdateEntities(new List<Material_Action>() { action }) && _roleActionBll.SetRoleByAction(roles.ToList(), materialAction.Id) ? "更新成功" : "更新失败";
+                return _actionBll.UpdateEntities(new List<Material_Action>() { action }) && _roleActionBll.SetRoleByAction(roles?.ToList(), materialAction.Id) ? "更新成功" : "更新失败";
             }
         }
 
@@ -275,7 +275,7 @@ namespace ZERO.Material.Backstage.Controllers
         public string GetMaterialTeacher(int limit, int page)
         {
             List<Material_Teacher> showTeachers =
-                _teacherBll.GetPageEntities(page, limit, m => m.Teacher_Id, out int total);
+                _teacherBll.GetPageEntities(page, limit, m => m.Teacher_Id,m=>true, out int total);
             var msg = new
             {
                 code = 0,

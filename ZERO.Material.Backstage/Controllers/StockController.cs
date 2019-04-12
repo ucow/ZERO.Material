@@ -93,7 +93,7 @@ namespace ZERO.Material.Backstage.Controllers
             List<Material_Base_Company> baseCompanies = new List<Material_Base_Company>();
             foreach (var applyInfo in applyInfos)
             {
-                BuyInComing_Apply buyInComingApply = _buyInComingApplyBll.GetEntity(m => m.Id == applyInfo.Apply_Id);
+                BuyInComing_Apply buyInComingApply = _buyInComingApplyBll.Find( applyInfo.Apply_Id);
                 buyInComingApply.Is_InComed = true;
                 Material_Base_Company materialBaseCompany =
                     _baseCompanyBll.GetEntity(m => m.Material_Id == buyInComingApply.Material_Id);
@@ -139,7 +139,7 @@ namespace ZERO.Material.Backstage.Controllers
             List<Material_Apply> materialApplies = new List<Material_Apply>();
             foreach (Apply_Info applyInfo in applyInfos)
             {
-                Material_Apply materialApply = _baseApplyBll.GetEntity(m => m.Id == applyInfo.Apply_Id);
+                Material_Apply materialApply = _baseApplyBll.Find( applyInfo.Apply_Id);
                 materialApply.Is_Get = true;
                 materialApplies.Add(materialApply);
             }
@@ -212,7 +212,7 @@ namespace ZERO.Material.Backstage.Controllers
         [HttpPost]
         public string GetMaterialsByType(string typeId)
         {
-            string name = _typeBll.GetEntity(m => m.Material_Type_Id == typeId).Material_Type_Name;
+            string name = _typeBll.Find(typeId).Material_Type_Name;
             List<Material_Info> materialInfos = _baseInfoBll.GetEntities(m => m.Material_Type_Name == name);
 
             return JsonConvert.SerializeObject(materialInfos);

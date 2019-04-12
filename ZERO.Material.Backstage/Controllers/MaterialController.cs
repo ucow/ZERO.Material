@@ -1,10 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web.Mvc;
 using Newtonsoft.Json;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
+using ExpressionHelper = ZERO.Material.Command.ExpressionHelper;
 
 namespace ZERO.Material.Backstage.Controllers
 {
@@ -19,6 +22,8 @@ namespace ZERO.Material.Backstage.Controllers
         // GET: Material
         public ActionResult Index()
         {
+            ViewBag.types = _typeBll.GetEntities(p => p.Material_Type_Parent_Id == "000000");
+            ViewBag.companys = _companyBll.GetEntities(m => true).Select(m => m.Company_Name).ToList();
             return View();
         }
 
@@ -45,11 +50,11 @@ namespace ZERO.Material.Backstage.Controllers
             ViewBag.brotherTypes =
                 _typeBll.GetEntities(m => m.Material_Type_Parent_Id == currentType.Material_Type_Parent_Id);
             Material_Type parenType =
-                _typeBll.GetEntity(m => m.Material_Type_Id == currentType.Material_Type_Parent_Id);
+                _typeBll.Find(currentType.Material_Type_Parent_Id);
             ViewBag.parentTypes =
                 _typeBll.GetEntities(m => m.Material_Type_Parent_Id == parenType.Material_Type_Parent_Id);
             ViewBag.parentName = parenType.Material_Type_Name;
-            ViewBag.grandName = _typeBll.GetEntity(m => m.Material_Type_Id == parenType.Material_Type_Parent_Id)
+            ViewBag.grandName = _typeBll.Find(parenType.Material_Type_Parent_Id)
                 .Material_Type_Name;
             if (materialInfo != null)
             {
@@ -72,9 +77,24 @@ namespace ZERO.Material.Backstage.Controllers
             }
         }
 
-        public string List(int page, int limit)
+        public string List(int page, int limit, string typeId,string companyName,string materialName)
         {
-            List<Material_Info> materialInfos = _baseInfoBll.GetPageEntities(page, limit, m => m.Material_Id, out int total);
+            Expression<Func<Material_Info, bool>> whereLambda;
+            if (string.IsNullOrWhiteSpace(typeId))
+            {
+                whereLambda = m => true;
+            }
+            else
+            {
+                string typeName = _typeBll.Find(typeId).Material_Type_Name;
+                whereLambda = m => m.Material_Type_Name == typeName;
+            }
+
+            whereLambda = string.IsNullOrWhiteSpace(companyName) ? whereLambda.And(m=>true) : whereLambda.And(m => m.Company_Name == companyName);
+
+            whereLambda = string.IsNullOrWhiteSpace(materialName) ? whereLambda.And(m => true) : whereLambda.And(m => m.Material_Name.Contains(materialName));
+
+            List<Material_Info> materialInfos = _baseInfoBll.GetPageEntities(page, limit, m => m.Material_Id, whereLambda, out int total);
             var dataJson = new
             {
                 code = 0,
@@ -96,7 +116,7 @@ namespace ZERO.Material.Backstage.Controllers
         {
             if (_baseBll.DeleteEntity(new List<Material_Base>()
             {
-                _baseBll.GetEntity(m=>m.Material_Id == material_Id)
+                _baseBll.Find(material_Id)
             }))
             {
                 return "OK";
@@ -132,7 +152,7 @@ namespace ZERO.Material.Backstage.Controllers
         [HttpPost]
         public string SetMaterialShow(string id, bool check)
         {
-            Material_Base materialBase = _baseBll.GetEntity(m => m.Material_Id == id);
+            Material_Base materialBase = _baseBll.Find(id);
             materialBase.Is_Show = check;
             if (!_baseBll.UpdateEntities(new List<Material_Base> { materialBase }))
             {

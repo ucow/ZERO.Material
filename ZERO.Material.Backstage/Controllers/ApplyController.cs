@@ -35,7 +35,7 @@ namespace ZERO.Material.Backstage.Controllers
             for (int i = 0; i < teacherIds.Count; i++)
             {
                 var id = teacherIds[i];
-                teacherIds[i] += "/" + _teacherBll.GetEntity(m => m.Teacher_Id == id).Teacher_Name;
+                teacherIds[i] += "/" + _teacherBll.Find(id).Teacher_Name;
             }
 
             ViewBag.teachers = teacherIds;
@@ -57,7 +57,7 @@ namespace ZERO.Material.Backstage.Controllers
             int? status = applyFilter.Status == null ? (int?)null : Int32.Parse(applyFilter.Status);
             string teacher = applyFilter.Teacher == null
                 ? null
-                : _teacherBll.GetEntity(m => m.Teacher_Id == applyFilter.Teacher).Teacher_Name;
+                : _teacherBll.Find(applyFilter.Teacher).Teacher_Name;
             IUseApplyBll useApplyBll = UnityContainerHelper.Server<IUseApplyBll>();
             List<Use_Apply> useApplies = useApplyBll.GetEntities(m =>
                     m.Is_Get == false &&
@@ -118,13 +118,14 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 if (applyInfo.ApplyType_Id == "001" && applyInfo.Apply_Status == 2)
                 {
-                    Material_Apply apply = _applyBll.GetEntity(m => m.Id == applyInfo.Apply_Id);
+                    Material_Apply apply = _applyBll.Find(applyInfo.Apply_Id);
                     Material_Base_Company materialBaseCompany =
                         _baseCompanyBll.GetEntity(m => m.Material_Id == apply.Material_Id);
                     materialBaseCompany.Material_RemainCont += applyInfo.Apply_Count;
                     materialBaseCompanies.Add(materialBaseCompany);
                 }
             }
+            
             return Content(_applyInfoBll.UpdateEntities(applies) && _baseCompanyBll.UpdateEntities(materialBaseCompanies) ? "OK" : "Error");
         }
     }

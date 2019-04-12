@@ -1,0 +1,57 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ApplyMost</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/ECharts/echarts.min.js"></script>
+</head>
+<body>
+<div class="container" id="main" style="width: 800px;height: 600px"></div>
+<script>
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    
+
+    $.post('GetApplyMost').done(function (data) {
+        var chartData = JSON.parse(data);
+
+        myChart.setOption({
+            title: {
+                text: "器材申请数量前十"
+            },
+            tooltip: {},
+            legend: {
+                data: ["数量"]
+            },
+            xAxis: {
+                type: 'category',
+                data: chartData.xAxis,
+                axisLabel: {
+                    interval: 0,
+                    rotate: 40
+                }
+
+            },
+            yAxis: {
+                type: 'value'
+            },
+
+            series: [{
+                name: '销量',
+                type: 'bar',
+                data: chartData.yAxis
+            }]
+        });
+    });
+</script>
+</body>
+</html>

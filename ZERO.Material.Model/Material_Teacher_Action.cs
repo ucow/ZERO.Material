@@ -9,9 +9,8 @@
 
 namespace ZERO.Material.Model
 {
-    using System;
+    using System;using Newtonsoft.Json;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
     
     public partial class Material_Teacher_Action
     {
@@ -19,8 +18,5 @@ namespace ZERO.Material.Model
         public string Teacher_Id { get; set; }
         public int Action_Id { get; set; }
         public bool Has_Permission { get; set; }
-    
-        public virtual Material_Action Material_Action { get; set; }
-        public virtual Material_Teacher Material_Teacher { get; set; }
     }
 }

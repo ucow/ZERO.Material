@@ -13,10 +13,10 @@ namespace ZERO.Material.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ZERO_MaterialEntities : DbContext
+    public partial class ZERO_MaterialEntities1 : DbContext
     {
-        public ZERO_MaterialEntities()
-            : base("name=ZERO_MaterialEntities")
+        public ZERO_MaterialEntities1()
+            : base("name=ZERO_MaterialEntities1")
         {
         }
     

@@ -82,7 +82,7 @@
                                         <span class="input-group-btn">
                                             <button class="btn btn-default btn-Add" type="button">+</button>
                                         </span>
-                                        <input type="text" class="form-control count" value="0" style="padding: 0;text-align: center">
+                                        <input id="@item.Material_Id" type="text" class="form-control count" value="0" style="padding: 0;text-align: center">
                                         <span class="input-group-btn">
                                             <button class="btn btn-default btn-Subs" type="button">-</button>
                                         </span>
@@ -90,8 +90,8 @@
                                 </td>
                                 <td style="width: 10%; text-align: center">
                                     <span>
-                                        <button class="btn btn-primary" type="button" onclick="ApplyMaterial(@item.Material_Id,$('.count').val())">申请</button><br /><br />
-                                        <button style="margin-right: 0px" type="button" class="btn btn-default btn-danger btn-xs" onclick="AddMaterialCar('@item.Material_Id',$('.count').val())">加入我的器材</button>
+                                        <button class="btn btn-primary" type="button" onclick="ApplyMaterial(@item.Material_Id,$('#@item.Material_Id').val())">申请</button><br /><br />
+                                        <button style="margin-right: 0px" type="button" class="btn btn-default btn-danger btn-xs" onclick="AddMaterialCar('@item.Material_Id',$('#@item.Material_Id').val())">加入我的器材</button>
                                     </span>
                                 </td>
                             </tr>
@@ -160,21 +160,33 @@
 
     function AddMaterialCar(material,count) {
 
-            var info = { material, count }
-            $.ajax({
-                url: "../../Zero/MaterialCar",
-                type: "POST",
-                data: info,
-                success: function (data) {
+        if (count == 0) {
+            toastr.warning("申请数量不能为0");
+            return;
+        }
+        var info = { material, count }
+        $.ajax({
+            url: "../../Zero/MaterialCar",
+            type: "POST",
+            data: info,
+            success: function (data) {
+                if (data.indexOf('登录') != -1) {
+                    toastr.warning(data);
+                } else {
                     toastr.info(data);
                 }
-            });
-
+            }
+        });
     }
 
     function ApplyMaterial(id, count) {
 
-            location.href = '../../Zero/Apply?id=' + id + '&count=' + count;
+        if (count == 0) {
+            toastr.warning("申请数量不能为0");
+            return;
+        }
+
+        location.href = '../../Zero/Apply?id=' + id + '&count=' + count;
 
     }
 </script>

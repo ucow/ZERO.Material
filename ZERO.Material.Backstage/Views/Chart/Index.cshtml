@@ -1,4 +1,5 @@
-﻿@{
+﻿
+@{
     Layout = null;
 }
 
@@ -12,27 +13,122 @@
     @Styles.Render("~/Content/layui")
     @Scripts.Render("~/bundles/layui")
     <script src="~/Scripts/ECharts/echarts.min.js"></script>
+    <script src="~/Scripts/require.js"></script>
 </head>
 <body>
-    <div id="main" style="width: 800px;height: 600px"></div>
-    <script>
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('main'));
 
-        $.ajax({
-            url: "",
-            type: "POST",
-            success: function (data) { }
+    <div class="layui-row">
+        <div class="layui-col-md6">
+            <div id="typeChart" style="width: 100%;height: 300px;"></div>
+        </div>
+        <div class="layui-col-md5">
+            <div id="applyMost" style="width: 100%;height: 300px;"></div>
+        </div>
+    </div>
+<div class="layui-row">
+   
+    <div class="layui-col-md7">
+        <div id="teacherApply" style="width: 100%;height: 300px;"></div>
+    </div>
+    <div class="layui-col-md4">
+        <div id="teacherDepartStatis" style="width: 100%;height: 300px;"></div>
+    </div>
+</div>
+
+<script>
+
+    drawEcharts(echarts);
+
+    function drawEcharts(ec) {
+
+        drawTypeChart(ec);
+        drawTeacherApplyChart(ec)
+        drawApplyMost(ec);
+        drawTeacherDepartChart(ec);
+    }
+
+    function drawTeacherDepartChart(ec) {
+        var teacherDepartChart = ec.init(document.getElementById('teacherDepartStatis'));
+        teacherDepartChart.showLoading({
+            text: "加载中···",
+            effect: "加载中···",
+            textStyle: {
+                fontSize: 20
+            }
         });
-
-        $.post('GetTypeChartData').done(function (data) {
+        $.post('GetTeacherDepartStatis').done(function(data) {
             var chartData = JSON.parse(data);
+            var data = [];
+            for (var i = 0; i < chartData.serise.length; i++) {
+                data.push({
+                    value: chartData.serise[i].Count,
+                    name: chartData.serise[i].Depart
+                });
+            }
 
-            myChart.setOption({
+            teacherDepartChart.hideLoading();
+            teacherDepartChart.setOption({
+                title: {
+                    text: '用户系别统计',
+                    x: 'center'
+                },
+                tooltip: {
+                    trigger: 'item',
+                    formatter: "{a} <br/>{b} : {c} ({d}%)"
+                },
+                toolbox: {
+                    feature: {
+                        saveAsImage: {}
+                    }
+                },
+                legend: {
+                    orient: 'vertical',
+                    left: 'left',
+                    data: chartData.legend
+                },
+                series: [
+                    {
+                        name: '用户系别',
+                        type: 'pie',
+                        radius: '55%',
+                        center: ['50%', '60%'],
+                        data: data,
+                        itemStyle: {
+                            emphasis: {
+                                shadowBlur: 10,
+                                shadowOffsetX: 0,
+                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            }
+                        }
+                    }
+                ]
+            });
+        });
+    }
+
+    function drawTypeChart(ec) {
+        var typeChart = ec.init(document.getElementById('typeChart'));
+        typeChart.showLoading({
+            text: "加载中···",
+            effect: "加载中···",
+            textStyle: {
+                fontSize: 20
+            }
+        });
+        $.post('GetTypeChartData').done(function(data) {
+
+            var chartData = JSON.parse(data);
+            typeChart.hideLoading();
+            typeChart.setOption({
                 title: {
                     text: "器材种类数量"
                 },
                 tooltip: {},
+                toolbox: {
+                    feature: {
+                        saveAsImage: {}
+                    }
+                },
                 legend: {
                     data: ["数量"]
                 },
@@ -49,13 +145,122 @@
                     type: 'value'
                 },
 
-                series: [{
-                    name: '销量',
-                    type: 'bar',
-                    data: chartData.yAxis
-                }]
+                series: [
+                    {
+                        name: '销量',
+                        type: 'bar',
+                        data: chartData.yAxis
+                    }
+                ]
+            });
+
+
+        });
+    }
+
+    function drawTeacherApplyChart(ec) {
+        var teacherApplyChart = ec.init(document.getElementById('teacherApply'));
+        teacherApplyChart.showLoading({
+            text: "加载中···",
+            effect: "加载中···",
+            textStyle: {
+                fontSize: 20
+            }
+        });
+        $.post('GetTeacherApply').done(function(data) {
+            var chartData = JSON.parse(data);
+            var serise = [];
+            for (var i = 0; i < chartData.legend.length; i++) {
+                serise.push({
+                    name: chartData.legend[i],
+                    type: "line",
+                    data: chartData.yAxis[chartData.legend[i]]
+                });
+            }
+            teacherApplyChart.hideLoading();
+            teacherApplyChart.setOption({
+                title: {
+                    text: "教师申请数量"
+                },
+                tooltip: {
+                    trigger: 'axis'
+                },
+                grid: {
+                    left: '3%',
+                    right: '4%',
+                    bottom: '3%',
+                    containLabel: true
+                },
+                toolbox: {
+                    feature: {
+                        saveAsImage: {}
+                    }
+                },
+                legend: {
+                    data: chartData.legend
+                },
+                xAxis: {
+                    type: 'category',
+                    boundaryGap: false,
+                    data: chartData.xAxis
+                },
+                yAxis: {
+                    type: 'value'
+                },
+
+                series: serise
             });
         });
-    </script>
+    }
+
+    function drawApplyMost(ec) {
+        var applyMostChart = ec.init(document.getElementById('applyMost'));
+        applyMostChart.showLoading({
+            text: "加载中···",
+            effect: "加载中···",
+            textStyle: {
+                fontSize: 20
+            }
+        });
+        $.post('GetApplyMost').done(function(data) {
+            var chartData = JSON.parse(data);
+            applyMostChart.hideLoading();
+            applyMostChart.setOption({
+                title: {
+                    text: "器材申请最大数量"
+                },
+                tooltip: {},
+                toolbox: {
+                    feature: {
+                        saveAsImage: {}
+                    }
+                },
+                legend: {
+                    data: ["数量"]
+                },
+                xAxis: {
+                    type: 'category',
+                    data: chartData.xAxis,
+                    axisLabel: {
+                        interval: 0,
+                        rotate: 40
+                    }
+
+                },
+                yAxis: {
+                    type: 'value'
+                },
+
+                series: [
+                    {
+                        name: '销量',
+                        type: 'bar',
+                        data: chartData.yAxis
+                    }
+                ]
+            });
+        });
+    }
+</script>
 </body>
 </html>

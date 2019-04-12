@@ -13,7 +13,6 @@ namespace ZERO.Material.Backstage.Filter
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false)]
     public class StatisticsTrackerAttribute : ActionFilterAttribute, IExceptionFilter
     {
-        private readonly string Key = "_thisOnActionMonitorLog_";
 
         #region Action时间监控
 

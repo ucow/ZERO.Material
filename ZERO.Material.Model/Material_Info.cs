@@ -9,9 +9,8 @@
 
 namespace ZERO.Material.Model
 {
-    using System;
+    using System;using Newtonsoft.Json;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
     
     public partial class Material_Info
     {

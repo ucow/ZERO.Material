@@ -9,9 +9,8 @@
 
 namespace ZERO.Material.Model
 {
-    using System;
+    using System;using Newtonsoft.Json;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
     
     public partial class Apply_Info
     {
@@ -21,7 +20,5 @@ namespace ZERO.Material.Model
         public int Apply_Count { get; set; }
         public int Apply_Status { get; set; }
         public string Apply_Advice { get; set; }
-    
-        public virtual Apply_Type Apply_Type { get; set; }
     }
 }

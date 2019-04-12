@@ -9,24 +9,13 @@
 
 namespace ZERO.Material.Model
 {
-    using System;
+    using System;using Newtonsoft.Json;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
     
     public partial class Apply_Type
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Apply_Type()
-        {
-            this.Apply_Info = new HashSet<Apply_Info>();
-        }
-    
         public int Id { get; set; }
         public string ApplyType_Id { get; set; }
         public string ApplyType_Name { get; set; }
-    
-        [JsonIgnore]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Apply_Info> Apply_Info { get; set; }
     }
 }

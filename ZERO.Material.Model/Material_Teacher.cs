@@ -9,35 +9,16 @@
 
 namespace ZERO.Material.Model
 {
-    using System;
+    using System;using Newtonsoft.Json;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
     
     public partial class Material_Teacher
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Material_Teacher()
-        {
-            this.Material_Apply = new HashSet<Material_Apply>();
-            this.Material_Role_Teacher = new HashSet<Material_Role_Teacher>();
-            this.Material_Teacher_Action = new HashSet<Material_Teacher_Action>();
-        }
-    
         public int Id { get; set; }
         public string Teacher_Id { get; set; }
         public string Teacher_Name { get; set; }
         public string Teacher_Depart { get; set; }
         public string Teacher_Password { get; set; }
         public bool Del_Flag { get; set; }
-    
-        [JsonIgnore]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Material_Apply> Material_Apply { get; set; }
-        [JsonIgnore]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Material_Role_Teacher> Material_Role_Teacher { get; set; }
-        [JsonIgnore]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Material_Teacher_Action> Material_Teacher_Action { get; set; }
     }
 }

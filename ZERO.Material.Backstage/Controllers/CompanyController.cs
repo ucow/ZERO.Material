@@ -19,7 +19,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string List(int page, int limit)
         {
-            List<Material_Company> materialCompanies = _companyBll.GetPageEntities(page, limit, (m => m.Company_Id), out var total);
+            List<Material_Company> materialCompanies = _companyBll.GetPageEntities(page, limit, (m => m.Company_Id),(m=>true), out var total);
             var dataJson = new
             {
                 code = 0,
@@ -39,7 +39,7 @@ namespace ZERO.Material.Backstage.Controllers
                 return View();
             }
             ViewBag.IsUpdate = true;
-            Material_Company materialCompany = _companyBll.GetEntity(m => m.Company_Id == company_Id);
+            Material_Company materialCompany = _companyBll.Find(company_Id);
             if (materialCompany == null)
                 return View();
             return View(materialCompany);
@@ -65,7 +65,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Detail(string company_Id)
         {
-            Material_Company materialCompany = _companyBll.GetEntity(m => m.Company_Id == company_Id);
+            Material_Company materialCompany = _companyBll.Find(company_Id);
             return View(materialCompany);
         }
 
@@ -73,7 +73,7 @@ namespace ZERO.Material.Backstage.Controllers
         {
             if (_companyBll.DeleteEntity(new List<Material_Company>()
             {
-                _companyBll.GetEntity(m=>m.Company_Id == company_Id)
+                _companyBll.Find( company_Id)
             }))
             {
                 return "OK";

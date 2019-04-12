@@ -123,17 +123,13 @@
                             <dd><a data-url="..\Apply\InComing" data-id="03" data-title="入库审批" href="#" class="site-demo-active" data-type="tabAdd">入库审批</a></dd>
                         </dl>
                     </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">实验器材信息</a>
+                    
+                    <li class="layui-nav-item layui-nav-itemed">
+                        <a href="javascript:;">库存管理</a>
                         <dl class="layui-nav-child">
                             <dd><a data-url="..\Material\Index" data-id="07" data-title="器材列表" href="#" class="site-demo-active" data-type="tabAdd">器材列表</a></dd>
                             <dd><a data-url="..\Type\Index" data-id="08" data-title="种类管理" href="#" class="site-demo-active" data-type="tabAdd">种类管理</a></dd>
                             <dd><a data-url="..\Company\Index" data-id="09" data-title="供应商信息" href="#" class="site-demo-active" data-type="tabAdd">供应商信息</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">库存管理</a>
-                        <dl class="layui-nav-child">
                             <dd><a data-url="..\Stock\NeedBuy" data-id="13" data-title="需购买" href="#" class="site-demo-active" data-type="tabAdd">需购买</a></dd>
                             <dd><a data-url="..\Stock\SelfApplyInComing" data-id="14" data-title="采购申请" href="#" class="site-demo-active" data-type="tabAdd">采购申请</a></dd>
                             <dd><a data-url="..\Stock\CanOutComing" data-id="15" data-title="可出库" href="#" class="site-demo-active" data-type="tabAdd">可出库</a></dd>
@@ -148,13 +144,14 @@
                             <dd><a data-url="..\Authority\Role" data-id="12" data-title="角色管理" href="#" class="site-demo-active" data-type="tabAdd">角色设置</a></dd>
                         </dl>
                     </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">统计信息</a>
-                        <dl class="layui-nav-child">
-                            <dd><a data-url="#" data-id="13" data-title="借用记录" href="#" class="site-demo-active" data-type="tabAdd">借用记录</a></dd>
-                            <dd><a data-url="#" data-id="14" data-title="采购记录" href="#" class="site-demo-active" data-type="tabAdd">采购记录</a></dd>
-                            <dd><a data-url="#" data-id="15" data-title="违规记录" href="#" class="site-demo-active" data-type="tabAdd">违规记录</a></dd>
-                        </dl>
+                    <li class="layui-nav-item layui-show">
+                        <a data-url="..\Chart\Index" data-id="4" data-title="统计信息" href="#" class="site-demo-active" data-type="tabAdd">统计信息</a>
+                        @*<dl class="layui-nav-child">
+                            <dd><a data-url="..\Chart\TypeChart" data-id="4" data-title="器材分类数量" href="#" class="site-demo-active" data-type="tabAdd">器材分类数量</a></dd>
+                            <dd><a data-url="..\Chart\TeacherDepartStatis" data-id="5" data-title="用户系别统计" href="#" class="site-demo-active" data-type="tabAdd">用户系别统计</a></dd>
+                            <dd><a data-url="..\Chart\TeacherApply" data-id="6" data-title="教师申请数量" href="#" class="site-demo-active" data-type="tabAdd">器材分类数量</a></dd>
+                            <dd><a data-url="..\Chart\ApplyMost" data-id="6" data-title="器材申请数量前十" href="#" class="site-demo-active" data-type="tabAdd">器材申请数量前十</a></dd>
+                        </dl>*@
                     </li>
                 </ul>
             </div>
@@ -164,7 +161,9 @@
             <!-- 内容主体区域 -->
             <div class="layui-tab layui-tab-card" lay-filter="demo" lay-allowclose="true" style="margin: 0">
                 <ul class="layui-tab-title"></ul>
-                <div class="layui-tab-content"></div>
+                <div class="layui-tab-content">
+
+                </div>
             </div>
         </div>
     </div>

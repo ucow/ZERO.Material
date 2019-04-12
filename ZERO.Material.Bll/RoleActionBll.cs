@@ -13,6 +13,7 @@ namespace ZERO.Material.Bll
             BasicDal = DbSession.RoleActionDal();
         }
 
+
         //1. 首先删除原有权限，然后重新分配权限
         //2. 如果该页面是子页面，在给自己分配权限的同时需要为父菜单项分配权限
         //3. 如果该页面是父菜单项，但是没有分配权限，需要将子页面中的所有权限删除
@@ -32,7 +33,13 @@ namespace ZERO.Material.Bll
             if (roleIds != null)
             {
                 //获取该页面的父菜单Id
-                int menuId = actionBll.GetEntity(m => m.Id == actionId).Menu_Id;
+                Material_Action action = actionBll.Find(actionId);
+                if (action == null)
+                {
+                    return false;
+                }
+
+                int menuId = action.Menu_Id;
                 foreach (int roleId in roleIds)
                 {
                     //为该页面设置权限

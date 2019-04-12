@@ -66,11 +66,11 @@ namespace ZERO.Material.Backstage.Controllers
                 return View();
             }
             ViewBag.IsUpdate = true;
-            Material_Type materialType = _typeBll.GetEntity(m => m.Material_Type_Id == Material_Type_Id);
+            Material_Type materialType = _typeBll.Find(Material_Type_Id);
 
             if (materialType == null)
                 return View();
-            ViewBag.parent = materialType.Material_Type_Parent_Id == "000000" ? "无" : _typeBll.GetEntity(m => m.Material_Type_Id == materialType.Material_Type_Parent_Id)
+            ViewBag.parent = materialType.Material_Type_Parent_Id == "000000" ? "无" : _typeBll.Find(materialType.Material_Type_Parent_Id)
                 .Material_Type_Name;
             return View(materialType);
         }
@@ -94,8 +94,8 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Detail(string Material_Type_Id)
         {
-            Material_Type materialType = _typeBll.GetEntity(m => m.Material_Type_Id == Material_Type_Id);
-            ViewBag.parent = materialType.Material_Type_Parent_Id == "000000" ? "无" : _typeBll.GetEntity(m => m.Material_Type_Id == materialType.Material_Type_Parent_Id)
+            Material_Type materialType = _typeBll.Find( Material_Type_Id);
+            ViewBag.parent = materialType.Material_Type_Parent_Id == "000000" ? "无" : _typeBll.Find(materialType.Material_Type_Parent_Id)
                   .Material_Type_Name;
             return View(materialType);
         }
@@ -104,7 +104,7 @@ namespace ZERO.Material.Backstage.Controllers
         {
             if (_typeBll.DeleteEntity(new List<Material_Type>()
             {
-                _typeBll.GetEntity(m=>m.Material_Type_Id == Material_Type_Id)
+                _typeBll.Find(Material_Type_Id)
             }))
             {
                 return "OK";

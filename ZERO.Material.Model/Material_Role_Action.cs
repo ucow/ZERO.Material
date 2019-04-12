@@ -9,17 +9,13 @@
 
 namespace ZERO.Material.Model
 {
-    using System;
+    using System;using Newtonsoft.Json;
     using System.Collections.Generic;
-    using Newtonsoft.Json;
     
     public partial class Material_Role_Action
     {
         public int id { get; set; }
         public int Role_Id { get; set; }
         public int Action_Id { get; set; }
-    
-        public virtual Material_Action Material_Action { get; set; }
-        public virtual Material_Role Material_Role { get; set; }
     }
 }

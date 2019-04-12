@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Core.Mapping;
 using System.Linq;
 using System.Linq.Expressions;
 using ZERO.Material.IDal;
@@ -10,7 +11,8 @@ namespace ZERO.Material.Dal
 {
     public class BasicDal<T> : IBasicDal<T> where T : class, new()
     {
-        private readonly DbContext _context = DbContextFactory.GetDbContext();
+
+        private static readonly DbContext context = DbContextFactory.GetDbContext();
 
         /// <summary>
         /// 添加多个实体
@@ -19,20 +21,31 @@ namespace ZERO.Material.Dal
         /// <returns></returns>
         public bool AddEntities(List<T> ts)
         {
-            for (int i = 0; i < ts.Count; i++)
+
+            using (DbContext context = DbContextFactory.GetDbContext())
             {
-                if (ts[i] == null)
+                try
                 {
-                    ts.Remove(ts[i]);
+                    for (int i = 0; i < ts.Count; i++)
+                    {
+                        if (ts[i] == null)
+                        {
+                            ts.Remove(ts[i]);
+                        }
+                    }
+                    if (ts.Count == 0)
+                    {
+                        return true;
+                    }
+
+                    context.Set<T>().AddRange(ts);
+                    context.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    return false;
                 }
             }
-            if (ts.Count == 0)
-            {
-                return true;
-            }
-
-            _context.Set<T>().AddRange(ts);
-            _context.SaveChanges();
             return true;
         }
 
@@ -43,12 +56,23 @@ namespace ZERO.Material.Dal
         /// <returns></returns>
         public bool UpdateEntities(List<T> ts)
         {
-            foreach (T t in ts)
+            using (DbContext context = DbContextFactory.GetDbContext())
             {
-                _context.Entry(t).State = EntityState.Modified;
+                try
+                {
+                    foreach (T t in ts)
+                    {
+                        context.Entry(t).State = EntityState.Modified;
+                    }
+
+                    context.SaveChanges();
+                }
+                catch (Exception)
+                {
+                    return false;
+                } 
             }
 
-            _context.SaveChanges();
             return true;
         }
 
@@ -59,9 +83,24 @@ namespace ZERO.Material.Dal
         /// <returns></returns>
         public bool DeleteEntity(List<T> ts)
         {
-            _context.Set<T>().RemoveRange(ts);
-            _context.SaveChanges();
-            return true;
+            try
+            {
+                using (DbContext context = DbContextFactory.GetDbContext())
+                {
+                    foreach (var t in ts)
+                    {
+                        context.Set<T>().Attach(t);
+                        context.Set<T>().Remove(t);
+                    }
+                    int count = context.SaveChanges();
+                    return count == ts.Count ? true : false;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
         /// <summary>
@@ -71,7 +110,10 @@ namespace ZERO.Material.Dal
         /// <returns></returns>
         public T Find(params object[] keyValues)
         {
-            return _context.Set<T>().Find(keyValues);
+            using (DbContext context = DbContextFactory.GetDbContext())
+            {
+                return context.Set<T>().Find(keyValues); 
+            }
         }
 
         /// <summary>
@@ -81,7 +123,11 @@ namespace ZERO.Material.Dal
         /// <returns></returns>
         public List<T> GetEntities(Expression<Func<T, bool>> whereLambda)
         {
-            return _context.Set<T>().Where(whereLambda).ToList();
+
+            using (DbContext context = DbContextFactory.GetDbContext())
+            {
+                return DbContextFactory.GetDbContext().Set<T>().Where(whereLambda).ToList(); 
+            }
         }
 
         /// <summary>
@@ -91,7 +137,10 @@ namespace ZERO.Material.Dal
         /// <returns></returns>
         public T GetEntity(Expression<Func<T, bool>> whereLambda)
         {
-            return _context.Set<T>().FirstOrDefault(whereLambda);
+            using (DbContext context = DbContextFactory.GetDbContext())
+            {
+                return context.Set<T>().FirstOrDefault(whereLambda); 
+            }
         }
 
         /// <summary>
@@ -101,12 +150,25 @@ namespace ZERO.Material.Dal
         /// <param name="pageIndex"></param>
         /// <param name="pageCount"></param>
         /// <param name="orderLambda"></param>
+        /// <param name="whereLambda"></param>
         /// <param name="total"></param>
         /// <returns></returns>
-        public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, out int total)
+        public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda, out int total)
         {
-            total = _context.Set<T>().Count();
-            return _context.Set<T>().OrderBy(orderLambda).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList();
+            using (DbContext context = DbContextFactory.GetDbContext())
+            {
+                var queryable = context.Set<T>().Where(whereLambda);
+                total = queryable.Count();
+                return queryable.OrderBy(orderLambda).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList(); 
+            }
+        }
+
+        public List<TB> ExecuteSqlCommand<TB>(string sql)
+        {
+            using (DbContext context = DbContextFactory.GetDbContext())
+            {
+                return context.Database.SqlQuery<TB>(sql).ToList(); 
+            }
         }
     }
 }

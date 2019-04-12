@@ -1,15 +1,25 @@
 ﻿using System.Data.Entity;
+using System.Web;
 using ZERO.Material.Model;
 
 namespace ZERO.Material.Dal
 {
     public class DbContextFactory
     {
-        private static ZERO_MaterialEntities _zeroMaterial = null;
 
         public static DbContext GetDbContext()
         {
-            return _zeroMaterial ?? (_zeroMaterial = new ZERO_MaterialEntities());
+            //            var context = HttpContext.Current.Items[nameof(DbContext)] as DbContext;
+            //            if (context == null)
+            //            {
+            //                context = new ZERO_MaterialEntities1();
+            //                HttpContext.Current.Items[nameof(DbContext)] = context;
+            //            }
+            //           
+            //           return context as DbContext;
+            return new ZERO_MaterialEntities1();
+
+
         }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using System.Web.UI;
 using ZERO.Material.Backstage.Filter;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
@@ -126,49 +127,78 @@ namespace ZERO.Material.Backstage.Controllers
         /// </summary>
         /// <returns></returns>
         [CheckLogin(IsChecked = false)]
+        [OutputCache(Duration = Int32.MaxValue, Location = OutputCacheLocation.Client)]
         public ActionResult MaterialInfos()
         {
-            Dictionary<string, List<Material_Info>> infoDictionary = new Dictionary<string, List<Material_Info>>();
+            List<Material_Type> materialTypes = _typeBll.GetEntities(m => true);
             Dictionary<string, List<string>> infoChildTypes = new Dictionary<string, List<string>>();
-            List<Material_Type> materialTypes = _typeBll.GetEntities(m => m.Material_Type_Parent_Id == "000000");
-            List<Material_Info> materialInfos = new List<Material_Info>();
-            if (materialTypes.Count > 0)
+            List<string> parentTypeNames = materialTypes.Where(m => m.Material_Type_Parent_Id == "000000")
+                .Select(m => m.Material_Type_Name).ToList();
+            Dictionary<string, List<Material_Info>> infoDictionary = new Dictionary<string, List<Material_Info>>();
+
+            foreach (string parentTypeName in parentTypeNames)
             {
-                foreach (Material_Type materialType in materialTypes)
+                List<string> childNames = new List<string>();
+                GetChildTypes(childNames, parentTypeName);
+                infoChildTypes.Add(parentTypeName, childNames.Take(5).ToList());
+            }
+            ViewBag.childtypes = infoChildTypes;
+            int pageIndex = 1;
+            //List<string> typeNames = materialTypes.Select(m=>m.Material_Type_Name).ToList();
+            while (true)
+            {
+                List<Material_Info> materialInfos = _infoBll.GetPageEntities(pageIndex, 200, m => m.Material_Id,(m=>true), out int total);
+                foreach (Material_Info materialInfo in materialInfos)
                 {
-                    infoChildTypes.Add(materialType.Material_Type_Name, _typeBll.GetEntities(m => m.Material_Type_Parent_Id == materialType.Material_Type_Id).Select(m => m.Material_Type_Name).Take(5).ToList());
-
-                    List<string> materialIds = _typeBll
-                        .GetEntities(m => m.Material_Type_Parent_Id == materialType.Material_Type_Id)
-                        .Select(m => m.Material_Type_Id).ToList();
-                    if (materialIds.Count > 0)
+                    string parentTypeName = GetParentTypeName(materialInfo.Material_Type_Name, materialTypes);
+                    if (!infoDictionary.ContainsKey(parentTypeName))
                     {
-                        foreach (string materialId in materialIds)
+                        infoDictionary.Add(parentTypeName, new List<Material_Info>()
                         {
-                            List<string> typeNames = _typeBll.GetEntities(m => m.Material_Type_Parent_Id == materialId)
-                                .Select(m => m.Material_Type_Name).ToList();
-                            if (typeNames.Count > 0)
-                            {
-                                foreach (string typeName in typeNames)
-                                {
-                                    materialInfos.AddRange(_infoBll.GetEntities(m => m.Material_Type_Name == typeName));
-
-                                    if (materialInfos.Count >= 10)
-                                    {
-                                        break;
-                                    }
-                                }
-                            }
+                            materialInfo
+                        });
+                    }
+                    else
+                    {
+                        if (infoDictionary[parentTypeName].Count < 10)
+                        {
+                            infoDictionary[parentTypeName].Add(materialInfo);
                         }
                     }
-                    infoDictionary.Add(materialType.Material_Type_Name, materialInfos.Take(10).ToList());
-                    materialInfos.Clear();
                 }
+
+                int count = infoDictionary.Count(m => m.Value.Count >= 10);
+                if (count >= parentTypeNames.Count - 2)
+                {
+                    break;
+                }
+                pageIndex++;
             }
 
-            ViewBag.childtypes = infoChildTypes;
             return View(infoDictionary);
         }
+
+        private string GetParentTypeName(string typeName, List<Material_Type> materialTypes)
+        {
+            Material_Type materialType = materialTypes.FirstOrDefault(m => m.Material_Type_Name == typeName);
+            int count = materialTypes.Count(m => m.Material_Type_Parent_Id == "000000");
+            if (materialType?.Material_Type_Parent_Id == "000000")
+            {
+                return materialType.Material_Type_Name;
+            }
+            else
+            {
+                if (materialType != null)
+                {
+                    string name = materialTypes.FirstOrDefault(m => m.Material_Type_Id == materialType.Material_Type_Parent_Id)
+                        ?.Material_Type_Name;
+                    return GetParentTypeName(name, materialTypes);
+                }
+                else
+                    return null;
+            }
+        }
+
 
         /// <summary>
         /// 器材详情
@@ -197,7 +227,7 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 string name = cookie.Value;
                 var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
-                var teacher = UnityContainerHelper.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == user.username);
+                var teacher = UnityContainerHelper.Server<ITeacherBll>().Find(user.username);
                 ViewBag.teacher = teacher;
             }
 
@@ -205,7 +235,7 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 if (Session["materialCar"] == null)
                 {
-                    return Content("购物车为空");
+                    return Content("我的器材为空");
                 }
 
                 if (Session["materialCar"] is Dictionary<string, int> carInfos)
@@ -367,7 +397,7 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 string name = cookie.Value;
                 var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
-                string teacherName = UnityContainerHelper.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == user.username).Teacher_Name;
+                string teacherName = UnityContainerHelper.Server<ITeacherBll>().Find(user.username).Teacher_Name;
                 List<Use_Apply> applies = _useApplyBll.GetEntities(m => m.Teacher_Name == teacherName);
                 return View(applies);
             }
@@ -377,7 +407,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult GetUserName(string username)
         {
-            return Content(UnityContainerHelper.Server<ITeacherBll>().GetEntity(m => m.Teacher_Id == username).Teacher_Name);
+            return Content(UnityContainerHelper.Server<ITeacherBll>().Find(username).Teacher_Name);
         }
 
         [CheckLogin(IsChecked = false)]
@@ -394,12 +424,17 @@ namespace ZERO.Material.Backstage.Controllers
             Material_Type materialType = _typeBll.GetEntity(m => m.Material_Type_Name == typeName);
             if (materialType.Material_Type_Parent_Id != "000000")
             {
-                string name = _typeBll.GetEntity(m => m.Material_Type_Id == materialType.Material_Type_Parent_Id).Material_Type_Name;
+                string name = _typeBll.Find(materialType.Material_Type_Parent_Id).Material_Type_Name;
                 materType.Push(name);
                 GetAllTypes(materType, name);
             }
         }
 
+        /// <summary>
+        /// 获取父类别的子类别的集合
+        /// </summary>
+        /// <param name="childName">子类别名称集合</param>
+        /// <param name="typeName">父类别名称</param>
         private void GetChildTypes(List<string> childName, string typeName)
         {
             string typeId = _typeBll.GetEntity(m => m.Material_Type_Name == typeName).Material_Type_Id;
@@ -430,6 +465,28 @@ namespace ZERO.Material.Backstage.Controllers
             {
                 return null;
             }
+        }
+
+        /// <summary>
+        /// 判断服务器端是否存在该session
+        /// </summary>
+        /// <param name="sessionId"></param>
+        /// <returns></returns>
+        public bool IsHavSession(string sessionId)
+        {
+            return Session[sessionId] != null;
+        }
+
+        public string CancelApply(int applyId)
+        {
+            Material_Apply apply = _applyBll.Find(applyId);
+            Apply_Info applyInfo = _applyInfoBll.Find(applyId, "001");
+            if (_applyInfoBll.DeleteEntity(new List<Apply_Info>() { applyInfo }) && _applyBll.DeleteEntity(new List<Material_Apply>() { apply }))
+            {
+                return "OK";
+            }
+
+            return "Error";
         }
     }
 }

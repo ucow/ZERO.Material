@@ -11,6 +11,10 @@ namespace ZERO.Material.Backstage
             filters.Add(new HandleErrorAttribute());
             //验证登录
             filters.Add(new CheckLoginAttribute() { IsChecked = true });
+
+            //权限验证
+            filters.Add(new AuthorityFilterAttribute());
+            
             //记录日志
             filters.Add(new StatisticsTrackerAttribute());
         }

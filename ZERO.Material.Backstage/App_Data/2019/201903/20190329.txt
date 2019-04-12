@@ -1,0 +1,5712 @@
+
+ 
+记录时间：2019-03-29 10:05:17,039 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:16开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:05:17,080 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:17结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:05:18,930 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:18开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 10:05:18,981 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:18结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 10:05:21,191 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:21开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:05:21,192 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:21结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:05:23,684 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:23开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:05:23,812 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:23开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:05:23,837 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:23结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:05:23,837 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:23结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:05:24,265 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:24开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:05:24,611 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:24结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:05:27,264 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:27开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:05:27,341 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:27结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:05:33,352 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:05:33开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:06:32,598 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:32开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:06:32,631 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:32结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:06:36,914 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:36开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 10:06:36,980 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:36结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 10:06:54,194 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:54开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:06:54,195 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:54结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:06:57,245 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:57开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:06:57,288 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:57开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:06:57,350 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:57结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:06:57,351 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:57结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:06:58,662 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:58开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:06:59,093 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:06:59结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:07:00,958 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:07:00开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:07:01,039 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:07:01结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:07:03,173 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:07:03开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:08:47,182 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:08:47开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:08:47,242 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:08:47开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:08:47,248 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:08:47结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:08:47,248 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:08:47结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:08:48,126 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:08:48开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:08:48,126 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:08:48结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:09:23,645 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:23开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:09:23,645 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:23开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:09:23,646 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:23开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:09:23,680 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:23结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:09:23,680 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:23结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:09:23,680 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:23结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:09:34,745 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:34开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:09:34,751 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:34开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:09:34,834 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:34结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:09:34,834 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:34结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:09:35,241 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:35开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:09:35,610 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:35结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:09:44,176 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:44开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:09:44,266 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:09:44结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:12:15,279 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:12:15开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:15:13,729 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:13开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:15:13,730 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:13开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:15:13,767 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:13结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:15:13,767 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:13结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:15:14,363 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:14开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:15:14,364 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:14结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:15:17,002 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:17开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 10:15:17,004 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:17结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 10:15:17,055 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:17开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 10:15:17,056 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:17结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 10:15:17,440 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:17开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-03-29 10:15:17,728 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:17结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-03-29 10:15:20,373 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:20开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:15:20,432 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:20开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:15:20,455 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:20结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:15:20,455 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:20结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:15:20,712 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:20开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:15:20,909 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:20结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:15:23,415 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:23开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:15:23,515 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:23结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:15:26,100 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:15:26开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:18:50,044 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:49开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:18:50,045 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:49开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:18:50,080 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:50结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:18:50,080 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:50结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:18:50,408 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:50开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:18:50,408 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:50结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:18:54,902 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:54开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:18:54,923 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:54开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:18:54,990 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:54结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:18:54,991 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:54结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:18:55,326 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:55开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:18:55,727 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:55结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:18:58,736 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:58开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:18:58,828 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:18:58结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:19:01,832 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:19:01开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:21:27,562 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:27开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:21:27,563 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:27开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:21:27,563 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:27开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:21:27,597 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:27结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:21:27,597 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:27结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:21:27,597 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:27结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:21:31,733 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:31开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 10:21:31,749 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:31结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 10:21:31,753 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:31开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 10:21:31,753 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:31结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 10:21:32,121 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:32开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-03-29 10:21:32,525 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:32开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:21:32,527 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:32开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:21:32,570 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:32结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:21:32,573 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:32结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:21:32,732 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:32结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-03-29 10:21:32,825 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:32开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:21:33,060 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:33结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:21:34,941 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:34开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:21:35,033 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:35结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:21:41,387 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:21:41开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:33:43,506 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:43开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:33:43,507 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:43开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:33:43,538 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:43结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:33:43,538 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:43结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:33:49,912 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:49开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:33:49,915 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:49开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:33:49,974 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:49结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:33:49,976 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:49结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:33:50,940 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:50开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:33:51,370 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:51结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:33:53,560 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:53开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:33:53,686 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:53结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:33:57,055 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:33:57开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:34:37,996 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:34:37结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:34:38,332 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:34:38开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:34:38,528 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:34:38结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:35:16,392 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:16开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 10:35:16,393 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:16结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 10:35:17,908 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:17开始访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-03-29 10:35:17,927 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:17结束访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-03-29 10:35:30,152 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:30开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 10:35:30,183 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:30结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 10:35:30,320 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:30开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:30,321 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:30结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:33,990 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:33开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:33,991 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:33结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:36,035 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:36开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:36,036 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:36结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:37,223 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:37开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:37,223 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:37结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:38,361 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:38开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:38,362 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:38结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:39,399 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:39开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:39,400 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:39结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:39,477 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:39开始访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 10:35:39,483 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:39结束访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 10:35:39,672 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:39开始访问/Material/List
+ 
+
+ 
+记录时间：2019-03-29 10:35:39,849 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:39结束访问/Material/List
+ 
+
+ 
+记录时间：2019-03-29 10:35:40,995 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:40开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:40,996 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:40结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:41,767 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:41开始访问/Type/List
+ 
+
+ 
+记录时间：2019-03-29 10:35:43,736 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:43结束访问/Type/List
+ 
+
+ 
+记录时间：2019-03-29 10:35:44,002 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:44开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:44,003 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:44结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:45,205 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:45开始访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:45,206 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:45结束访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-29 10:35:45,742 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:45开始访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 10:35:45,742 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:45结束访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 10:35:45,956 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:45开始访问/Company/List
+ 
+
+ 
+记录时间：2019-03-29 10:35:46,027 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:46结束访问/Company/List
+ 
+
+ 
+记录时间：2019-03-29 10:35:47,108 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:47开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:47,108 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:47结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:49,545 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:49开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:49,546 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:49结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:50,929 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:50开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:50,930 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:50结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:51,753 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:51开始访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:51,753 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:51结束访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:52,729 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:52开始访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:52,729 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:52结束访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:52,990 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:52开始访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:53,048 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:53结束访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:53,852 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:53开始访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:53,855 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:53结束访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:54,351 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:54开始访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:54,351 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:54结束访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-03-29 10:35:54,546 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:54开始访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-03-29 10:35:54,603 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:54结束访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-03-29 10:35:55,910 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:55开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:55,910 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:55结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:56,923 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:56开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:56,924 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:56结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:57,672 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:57开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:35:57,672 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:35:57结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:03,318 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:03开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:03,319 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:03结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:04,525 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:04开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:04,526 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:04结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:05,616 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:05开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:05,616 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:05结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:06,431 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:06开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 10:39:06,431 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:06结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 10:39:06,511 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:06开始访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 10:39:06,512 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:06结束访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 10:39:06,737 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:06开始访问/Material/List
+ 
+
+ 
+记录时间：2019-03-29 10:39:06,798 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:06结束访问/Material/List
+ 
+
+ 
+记录时间：2019-03-29 10:39:07,443 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:07开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-29 10:39:07,443 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:07结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-29 10:39:07,688 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:07开始访问/Type/List
+ 
+
+ 
+记录时间：2019-03-29 10:39:09,591 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:09结束访问/Type/List
+ 
+
+ 
+记录时间：2019-03-29 10:39:11,076 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:11开始访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-29 10:39:11,077 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:11结束访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-29 10:39:11,155 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:11开始访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 10:39:11,156 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:11结束访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 10:39:11,321 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:11开始访问/Company/List
+ 
+
+ 
+记录时间：2019-03-29 10:39:11,371 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:11结束访问/Company/List
+ 
+
+ 
+记录时间：2019-03-29 10:39:12,557 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:12开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:12,558 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:12结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:13,382 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:13开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:13,382 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:13结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:14,843 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:14开始访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:39:14,844 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:14结束访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:39:15,057 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:15开始访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:39:15,075 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:15结束访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-03-29 10:39:15,857 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:15开始访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-03-29 10:39:15,858 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:15结束访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-03-29 10:39:16,150 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:16开始访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-03-29 10:39:16,169 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:16结束访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-03-29 10:39:17,451 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:17开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:17,451 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:17结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:19,311 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:19开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:19,311 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:19结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:20,729 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:20开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:20,730 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:20结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:21,787 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:21开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:21,787 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:21结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:23,380 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:23开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:23,380 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:23结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:24,727 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:24开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:24,728 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:24结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:25,599 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:25开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:25,600 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:25结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:25,943 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:25开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:25,943 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:25结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:26,473 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:26开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:26,473 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:26结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 10:39:29,666 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:29开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 10:39:29,667 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:29结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 10:39:29,829 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:29开始访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-03-29 10:39:29,832 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:29结束访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-03-29 10:39:41,697 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:41开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 10:39:41,718 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:41结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 10:39:41,856 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:41开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:39:41,856 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:41结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:39:56,338 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:56开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:39:56,360 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:56结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:39:56,841 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:56开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:39:56,861 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:56结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:39:57,086 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:57开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:39:57,275 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:39:57结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:01,220 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:01开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:01,288 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:01结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:03,702 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:03开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:16,948 
+线程ID:[18] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:16结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:16,958 
+线程ID:[18] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[AuthorityController] 的 action[AddAction] 时产生异常
+ 
+System.InvalidOperationException: 无法删除此对象，因为未在 ObjectStateManager 中找到它。
+   在 System.Data.Entity.Core.Objects.ObjectContext.DeleteObject(Object entity, EntitySet expectedEntitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.DeleteObject(Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.RemoveRange(IEnumerable entities)
+   在 System.Data.Entity.DbSet`1.RemoveRange(IEnumerable`1 entities)
+   在 ZERO.Material.Dal.BasicDal`1.DeleteEntity(List`1 ts) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 66
+   在 ZERO.Material.Bll.BasicBll`1.DeleteEntity(List`1 ts) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 44
+   在 ZERO.Material.Bll.RoleActionBll.SetRoleByAction(List`1 roleIds, Int32 actionId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\RoleActionBll.cs:行号 26
+   在 ZERO.Material.Backstage.Controllers.AuthorityController.AddAction(Material_Action materialAction, Int32[] roles) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\AuthorityController.cs:行号 236
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-03-29 10:40:20,700 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:20开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:20,904 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:20结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:23,485 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:23开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:23,565 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:23结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:40:25,454 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:40:25开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:41:02,308 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:41:02结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:41:02,343 
+线程ID:[16] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[AuthorityController] 的 action[AddAction] 时产生异常
+ 
+System.InvalidOperationException: 无法删除此对象，因为未在 ObjectStateManager 中找到它。
+   在 System.Data.Entity.Core.Objects.ObjectContext.DeleteObject(Object entity, EntitySet expectedEntitySet)
+   在 System.Data.Entity.Core.Objects.ObjectContext.DeleteObject(Object entity)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.RemoveRange(IEnumerable entities)
+   在 System.Data.Entity.DbSet`1.RemoveRange(IEnumerable`1 entities)
+   在 ZERO.Material.Dal.BasicDal`1.DeleteEntity(List`1 ts) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Dal\BasicDal.cs:行号 66
+   在 ZERO.Material.Bll.BasicBll`1.DeleteEntity(List`1 ts) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\BasicBll.cs:行号 44
+   在 ZERO.Material.Bll.RoleActionBll.SetRoleByAction(List`1 roleIds, Int32 actionId) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Bll\RoleActionBll.cs:行号 26
+   在 ZERO.Material.Backstage.Controllers.AuthorityController.AddAction(Material_Action materialAction, Int32[] roles) 位置 G:\WorkSpace\DOTNET\MVC\ZERO.Material\ZERO.Material.Backstage\Controllers\AuthorityController.cs:行号 236
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-03-29 10:41:05,147 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:41:05开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:41:05,356 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:41:05结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:41:16,298 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:41:16开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:41:16,401 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:41:16结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:41:24,314 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:41:24开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:47:15,074 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:15开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:47:15,107 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:15结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:47:18,047 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:18开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 10:47:18,103 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:18结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 10:47:22,861 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:22开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:47:22,862 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:22结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:47:25,259 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:25开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:47:25,281 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:25开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:47:25,332 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:25结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:47:25,334 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:25结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:47:26,252 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:26开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:47:26,602 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:26结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:47:36,878 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:36开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:47:36,985 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:36结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:47:39,284 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:47:39开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:14,234 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:14开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:48:14,234 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:14开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:48:14,271 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:14结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:48:14,271 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:14结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:48:14,737 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:14开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:48:14,738 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:14结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:48:18,024 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:18开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:48:18,123 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:18开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:48:18,145 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:18结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:48:18,145 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:18结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:48:18,485 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:18开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:18,819 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:18结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:24,509 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:24开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:24,601 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:24结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:27,361 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:27开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:27,576 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:27结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:30,737 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:30开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:30,845 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:30结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:48:39,195 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:48:39开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:49:10,289 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:10开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:49:10,289 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:10开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:49:10,327 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:10结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 10:49:10,327 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:10结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:49:11,251 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:11开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:49:11,252 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:11结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 10:49:13,819 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:13开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:49:13,839 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:13开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:49:13,902 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:13结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:49:13,902 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:13结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 10:49:14,215 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:14开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:49:14,576 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:14结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 10:49:21,491 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:21开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:49:21,617 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:21结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 10:49:25,545 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 10:49:25开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:12:42,001 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:41开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:12:42,001 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:41开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:12:42,056 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:42结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:12:42,057 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:42结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:12:42,358 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:42开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:12:42,359 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:42结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:12:46,041 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:46开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 11:12:46,043 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:46结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 11:12:53,874 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:53开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 11:12:53,874 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:53开始访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 11:12:53,875 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:53结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 11:12:53,875 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:53结束访问/Authority/Role
+ 
+
+ 
+记录时间：2019-03-29 11:12:54,280 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:54开始访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-03-29 11:12:54,519 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:54结束访问/Authority/GetMaterialRole
+ 
+
+ 
+记录时间：2019-03-29 11:12:55,265 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:55开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 11:12:55,265 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:12:55结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 11:14:53,161 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:14:53开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:14:53,161 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:14:53结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:14:54,709 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:14:54开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:14:54,732 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:14:54开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:14:54,773 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:14:54结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:14:54,773 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:14:54结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:14:55,043 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:14:55开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:14:55,277 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:14:55结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:15:05,933 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:15:05开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:15:06,064 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:15:06结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:15:11,994 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:15:11开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:15:12,204 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:15:12结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:15:33,463 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:15:33开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:15:33,558 
+线程ID:[16] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:15:33结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:15:38,889 
+线程ID:[24] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:15:38开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:19:51,941 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:19:51开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:19:51,941 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:19:51开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:19:51,984 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:19:51结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:19:51,985 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:19:51结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:19:52,214 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:19:52开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:19:52,217 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:19:52结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:21:34,819 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:34开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:21:34,842 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:34开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:21:34,901 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:34结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:21:34,902 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:34结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:21:35,927 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:35开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:21:36,325 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:36结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:21:40,649 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:40开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:21:40,771 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:40结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:21:43,928 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:43开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:21:44,130 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:44结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:21:49,489 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:49开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:21:49,583 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:49结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:21:52,175 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:21:52开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:03,203 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:03结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:03,537 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:03开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:03,737 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:03结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:10,941 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:10开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:11,030 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:11结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:17,189 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:17开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:17,399 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:17结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:20,572 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:20开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:20,665 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:20结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:22:22,951 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:22:22开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:19,644 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:19开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:49:19,644 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:19开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:49:19,644 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:19开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:49:19,678 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:19结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:49:19,678 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:19结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:49:19,678 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:19结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:49:26,510 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:26开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:49:26,565 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:26开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:49:26,651 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:26结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:49:26,651 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:26结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:49:27,603 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:27开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:27,988 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:27结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:33,344 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:33开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:33,473 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:33结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:36,108 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:36开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:40,268 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:40结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:40,615 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:40开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:40,821 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:40结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:49,072 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:49开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:49,166 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:49结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:52,361 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:52开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:52,565 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:52结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:56,374 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:56开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:49:56,489 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:49:56结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:01,662 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:01开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:01,907 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:01结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:04,468 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:04开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:04,559 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:04结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:06,889 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:06开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:30,487 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:30开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:50:30,488 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:30开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:50:30,488 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:30开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:50:30,524 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:30结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:50:30,524 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:30结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:50:30,526 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:30结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:50:36,844 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:36开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:50:36,889 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:36开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:50:36,959 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:36结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:50:36,962 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:36结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:50:37,283 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:37开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:37,651 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:37结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:40,566 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:40开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:40,717 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:40结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:42,494 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:42开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:42,675 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:42结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:43,021 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:43开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:43,250 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:43结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:47,490 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:47开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:47,558 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:47结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:49,588 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:49开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:49,674 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:49结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:50,030 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:50开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:50:50,239 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:50:50结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:02,105 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:02开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:02,176 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:02结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:04,611 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:04开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:04,692 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:04结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:05,047 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:05开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:05,266 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:05结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:26,850 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:26开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:51:26,850 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:26开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:51:26,881 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:26结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 11:51:26,881 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:26结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:51:27,095 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:27开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:51:27,096 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:27结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 11:51:33,622 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:33开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:51:33,623 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:33开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:51:33,690 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:33结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:51:33,692 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:33结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 11:51:34,572 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:34开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:34,959 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:34结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:38,657 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:38开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:38,793 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:38结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:41,254 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:41开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:41,476 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:41结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:41,813 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:41开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:42,040 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:42结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:45,965 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:45开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:46,039 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:46结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 11:51:48,496 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 11:51:48开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:01,317 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:01开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 12:02:01,351 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:01结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 12:02:04,503 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:04开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 12:02:04,549 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:04结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 12:02:29,732 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:29开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 12:02:29,733 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:29结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 12:02:33,831 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:33开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:02:33,871 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:33开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:02:33,918 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:33结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:02:33,919 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:33结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:02:34,832 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:34开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:35,214 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:35结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:38,360 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:38开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:38,460 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:38结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:41,800 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:41开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:41,995 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:41结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:42,371 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:42开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:42,558 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:42结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:46,651 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:46开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:46,730 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:46结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:02:48,784 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:02:48开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:34,000 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:33开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 12:13:34,000 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:33开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 12:13:34,035 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:34结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 12:13:34,035 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:34结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 12:13:36,925 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:36开始访问/Authority/Teacher
+ 
+
+ 
+记录时间：2019-03-29 12:13:36,925 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:36开始访问/Authority/Teacher
+ 
+
+ 
+记录时间：2019-03-29 12:13:36,926 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:36结束访问/Authority/Teacher
+ 
+
+ 
+记录时间：2019-03-29 12:13:36,927 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:36结束访问/Authority/Teacher
+ 
+
+ 
+记录时间：2019-03-29 12:13:37,290 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:37开始访问/Authority/GetMaterialTeacher
+ 
+
+ 
+记录时间：2019-03-29 12:13:37,576 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:37结束访问/Authority/GetMaterialTeacher
+ 
+
+ 
+记录时间：2019-03-29 12:13:38,398 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:38开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:13:38,437 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:38结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:13:38,722 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:38开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:38,973 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:38结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:41,811 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:41开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:41,936 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:41结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:44,543 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:44开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:44,763 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:44结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:45,115 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:45开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:45,336 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:45结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:58,871 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:58开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:13:58,936 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:13:58结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:04,583 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:04开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:08,530 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:08结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:08,882 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:08开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:09,100 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:09结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:15,300 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:15开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:15,370 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:15结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:18,331 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:18开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:21,618 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:21结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:21,974 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:21开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:22,190 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:22结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:27,047 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:27开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:14:27,066 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:27开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:14:27,084 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:27结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:14:27,105 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:27结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:14:27,338 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:27开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:27,527 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:27结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:31,055 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:31开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:31,131 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:31结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:14:33,264 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:14:33开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:17:16,625 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:16开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 12:17:16,656 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:16结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 12:17:19,475 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:19开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 12:17:19,531 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:19结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 12:17:41,327 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:41开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 12:17:41,328 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:41结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 12:17:44,372 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:44开始访问/Stock/NeedBuy
+ 
+
+ 
+记录时间：2019-03-29 12:17:44,372 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:44结束访问/Stock/NeedBuy
+ 
+
+ 
+记录时间：2019-03-29 12:17:44,393 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:44开始访问/Stock/NeedBuy
+ 
+
+ 
+记录时间：2019-03-29 12:17:44,395 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:44结束访问/Stock/NeedBuy
+ 
+
+ 
+记录时间：2019-03-29 12:17:45,238 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:45开始访问/Stock/GetNeedBuy
+ 
+
+ 
+记录时间：2019-03-29 12:17:45,461 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:45结束访问/Stock/GetNeedBuy
+ 
+
+ 
+记录时间：2019-03-29 12:17:47,517 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:47开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:17:47,517 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:47开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:17:47,569 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:47结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:17:47,570 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:47结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 12:17:48,464 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:48开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:17:48,727 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:48结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:17:52,264 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:52开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:17:52,375 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:52结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:17:54,558 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:54开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:17:54,748 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:54结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:17:55,095 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:55开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:17:55,346 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:17:55结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:18:01,977 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:18:01开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:18:02,066 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:18:02结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:18:03,908 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:18:03开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:18:04,105 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:18:04结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 12:18:06,546 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:18:06开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:18:06,615 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:18:06结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 12:18:08,672 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 12:18:08开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 13:09:14,515 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 13:09:14开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 13:09:14,554 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 13:09:14结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 13:09:18,919 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 13:09:18开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 13:09:18,967 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 13:09:18结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 17:49:37,773 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:37开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 17:49:37,812 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:37结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 17:49:40,684 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:40开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 17:49:40,754 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:40结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-03-29 17:49:44,341 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:44开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 17:49:44,342 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:44结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 17:49:48,455 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:48开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 17:49:48,456 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:48结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 17:49:54,159 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:54开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 17:49:54,198 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:54开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 17:49:54,248 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:54结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 17:49:54,248 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:54结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 17:49:56,045 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:56开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 17:49:56,388 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:49:56结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 17:50:01,132 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:50:01开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 17:50:01,309 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:50:01结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 17:50:03,097 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:50:03开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 17:59:41,455 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:41开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:41,488 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:41结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:42,228 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:42开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:42,229 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:42结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:47,810 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:47开始访问/Apply/Borrow
+ 
+
+ 
+记录时间：2019-03-29 17:59:47,850 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:47开始访问/Apply/Borrow
+ 
+
+ 
+记录时间：2019-03-29 17:59:48,101 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:48结束访问/Apply/Borrow
+ 
+
+ 
+记录时间：2019-03-29 17:59:48,102 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:48结束访问/Apply/Borrow
+ 
+
+ 
+记录时间：2019-03-29 17:59:49,207 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:49开始访问/Apply/GetMaterialBorrow
+ 
+
+ 
+记录时间：2019-03-29 17:59:49,523 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:49开始访问/Apply/Buy
+ 
+
+ 
+记录时间：2019-03-29 17:59:49,524 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:49结束访问/Apply/Buy
+ 
+
+ 
+记录时间：2019-03-29 17:59:49,606 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:49结束访问/Apply/GetMaterialBorrow
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,011 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50开始访问/Apply/GetMaterialBuyInComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,181 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50开始访问/Apply/InComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,181 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50结束访问/Apply/InComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,196 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50结束访问/Apply/GetMaterialBuyInComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,461 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50开始访问/Apply/GetMaterialBuyInComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,526 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50结束访问/Apply/GetMaterialBuyInComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,971 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,972 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,985 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50开始访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:50,985 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:50结束访问/Material/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:51,223 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:51开始访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:51,224 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:51结束访问/Type/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:52,461 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:52开始访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 17:59:52,473 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:52结束访问/Material/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 17:59:52,644 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:52开始访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:52,645 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:52结束访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:52,744 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:52开始访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:52,745 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:52结束访问/Company/Index
+ 
+
+ 
+记录时间：2019-03-29 17:59:53,528 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:53开始访问/Material/List
+ 
+
+ 
+记录时间：2019-03-29 17:59:54,463 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:54开始访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 17:59:54,464 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:54结束访问/Company/GetModelInfo
+ 
+
+ 
+记录时间：2019-03-29 17:59:54,621 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:54开始访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 17:59:54,622 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:54结束访问/Error/NoAuthority
+ 
+
+ 
+记录时间：2019-03-29 17:59:54,675 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:54开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:54,726 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:54开始访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:54,727 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:54结束访问/Stock/CanOutComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:54,755 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:54开始访问/Type/List
+ 
+
+ 
+记录时间：2019-03-29 17:59:55,073 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:55结束访问/Material/List
+ 
+
+ 
+记录时间：2019-03-29 17:59:55,959 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:55开始访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:55,960 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:55结束访问/Stock/CanInComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:56,120 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:56开始访问/Company/List
+ 
+
+ 
+记录时间：2019-03-29 17:59:56,520 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:56结束访问/Company/List
+ 
+
+ 
+记录时间：2019-03-29 17:59:56,974 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:56开始访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:57,106 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:57开始访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-03-29 17:59:57,129 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:57结束访问/Stock/GetCanOutComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:57,169 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:57结束访问/Stock/CanInComingBuy
+ 
+
+ 
+记录时间：2019-03-29 17:59:57,418 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:57结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-03-29 17:59:58,524 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 17:59:58结束访问/Type/List
+ 
+
+ 
+记录时间：2019-03-29 18:00:10,741 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:10开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 18:00:10,759 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:10开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 18:00:10,807 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:10结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 18:00:10,807 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:10结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 18:00:11,652 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:11开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:11,875 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:11结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:16,011 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:16开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:16,123 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:16结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:18,114 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:18开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:18,325 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:18结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:20,562 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:20开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:20,653 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:20结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:23,440 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:23开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:23,693 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:23结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:24,024 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:24开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:24,227 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:24结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:31,322 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:31开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:31,421 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:31结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:37,152 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:37开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:37,360 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:37结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:41,539 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:41开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:41,617 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:41结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 18:00:44,100 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 18:00:44开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:07:47,471 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:47开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 23:07:47,641 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:47开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 23:07:47,651 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:47结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 23:07:47,651 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:47结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 23:07:54,105 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:54开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:07:54,125 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:54开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:07:54,184 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:54结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:07:54,184 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:54结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:07:54,621 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:54开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:07:54,984 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:54结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:07:58,667 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:58开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:07:58,795 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:07:58结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:08:03,126 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:08:03开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:09:20,843 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:20开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 23:09:20,843 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:20开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 23:09:20,849 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:20开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 23:09:20,881 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:20结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 23:09:20,881 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:20结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 23:09:20,881 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:20结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 23:09:35,489 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:35开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:09:35,509 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:35开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:09:35,571 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:35结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:09:35,571 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:35结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:09:37,413 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:37开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:09:37,764 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:37结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:09:41,883 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:41开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:09:42,007 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:42结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:09:46,303 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:09:46开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:12:57,232 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:12:57开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 23:12:57,232 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:12:57开始访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 23:12:57,264 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:12:57结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-03-29 23:12:57,264 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:12:57结束访问/home/Index
+ 
+
+ 
+记录时间：2019-03-29 23:13:02,597 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:02开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:13:02,601 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:02开始访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:13:02,661 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:02结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:13:02,662 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:02结束访问/Authority/Action
+ 
+
+ 
+记录时间：2019-03-29 23:13:03,671 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:03开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:04,062 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:04结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:08,304 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:08开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:08,443 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:08结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:12,091 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:12开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:12,327 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:12结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:12,673 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:12开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:12,875 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:12结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:19,414 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:19开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:19,509 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:19结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:22,279 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:22开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:22,466 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:22结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:22,815 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:22开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:23,029 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:23结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:26,954 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:26开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:27,056 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:27结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:29,145 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:29开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:29,324 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:29结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:29,679 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:29开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:29,904 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:29结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:32,848 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:32开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:32,943 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:32结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:34,930 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:34开始访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:35,129 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:35结束访问/Authority/AddAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:35,477 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:35开始访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:13:35,712 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:13:35结束访问/Authority/GetMaterialAction
+ 
+
+ 
+记录时间：2019-03-29 23:38:48,520 
+线程ID:[64] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:38:48开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 23:38:48,521 
+线程ID:[64] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:38:48结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-03-29 23:38:54,040 
+线程ID:[57] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:38:54开始访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-03-29 23:38:54,062 
+线程ID:[57] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\13783, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/3/29 23:38:54结束访问/Login/GetValidateCode
+ 
