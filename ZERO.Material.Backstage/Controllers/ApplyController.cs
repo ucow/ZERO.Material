@@ -1,11 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
-using System.Web;
 using System.Web.Mvc;
-using Microsoft.Ajax.Utilities;
-using Newtonsoft.Json;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
@@ -125,7 +122,7 @@ namespace ZERO.Material.Backstage.Controllers
                     materialBaseCompanies.Add(materialBaseCompany);
                 }
             }
-            
+
             return Content(_applyInfoBll.UpdateEntities(applies) && _baseCompanyBll.UpdateEntities(materialBaseCompanies) ? "OK" : "Error");
         }
     }

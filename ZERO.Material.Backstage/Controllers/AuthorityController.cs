@@ -32,7 +32,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string GetMaterialRole(int page, int limit)
         {
-            List<Material_Role> roles = _roleBll.GetPageEntities(page, limit, m => m.Id,(m=>true), out int total);
+            List<Material_Role> roles = _roleBll.GetPageEntities(page, limit, m => m.Id, (m => true), out int total);
             var msg = new
             {
                 code = 0,
@@ -275,7 +275,7 @@ namespace ZERO.Material.Backstage.Controllers
         public string GetMaterialTeacher(int limit, int page)
         {
             List<Material_Teacher> showTeachers =
-                _teacherBll.GetPageEntities(page, limit, m => m.Teacher_Id,m=>true, out int total);
+                _teacherBll.GetPageEntities(page, limit, m => m.Teacher_Id, m => true, out int total);
             var msg = new
             {
                 code = 0,
@@ -311,6 +311,15 @@ namespace ZERO.Material.Backstage.Controllers
         public string AddTeacher(Material_Teacher materialTeacher, List<int> actions, List<int> roles)
         {
             Material_Teacher updateTeacher = _teacherBll.Find(materialTeacher.Teacher_Id);
+            if (roles == null)
+            {
+                roles = new List<int>();
+            }
+
+            if (roles.Count == 0)
+            {
+                roles.Add(2);
+            }
             List<int> roleActionIds = _roleActionBll.GetEntities(m => roles.Contains(m.Role_Id))
                 .Select(m => m.Action_Id).ToList();
             if (updateTeacher == null)

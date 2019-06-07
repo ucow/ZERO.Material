@@ -1,0 +1,1020 @@
+
+ 
+记录时间：2019-04-17 13:11:29,323 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:29开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:11:29,356 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:29结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:11:32,033 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:32开始访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-04-17 13:11:32,061 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:32结束访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-04-17 13:11:48,167 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:48开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:11:49,047 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:49结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:11:49,228 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:49开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-04-17 13:11:49,355 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:49结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-04-17 13:11:50,380 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:50开始访问/Home/Default
+ 
+
+ 
+记录时间：2019-04-17 13:11:50,380 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:50结束访问/Home/Default
+ 
+
+ 
+记录时间：2019-04-17 13:11:50,504 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:50开始访问/Home/MaterialWarning
+ 
+
+ 
+记录时间：2019-04-17 13:11:50,796 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:11:50结束访问/Home/MaterialWarning
+ 
+
+ 
+记录时间：2019-04-17 13:12:02,061 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:12:02开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:13:24,047 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:13:23开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:13:24,086 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:13:24结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:13:25,511 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:13:25开始访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-04-17 13:13:25,577 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:13:25结束访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-04-17 13:14:00,662 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:14:00开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:02,073 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:02开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 13:16:02,106 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:02结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 13:16:05,707 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:05开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-04-17 13:16:06,228 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:06结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-04-17 13:16:21,003 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:20开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:21,041 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:21结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:23,474 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:23开始访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-04-17 13:16:23,501 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:23结束访问/Login/GetValidateCode
+ 
+
+ 
+记录时间：2019-04-17 13:16:38,464 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:38开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:38,968 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:38结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:40,809 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:40开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:40,835 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:40结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:49,984 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:49开始访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:50,086 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:50结束访问/Login/BackstageLogin
+ 
+
+ 
+记录时间：2019-04-17 13:16:50,243 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:50开始访问/Home/Index
+ 
+
+ 
+记录时间：2019-04-17 13:16:50,347 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:50结束访问/Home/Index
+ 
+
+ 
+记录时间：2019-04-17 13:16:50,999 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:50开始访问/Home/Default
+ 
+
+ 
+记录时间：2019-04-17 13:16:50,999 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:50结束访问/Home/Default
+ 
+
+ 
+记录时间：2019-04-17 13:16:51,091 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:51开始访问/Home/MaterialWarning
+ 
+
+ 
+记录时间：2019-04-17 13:16:51,435 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:16:51结束访问/Home/MaterialWarning
+ 
+
+ 
+记录时间：2019-04-17 13:17:32,822 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:32开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:32,858 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:32结束访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:34,423 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:34开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:35,992 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:35结束访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:36,028 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:36开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 13:17:36,029 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:36结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 13:17:36,567 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:36开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-04-17 13:17:36,625 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:36结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-04-17 13:17:39,933 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:39开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:39,933 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:39结束访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:40,028 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:40开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:40,096 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:40结束访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:40,118 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:40开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 13:17:40,120 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:40结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 13:17:40,225 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:40开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-04-17 13:17:40,245 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:40结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-04-17 13:17:42,031 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:42开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 13:17:42,032 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:42结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 13:17:44,961 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:44开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:44,962 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:44结束访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:17:48,697 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:17:48开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:18:47,238 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:18:47开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:18:47,269 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:18:47结束访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:18:55,814 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:18:55开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:18:56,227 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:18:56结束访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 13:47:45,045 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:44开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:47:45,298 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:45结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:47:50,496 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:50开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:47:50,685 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:50结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:47:51,712 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:51开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:47:51,738 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:51结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:47:52,788 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:52开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:47:52,809 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:52结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:47:54,104 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:54开始访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-04-17 13:47:54,239 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:54结束访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-04-17 13:47:55,104 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:55开始访问/Stock/GetNewMaterialId
+ 
+
+ 
+记录时间：2019-04-17 13:47:55,135 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:55结束访问/Stock/GetNewMaterialId
+ 
+
+ 
+记录时间：2019-04-17 13:47:56,824 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:56开始访问/Material/GetImage
+ 
+
+ 
+记录时间：2019-04-17 13:47:56,847 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:47:56结束访问/Material/GetImage
+ 
+
+ 
+记录时间：2019-04-17 13:48:12,177 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:48:12开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:48:12,178 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:48:12结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:48:12,182 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[StockController] 的 action[SelfApplyInComing] 时产生异常
+ 
+System.ArgumentException: 对于“ZERO.Material.Backstage.Controllers.StockController”中方法“System.String SelfApplyInComing(ZERO.Material.Model.Material_Info, Int32)”的不可以为 null 的类型“System.Int32”的参数“applyCount”，参数字典包含一个 null 项。可选参数必须为引用类型、可以为 null 的类型或声明为可选参数。
+参数名: parameters
+   在 System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-04-17 13:48:21,728 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:48:21开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:48:21,729 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:48:21结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:48:21,730 
+线程ID:[9] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[StockController] 的 action[SelfApplyInComing] 时产生异常
+ 
+System.ArgumentException: 对于“ZERO.Material.Backstage.Controllers.StockController”中方法“System.String SelfApplyInComing(ZERO.Material.Model.Material_Info, Int32)”的不可以为 null 的类型“System.Int32”的参数“applyCount”，参数字典包含一个 null 项。可选参数必须为引用类型、可以为 null 的类型或声明为可选参数。
+参数名: parameters
+   在 System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-04-17 13:52:34,042 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:33开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:52:34,280 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:34结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:52:40,752 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:40开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:52:40,844 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:40结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:52:42,956 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:42开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:52:43,150 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:43结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:52:44,936 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:44开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:52:44,964 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:44结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:52:46,004 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:46开始访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-04-17 13:52:46,112 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:46结束访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-04-17 13:52:47,701 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:47开始访问/Material/GetImage
+ 
+
+ 
+记录时间：2019-04-17 13:52:47,729 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:47结束访问/Material/GetImage
+ 
+
+ 
+记录时间：2019-04-17 13:52:59,885 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:59开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:52:59,886 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:52:59结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:52:59,889 
+线程ID:[14] 
+日志级别：  ERROR 
+出错类：logerror property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在执行 controller[StockController] 的 action[SelfApplyInComing] 时产生异常
+ 
+System.ArgumentException: 对于“ZERO.Material.Backstage.Controllers.StockController”中方法“System.String SelfApplyInComing(ZERO.Material.Model.Material_Info, Int32)”的不可以为 null 的类型“System.Int32”的参数“applyCount”，参数字典包含一个 null 项。可选参数必须为引用类型、可以为 null 的类型或声明为可选参数。
+参数名: parameters
+   在 System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+记录时间：2019-04-17 13:58:19,988 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:58:19开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:58:21,695 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:58:21结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 13:59:29,297 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:29开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:59:29,484 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:29结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:59:30,404 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:30开始访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:59:30,422 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:30结束访问/Stock/GetChildType
+ 
+
+ 
+记录时间：2019-04-17 13:59:31,730 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:31开始访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-04-17 13:59:31,849 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:31结束访问/Stock/GetMaterialsByType
+ 
+
+ 
+记录时间：2019-04-17 13:59:35,710 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:35开始访问/Material/GetImage
+ 
+
+ 
+记录时间：2019-04-17 13:59:35,741 
+线程ID:[13] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:35结束访问/Material/GetImage
+ 
+
+ 
+记录时间：2019-04-17 13:59:47,949 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:47开始访问/Stock/GetNewMaterialId
+ 
+
+ 
+记录时间：2019-04-17 13:59:47,971 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 13:59:47结束访问/Stock/GetNewMaterialId
+ 
+
+ 
+记录时间：2019-04-17 14:00:10,527 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 14:00:10开始访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 14:00:10,701 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 14:00:10结束访问/Stock/SelfApplyInComing
+ 
+
+ 
+记录时间：2019-04-17 15:10:18,931 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 15:10:18开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 15:10:18,964 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 15:10:18结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 15:10:22,519 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 15:10:22开始访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-04-17 15:10:22,566 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 15:10:22结束访问/Zero/GetUserName
+ 
+
+ 
+记录时间：2019-04-17 15:10:56,982 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 15:10:56开始访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 15:10:57,012 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 15:10:57结束访问/Zero/Index
+ 
+
+ 
+记录时间：2019-04-17 15:10:59,750 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 15:10:59开始访问/Login/BeforeLogin
+ 
+
+ 
+记录时间：2019-04-17 15:10:59,751 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：loginfo property: [{log4net:Identity=, log4net:UserName=DESKTOP-PPQ445S\Zero, log4net:HostName=DESKTOP-PPQ445S}] 
+错误描述：::1:::1在2019/4/17 15:10:59结束访问/Login/BeforeLogin
+ 

@@ -3,263 +3,313 @@
     ViewBag.Title = "我的申请";
     Layout = "~/Views/Shared/BeforeLayout.cshtml";
 }
+
 <style>
     .table tbody tr td {
         text-align: center;
         vertical-align: middle
     }
 </style>
+
+<link href="~/Content/bootstrap-datetimepicker.css" rel="stylesheet" />
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+@*<script src="~/Scripts/bootstrap.min.js"></script>*@
+<script src="~/Scripts/bootstrap-datetimepicker.js"></script>
+<script src="~/Scripts/bootstrap-datetimepicker.fr.js"></script>
+<script src="~/Scripts/command.js"></script>
+<script>
+    $(function () {
+        $('.form_date').datetimepicker({
+            language: 'fr',
+            weekStart: 1,
+            todayBtn: 1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            minView: 2,
+            forceParse: 0
+        });
+        $('.form_date').datetimepicker()
+            .on('changeDate', function (ev) {
+                var url = "../Zero/History?{0}={1}";
+                location.href = url.format(this.id, this.value);
+            });
+    });
+</script>
 <div class="container" style="padding: 10px">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                未审核
-            </h3>
-        </div>
-        <div class="panel-body">
-            <table class="table">
-                <thead style="text-align: center">
-                    <tr>
-                        <td></td>
-                        <td>名称</td>
-                        <td>申请时间</td>
-                        <td>使用时间</td>
-                        <td>归还时间</td>
-                        <td>使用系别</td>
-                        <td>使用专业</td>
-                        <td>申请数量</td>
-                        <td>购买数量</td>
-                        <td>操作</td>
-                    </tr>
-                </thead>
-                <tbody style="text-align: center; vertical-align: middle">
 
-                    @foreach (var key in Model.Where(m => m.Apply_Status == 0))
-                    {
-                        <tr>
-                            <td>
-                                <img src="@Url.Action("GetImage",new {@id=key.Material_Id})" width="100" height="100" />
-                            </td>
-                            <td>
-                                <strong>@key.Material_Name</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Apply_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Start_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.End_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Teach_Depart</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Teach_Field</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Apply_Count</strong>
-                            </td>
-                            <td>
-                                <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
-                            </td>
-                            <td>
-                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">取消申请</button>
-                                <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                            </div>
-                                            <div class="modal-body">
-                                                <span style="font-weight: bolder;font-size: 20px;">确认取消申请吗？</span>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                                                <button type="button" class="btn btn-primary cancelApply" id="@key.Apply_Id">确认</button>
-                                            </div>
-                                        </div><!-- /.modal-content -->
-                                    </div><!-- /.modal -->
-                                </div>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
+<table style="width: 100%;margin: 10px 0 10px 0">
+    <tr>
+        <td style="width: 10%;text-align: right">申请时间：</td>
+        <td style="width: 20%">
+            <input class="form-control date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" size="6" type="text" value="@(ViewBag.applyTime == null?"":ViewBag.applyTime.ToString("yyyy-MM-dd"))" readonly placeholder="请选择申请时间" name="Apply_Time" id="Apply_Time">
+        </td>
+        <td style="width: 10%;text-align: right">使用时间：</td>
+        <td style="width: 20%">
+            <input class="form-control date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" size="6" type="text" value="@(ViewBag.startTime == null?"":ViewBag.startTime.ToString("yyyy-MM-dd"))" readonly placeholder="请选择使用时间" name="Start_Time" id="Start_Time">
+        </td>
+        <td style="width: 10%;text-align: right">规划时间</td>
+        <td style="width: 20%">
+            <input class="form-control date form_date col-md-5" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" size="6" type="text" value="@(ViewBag.endTime == null?"":ViewBag.endTime.ToString("yyyy-MM-dd"))" readonly placeholder="请选择归还时间" name="End_Time" id="End_Time">
+        </td>
+    </tr>
+</table>
+<!-- #region 未通过 -->
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            未审核
+        </h3>
     </div>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                已通过
-            </h3>
-        </div>
-        <div class="panel-body">
-            <table class="table">
-                <thead style="text-align: center">
-                    <tr>
-                        <td></td>
-                        <td>名称</td>
-                        <td>申请时间</td>
-                        <td>使用时间</td>
-                        <td>归还时间</td>
-                        <td>使用系别</td>
-                        <td>使用专业</td>
-                        <td>申请数量</td>
-                        <td>购买数量</td>
-                        <td>审批意见</td>
-                    </tr>
-                </thead>
-                <tbody style="text-align: center; vertical-align: middle">
+    <div class="panel-body">
+        <table class="table">
+            <thead style="text-align: center">
+            <tr>
+                <td></td>
+                <td>名称</td>
+                <td>申请时间</td>
+                <td>使用时间</td>
+                <td>归还时间</td>
+                <td>使用系别</td>
+                <td>使用专业</td>
+                <td>申请数量</td>
+                <td>购买数量</td>
+                <td>操作</td>
+            </tr>
+            </thead>
+            <tbody style="text-align: center; vertical-align: middle">
 
-                    @foreach (var key in Model.Where(m => m.Apply_Status == 1))
-                    {
-
-                        <tr>
-                            <td>
-                                <img src="@Url.Action("GetImage",new {@id=key.Material_Id})" width="100" height="100" />
-                            </td>
-                            <td>
-                                <strong>@key.Material_Name</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Apply_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Start_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.End_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Teach_Depart</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Teach_Field</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Apply_Count</strong>
-                            </td>
-                            <td>
-                                <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
-                            </td>
-                            <td>
-                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">查看意见</button>
-                                <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                <h4 class="modal-title" id="myModalLabel">审批意见</h4>
-                                            </div>
-                                            <div class="modal-body">@key.Apply_Advice</div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                                            </div>
-                                        </div><!-- /.modal-content -->
-                                    </div><!-- /.modal -->
-                                </div>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
+            @foreach (var key in Model.Where(m => m.Apply_Status == 0))
+            {
+                <tr>
+                    <td>
+                        <img src="@Url.Action("GetImage", new {@id = key.Material_Id})" width="100" height="100"/>
+                    </td>
+                    <td>
+                        <strong>@key.Material_Name</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Apply_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Start_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.End_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Teach_Depart</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Teach_Field</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Apply_Count</strong>
+                    </td>
+                    <td>
+                        <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">取消申请</button>
+                        <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    </div>
+                                    <div class="modal-body">
+                                        <span style="font-weight: bolder; font-size: 20px;">确认取消申请吗？</span>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                        <button type="button" class="btn btn-primary cancelApply" id="@key.Apply_Id">确认</button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal -->
+                        </div>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
     </div>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">
-                被驳回
-            </h3>
-        </div>
-        <div class="panel-body">
-            <table class="table">
-                <thead style="text-align: center">
-                    <tr>
-                        <td></td>
-                        <td>名称</td>
-                        <td>申请时间</td>
-                        <td>使用时间</td>
-                        <td>归还时间</td>
-                        <td>使用系别</td>
-                        <td>使用专业</td>
-                        <td>申请数量</td>
-                        <td>购买数量</td>
-                        <td>审批意见</td>
-                    </tr>
-                </thead>
-                <tbody style="text-align: center; vertical-align: middle">
+</div>
+<!-- #endregion -->
 
-                    @foreach (var key in Model.Where(m => m.Apply_Status == 2))
-                    {
-
-                        <tr>
-                            <td>
-                                <img src="@Url.Action("GetImage",new {@id=key.Material_Id})" width="100" height="100" />
-                            </td>
-                            <td>
-                                <strong>@key.Material_Name</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Apply_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Start_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.End_Time.ToString("yyyy-MM-dd")</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Teach_Depart</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Teach_Field</strong>
-                            </td>
-                            <td>
-                                <strong>@key.Apply_Count</strong>
-                            </td>
-                            <td>
-                                <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
-                            </td>
-                            <td>
-                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">查看意见</button>
-                                <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                <h4 class="modal-title" id="myModalLabel">审批意见</h4>
-                                            </div>
-                                            <div class="modal-body">@key.Apply_Advice</div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                                            </div>
-                                        </div><!-- /.modal-content -->
-                                    </div><!-- /.modal -->
-                                </div>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            详细信息
+        </h3>
     </div>
+    <div class="panel-body">
+        <table class="table">
+            <thead style="text-align: center">
+            <tr>
+                <td></td>
+                <td>名称</td>
+                <td>申请时间</td>
+                <td>使用时间</td>
+                <td>归还时间</td>
+                <td>使用系别</td>
+                <td>使用专业</td>
+                <td>申请数量</td>
+                <td>购买数量</td>
+                <td>审批意见</td>
+            </tr>
+            </thead>
+            <tbody style="text-align: center; vertical-align: middle">
+
+            @foreach (var key in Model.Where(m => m.Apply_Status == 1))
+            {
+
+                <tr>
+                    <td>
+                        <img src="@Url.Action("GetImage", new {@id = key.Material_Id})" width="100" height="100"/>
+                    </td>
+                    <td>
+                        <strong>@key.Material_Name</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Apply_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Start_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.End_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Teach_Depart</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Teach_Field</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Apply_Count</strong>
+                    </td>
+                    <td>
+                        <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">查看意见</button>
+                        <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title" id="myModalLabel">审批意见</h4>
+                                    </div>
+                                    <div class="modal-body">@key.Apply_Advice</div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal -->
+                        </div>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- #region 被驳回 -->
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            被驳回
+        </h3>
+    </div>
+    <div class="panel-body">
+        <table class="table">
+            <thead style="text-align: center">
+            <tr>
+                <td></td>
+                <td>名称</td>
+                <td>申请时间</td>
+                <td>使用时间</td>
+                <td>归还时间</td>
+                <td>使用系别</td>
+                <td>使用专业</td>
+                <td>申请数量</td>
+                <td>购买数量</td>
+                <td>审批意见</td>
+            </tr>
+            </thead>
+            <tbody style="text-align: center; vertical-align: middle">
+
+            @foreach (var key in Model.Where(m => m.Apply_Status == 2))
+            {
+
+                <tr>
+                    <td>
+                        <img src="@Url.Action("GetImage", new {@id = key.Material_Id})" width="100" height="100"/>
+                    </td>
+                    <td>
+                        <strong>@key.Material_Name</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Apply_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Start_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.End_Time.ToString("yyyy-MM-dd")</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Teach_Depart</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Teach_Field</strong>
+                    </td>
+                    <td>
+                        <strong>@key.Apply_Count</strong>
+                    </td>
+                    <td>
+                        <strong>@(key.Apply_Count - key.Material_RemainCont > 0 ? key.Apply_Count - key.Material_RemainCont : 0)</strong>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#@key.Apply_Id">查看意见</button>
+                        <div class="modal fade" id="@key.Apply_Id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title" id="myModalLabel">审批意见</h4>
+                                    </div>
+                                    <div class="modal-body">@key.Apply_Advice</div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal -->
+                        </div>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- #endregion -->
 </div>
 <script>
     $('.cancelApply').on('click',
-        function() {
+        function () {
             var id = this.id;
             $.ajax({
                 type: "post",
                 url: "CancelApply",
                 data: { "applyId": id },
-                success: function(data) {
+                success: function (data) {
                     if (data === "OK") {
                         $('#' + id).modal('hide');
                         location.reload(true);
                     }
                 }
             });
-            
+
         });
 </script>

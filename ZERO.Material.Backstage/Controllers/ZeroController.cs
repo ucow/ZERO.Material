@@ -147,7 +147,7 @@ namespace ZERO.Material.Backstage.Controllers
             //List<string> typeNames = materialTypes.Select(m=>m.Material_Type_Name).ToList();
             while (true)
             {
-                List<Material_Info> materialInfos = _infoBll.GetPageEntities(pageIndex, 200, m => m.Material_Id,(m=>true), out int total);
+                List<Material_Info> materialInfos = _infoBll.GetPageEntities(pageIndex, 200, m => m.Material_Id, (m => true), out int total);
                 foreach (Material_Info materialInfo in materialInfos)
                 {
                     string parentTypeName = GetParentTypeName(materialInfo.Material_Type_Name, materialTypes);
@@ -198,7 +198,6 @@ namespace ZERO.Material.Backstage.Controllers
                     return null;
             }
         }
-
 
         /// <summary>
         /// 器材详情
@@ -390,15 +389,23 @@ namespace ZERO.Material.Backstage.Controllers
 
         #endregion 我的器材
 
-        public ActionResult History()
+        public ActionResult History(DateTime? Apply_Time, DateTime? Start_Time, DateTime? End_Time)
         {
             var cookie = Request.Cookies["userInfo"];
             if (cookie != null)
             {
+                ViewBag.applyTime = Apply_Time;
+                ViewBag.startTime = Start_Time;
+                ViewBag.endTime = End_Time;
                 string name = cookie.Value;
                 var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
                 string teacherName = UnityContainerHelper.Server<ITeacherBll>().Find(user.username).Teacher_Name;
-                List<Use_Apply> applies = _useApplyBll.GetEntities(m => m.Teacher_Name == teacherName);
+                List<Use_Apply> applies = _useApplyBll.GetEntities(
+                    m => m.Teacher_Name == teacherName &&
+                         (Apply_Time == null || m.Apply_Time == Apply_Time) &&
+                         (Start_Time == null || m.Start_Time == Start_Time) &&
+                         (End_Time == null || m.End_Time == End_Time)
+                );
                 return View(applies);
             }
 
@@ -487,6 +494,79 @@ namespace ZERO.Material.Backstage.Controllers
             }
 
             return "Error";
+        }
+
+        public string TeacherHistory()
+        {
+            var cookie = Request.Cookies["userInfo"];
+            if (cookie != null)
+            {
+                string name = cookie.Value;
+                var user = JsonConvert.DeserializeObject<UserInfo>(UrlHelper.DecodeUrl(name));
+                string teacherName = UnityContainerHelper.Server<ITeacherBll>().Find(user.username).Teacher_Name;
+                List<DateTime> applyTimes = _useApplyBll.ExecuteSqlCommand<DateTime>(
+                    $"select top (30) * from (select  distinct(Apply_Time) from Use_Apply where Teacher_Name = '{teacherName}') as dates order by Apply_Time");
+                List<string> materialNames = _useApplyBll.ExecuteSqlCommand<string>(
+                    $"   select top 5 Material_Name from Use_Apply where Teacher_Name = '{teacherName}' group by Material_Name order by   sum(Apply_Count) desc");
+                List<TeacherHistoryModel> teacherHistoryModels = new List<TeacherHistoryModel>();
+                Dictionary<string, List<int>> yAxis = new Dictionary<string, List<int>>();
+                foreach (string materialName in materialNames)
+                {
+                    List<NameToCount> nameToCounts = _useApplyBll.ExecuteSqlCommand<NameToCount>(
+                        $"select Apply_Time,Apply_Count from Use_Apply where Teacher_Name = '{teacherName}'  and Material_Name='{materialName}'");
+                    foreach (DateTime applyTime in applyTimes)
+                    {
+                        if (!yAxis.ContainsKey(materialName))
+                        {
+                            yAxis.Add(materialName, new List<int>());
+                        }
+                        if (nameToCounts.Where(m => m.Apply_Time.ToString("yyyy-MM-dd") == applyTime.ToString("yyyy-MM-dd")).ToList().Count == 0)
+                        {
+                            yAxis[materialName].Add(0);
+                        }
+                        else
+                        {
+                            NameToCount first = null;
+                            foreach (var m in nameToCounts)
+                            {
+                                if (m.Apply_Time.ToString("yyyy-MM-dd") == applyTime.ToString($"yyyy-MM-dd"))
+                                {
+                                    first = m;
+                                    break;
+                                }
+                            }
+
+                            if (first != null) yAxis[materialName].Add(first.Apply_Count);
+                        }
+                    }
+                    teacherHistoryModels.Add(new TeacherHistoryModel()
+                    {
+                        MaterialName = materialName,
+                        NameToCounts = nameToCounts
+                    });
+                }
+
+                //foreach (TeacherHistoryModel teacherHistoryModel in teacherHistoryModels)
+                //{
+                //    yAxis.Add(teacherHistoryModel.MaterialName, teacherHistoryModel.NameToCounts.Select(m => m.Apply_Count).ToList());
+
+                //}
+                List<string> xAxis = new List<string>();
+                foreach (DateTime applyTime in applyTimes)
+                {
+                    xAxis.Add(applyTime.ToString("yyyy-MM-dd"));
+                }
+                var dataJson = new
+                {
+                    legend = materialNames,
+                    xAxis,
+                    yAxis
+                };
+
+                return JsonConvert.SerializeObject(dataJson);
+            }
+
+            return "";
         }
     }
 }

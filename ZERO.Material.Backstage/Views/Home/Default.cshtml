@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Default</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/layui")
+    @Scripts.Render("~/bundles/layui")
+    <script src="~/Scripts/command.js"></script>
+</head>
+<body>
+<table id="warningTabel" lay-filter="warning"></table>
+<script>
+    layui.use('table', function() {
+        var table = layui.table;
+        var load = layer.load(1);
+        var tableOption = {
+            elem: "#warningTabel",
+            //height: 100 %,
+            url: "MaterialWarning",
+            loading: true,
+            defaultToolbar: false,
+            cellMinWidth: 50,
+            page: true,
+            limits: [10],
+            text: "未加载到数据",
+            cols: [[
+                { field: 'MaterialName', title: '器材名称'}
+                , { field: 'MaterialCount', title: '器材总量', sort: true}
+                , { field: 'MaterialRemainCount', title: '器材余量', sort: true}
+                , { field: 'MaterialBuyCount', title: '需购买数量', sort: true} 
+                ]],
+            done: function (res) {
+                layer.close(load);
+            }
+        };
+        table.render(tableOption);
+    })
+</script>
+</body>
+</html>

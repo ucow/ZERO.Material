@@ -122,7 +122,10 @@
             }
             </tbody>
         </table>
-        <div style="text-align: right"><button id="submit" type="submit" class="btn btn-warning">提价申请</button></div>
+        <div style="text-align: right">
+            <button id="cancel" class="btn btn-default">取消申请</button>
+            <button id="submit" type="submit" class="btn btn-warning">提交申请</button>
+        </div>
     }
 </div>
 <script>
@@ -151,5 +154,9 @@
                 toastr.warning("请输入申请班级系别以及班级专业");
                 return false;
             }
+        });
+    $('#cancel').on('click',
+        function() {
+
         });
 </script>

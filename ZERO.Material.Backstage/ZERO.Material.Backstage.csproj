@@ -63,7 +63,6 @@
       <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
     </Reference>
@@ -75,7 +74,6 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
-    <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -405,6 +403,12 @@
     <Content Include="Content\layui\images\face\9.gif" />
     <Content Include="Content\layui\layui.all.js" />
     <Content Include="Content\layui\layui.js" />
+    <Content Include="Content\layui\layuiadmin\admin.css" />
+    <Content Include="Content\layui\layuiadmin\config.js" />
+    <Content Include="Content\layui\layuiadmin\layui.css" />
+    <Content Include="Content\layui\layuiadmin\layui.js" />
+    <Content Include="Content\layui\layuiadmin\layui\lay\modules\laytpl.js" />
+    <Content Include="Content\layui\layuiadmin\lib\index.js" />
     <Content Include="Content\layui\lay\modules\authtree.js" />
     <Content Include="Content\layui\lay\modules\carousel.js" />
     <Content Include="Content\layui\lay\modules\code.js" />
@@ -513,6 +517,7 @@
     <Content Include="Views\Chart\TeacherDepartStatis.cshtml" />
     <Content Include="Views\Chart\Index.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Views\Home\Default.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

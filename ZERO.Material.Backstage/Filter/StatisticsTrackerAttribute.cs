@@ -13,7 +13,6 @@ namespace ZERO.Material.Backstage.Filter
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false)]
     public class StatisticsTrackerAttribute : ActionFilterAttribute, IExceptionFilter
     {
-
         #region Action时间监控
 
         public override void OnActionExecuting(ActionExecutingContext filterContext)
@@ -50,10 +49,15 @@ namespace ZERO.Material.Backstage.Filter
         {
             if (!filterContext.ExceptionHandled)
             {
-                string controllerName = string.Format("{0}Controller", filterContext.RouteData.Values["controller"] as string);
+                string controllerName = $"{filterContext.RouteData.Values["controller"] as string}Controller";
                 string actionName = filterContext.RouteData.Values["action"] as string;
                 string errorMsg = string.Format("{2}:{3}在执行 controller[{0}] 的 action[{1}] 时产生异常", controllerName, actionName, filterContext.RequestContext.HttpContext.Request.UserHostName, filterContext.RequestContext.HttpContext.Request.UserHostAddress);
                 Log4NetHelper.Error(errorMsg, filterContext.Exception);
+                filterContext.HttpContext.Response.Clear();
+
+                filterContext.HttpContext.Response.StatusCode = 500;
+
+                filterContext.HttpContext.Response.TrySkipIisCustomErrors = true;
             }
         }
 

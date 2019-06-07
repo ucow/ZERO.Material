@@ -10,7 +10,6 @@ $.extend( true, $.fn.dataTable.defaults, {
 	}
 } );
 
-
 /* Default class modification */
 $.extend( $.fn.dataTableExt.oStdClasses, {
 	"sWrapper": "dataTables_wrapper form-inline",
@@ -207,7 +206,7 @@ else {
 					} else {
 						$('li.prev', an[i]).removeClass('disabled');
 					}
-	 
+
 					if ( oPaging.iPage === oPaging.iTotalPages-1 || oPaging.iTotalPages === 0 ) {
 						$('li.next', an[i]).addClass('disabled');
 					} else {
@@ -218,7 +217,6 @@ else {
 		}
 	} );
 }
-
 
 /*
  * TableTools Bootstrap compatibility
@@ -256,4 +254,3 @@ if ( $.fn.DataTable.TableTools ) {
 		}
 	} );
 }
-

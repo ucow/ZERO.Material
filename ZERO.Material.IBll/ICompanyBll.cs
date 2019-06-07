@@ -1,5 +1,4 @@
-﻿using ZERO.Material.IDal;
-using ZERO.Material.Model;
+﻿using ZERO.Material.Model;
 
 namespace ZERO.Material.IBll
 {

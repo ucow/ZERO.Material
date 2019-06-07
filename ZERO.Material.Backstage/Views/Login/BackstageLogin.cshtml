@@ -85,10 +85,10 @@
 
                 location.href = "../Home/Index";
             } else {
-                if (data === "验证码错误") {
-                    $("#verify_img").attr("src", "GetValidateCode?id=" + Math.random());
-                }
                 layer.msg(data, { icon: 5 });
+                $("#verify_img").attr("src", "GetValidateCode?id=" + Math.random());
+
+
             }
         }
 

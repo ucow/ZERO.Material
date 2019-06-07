@@ -96,7 +96,6 @@ layui.define(['layer', 'form'], function (exports) {
                 return node.join('');
             }()
 
-
             , editor = $(['<div class="' + ELEM + '">'
                 , '<div class="layui-unselect layui-layedit-tool">' + tool + '</div>'
                 , '<div class="layui-layedit-iframe">'
@@ -191,7 +190,6 @@ layui.define(['layer', 'form'], function (exports) {
 
             hotkey.apply(that, [iframeWin, iframe, textArea, set]); //快捷键处理
             toolActive.call(that, iframeWin, editor, set); //触发工具
-
         });
     }
 
@@ -328,7 +326,6 @@ layui.define(['layer', 'form'], function (exports) {
 
             if (othis) {
                 othis[othis.hasClass(CHECK) ? 'removeClass' : 'addClass'](CHECK);
-
             }
             tools.find('>i').removeClass(CHECK);
             item('unlink').addClass(ABLED);
@@ -450,7 +447,7 @@ layui.define(['layer', 'form'], function (exports) {
                         });
                     }
                     /*#Extens#*/
-                    //图片2                    
+                    //图片2
                     , image_alt: function (range) {
                         var that = this;
                         layer.open({
@@ -545,7 +542,6 @@ layui.define(['layer', 'form'], function (exports) {
                                         layer.close(index);
                                     });
                                 })
-
                             }
                         });
                     }
@@ -575,7 +571,6 @@ layui.define(['layer', 'form'], function (exports) {
                                 , '</li>'
                                 , '</ul>'].join('')
                             , success: function (layero, index) {
-
                                 layui.use('upload', function (upload) {
                                     var loding, video = layero.find('input[name="video"]'), cover = layero.find('input[name="cover"]');
                                     var upload = layui.upload;
@@ -657,7 +652,6 @@ layui.define(['layer', 'form'], function (exports) {
                                         layer.close(index);
                                     });
                                     layero.find('.layedit-btn-yes').on('click', function () {
-
                                         var container = getContainer(range)
                                             , parentNode = $(container).parent();
                                         insertInline.call(iframeWin, 'p', {
@@ -666,7 +660,6 @@ layui.define(['layer', 'form'], function (exports) {
                                         layer.close(index);
                                     });
                                 })
-
                             }
                         });
                     }
@@ -1143,7 +1136,7 @@ layui.define(['layer', 'form'], function (exports) {
                                 src: faces[this.title]
                                 , alt: this.title
                             });
-                            layer.close(index); 
+                            layer.close(index);
                         });
                         $(document).off('click', face.hide).on('click', face.hide);
                     }
@@ -1379,7 +1372,6 @@ function style_html(html_source, indent_size, indent_character, max_char) {
         }
 
         this.get_script = function () {
-
             var char = '';
             var content = [];
             var reg_match = new RegExp('\<\/script' + '\>', 'igm');
@@ -1393,7 +1385,6 @@ function style_html(html_source, indent_size, indent_character, max_char) {
 
                 char = this.input.charAt(this.pos);
                 this.pos++;
-
 
                 content.push(char);
             }
@@ -1536,7 +1527,6 @@ function style_html(html_source, indent_size, indent_character, max_char) {
             return content.join('');
         }
         this.get_unformatted = function (delimiter, orig_tag) {
-
             if (orig_tag && orig_tag.indexOf(delimiter) != -1) {
                 return '';
             }
@@ -1682,12 +1672,9 @@ function style_html(html_source, indent_size, indent_character, max_char) {
     return multi_parser.output.join('');
 }
 function js_beautify(js_source_text, indent_size, indent_character, indent_level) {
-
     var input, output, token_text, last_type, last_text, last_word, current_mode, modes, indent_string;
     var whitespace, wordchar, punct, parser_pos, line_starters, in_case;
     var prefix, token_type, do_block_just_closed, var_line, var_line_tainted;
-
-
 
     function trim_output() {
         while (output.length && (output[output.length - 1] === ' ' || output[output.length - 1] === indent_string)) {
@@ -1712,15 +1699,12 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
         }
     }
 
-
-
     function print_space() {
         var last_output = output.length ? output[output.length - 1] : ' ';
         if (last_output !== ' ' && last_output !== '\n' && last_output !== indent_string) { // prevent occassional duplicate space
             output.push(' ');
         }
     }
-
 
     function print_token() {
         output.push(token_text);
@@ -1730,13 +1714,11 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
         indent_level++;
     }
 
-
     function unindent() {
         if (indent_level) {
             indent_level--;
         }
     }
-
 
     function remove_indent() {
         if (output.length && output[output.length - 1] === indent_string) {
@@ -1744,18 +1726,15 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
         }
     }
 
-
     function set_mode(mode) {
         modes.push(current_mode);
         current_mode = mode;
     }
 
-
     function restore_mode() {
         do_block_just_closed = current_mode === 'DO_BLOCK';
         current_mode = modes.pop();
     }
-
 
     function in_array(what, arr) {
         for (var i = 0; i < arr.length; i++) {
@@ -1765,8 +1744,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
         }
         return false;
     }
-
-
 
     function get_next_token() {
         var n_newlines = 0;
@@ -1791,7 +1768,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
             }
         }
         var wanted_newline = (n_newlines === 1);
-
 
         if (in_array(c, wordchar)) {
             if (parser_pos < input.length) {
@@ -1872,7 +1848,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
                 }
                 return [comment, 'TK_COMMENT'];
             }
-
         }
 
         if (c === "'" || // string
@@ -1884,7 +1859,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
             c = '';
 
             if (parser_pos < input.length) {
-
                 while (esc || input.charAt(parser_pos) !== sep) {
                     c += input.charAt(parser_pos);
                     if (!esc) {
@@ -1897,7 +1871,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
                         break;
                     }
                 }
-
             }
 
             parser_pos += 1;
@@ -1920,7 +1893,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
 
         return [c, 'TK_UNKNOWN'];
     }
-
 
     //----------------------------------
 
@@ -1967,7 +1939,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
         }
 
         switch (token_type) {
-
             case 'TK_START_EXPR':
                 var_line = false;
                 set_mode('EXPRESSION');
@@ -2040,7 +2011,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
                     in_case = true;
                     break;
                 }
-
 
                 prefix = 'NONE';
                 if (last_type === 'TK_END_BLOCK') {
@@ -2185,7 +2155,6 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
                     // decimal digits or object.property
                     start_delim = false;
                     end_delim = false;
-
                 } else if (token_text === ':') {
                     // zz: xx
                     // can't differentiate ternary op, so for now it's a ? b: c; without space before colon
@@ -2232,5 +2201,4 @@ function js_beautify(js_source_text, indent_size, indent_character, indent_level
     }
 
     return output.join('');
-
 }

@@ -19,9 +19,9 @@ namespace ZERO.Material.Bll
 
         public abstract void SetBasicDal();
 
-        public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda, out int total)
+        public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda, out int total, bool isAsc = true)
         {
-            return BasicDal.GetPageEntities(pageIndex, pageCount, orderLambda, whereLambda, out total);
+            return BasicDal.GetPageEntities(pageIndex, pageCount, orderLambda, whereLambda, out total, isAsc);
         }
 
         public virtual bool AddEntities(List<T> ts)

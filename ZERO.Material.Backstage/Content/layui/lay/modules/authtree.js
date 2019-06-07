@@ -109,7 +109,7 @@ layui.define(['jquery', 'form'], function(exports){
 			// 	/*console.log(childs);*/
 			// 	form.render('checkbox');
 			// });
-			
+
 			// 解决单击和双击冲突问题的 timer 变量
 			var timer = 0;
 			$(dst).find('.auth-single:first').unbind('click').on('click', '.layui-form-checkbox', function(){
@@ -186,7 +186,7 @@ layui.define(['jquery', 'form'], function(exports){
 				origin.addClass('active').html(obj.openIconContent);
 				child.slideDown('fast');
 			}
-			obj._triggerEvent(dst, 'deptChange');	
+			obj._triggerEvent(dst, 'deptChange');
 			return false;
 		},
 		// 递归创建格式
@@ -391,8 +391,8 @@ layui.define(['jquery', 'form'], function(exports){
 			obj.autoWidth(dst);
 			// 变动则存一下临时状态
 			obj._saveNodeStatus(dst);
-			obj._triggerEvent(dst, 'change');	
-			obj._triggerEvent(dst, 'checkAll');	
+			obj._triggerEvent(dst, 'change');
+			obj._triggerEvent(dst, 'checkAll');
 		},
 		// 全不选
 		uncheckAll: function(dst){
@@ -403,7 +403,7 @@ layui.define(['jquery', 'form'], function(exports){
 			// 变动则存一下临时状态
 			obj._saveNodeStatus(dst);
 			obj._triggerEvent(dst, 'change');
-			obj._triggerEvent(dst, 'uncheckAll');	
+			obj._triggerEvent(dst, 'uncheckAll');
 		},
 		// 显示整个树
 		showAll: function(dst) {

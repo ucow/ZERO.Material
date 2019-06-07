@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using Antlr.Runtime.Misc;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Web.Mvc;
-using Newtonsoft.Json;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
@@ -53,14 +52,37 @@ namespace ZERO.Material.Backstage.Controllers
 
         public string ApplyInComing(List<Apply_Info> applyInfos)
         {
-            List<BuyInComing_Apply> buyInComingApplies = new List<BuyInComing_Apply>();
+            if (applyInfos == null)
+            {
+                return "OK";
+            }
+
+            List<Apply_Info> newApplyInfos = new ListStack<Apply_Info>();
             foreach (Apply_Info applyInfo in applyInfos)
+            {
+                if (newApplyInfos.Count(m => m.ApplyType_Id == applyInfo.ApplyType_Id && m.Apply_Id == applyInfo.Apply_Id) == 0)
+                {
+                    newApplyInfos.Add(applyInfo);
+                }
+                else
+                {
+                    Apply_Info apply = newApplyInfos.FirstOrDefault(m =>
+                        m.ApplyType_Id == applyInfo.ApplyType_Id && m.Apply_Id == applyInfo.Apply_Id);
+                    if (apply != null)
+                    {
+                        apply.Apply_Count = apply.Apply_Count + applyInfo.Apply_Count;
+                    }
+                }
+            }
+
+            List<BuyInComing_Apply> buyInComingApplies = new List<BuyInComing_Apply>();
+            foreach (Apply_Info applyInfo in newApplyInfos)
             {
                 BuyInComing_Apply buyInComingApply = _buyInComingApplyBll.Find(applyInfo.Apply_Id);
                 buyInComingApply.Is_Bought = true;
                 buyInComingApplies.Add(buyInComingApply);
             }
-            return _applyInfoBll.AddEntities(applyInfos) && _buyInComingApplyBll.UpdateEntities(buyInComingApplies) ? "OK" : "Error";
+            return _applyInfoBll.AddEntities(newApplyInfos) && _buyInComingApplyBll.UpdateEntities(buyInComingApplies) ? "OK" : "Error";
         }
 
         #endregion 需采购
@@ -93,7 +115,7 @@ namespace ZERO.Material.Backstage.Controllers
             List<Material_Base_Company> baseCompanies = new List<Material_Base_Company>();
             foreach (var applyInfo in applyInfos)
             {
-                BuyInComing_Apply buyInComingApply = _buyInComingApplyBll.Find( applyInfo.Apply_Id);
+                BuyInComing_Apply buyInComingApply = _buyInComingApplyBll.Find(applyInfo.Apply_Id);
                 buyInComingApply.Is_InComed = true;
                 Material_Base_Company materialBaseCompany =
                     _baseCompanyBll.GetEntity(m => m.Material_Id == buyInComingApply.Material_Id);
@@ -139,7 +161,7 @@ namespace ZERO.Material.Backstage.Controllers
             List<Material_Apply> materialApplies = new List<Material_Apply>();
             foreach (Apply_Info applyInfo in applyInfos)
             {
-                Material_Apply materialApply = _baseApplyBll.Find( applyInfo.Apply_Id);
+                Material_Apply materialApply = _baseApplyBll.Find(applyInfo.Apply_Id);
                 materialApply.Is_Get = true;
                 materialApplies.Add(materialApply);
             }

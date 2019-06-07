@@ -1,13 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Web.Mvc;
-using Newtonsoft.Json;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
-using ExpressionHelper = ZERO.Material.Command.ExpressionHelper;
 
 namespace ZERO.Material.Backstage.Controllers
 {
@@ -77,7 +76,7 @@ namespace ZERO.Material.Backstage.Controllers
             }
         }
 
-        public string List(int page, int limit, string typeId,string companyName,string materialName)
+        public string List(int page, int limit, string typeId, string companyName, string materialName)
         {
             Expression<Func<Material_Info, bool>> whereLambda;
             if (string.IsNullOrWhiteSpace(typeId))
@@ -90,7 +89,7 @@ namespace ZERO.Material.Backstage.Controllers
                 whereLambda = m => m.Material_Type_Name == typeName;
             }
 
-            whereLambda = string.IsNullOrWhiteSpace(companyName) ? whereLambda.And(m=>true) : whereLambda.And(m => m.Company_Name == companyName);
+            whereLambda = string.IsNullOrWhiteSpace(companyName) ? whereLambda.And(m => true) : whereLambda.And(m => m.Company_Name == companyName);
 
             whereLambda = string.IsNullOrWhiteSpace(materialName) ? whereLambda.And(m => true) : whereLambda.And(m => m.Material_Name.Contains(materialName));
 

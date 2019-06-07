@@ -17,16 +17,28 @@
     <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
     <script src="~/Content/layui/layui.js"></script>
     <script src="~/Scripts/jquery.cookie.js"></script>
+    <style>
+        .first-tab i.layui-tab-close {
+            display: none !important;
+        }
+    </style>
     <script>
-
         function FrameWH() {
             var h = $(window).height() - 41 - 10 - 60 - 10 - 44 - 10;
             $("iframe").css("height", h + "px");
         }
-        layui.use('element', function () {
+        layui.use(['element', 'table', 'layer'], function () {
             var $ = jQuery = layui.jquery;
             var layer = layui.layer;
             var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+            var table = layui.table;
+
+            layer.open({
+                title: '器材预警',
+                type: 2,
+                area: ['700px', '550px'],
+                content: 'Default'
+            });
 
             var active = {
                 tabAdd: function (title, url, id) {
@@ -91,6 +103,19 @@
                     $.cookie("managerInfo", null, { path: '/' });
                     location.href("../Login/BackstageLogin");
                 });
+
+            // #region 器材预警
+            $('#warnForm').on('click',
+                function () {
+                    layer.open({
+                        title: '器材预警',
+                        type: 2,
+                        area: ['700px', '550px'],
+                        content: 'Default'
+                    });
+
+                });
+            // #endregion
         });
     </script>
 </head>
@@ -99,13 +124,21 @@
         <div class="layui-header">
             <div class="layui-logo">实验耗材后台管理系统</div>
             <ul class="layui-nav layui-layout-right">
+
+                <li class="layui-nav-item" lay-unselect>
+                    <a id="warnForm">
+                        <i class="layui-icon layui-icon-notice"></i>
+                        <!-- 如果有新消息，则显示小圆点 -->
+                        @if (ViewBag.isWarning)
+                        {
+                            <span class="layui-badge-dot"></span>
+                        }
+
+                    </a>
+                </li>
                 <li class="layui-nav-item">
                     <a href="javascript:;" id="loginName">
                     </a>
-                    @*<dl class="layui-nav-child">
-                            <dd><a href="">基本资料</a></dd>
-                            <dd><a href="">安全设置</a></dd>
-                        </dl>*@
                 </li>
                 <li class="layui-nav-item"><a href="" id="exit">退出</a></li>
             </ul>
@@ -123,7 +156,7 @@
                             <dd><a data-url="..\Apply\InComing" data-id="03" data-title="入库审批" href="#" class="site-demo-active" data-type="tabAdd">入库审批</a></dd>
                         </dl>
                     </li>
-                    
+
                     <li class="layui-nav-item layui-nav-itemed">
                         <a href="javascript:;">库存管理</a>
                         <dl class="layui-nav-child">
@@ -147,11 +180,11 @@
                     <li class="layui-nav-item layui-show">
                         <a data-url="..\Chart\Index" data-id="4" data-title="统计信息" href="#" class="site-demo-active" data-type="tabAdd">统计信息</a>
                         @*<dl class="layui-nav-child">
-                            <dd><a data-url="..\Chart\TypeChart" data-id="4" data-title="器材分类数量" href="#" class="site-demo-active" data-type="tabAdd">器材分类数量</a></dd>
-                            <dd><a data-url="..\Chart\TeacherDepartStatis" data-id="5" data-title="用户系别统计" href="#" class="site-demo-active" data-type="tabAdd">用户系别统计</a></dd>
-                            <dd><a data-url="..\Chart\TeacherApply" data-id="6" data-title="教师申请数量" href="#" class="site-demo-active" data-type="tabAdd">器材分类数量</a></dd>
-                            <dd><a data-url="..\Chart\ApplyMost" data-id="6" data-title="器材申请数量前十" href="#" class="site-demo-active" data-type="tabAdd">器材申请数量前十</a></dd>
-                        </dl>*@
+                                <dd><a data-url="..\Chart\TypeChart" data-id="4" data-title="器材分类数量" href="#" class="site-demo-active" data-type="tabAdd">器材分类数量</a></dd>
+                                <dd><a data-url="..\Chart\TeacherDepartStatis" data-id="5" data-title="用户系别统计" href="#" class="site-demo-active" data-type="tabAdd">用户系别统计</a></dd>
+                                <dd><a data-url="..\Chart\TeacherApply" data-id="6" data-title="教师申请数量" href="#" class="site-demo-active" data-type="tabAdd">器材分类数量</a></dd>
+                                <dd><a data-url="..\Chart\ApplyMost" data-id="6" data-title="器材申请数量前十" href="#" class="site-demo-active" data-type="tabAdd">器材申请数量前十</a></dd>
+                            </dl>*@
                     </li>
                 </ul>
             </div>
@@ -162,10 +195,10 @@
             <div class="layui-tab layui-tab-card" lay-filter="demo" lay-allowclose="true" style="margin: 0">
                 <ul class="layui-tab-title"></ul>
                 <div class="layui-tab-content">
-
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="layui-footer">

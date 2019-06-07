@@ -73,7 +73,6 @@ layui.define(['layer', 'form'], function (exports) {
                 return node.join('');
             }()
 
-
             , editor = $(['<div class="' + ELEM + '">'
                 , '<div class="layui-unselect layui-layedit-tool">' + tool + '</div>'
                 , '<div class="layui-layedit-iframe">'
@@ -166,7 +165,6 @@ layui.define(['layer', 'form'], function (exports) {
 
             hotkey.apply(that, [iframeWin, iframe, textArea, set]); //快捷键处理
             toolActive.call(that, iframeWin, editor, set); //触发工具
-
         });
     }
 
@@ -554,7 +552,6 @@ layui.define(['layer', 'form'], function (exports) {
                             , content: ['http://www.layui.com/about/layedit/help.html', 'no']
                         });
                     }
-
                 }
                 , tools = editor.find('.layui-layedit-tool')
 

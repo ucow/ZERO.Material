@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using ZERO.Material.Backstage.Filter;
 
 namespace ZERO.Material.Backstage
@@ -14,7 +13,7 @@ namespace ZERO.Material.Backstage
 
             //权限验证
             filters.Add(new AuthorityFilterAttribute());
-            
+
             //记录日志
             filters.Add(new StatisticsTrackerAttribute());
         }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using ZERO.Material.Backstage.Filter;
 using ZERO.Material.Command;
@@ -16,7 +12,9 @@ namespace ZERO.Material.Backstage.Controllers
     {
         #region 全局变量
 
-        private ITeacherBll _teacherBll = UnityContainerHelper.Server<ITeacherBll>();
+        private readonly ITeacherBll _teacherBll = UnityContainerHelper.Server<ITeacherBll>();
+        private readonly IRoleTeacherBll _roleTeacherBll = UnityContainerHelper.Server<IRoleTeacherBll>();
+        private readonly IRoleBll _roleBll = UnityContainerHelper.Server<IRoleBll>();
 
         #endregion 全局变量
 
@@ -33,27 +31,28 @@ namespace ZERO.Material.Backstage.Controllers
         public ActionResult BeforeLogin(string username, string password)
         {
             Material_Teacher teacher = _teacherBll.GetEntity(m => (m.Teacher_Id == username || m.Teacher_Name == username) && m.Del_Flag == false);
-            if (teacher == null)
+            if (teacher == null || teacher.Teacher_Password != password)
             {
-                return Content("该用户不存在，请先注册");
+                return Content("用户名或密码错误，请核对");
             }
-            else if (teacher.Teacher_Password != password)
+            Material_Role_Teacher roleTeacher = _roleTeacherBll.GetEntity(m => m.Teacher_Id == teacher.Teacher_Id);
+            if (roleTeacher != null)
             {
-                return Content("密码错误，请核对密码");
+                int roleId = roleTeacher.Role_Id;
+                bool delFlag = _roleBll.Find(roleId).Del_Flag;
+                if (teacher == null || delFlag)
+                {
+                    return Content("该用户不存在或已被冻结，请先注册");
+                }
             }
 
-            return Content("OK");
+            return Content(teacher.Teacher_Password != password ? "密码错误，请核对密码" : "OK");
         }
 
         [HttpPost]
         public ActionResult BeforeRegister(Material_Teacher teacher)
         {
-            if (_teacherBll.AddEntities(new List<Material_Teacher>() { teacher }))
-            {
-                return Content("OK");
-            }
-
-            return Content("Error");
+            return Content(_teacherBll.AddEntities(new List<Material_Teacher>() { teacher }) ? "OK" : "Error");
         }
 
         #endregion 前台登录
@@ -75,13 +74,19 @@ namespace ZERO.Material.Backstage.Controllers
 
             Material_Teacher teacher = _teacherBll.GetEntity(m =>
                 (m.Teacher_Name == username || m.Teacher_Id == username) && m.Teacher_Password == password && !m.Del_Flag);
-            if (teacher == null)
-            {
-                return Content("该用户不存在，请先注册");
-            }
-            else if (teacher.Teacher_Password != password)
+            if (teacher == null || teacher.Teacher_Password != password)
             {
                 return Content("用户名或密码错误，请核对");
+            }
+            Material_Role_Teacher roleTeacher = _roleTeacherBll.GetEntity(m => m.Teacher_Id == teacher.Teacher_Id);
+            if (roleTeacher != null)
+            {
+                int roleId = roleTeacher.Role_Id;
+                bool delFlag = _roleBll.Find(roleId).Del_Flag;
+                if (teacher == null || delFlag)
+                {
+                    return Content("该用户不存在或已被冻结，请先注册");
+                }
             }
 
             return Content("OK");

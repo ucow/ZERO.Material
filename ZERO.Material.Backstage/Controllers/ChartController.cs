@@ -1,10 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using Microsoft.ApplicationInsights.Web;
-using Newtonsoft.Json;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
@@ -29,8 +27,8 @@ namespace ZERO.Material.Backstage.Controllers
             return View();
         }
 
-
         #region 类别数量统计
+
         public ActionResult TypeChart()
         {
             return View();
@@ -56,7 +54,8 @@ namespace ZERO.Material.Backstage.Controllers
 
             return JsonConvert.SerializeObject(dataJson);
         }
-        #endregion
+
+        #endregion 类别数量统计
 
         #region 展示借用数量前十
 
@@ -68,7 +67,6 @@ namespace ZERO.Material.Backstage.Controllers
         [HttpPost]
         public string GetApplyMost()
         {
-
             List<ApplyMostModel> result = _userApplyBll.ExecuteSqlCommand<ApplyMostModel>(
                 "  select top(10) Material_Name as [Name], sum(Apply_Count) as [Count] from  [ZERO_Material].[dbo].[Use_Apply] group by Material_Name order by [Count] desc");
 
@@ -80,7 +78,7 @@ namespace ZERO.Material.Backstage.Controllers
             return JsonConvert.SerializeObject(dataJson);
         }
 
-        #endregion
+        #endregion 展示借用数量前十
 
         #region 教师日申请数量
 
@@ -152,7 +150,7 @@ namespace ZERO.Material.Backstage.Controllers
                     }
                     else
                     {
-                        yAxises.Add(key,new List<int>());
+                        yAxises.Add(key, new List<int>());
                     }
                     yAxises[key].Add(model.Count);
                 }
@@ -167,9 +165,10 @@ namespace ZERO.Material.Backstage.Controllers
             return JsonConvert.SerializeObject(dataJson);
         }
 
-        #endregion
+        #endregion 教师日申请数量
 
         #region 教师系别占比统计
+
         public ActionResult TeacherDepartStatis()
         {
             return View();
@@ -187,8 +186,9 @@ namespace ZERO.Material.Backstage.Controllers
                 serise = teacherDeparts
             };
             return JsonConvert.SerializeObject(dataJson);
-        } 
-        #endregion
+        }
+
+        #endregion 教师系别占比统计
 
         #region 私有方法
 

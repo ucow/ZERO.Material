@@ -70,7 +70,7 @@ namespace ZERO.Material.Dal
                 catch (Exception)
                 {
                     return false;
-                } 
+                }
             }
 
             return true;
@@ -112,7 +112,7 @@ namespace ZERO.Material.Dal
         {
             using (DbContext context = DbContextFactory.GetDbContext())
             {
-                return context.Set<T>().Find(keyValues); 
+                return context.Set<T>().Find(keyValues);
             }
         }
 
@@ -126,7 +126,7 @@ namespace ZERO.Material.Dal
 
             using (DbContext context = DbContextFactory.GetDbContext())
             {
-                return DbContextFactory.GetDbContext().Set<T>().Where(whereLambda).ToList(); 
+                return DbContextFactory.GetDbContext().Set<T>().Where(whereLambda).ToList();
             }
         }
 
@@ -139,7 +139,7 @@ namespace ZERO.Material.Dal
         {
             using (DbContext context = DbContextFactory.GetDbContext())
             {
-                return context.Set<T>().FirstOrDefault(whereLambda); 
+                return context.Set<T>().FirstOrDefault(whereLambda);
             }
         }
 
@@ -152,14 +152,15 @@ namespace ZERO.Material.Dal
         /// <param name="orderLambda"></param>
         /// <param name="whereLambda"></param>
         /// <param name="total"></param>
+        /// <param name="isAsc"></param>
         /// <returns></returns>
-        public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda, out int total)
+        public List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda, out int total, bool isAsc = true)
         {
             using (DbContext context = DbContextFactory.GetDbContext())
             {
                 var queryable = context.Set<T>().Where(whereLambda);
                 total = queryable.Count();
-                return queryable.OrderBy(orderLambda).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList(); 
+                return isAsc ? queryable.OrderBy(orderLambda).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList() : queryable.OrderByDescending(orderLambda).Skip((pageIndex - 1) * pageCount).Take(pageCount).ToList();
             }
         }
 
@@ -167,7 +168,7 @@ namespace ZERO.Material.Dal
         {
             using (DbContext context = DbContextFactory.GetDbContext())
             {
-                return context.Database.SqlQuery<TB>(sql).ToList(); 
+                return context.Database.SqlQuery<TB>(sql).ToList();
             }
         }
     }

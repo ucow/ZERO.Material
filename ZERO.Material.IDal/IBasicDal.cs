@@ -18,7 +18,7 @@ namespace ZERO.Material.IDal
 
         List<T> GetEntities(Expression<Func<T, bool>> whereLambda);
 
-        List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda, out int total);
+        List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda, out int total, bool isAsc = true);
 
 
         List<TB> ExecuteSqlCommand<TB>(string sql);

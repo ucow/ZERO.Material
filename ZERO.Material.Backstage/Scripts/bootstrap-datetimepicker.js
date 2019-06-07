@@ -32,9 +32,7 @@
       factory(require('jquery'));
     else
       factory(jQuery);
-
 }(function($, undefined){
-
   // Add ECMA262-5 Array methods if not supported natively (IE8)
   if (!('indexOf' in Array.prototype)) {
     Array.prototype.indexOf = function (find, i) {
@@ -968,7 +966,6 @@
     },
 
     mousewheel: function (e) {
-
       e.preventDefault();
       e.stopPropagation();
 
@@ -991,11 +988,8 @@
       this.showMode(mode);
 
       setTimeout($.proxy(function () {
-
         this.wheelPause = false
-
       }, this), this.wheelViewModeNavigationDelay);
-
     },
 
     click: function (e) {
@@ -1709,7 +1703,6 @@
               case 'Z':
                 timezone;
                 break;
-
             }
           }
           parsed[part] = val;
@@ -1857,7 +1850,7 @@
                 '</tr>' +
       '</thead>',
     contTemplate: '<tbody><tr><td colspan="7"></td></tr></tbody>',
-    footTemplate: '<tfoot>' + 
+    footTemplate: '<tfoot>' +
                     '<tr><th colspan="7" class="today"></th></tr>' +
                     '<tr><th colspan="7" class="clear"></th></tr>' +
                   '</tfoot>'
@@ -1963,5 +1956,4 @@
   $(function () {
     $('[data-provide="datetimepicker-inline"]').datetimepicker();
   });
-
 }));

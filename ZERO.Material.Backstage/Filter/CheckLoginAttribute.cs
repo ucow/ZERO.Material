@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace ZERO.Material.Backstage.Filter
 {
@@ -7,7 +6,7 @@ namespace ZERO.Material.Backstage.Filter
     {
         public bool IsChecked { get; set; }
 
-        public  void OnAuthorization(AuthorizationContext filterContext)
+        public void OnAuthorization(AuthorizationContext filterContext)
         {
             if (!IsChecked) return;
 

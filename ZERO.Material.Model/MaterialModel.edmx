@@ -249,9 +249,9 @@
             <PropertyRef Name="Apply_Status" />
             <PropertyRef Name="Teacher_Id" />
             <PropertyRef Name="Material_Id" />
-            <PropertyRef Name="Teacher_Depart" />
             <PropertyRef Name="Is_Get" />
             <PropertyRef Name="Material_RemainCont" />
+            <PropertyRef Name="Teacher_Depart" />
           </Key>
           <Property Name="Apply_Id" Type="int" Nullable="false" />
           <Property Name="ApplyType_Id" Type="nchar" MaxLength="3" Nullable="false" />
@@ -267,9 +267,9 @@
           <Property Name="Apply_Advice" Type="nvarchar(max)" />
           <Property Name="Teacher_Id" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Material_Id" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Is_Get" Type="bit" Nullable="false" />
           <Property Name="Material_RemainCont" Type="float" Nullable="false" />
+          <Property Name="Teacher_Depart" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <EntityContainer Name="ZERO_MaterialModelStoreContainer">
           <EntitySet Name="Apply_Info" EntityType="Self.Apply_Info" Schema="dbo" store:Type="Tables" />
@@ -341,9 +341,9 @@
     [Use_Apply].[Apply_Advice] AS [Apply_Advice], 
     [Use_Apply].[Teacher_Id] AS [Teacher_Id], 
     [Use_Apply].[Material_Id] AS [Material_Id], 
-    [Use_Apply].[Teacher_Depart] AS [Teacher_Depart], 
     [Use_Apply].[Is_Get] AS [Is_Get], 
-    [Use_Apply].[Material_RemainCont] AS [Material_RemainCont]
+    [Use_Apply].[Material_RemainCont] AS [Material_RemainCont], 
+    [Use_Apply].[Teacher_Depart] AS [Teacher_Depart]
     FROM [dbo].[Use_Apply] AS [Use_Apply]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
@@ -609,9 +609,9 @@
             <PropertyRef Name="Apply_Status" />
             <PropertyRef Name="Teacher_Id" />
             <PropertyRef Name="Material_Id" />
-            <PropertyRef Name="Teacher_Depart" />
             <PropertyRef Name="Is_Get" />
             <PropertyRef Name="Material_RemainCont" />
+            <PropertyRef Name="Teacher_Depart" />
           </Key>
           <Property Name="Apply_Id" Type="Int32" Nullable="false" />
           <Property Name="ApplyType_Id" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
@@ -627,9 +627,9 @@
           <Property Name="Apply_Advice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Teacher_Id" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Material_Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
-          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Is_Get" Type="Boolean" Nullable="false" />
           <Property Name="Material_RemainCont" Type="Double" Nullable="false" />
+          <Property Name="Teacher_Depart" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -851,9 +851,9 @@
           <EntitySetMapping Name="Use_Apply">
             <EntityTypeMapping TypeName="ZERO_MaterialModel.Use_Apply">
               <MappingFragment StoreEntitySet="Use_Apply">
+                <ScalarProperty Name="Teacher_Depart" ColumnName="Teacher_Depart" />
                 <ScalarProperty Name="Material_RemainCont" ColumnName="Material_RemainCont" />
                 <ScalarProperty Name="Is_Get" ColumnName="Is_Get" />
-                <ScalarProperty Name="Teacher_Depart" ColumnName="Teacher_Depart" />
                 <ScalarProperty Name="Material_Id" ColumnName="Material_Id" />
                 <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />
                 <ScalarProperty Name="Apply_Advice" ColumnName="Apply_Advice" />

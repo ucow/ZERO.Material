@@ -18,7 +18,7 @@
 <body>
     <div style="padding: 50px; padding-left: 0;padding-bottom: 0">
         @using (Ajax.BeginForm("SelfApplyInComing", null,
-            new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess" },
+            new AjaxOptions() { HttpMethod = "POST", OnSuccess = "AfterSuccess",OnFailure = "FailureFunc" },
             new { @class = "layui-form" }))
         {
 
@@ -86,7 +86,7 @@
             <div class="layui-form-item">
                 <label class="layui-form-label">入库数量</label>
                 <div class="layui-input-block">
-                    <input type="text" class="layui-input" placeholder="请输入入库数量" id="applyCount" name="applyCount" />
+                    <input type="text" class="layui-input" lay-verify="required" placeholder="请输入入库数量" id="applyCount" name="applyCount" />
                 </div>
             </div>
             <div class="layui-form-item">
@@ -142,7 +142,7 @@
             </div>
             <div class="layui-form-item">
                 <div class="layui-input-block">
-                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button class="layui-btn" lay-submit lay-filter="formDemo" id="submitForm">立即提交</button>
                     <button type="reset" class="layui-btn layui-btn-primary" id="reset">重置</button>
                 </div>
             </div>
@@ -226,6 +226,15 @@
                 }
             });
 
+            $('#submitForm').on('click',
+                function() {
+                    var count = $('#applyCount').val();
+                    if (isNaN(count)) {
+                        layer.msg("请输入合法数据", { icon: 5 });
+                    }
+                });
+
+            
             form.on('select(grand)', function (obj) {
                 var typeId = obj.value;
                 getChildType('#father', typeId);
@@ -381,7 +390,9 @@
                 layer.msg("申请失败");
             }
         }
-
+        function FailureFunc() {
+            layer.msg("申请失败，请检查数据", { icon: 5 });
+        }
         String.prototype.format = function (args) {
             var result = this;
             if (arguments.length > 0) {

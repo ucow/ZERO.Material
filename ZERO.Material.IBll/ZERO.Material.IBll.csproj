@@ -33,12 +33,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IActionBll.cs" />
@@ -63,10 +57,6 @@
     <Compile Include="IUseApplyBll.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ZERO.Material.IDal\ZERO.Material.IDal.csproj">
-      <Project>{1314DF3A-8A82-42B4-BEBE-8D77957B11BF}</Project>
-      <Name>ZERO.Material.IDal</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ZERO.Material.Model\ZERO.Material.Model.csproj">
       <Project>{569d4674-9715-4ce6-941f-0c6eadb6a550}</Project>
       <Name>ZERO.Material.Model</Name>

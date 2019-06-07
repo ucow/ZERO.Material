@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
-using Newtonsoft.Json;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
 using ZERO.Material.Model;
@@ -94,7 +94,7 @@ namespace ZERO.Material.Backstage.Controllers
 
         public ActionResult Detail(string Material_Type_Id)
         {
-            Material_Type materialType = _typeBll.Find( Material_Type_Id);
+            Material_Type materialType = _typeBll.Find(Material_Type_Id);
             ViewBag.parent = materialType.Material_Type_Parent_Id == "000000" ? "无" : _typeBll.Find(materialType.Material_Type_Parent_Id)
                   .Material_Type_Name;
             return View(materialType);

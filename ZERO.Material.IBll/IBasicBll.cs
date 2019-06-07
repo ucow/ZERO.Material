@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using ZERO.Material.IDal;
 
 namespace ZERO.Material.IBll
 {
@@ -18,7 +17,7 @@ namespace ZERO.Material.IBll
         T GetEntity(Expression<Func<T, bool>> whereLambda);
 
         List<T> GetPageEntities<TKey>(int pageIndex, int pageCount, Expression<Func<T, TKey>> orderLambda, Expression<Func<T, bool>> whereLambda,
-            out int total);
+            out int total,bool isAsc = true);
 
         List<T> GetEntities(Expression<Func<T, bool>> whereLambda);
 

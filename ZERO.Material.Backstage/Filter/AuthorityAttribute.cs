@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using System.Linq;
+﻿using System.Linq;
 using System.Web.Mvc;
 using ZERO.Material.Command;
 using ZERO.Material.IBll;
@@ -35,7 +34,7 @@ namespace ZERO.Material.Backstage.Filter
             //..\Company\Index
 
             var actionUrl = string.Format("..\\{0}\\{1}", controller, action);
-            
+
             var materialActions = _actionBll.GetEntities(m => m.Action_Url == actionUrl);
             if (materialActions == null || materialActions.Count == 0)
             {
@@ -44,17 +43,17 @@ namespace ZERO.Material.Backstage.Filter
             var materialAction = _actionBll.GetEntity(m => m.Action_Url == actionUrl);
             if (materialAction == null)
                 return;
-            
+
             Material_Teacher materialTeacher = _teacherBll.GetEntity(m => m.Teacher_Name == managerInfo || m.Teacher_Id == managerInfo);
-            
+
             var roleIds = _roleTeacherBll.GetEntities(m => m.Teacher_Id == materialTeacher.Teacher_Id).Select(m => m.Role_Id).ToList();
-            
+
             var actionIds = _roleActionBll.GetEntities(m => roleIds.Contains(m.Role_Id)).Select(m => m.Action_Id).ToList();
             if (actionIds.Contains(materialAction.Id))
             {
                 return;
             }
-            actionIds.AddRange(_teacherActionBll.GetEntities(m => m.Teacher_Id == materialTeacher.Teacher_Id).Select(m => m.Action_Id).ToList());
+            actionIds.AddRange(_teacherActionBll.GetEntities(m => m.Teacher_Id == materialTeacher.Teacher_Id && m.Has_Permission).Select(m => m.Action_Id).ToList());
             if (!actionIds.Contains(materialAction.Id))
             {
                 filterContext.Result = new RedirectResult("..\\Error\\NoAuthority");
